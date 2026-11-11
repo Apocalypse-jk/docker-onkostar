@@ -1,0 +1,464 @@
+﻿nngm_schluessel;nngm_code;nngm_label;os_merkmalskatalog;os_version;os_code;os_text;status;kommentar
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV7;0;0;OS.UICC-Stadium;Auflage 7;0;0;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV7;IA;IA;OS.UICC-Stadium;Auflage 7;IA;IA;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV7;IB;IB;OS.UICC-Stadium;Auflage 7;IB;IB;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV7;IIA;IIA;OS.UICC-Stadium;Auflage 7;IIA;IIA;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV7;IIB;IIB;OS.UICC-Stadium;Auflage 7;IIB;IIB;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV7;IIIA;IIIA;OS.UICC-Stadium;Auflage 7;IIIA;IIIA;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV7;IIIB;IIIB;OS.UICC-Stadium;Auflage 7;IIIB;IIIB;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV7;IV;IV;OS.UICC-Stadium;Auflage 7;IV;IV;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV7;unknown;Unbekannt;OS.UICC-Stadium;Auflage 7;X;kein Stadium ermittelbar;vorläufig;Bedeutung nicht ganz gleich: unbekannt vs. nicht ermittelbar. Rückweg: X -> unknown
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV8;0;0;OS.UICC-Stadium;Auflage 8;0;0;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV8;IA1;IA1;OS.UICC-Stadium;Auflage 8;IA1;IA1;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV8;IA2;IA2;OS.UICC-Stadium;Auflage 8;IA2;IA2;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV8;IA3;IA3;OS.UICC-Stadium;Auflage 8;IA3;IA3;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV8;IB;IB;OS.UICC-Stadium;Auflage 8;IB;IB;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV8;IIA;IIA;OS.UICC-Stadium;Auflage 8;IIA;IIA;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV8;IIB;IIB;OS.UICC-Stadium;Auflage 8;IIB;IIB;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV8;IIIA;IIIA;OS.UICC-Stadium;Auflage 8;IIIA;IIIA;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV8;IIIB;IIIB;OS.UICC-Stadium;Auflage 8;IIIB;IIIB;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV8;IIIC;IIIC;OS.UICC-Stadium;Auflage 8;IIIC;IIIC;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV8;IV;IV;OS.UICC-Stadium;Auflage 8;IV;IV;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV8;IVA;IVA;OS.UICC-Stadium;Auflage 8;IVA;IVA;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV8;IVB;IVB;OS.UICC-Stadium;Auflage 8;IVB;IVB;vorläufig;
+tumorDiagnosis/diagnosisList/diagnosis/stageDiagnosisV8;unknown;Unbekannt;OS.UICC-Stadium;Auflage 8;X;kein Stadium ermittelbar;vorläufig;Bedeutung nicht ganz gleich: unbekannt vs. nicht ermittelbar. Rückweg: X -> unknown
+tumorStage/observationList/observation/tnmGroup/tnmTumorGroup/tumorSizeV7;*;(Regel);TNM T;Auflage 7;* ohne Kategoriebuchstaben;;bestätigt;"z. B. T1a→1a, TX→X, Tis→is, N2→2, M1c→1c; Ausnahmen einzeln"
+tumorStage/observationList/observation/tnmGroup/tnmTumorGroup/tumorSizeV8;*;(Regel);TNM T;Auflage 8;* ohne Kategoriebuchstaben;;bestätigt;"z. B. T1a→1a, TX→X, Tis→is, N2→2, M1c→1c; Ausnahmen einzeln"
+tumorStage/observationList/observation/tnmGroup/lymphNodesGroup/lymphNodesCount;*;(Regel);TNM N;Auflage 7/8;* ohne Kategoriebuchstaben;;bestätigt;"z. B. T1a→1a, TX→X, Tis→is, N2→2, M1c→1c; Ausnahmen einzeln"
+tumorStage/observationList/observation/tnmGroup/metastasesGroup/metastasesStateV7;*;(Regel);TNM M;Auflage 7;* ohne Kategoriebuchstaben;;bestätigt;"z. B. T1a→1a, TX→X, Tis→is, N2→2, M1c→1c; Ausnahmen einzeln"
+tumorStage/observationList/observation/tnmGroup/metastasesGroup/metastasesStateV8;*;(Regel);TNM M;Auflage 8;* ohne Kategoriebuchstaben;;bestätigt;"z. B. T1a→1a, TX→X, Tis→is, N2→2, M1c→1c; Ausnahmen einzeln"
+tumorStage/observationList/observation/tnmGroup/tnmTumorGroup/tumorSizeV8;T1mi;T1mi;TNM T;Auflage 8;;;ungelöst;nur 1mic (Mikroinvasion) vorhanden, kein 1mi
+tumorStage/observationList/observation/tnmGroup/metastasesGroup/metastasesStateV7;MX;MX;TNM M;Auflage 7;;;ungelöst;MX fehlt in Auflage 7
+tumorStage/observationList/observation/tnmGroup/metastasesGroup/metastasesStateV9;M1c1;M1c1;TNM M;;;;ungelöst;keine TNM-9-Auflage
+tumorStage/observationList/observation/tnmGroup/metastasesGroup/metastasesStateV9;M1c2;M1c2;TNM M;;;;ungelöst;keine TNM-9-Auflage
+tumorStage/observationList/observation/tnmGroup/tnmTumorGroup/tumorPrefix;c;c;TNM T Präfix;;c;c;bestätigt;
+tumorStage/observationList/observation/tnmGroup/tnmTumorGroup/tumorPrefix;p;p;TNM T Präfix;;p;p;bestätigt;
+tumorStage/observationList/observation/tnmGroup/tnmTumorGroup/tumorPrefix;u;u;TNM T Präfix;;u;u;bestätigt;
+tumorStage/observationList/observation/tnmGroup/lymphNodesGroup/lymphNodesPrefix;c;c;TNM N Präfix;;c;c;bestätigt;
+tumorStage/observationList/observation/tnmGroup/lymphNodesGroup/lymphNodesPrefix;p;p;TNM N Präfix;;p;p;bestätigt;
+tumorStage/observationList/observation/tnmGroup/lymphNodesGroup/lymphNodesPrefix;u;u;TNM N Präfix;;u;u;bestätigt;
+tumorStage/observationList/observation/tnmGroup/metastasesGroup/metastasesPrefix;c;c;TNM M Präfix;;c;c;bestätigt;
+tumorStage/observationList/observation/tnmGroup/metastasesGroup/metastasesPrefix;p;p;TNM M Präfix;;p;p;bestätigt;
+tumorStage/observationList/observation/tnmGroup/metastasesGroup/metastasesPrefix;u;u;TNM M Präfix;;u;u;bestätigt;
+tumorStage/observationList/observation/tnmGroup/tnmPrefix;y;y;(Ja/Nein-Feld dTNMy);;1;ja;vorläufig;
+tumorStage/observationList/observation/tnmGroup/tnmPrefix;r;r;(Ja/Nein-Feld dTNMr);;1;ja;vorläufig;
+tumorStage/observationList/observation/tnmGroup/tnmTumorGroup/tumorSuffix;m;m;TNM Multiplizität (dTNMMulti);;m;m;vorläufig;
+tumorStage/observationList/observation/tnmGroup/tnmTumorGroup/tumorSuffix;is;is;(Ja/Nein-Feld dTNMTis);;1;ja;vorläufig;
+tumorStage/observationList/observation/tnmGroup/tnmTumorGroup/tumorSuffix;cy;cy;;;;;ungelöst;kein Gegenstück
+tumorStage/observationList/observation/uiccStateGroup/uiccStateManual;*;(Regel);OS.UICC-Stadium;Auflage 7/8;* identisch;;vorläufig;wie stageDiagnosisV7/V8 in tumorDiagnosis
+tumorStage/observationList/observation/uiccStateGroup/uiccStateManual;unknown;unknown;OS.UICC-Stadium;Auflage 7/8;X;kein Stadium ermittelbar;vorläufig;
+histology/histologies/histology/histologyDetail/grading;G0;Grading nicht vorgesehen;ADT.Grading;;T;Trifft nicht zu;bestätigt;"nNGM meint „Grading nicht vorgesehen“; ADT.Grading 0 bedeutet „Malignes Melanom der Konjunktiva“ (nur für dieses Grading-System) und wäre im Krebsregister falsch"
+histology/histologies/histology/histologyDetail/grading;G1;gut differenziert;ADT.Grading;;1;G1 (Gut differenziert);bestätigt;
+histology/histologies/histology/histologyDetail/grading;G2;mäßig differenziert;ADT.Grading;;2;G2 (Mäßig differenziert);bestätigt;
+histology/histologies/histology/histologyDetail/grading;G3;schlecht / gering differenziert;ADT.Grading;;3;G3 (Schlecht differenziert);bestätigt;
+histology/histologies/histology/histologyDetail/grading;G4;undifferenzierter Tumor mit sehr hohem Malignitätsgrad;ADT.Grading;;4;G4 (Undifferenziert/anapl.);bestätigt;
+histology/histologies/histology/histologyDetail/grading;GX;nicht bestimmbar;ADT.Grading;;X;Differenzierungsgrad nicht bestimmbar;bestätigt;
+histology/histologies/histology/histologyDetail/grading;U;unbekannt;ADT.Grading;;U;Unbekannt;bestätigt;
+histology/histologies/histology/histologyDetail/grading;T;trifft nicht zu;ADT.Grading;;T;Trifft nicht zu;bestätigt;
+diagnosticHistology/pfHistologies/pfHistology/histologyGroup/grading;G0;Grading nicht vorgesehen;ADT.Grading;;T;Trifft nicht zu;bestätigt;"nNGM meint „Grading nicht vorgesehen“; ADT.Grading 0 bedeutet „Malignes Melanom der Konjunktiva“ (nur für dieses Grading-System) und wäre im Krebsregister falsch"
+diagnosticHistology/pfHistologies/pfHistology/histologyGroup/grading;G1;gut differenziert;ADT.Grading;;1;G1 (Gut differenziert);bestätigt;
+diagnosticHistology/pfHistologies/pfHistology/histologyGroup/grading;G2;mäßig differenziert;ADT.Grading;;2;G2 (Mäßig differenziert);bestätigt;
+diagnosticHistology/pfHistologies/pfHistology/histologyGroup/grading;G3;schlecht / gering differenziert;ADT.Grading;;3;G3 (Schlecht differenziert);bestätigt;
+diagnosticHistology/pfHistologies/pfHistology/histologyGroup/grading;G4;undifferenzierter Tumor mit sehr hohem Malignitätsgrad;ADT.Grading;;4;G4 (Undifferenziert/anapl.);bestätigt;
+diagnosticHistology/pfHistologies/pfHistology/histologyGroup/grading;GX;nicht bestimmbar;ADT.Grading;;X;Differenzierungsgrad nicht bestimmbar;bestätigt;
+diagnosticHistology/pfHistologies/pfHistology/histologyGroup/grading;U;unbekannt;ADT.Grading;;U;Unbekannt;bestätigt;
+diagnosticHistology/pfHistologies/pfHistology/histologyGroup/grading;T;trifft nicht zu;ADT.Grading;;T;Trifft nicht zu;bestätigt;
+tumorDiagnosis/diagnosisList/diagnosis/classification;*;(Regel);ICD-O-3 Histologie;1399;* identisch;;bestätigt;31 von 32 Codes vorhanden
+tumorDiagnosis/diagnosisList/diagnosis/classification;C3812;Carcinoma of Unknown Primary;ICD-O-3 Histologie;;;;ungelöst;"NCI-Thesaurus-Code, kein ICD-O-3-Morphologiecode; CUP ist in ICD-O-3 eine Lokalisation (C80.9)"
+histology/histologies/histology/histologyDetail/classification;*;(Regel);ICD-O-3 Histologie;1399;* identisch;;bestätigt;31 von 32 Codes vorhanden
+histology/histologies/histology/histologyDetail/classification;C3812;Carcinoma of Unknown Primary;ICD-O-3 Histologie;;;;ungelöst;"NCI-Thesaurus-Code, kein ICD-O-3-Morphologiecode; CUP ist in ICD-O-3 eine Lokalisation (C80.9)"
+diagnosticHistology/pfHistologies/pfHistology/histologyGroup/classification;*;(Regel);ICD-O-3 Histologie;1399;* identisch;;bestätigt;31 von 32 Codes vorhanden
+diagnosticHistology/pfHistologies/pfHistology/histologyGroup/classification;C3812;Carcinoma of Unknown Primary;ICD-O-3 Histologie;;;;ungelöst;"NCI-Thesaurus-Code, kein ICD-O-3-Morphologiecode; CUP ist in ICD-O-3 eine Lokalisation (C80.9)"
+tumorMaterial/specimenList/specimen/materialType;C12434;Blut;OS.Probenmaterial;;B;Blut;vorläufig;
+tumorMaterial/specimenList/specimen/materialType;C12801;Gewebe;OS.Probenmaterial;;T, R, LK, M, ITM, SM, KM, NG;Gewebearten;vorläufig;"Export-Richtung: jede Gewebeart → C12801; Import-Richtung nicht eindeutig"
+tumorMaterial/specimenList/specimen/materialType;;;OS.Probenmaterial;;AS, PLERG, L, U, S;Aszites, Pleuraerguss, Liquor, Urin, Sonstiges;ungelöst;weder Gewebe noch Blut (E-3)
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/therapeuticIntention;curative;K = kurativ;OS.Therapieintention;;K;Kurativ;vorläufig;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/therapeuticIntention;palliative;P = palliativ;OS.Therapieintention;;P;Palliativ;vorläufig;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/therapeuticIntention;other;S = Sonstiges;OS.Therapieintention;;S;Sonstige;vorläufig;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/therapeuticIntention;noInformation;X = keine Angabe;OS.Therapieintention;;UNK;Unbekannt;vorläufig;Version 3 hat kein X
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/therapeuticIntention;;;OS.Therapieintention;;O;lokal kurativ bei Oligometastasierung;ungelöst;Export: curative oder other?
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/therapeuticIntention;other;S = Sonstiges;OS.Therapieintention;;PRO, D, R;Prophylaktisch, Diagnostisch, Revision/Komplikation;vorläufig;nur Export-Richtung
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/positionSurgicalTherapy;unrelated;O = ohne Bezug zu einer operativen Therapie;CDA.ZeitlicheRelation;;O;Ohne Bezug zu OP;vorläufig;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/positionSurgicalTherapy;adjuvant;A = adjuvant;CDA.ZeitlicheRelation;;A;Adjuvant;vorläufig;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/positionSurgicalTherapy;neoadjuvant;N = neoadjuvant;CDA.ZeitlicheRelation;;N;Neoadjuvant;vorläufig;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/positionSurgicalTherapy;intraoperative;I = intraoperativ;CDA.ZeitlicheRelation;;I;Intraoperativ;vorläufig;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/positionSurgicalTherapy;additive;Z = additiv;CDA.ZeitlicheRelation;;Z;Additiv;vorläufig;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/positionSurgicalTherapy;other;S = Sonstiges;CDA.ZeitlicheRelation;;S;Sonstiges;vorläufig;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/positionSurgicalTherapy;;;CDA.ZeitlicheRelation;;T;Alleinige Therapie;ungelöst;kein nNGM-Wert
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/positionSurgicalTherapy;;;CDA.ZeitlicheRelation;;UKN;Unbekannt;ungelöst;kein nNGM-Wert
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/ecogAtStart;LA9622-7;ECOG 0;ADT.LeistungszustandECOG;;0;0;bestätigt;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/ecogAtStart;LA9623-5;ECOG 1;ADT.LeistungszustandECOG;;1;1;bestätigt;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/ecogAtStart;LA9624-3;ECOG 2;ADT.LeistungszustandECOG;;2;2;bestätigt;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/ecogAtStart;LA9625-0;ECOG 3;ADT.LeistungszustandECOG;;3;3;bestätigt;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/ecogAtStart;LA9626-8;ECOG 4;ADT.LeistungszustandECOG;;4;4;bestätigt;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/ecogAtStart;LA9627-6;ECOG 5;ADT.LeistungszustandECOG;;5;5;bestätigt;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/ecogAtStart;unknown;Unbekannt;ADT.LeistungszustandECOG;;U;Unbekannt;bestätigt;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/responseGroup/BestResponse;*;(Regel);ADT.Gesamtbeurteilung;;* identisch (V,T,K,P,D,B,R,Y,U,X);;bestätigt;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/systemTherapyList/systemTherapy/therapyEndOrChangeReason;regularEnd;E = reguläres Ende;ADT.BeendigungsstatusTherapie / OS.Abbruchgrund;;Beendigungsstatus=E;;vorläufig;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/systemTherapyList/systemTherapy/therapyEndOrChangeReason;regularEndWithDoseReduction;R = reguläres Ende mit Dosisreduktion;ADT.BeendigungsstatusTherapie / OS.Abbruchgrund;;Beendigungsstatus=E, Dosisreduktion=J;;vorläufig;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/systemTherapyList/systemTherapy/therapyEndOrChangeReason;regularEndWithSubstanceChange;W = reguläres Ende mit Substanzwechsel;ADT.BeendigungsstatusTherapie / OS.Abbruchgrund;;Beendigungsstatus=E, Substanzwechsel=J;;vorläufig;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/systemTherapyList/systemTherapy/therapyEndOrChangeReason;discontinuationSideEffects;A = Abbruch wegen Nebenwirkungen;ADT.BeendigungsstatusTherapie / OS.Abbruchgrund;;Beendigungsstatus=A, GrundAbbruch=A;;vorläufig;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/systemTherapyList/systemTherapy/therapyEndOrChangeReason;discontinuationProgress;P = Abbruch wegen Progress;ADT.BeendigungsstatusTherapie / OS.Abbruchgrund;;Beendigungsstatus=A, GrundAbbruch=P;;vorläufig;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/systemTherapyList/systemTherapy/therapyEndOrChangeReason;discontinuationOther;S = Abbruch aus sonstigen Gründen;ADT.BeendigungsstatusTherapie / OS.Abbruchgrund;;Beendigungsstatus=A, GrundAbbruch=M oder S;;vorläufig;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/systemTherapyList/systemTherapy/therapyEndOrChangeReason;patientRefusal;V = Patient verweigert weitere Therapie;ADT.BeendigungsstatusTherapie / OS.Abbruchgrund;;Beendigungsstatus=A, GrundAbbruch=V;;vorläufig;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/systemTherapyList/systemTherapy/therapyEndOrChangeReason;patientDeceased;T = Patient verstorben;ADT.BeendigungsstatusTherapie / OS.Abbruchgrund;;Beendigungsstatus=A, GrundAbbruch=T;;vorläufig;
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/systemTherapyList/systemTherapy/therapyEndOrChangeReason;unknown;U = unbekannt;ADT.BeendigungsstatusTherapie / OS.Abbruchgrund;;Beendigungsstatus=U;;vorläufig;
+operationTherapy/operationList/operation/informationGroup/operationIntention;curative;K = kurativ;OS.Therapieintention;;K;Kurativ;vorläufig;
+operationTherapy/operationList/operation/informationGroup/operationIntention;palliative;P = palliativ;OS.Therapieintention;;P;Palliativ;vorläufig;
+operationTherapy/operationList/operation/informationGroup/operationIntention;diagnostic;D = diagnostisch;OS.Therapieintention;;D;Diagnostisch;vorläufig;
+operationTherapy/operationList/operation/informationGroup/operationIntention;revisionOrcomplication;R = Revision/Komplikation;OS.Therapieintention;;R;Revision/Komplikation;vorläufig;
+operationTherapy/operationList/operation/informationGroup/operationIntention;other;S = Sonstiges;OS.Therapieintention;;S;Sonstige;vorläufig;
+operationTherapy/operationList/operation/informationGroup/operationIntention;missingInformation;X = fehlende Angabe;OS.Therapieintention;;UNK;Unbekannt;vorläufig;Version 3 hat kein X
+operationTherapy/operationList/operation/informationGroup/operationIntention;;;OS.Therapieintention;;O;lokal kurativ bei Oligometastasierung;ungelöst;Export: curative oder other?
+operationTherapy/operationList/operation/informationGroup/operationIntention;other;S = Sonstiges;OS.Therapieintention;;PRO;Prophylaktisch;vorläufig;nur Export-Richtung
+operationTherapy/operationList/operation/informationGroup/resectionStatus;r0;R0;OS.R-Klassifikation;;R0, R0a, R0b;R0;vorläufig;
+operationTherapy/operationList/operation/informationGroup/resectionStatus;r1;R1;OS.R-Klassifikation;;R1;R1;vorläufig;
+operationTherapy/operationList/operation/informationGroup/resectionStatus;r2;R2;OS.R-Klassifikation;;R2, R2a, R2b;R2;vorläufig;
+operationTherapy/operationList/operation/informationGroup/resectionStatus;r1Is;R1 (is);OS.R-Klassifikation;;R1(is);R1(is);vorläufig;
+operationTherapy/operationList/operation/informationGroup/resectionStatus;r1Cy+;R1 (cy+);OS.R-Klassifikation;;R1(cy+);R1(cy+);vorläufig;
+operationTherapy/operationList/operation/informationGroup/resectionStatus;rx;RX;OS.R-Klassifikation;;RX;RX;vorläufig;
+operationTherapy/operationList/operation/informationGroup/resectionStatus;u;U = nicht bekannt;OS.R-Klassifikation;;U;Unbekannt;vorläufig;
+operationTherapy/operationList/operation/informationGroup/typeOfResection;wedgeResection;Keilresektion;OPS;;5-322.d, 5-322.e, 5-322.g, 5-322.h (übrige 5-322 atypische Resektion?);;vorläufig;VERMUTUNG – Code-Liste muss fachlich geprüft werden
+operationTherapy/operationList/operation/informationGroup/typeOfResection;segmentalResection;Segmentresektion;OPS;;5-323.*;;vorläufig;VERMUTUNG – Code-Liste muss fachlich geprüft werden
+operationTherapy/operationList/operation/informationGroup/typeOfResection;lobectomy;Lobektomie;OPS;;5-324.6, 5-324.7, 5-324.a, 5-324.b, 5-325.0–5-325.4;;vorläufig;VERMUTUNG – Code-Liste muss fachlich geprüft werden
+operationTherapy/operationList/operation/informationGroup/typeOfResection;bilobectomy;Bilobektomie;OPS;;5-324.2, 5-324.3, 5-324.8, 5-324.9, 5-325.5–5-325.9;;vorläufig;VERMUTUNG – Code-Liste muss fachlich geprüft werden
+operationTherapy/operationList/operation/informationGroup/typeOfResection;pneumectomy;Pneumektomie;OPS;;5-327.*, 5-328.*;;vorläufig;VERMUTUNG – Code-Liste muss fachlich geprüft werden
+operationTherapy/operationList/operation/informationGroup/typeOfResection;metastasectomy;Metastasenresektion;OPS;;Feld Metastasenresektion = 1;;vorläufig;VERMUTUNG – Code-Liste muss fachlich geprüft werden
+operationTherapy/operationList/operation/informationGroup/typeOfResection;other;Sonstiges;OPS;;andere OPS;;vorläufig;VERMUTUNG – Code-Liste muss fachlich geprüft werden
+operationTherapy/operationList/operation/informationGroup/typeOfResection;unknown;Unbekannt;OPS;;kein OPS;;vorläufig;VERMUTUNG – Code-Liste muss fachlich geprüft werden
+operationTherapy/operationList/operation/localisationGroup/sideLocalisation;B;beiderseits;ADT.Seitenlokalisation;;B;Beidseitig;ungelöst;Feld ausgeblendet (E-5)
+operationTherapy/operationList/operation/localisationGroup/sideLocalisation;L;links;ADT.Seitenlokalisation;;L;Links;ungelöst;
+operationTherapy/operationList/operation/localisationGroup/sideLocalisation;R;rechts;ADT.Seitenlokalisation;;R;Rechts;ungelöst;
+operationTherapy/operationList/operation/localisationGroup/sideLocalisation;unknown;Unbekannt;ADT.Seitenlokalisation;;U;Unbekannt;ungelöst;
+operationTherapy/operationList/operation/localisationGroup/sideLocalisation;;;ADT.Seitenlokalisation;;M, T;Mittellinie, Trifft nicht zu;ungelöst;kein nNGM-Wert
+radioTherapy/radiotherapyList/radiotherapy/informationGroup/therapeuticIntention;curative;K = kurativ;OS.Therapieintention;;K;Kurativ;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/informationGroup/therapeuticIntention;palliative;P = palliativ;OS.Therapieintention;;P;Palliativ;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/informationGroup/therapeuticIntention;locallyCurativeOrDefinitive;O = lokal kurativ bei Oligometastasierung / definitiv;OS.Therapieintention;;O;lokal kurativ bei Oligometastasierung;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/informationGroup/therapeuticIntention;other;S = Sonstiges;OS.Therapieintention;;S;Sonstige;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/informationGroup/therapeuticIntention;missingInformation;X = keine Angabe;OS.Therapieintention;;UNK;Unbekannt;vorläufig;Version 3 hat kein X
+radioTherapy/radiotherapyList/radiotherapy/informationGroup/therapeuticIntention;other;S = Sonstiges;OS.Therapieintention;;PRO, D, R;Prophylaktisch, Diagnostisch, Revision/Komplikation;vorläufig;nur Export-Richtung
+radioTherapy/radiotherapyList/radiotherapy/informationGroup/positionSurgicalTherapy;*;(Regel);CDA.ZeitlicheRelation;;O/A/N/I/Z/S identisch;;vorläufig;wie systemicTherapy
+radioTherapy/radiotherapyList/radiotherapy/informationGroup/positionSurgicalTherapy;;;CDA.ZeitlicheRelation;;T, UKN;Alleinige Therapie, Unbekannt;ungelöst;kein nNGM-Wert
+radioTherapy/radiotherapyList/radiotherapy/informationGroup/radiationTargetSide;left;L = links;ADT.Seitenlokalisation;;L;Links;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/informationGroup/radiationTargetSide;right;R = rechts;ADT.Seitenlokalisation;;R;Rechts;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/informationGroup/radiationTargetSide;both;B = beidseits;ADT.Seitenlokalisation;;B;Beidseitig;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/informationGroup/radiationTargetSide;middle;M = mittig;ADT.Seitenlokalisation;;M;Mittellinie;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/informationGroup/radiationTargetSide;unknown;U = unbekannt;ADT.Seitenlokalisation;;U;Unbekannt;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/informationGroup/radiationTargetSide;notApplicable;T = trifft nicht zu;ADT.Seitenlokalisation;;T;Trifft nicht zu;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/informationGroup/radiationTarget;*;(Regel);oBDS.Zielgebiete;;Code vor „_“ (z. B. 4.10_upperAbdomen → 4.10);;ungelöst;"nur für Feld ZielgebietLK; Hauptfeld (CDA) braucht eigene Übersetzung (E-6)"
+radioTherapy/radiotherapyList/radiotherapy/informationGroup/radiationTarget;unknown;Unbekannt;oBDS.Zielgebiete;;;;ungelöst;nicht in oBDS.Zielgebiete
+radioTherapy/radiotherapyList/radiotherapy/boostGroup/boostExecuted;yes;J = ja, mit Boost o. n. A.;OS.ST.Boost;;J;ja, mit Boost o. n. A.;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/boostGroup/boostExecuted;simultaneousIntegrated;SIB;OS.ST.Boost;;SIB;simultan integrierter Boost;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/boostGroup/boostExecuted;sequentialBoost;SEQ;OS.ST.Boost;;SEQ;sequentieller Boost;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/boostGroup/boostExecuted;concomitantBoost;KON;OS.ST.Boost;;KON;konkomitanter Boost;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/boostGroup/boostExecuted;no;N = nein, ohne Boost;OS.ST.Boost;;N;nein, ohne Boost;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/therapyEndGroup/endOfRadiotherapy;regularEnd;E = reguläres Ende;ADT.BeendigungsstatusTherapie / OS.Abbruchgrund;;Beendigungsstatus=E;;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/therapyEndGroup/endOfRadiotherapy;targetReachedWithInterruption;F = Zieldosis erreicht mit Unterbrechung > 3 Kalendertage;ADT.BeendigungsstatusTherapie / OS.Abbruchgrund;;Beendigungsstatus=E, Unterbrechung=J;;vorläufig;Onkostar: > 3 Werktage
+radioTherapy/radiotherapyList/radiotherapy/therapyEndGroup/endOfRadiotherapy;discontinuationSideEffects;A = Abbruch wegen Nebenwirkungen;ADT.BeendigungsstatusTherapie / OS.Abbruchgrund;;Beendigungsstatus=A, GrundAbbruch=A;;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/therapyEndGroup/endOfRadiotherapy;discontinuationProgress;P = Abbruch wegen Progress;ADT.BeendigungsstatusTherapie / OS.Abbruchgrund;;Beendigungsstatus=A, GrundAbbruch=P;;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/therapyEndGroup/endOfRadiotherapy;discontinuationOther;S = Abbruch aus sonstigen Gründen;ADT.BeendigungsstatusTherapie / OS.Abbruchgrund;;Beendigungsstatus=A, GrundAbbruch=M oder S;;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/therapyEndGroup/endOfRadiotherapy;patientRefusal;V = Patient verweigert weitere Therapie;ADT.BeendigungsstatusTherapie / OS.Abbruchgrund;;Beendigungsstatus=A, GrundAbbruch=V;;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/therapyEndGroup/endOfRadiotherapy;patientDeceased;T = Patient verstorben;ADT.BeendigungsstatusTherapie / OS.Abbruchgrund;;Beendigungsstatus=A, GrundAbbruch=T;;vorläufig;
+radioTherapy/radiotherapyList/radiotherapy/therapyEndGroup/endOfRadiotherapy;unknown;U = unbekannt;ADT.BeendigungsstatusTherapie / OS.Abbruchgrund;;Beendigungsstatus=U;;vorläufig;
+patient/gender;female;Weiblich;System.Geschlecht;;w;Weiblich;vorläufig;
+patient/gender;male;Männlich;System.Geschlecht;;m;Männlich;vorläufig;
+patient/gender;D;Divers;System.Geschlecht;;d;Divers;vorläufig;
+patient/gender;unknown;Unbekannt;System.Geschlecht;;u;Unbekannt;vorläufig;
+patient/gender;other;Sonstige;System.Geschlecht;;x;Sonstiges / Intersexuell;vorläufig;Bedeutung nicht ganz gleich
+patient/gender;X;Unbestimmt;System.Geschlecht;;;;ungelöst;kein Gegenstück
+vitalStatus/lastContactInformationSource;Krankenhausinformationssystem;Krankenhausinformationssystem;OS.QuelleVitalstatus;;kis;KIS;vorläufig;eindeutig
+vitalStatus/lastContactInformationSource;Krebsregister;Krebsregister;OS.QuelleVitalstatus;;kreg;Krebsregister;vorläufig;eindeutig
+vitalStatus/lastContactInformationSource;Kontakt Behandler;Kontakt Behandler;OS.QuelleVitalstatus;;n?;Niedergelassener Arzt;ungelöst;nur Text des Onkostar-Codes bekannt, inhaltliche Gleichheit nicht bestätigt
+vitalStatus/lastContactInformationSource;Dokumentar;Dokumentar;OS.QuelleVitalstatus;;tudok?;Tumordokumentation;ungelöst;nur Text des Onkostar-Codes bekannt, inhaltliche Gleichheit nicht bestätigt
+vitalStatus/lastContactInformationSource;Arztbrief;Arztbrief;OS.QuelleVitalstatus;;;;ungelöst;kein Gegenstück
+vitalStatus/lastContactInformationSource;Kontakt Krankenkasse;Kontakt Krankenkasse;OS.QuelleVitalstatus;;;;ungelöst;kein Gegenstück
+vitalStatus/lastContactInformationSource;Kontakt Angehörige;Kontakt Angehörige;OS.QuelleVitalstatus;;;;ungelöst;kein Gegenstück
+vitalStatus/lastContactInformationSource;Andere hausinterne Datenbanken;Andere hausinterne Datenbanken;OS.QuelleVitalstatus;;;;ungelöst;kein Gegenstück
+vitalStatus/lastContactInformationSource;;;OS.QuelleVitalstatus;;a, k, m, r, tb, s, u, HL7;Autopsie, Krankenhaus, Meldeamt, Reha, Todesbescheinigung, Sonstiges, Unbekannt, HL7;ungelöst;kein nNGM-Wert
+vitalStatus/deathInformationSource;Krankenhausinformationssystem;Krankenhausinformationssystem;OS.QuelleVitalstatus;;kis;KIS;vorläufig;eindeutig
+vitalStatus/deathInformationSource;Krebsregister;Krebsregister;OS.QuelleVitalstatus;;kreg;Krebsregister;vorläufig;eindeutig
+vitalStatus/deathInformationSource;Kontakt Behandler;Kontakt Behandler;OS.QuelleVitalstatus;;n?;Niedergelassener Arzt;ungelöst;nur Text des Onkostar-Codes bekannt, inhaltliche Gleichheit nicht bestätigt
+vitalStatus/deathInformationSource;Dokumentar;Dokumentar;OS.QuelleVitalstatus;;tudok?;Tumordokumentation;ungelöst;nur Text des Onkostar-Codes bekannt, inhaltliche Gleichheit nicht bestätigt
+vitalStatus/deathInformationSource;Arztbrief;Arztbrief;OS.QuelleVitalstatus;;;;ungelöst;kein Gegenstück
+vitalStatus/deathInformationSource;Kontakt Krankenkasse;Kontakt Krankenkasse;OS.QuelleVitalstatus;;;;ungelöst;kein Gegenstück
+vitalStatus/deathInformationSource;Kontakt Angehörige;Kontakt Angehörige;OS.QuelleVitalstatus;;;;ungelöst;kein Gegenstück
+vitalStatus/deathInformationSource;Andere hausinterne Datenbanken;Andere hausinterne Datenbanken;OS.QuelleVitalstatus;;;;ungelöst;kein Gegenstück
+vitalStatus/deathInformationSource;Internet (Todesanzeigen);Internet (Todesanzeigen);OS.QuelleVitalstatus;;z?;Zeitung;ungelöst;nur Text des Onkostar-Codes bekannt, inhaltliche Gleichheit nicht bestätigt
+vitalStatus/deathInformationSource;;;OS.QuelleVitalstatus;;a, k, m, r, tb, s, u, HL7;Autopsie, Krankenhaus, Meldeamt, Reha, Todesbescheinigung, Sonstiges, Unbekannt, HL7;ungelöst;kein nNGM-Wert
+vitalStatus/observationList/observation/vitalState;L;lebt;OS.Vitalstatus;;L;am Leben;vorläufig;
+vitalStatus/observationList/observation/vitalState;A;lost to follow-up;OS.Vitalstatus;;F;Lost-to-follow-up;vorläufig;
+vitalStatus/observationList/observation/vitalState;T;verstorben;OS.Vitalstatus;;V;Verstorben;vorläufig;
+smokerStatus/smokerStatusGroup/smokingState;LA18979-7;Raucher;OS.Raucher;;G;Ja, gegenwärtig;vorläufig;
+smokerStatus/smokerStatusGroup/smokingState;LA15920-4;Ex-Raucher;OS.Raucher;;E;Ja, Ex-Raucher;vorläufig;
+smokerStatus/smokerStatusGroup/smokingState;LA18978-9;Nieraucher;OS.Raucher;;N;Nein (noch nie);vorläufig;
+smokerStatus/smokerStatusGroup/smokingState;unknown;Unbekannt;OS.Raucher;;U;Unbekannt;vorläufig;
+smokerStatus/smokerStatusGroup/smokingState;;;OS.Raucher;;P;Ja, Passivraucher;ungelöst;kein nNGM-Wert
+ecog/ecogGroup/ecog;LA9622-7;ECOG 0;ADT.LeistungszustandECOG;;0;0;bestätigt;
+ecog/ecogGroup/ecog;LA9623-5;ECOG 1;ADT.LeistungszustandECOG;;1;1;bestätigt;
+ecog/ecogGroup/ecog;LA9624-3;ECOG 2;ADT.LeistungszustandECOG;;2;2;bestätigt;
+ecog/ecogGroup/ecog;LA9625-0;ECOG 3;ADT.LeistungszustandECOG;;3;3;bestätigt;
+ecog/ecogGroup/ecog;LA9626-8;ECOG 4;ADT.LeistungszustandECOG;;4;4;bestätigt;
+ecog/ecogGroup/ecog;LA9627-6;ECOG 5;ADT.LeistungszustandECOG;;5;5;bestätigt;
+ecog/ecogGroup/ecog;unknown;Unbekannt;ADT.LeistungszustandECOG;;U;Unbekannt;bestätigt;
+progressRezidiv/observationList/observation/rezidivProgress;*;(Regel);NNGM.yesNo;;* identisch (yes/no);;vorläufig;Variante B: eigener nNGM-Katalog (E-0/E-8)
+resistanceTesting/findingList/finding/resistanceTestingList/alk/alkResult;positive;positiv (amplifiziert);OS.MolGenErgebnis / OS.MolCopyNumberVariation;;Ergebnis=CNV, CNV=G oder LLG;High/Low Level Amplifikation;vorläufig;Import-Richtung: High oder Low Level offen
+resistanceTesting/findingList/finding/resistanceTestingList/alk/alkResult;negative;negativ (nicht amplifiziert);OS.MolGenErgebnis / OS.MolCopyNumberVariation;;Ergebnis=N;Wildtyp (WT) / negativ;vorläufig;
+resistanceTesting/findingList/finding/resistanceTestingList/alk/alkResult;notEvaluable;nicht auswertbar;OS.MolGenErgebnis / OS.MolCopyNumberVariation;;Ergebnis=UX;untersucht, kein Ergebnis;vorläufig;
+resistanceTesting/findingList/finding/resistanceTestingList/braf/brafResult;positive;positiv (amplifiziert);OS.MolGenErgebnis / OS.MolCopyNumberVariation;;Ergebnis=CNV, CNV=G oder LLG;High/Low Level Amplifikation;vorläufig;Import-Richtung: High oder Low Level offen
+resistanceTesting/findingList/finding/resistanceTestingList/braf/brafResult;negative;negativ (nicht amplifiziert);OS.MolGenErgebnis / OS.MolCopyNumberVariation;;Ergebnis=N;Wildtyp (WT) / negativ;vorläufig;
+resistanceTesting/findingList/finding/resistanceTestingList/braf/brafResult;notEvaluable;nicht auswertbar;OS.MolGenErgebnis / OS.MolCopyNumberVariation;;Ergebnis=UX;untersucht, kein Ergebnis;vorläufig;
+resistanceTesting/findingList/finding/resistanceTestingList/egfr/egfrResult;positive;positiv (amplifiziert);OS.MolGenErgebnis / OS.MolCopyNumberVariation;;Ergebnis=CNV, CNV=G oder LLG;High/Low Level Amplifikation;vorläufig;Import-Richtung: High oder Low Level offen
+resistanceTesting/findingList/finding/resistanceTestingList/egfr/egfrResult;negative;negativ (nicht amplifiziert);OS.MolGenErgebnis / OS.MolCopyNumberVariation;;Ergebnis=N;Wildtyp (WT) / negativ;vorläufig;
+resistanceTesting/findingList/finding/resistanceTestingList/egfr/egfrResult;notEvaluable;nicht auswertbar;OS.MolGenErgebnis / OS.MolCopyNumberVariation;;Ergebnis=UX;untersucht, kein Ergebnis;vorläufig;
+resistanceTesting/findingList/finding/resistanceTestingList/her2/her2Result;positive;positiv (amplifiziert);OS.MolGenErgebnis / OS.MolCopyNumberVariation;;Ergebnis=CNV, CNV=G oder LLG;High/Low Level Amplifikation;vorläufig;Import-Richtung: High oder Low Level offen
+resistanceTesting/findingList/finding/resistanceTestingList/her2/her2Result;negative;negativ (nicht amplifiziert);OS.MolGenErgebnis / OS.MolCopyNumberVariation;;Ergebnis=N;Wildtyp (WT) / negativ;vorläufig;
+resistanceTesting/findingList/finding/resistanceTestingList/her2/her2Result;notEvaluable;nicht auswertbar;OS.MolGenErgebnis / OS.MolCopyNumberVariation;;Ergebnis=UX;untersucht, kein Ergebnis;vorläufig;
+resistanceTesting/findingList/finding/resistanceTestingList/kras/krasResult;positive;positiv (amplifiziert);OS.MolGenErgebnis / OS.MolCopyNumberVariation;;Ergebnis=CNV, CNV=G oder LLG;High/Low Level Amplifikation;vorläufig;Import-Richtung: High oder Low Level offen
+resistanceTesting/findingList/finding/resistanceTestingList/kras/krasResult;negative;negativ (nicht amplifiziert);OS.MolGenErgebnis / OS.MolCopyNumberVariation;;Ergebnis=N;Wildtyp (WT) / negativ;vorläufig;
+resistanceTesting/findingList/finding/resistanceTestingList/kras/krasResult;notEvaluable;nicht auswertbar;OS.MolGenErgebnis / OS.MolCopyNumberVariation;;Ergebnis=UX;untersucht, kein Ergebnis;vorläufig;
+resistanceTesting/findingList/finding/resistanceTestingList/met/metResult;positive;positiv (amplifiziert);OS.MolGenErgebnis / OS.MolCopyNumberVariation;;Ergebnis=CNV, CNV=G oder LLG;High/Low Level Amplifikation;vorläufig;Import-Richtung: High oder Low Level offen
+resistanceTesting/findingList/finding/resistanceTestingList/met/metResult;negative;negativ (nicht amplifiziert);OS.MolGenErgebnis / OS.MolCopyNumberVariation;;Ergebnis=N;Wildtyp (WT) / negativ;vorläufig;
+resistanceTesting/findingList/finding/resistanceTestingList/met/metResult;notEvaluable;nicht auswertbar;OS.MolGenErgebnis / OS.MolCopyNumberVariation;;Ergebnis=UX;untersucht, kein Ergebnis;vorläufig;
+resistanceTesting/findingList/finding/resistanceTestingList/kit17/kit17AdditionalInformationGroup/kit17GenomeBuild;grCh37Hg19;GRCh37 (hg19);OS.MolSeqGenom;;HG19;HG19;vorläufig;
+resistanceTesting/findingList/finding/resistanceTestingList/kit17/kit17AdditionalInformationGroup/kit17GenomeBuild;grCh38;GRCh38;OS.MolSeqGenom;;HG38;HG38;vorläufig;
+resistanceTesting/findingList/finding/resistanceTestingList/kit17/kit17AdditionalInformationGroup/kit17Chromosome;*;(Regel);OS.MolDiagFusionChromosome;;* identisch (chr1–chr22, chrX, chrY);;vorläufig;
+resistanceTesting/findingList/finding/resistanceTestingList/kit17/kit17AdditionalInformationGroup/kit17Chromosome;chrM;chrM;OS.MolDiagFusionChromosome;;;;ungelöst;fehlt in Onkostar
+progressRezidiv/observationList/observation/rezidivProgress;yes;Ja;ADT.Gesamtbeurteilung;;P;Progression;vorläufig;"Variante A; von Rezidiv unterscheidbar"
+progressRezidiv/observationList/observation/rezidivProgress;yes;Ja;ADT.Gesamtbeurteilung;;Y;Rezidiv;vorläufig;"Variante A; von Progression unterscheidbar"
+progressRezidiv/observationList/observation/rezidivProgress;no;Nein;ADT.Gesamtbeurteilung;;V, T, K, D, B, R, U, X;übrige Gesamtbeurteilungen;vorläufig;"Variante A; nur Export-Richtung"
+lungPanel/findingList/finding/detailsNGSPanel/geneTable/gene/additionalInformationGroup/genomeBuild;grCh37Hg19;GRCh37 (hg19);OS.MolSeqGenom;;HG19;HG19;vorläufig;
+lungPanel/findingList/finding/detailsNGSPanel/geneTable/gene/additionalInformationGroup/genomeBuild;grCh38;GRCh38;OS.MolSeqGenom;;HG38;HG38;vorläufig;
+lungPanel/findingList/finding/detailsNGSPanel/geneTable/gene/additionalInformationGroup/chromosome;*;(Regel);OS.MolDiagFusionChromosome;;* identisch (chr1–chr22, chrX, chrY);;vorläufig;
+lungPanel/findingList/finding/detailsNGSPanel/geneTable/gene/additionalInformationGroup/chromosome;chrM;chrM;OS.MolDiagFusionChromosome;;;;ungelöst;fehlt in Onkostar
+lungPanel/findingList/finding/detailsNGSPanel/geneTable/gene/consequence;LA6668-3;Pathogen;OS.MolSeqPathogenitätsklasse;;5;Pathogene Variante (pathogenic);vorläufig;über Bedeutung abgeleitet (ACMG), fachlich prüfen
+lungPanel/findingList/finding/detailsNGSPanel/geneTable/gene/consequence;LA26332-9;Wahrscheinlich pathogen;OS.MolSeqPathogenitätsklasse;;4;Wahrscheinlich pathogene Variante (likely pathogenic);vorläufig;über Bedeutung abgeleitet (ACMG), fachlich prüfen
+lungPanel/findingList/finding/detailsNGSPanel/geneTable/gene/consequence;LA26333-7;Unsichere Signifikanz;OS.MolSeqPathogenitätsklasse;;3;Variante unklarer klinischer Relevanz (VUS);vorläufig;über Bedeutung abgeleitet (ACMG), fachlich prüfen
+lungPanel/findingList/finding/detailsNGSPanel/geneTable/gene/consequence;LA26334-5;Wahrscheinlich gutartig;OS.MolSeqPathogenitätsklasse;;2;Wahrscheinliche Normvariante (likely benign);vorläufig;über Bedeutung abgeleitet (ACMG), fachlich prüfen
+lungPanel/findingList/finding/detailsNGSPanel/geneTable/gene/consequence;LA6675-8;Gutartig;OS.MolSeqPathogenitätsklasse;;1;Normvariante ohne klinische Relevanz (benign);vorläufig;über Bedeutung abgeleitet (ACMG), fachlich prüfen
+lungPanel/findingList/finding/detailsNGSPanel/geneTable/gene/consequence;other;Anderes;OS.MolSeqPathogenitätsklasse;;;;ungelöst;kein Gegenstück
+ngsFusion/findingList/finding/detailsNGSPanel/geneTable/gene/ngsFusionGroup/result;positiv;positiv;OS.MolGenErgebnis;;F;Fusion;vorläufig;
+ngsFusion/findingList/finding/detailsNGSPanel/geneTable/gene/ngsFusionGroup/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+ngsFusion/findingList/finding/detailsNGSPanel/geneTable/gene/ngsFusionGroup/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+ngsFusion/findingList/finding/detailsNGSPanel/geneTable/gene/metPhenotype;fusion;Fusion;OS.MolGenMET_Level / OS.MolGenErgebnis;;Ergebnis=F;Fusion;vorläufig;
+ngsFusion/findingList/finding/detailsNGSPanel/geneTable/gene/metPhenotype;exon14Skipping;Exon 14 Skipping Variante;OS.MolGenMET_Level / OS.MolGenErgebnis;;METLevel=E-14, Ergebnis=?;Exon 14-skipping;ungelöst;Ergebnis P oder S offen
+liquidBiopsy/findingList/finding/examination/primaryMutationList/primaryMutation/result;positiv;positiv (mutiert);OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+liquidBiopsy/findingList/finding/examination/primaryMutationList/primaryMutation/result;negativ;negativ (Wildtyp);OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+liquidBiopsy/findingList/finding/examination/primaryMutationList/primaryMutation/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+liquidBiopsy/findingList/finding/examination/resistenceList/resistence/result;positiv;positiv (mutiert);OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+liquidBiopsy/findingList/finding/examination/resistenceList/resistence/result;negativ;negativ (Wildtyp);OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+liquidBiopsy/findingList/finding/examination/resistenceList/resistence/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+liquidBiopsy/findingList/finding/examination/resistenceList/resistence/gene;EGFR;EGFR;OS.Molekulargenetik;;EGFR;EGFR;vorläufig;
+liquidBiopsy/findingList/finding/examination/resistenceList/resistence/gene;ALK;ALK;OS.Molekulargenetik;;ALK;ALK;vorläufig;
+liquidBiopsy/findingList/finding/examination/resistenceList/resistence/gene;ROS1;ROS1;OS.Molekulargenetik;;ROS1;ROS1;vorläufig;
+liquidBiopsy/findingList/finding/examination/resistenceList/resistence/gene;BRAF;BRAF;OS.Molekulargenetik;;BRAF;BRAF;vorläufig;
+liquidBiopsy/findingList/finding/examination/resistenceList/resistence/gene;other;Anderes;OS.Molekulargenetik;;(otherGene);;vorläufig;Gen aus otherGene (Freitext)
+fastTrack/findingList/finding/examination/examFastTrack/ALK/result;Fusion;Fusion;OS.MolGenErgebnis;;F;Fusion;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/ALK/result;keine Fusion;keine Fusion;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/ALK/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/BRAF15/result;aktivierende Mutation;aktivierende Mutation;OS.MolGenErgebnis;;Ergebnis=P;Mutation, aktivierend;vorläufig;Annahme: P = aktivierend (kein Feld „Aktivierend“)
+fastTrack/findingList/finding/examination/examFastTrack/BRAF15/result;keine aktivierende Mutation;keine aktivierende Mutation;OS.MolGenErgebnis;;Ergebnis=N;Wildtyp bzw. nicht aktivierende Mutation;vorläufig;Export beides → keine aktivierende Mutation
+fastTrack/findingList/finding/examination/examFastTrack/BRAF15/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/EGFR19/result;aktivierende Mutation;aktivierende Mutation;OS.MolGenErgebnis / OS.MolAktivierend;;Ergebnis=P, Aktivierend=A;Mutation, aktivierend;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/EGFR19/result;keine aktivierende Mutation;keine aktivierende Mutation;OS.MolGenErgebnis / OS.MolAktivierend;;Ergebnis=N oder Ergebnis=P + Aktivierend=N;Wildtyp bzw. nicht aktivierende Mutation;vorläufig;Export beides → keine aktivierende Mutation
+fastTrack/findingList/finding/examination/examFastTrack/EGFR19/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis / OS.MolAktivierend;;UX;untersucht, kein Ergebnis;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/EGFR20/result;aktivierende Mutation;aktivierende Mutation;OS.MolGenErgebnis / OS.MolAktivierend;;Ergebnis=P, Aktivierend=A;Mutation, aktivierend;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/EGFR20/result;keine aktivierende Mutation;keine aktivierende Mutation;OS.MolGenErgebnis / OS.MolAktivierend;;Ergebnis=N oder Ergebnis=P + Aktivierend=N;Wildtyp bzw. nicht aktivierende Mutation;vorläufig;Export beides → keine aktivierende Mutation
+fastTrack/findingList/finding/examination/examFastTrack/EGFR20/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis / OS.MolAktivierend;;UX;untersucht, kein Ergebnis;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/EGFR21/result;aktivierende Mutation;aktivierende Mutation;OS.MolGenErgebnis / OS.MolAktivierend;;Ergebnis=P, Aktivierend=A;Mutation, aktivierend;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/EGFR21/result;keine aktivierende Mutation;keine aktivierende Mutation;OS.MolGenErgebnis / OS.MolAktivierend;;Ergebnis=N oder Ergebnis=P + Aktivierend=N;Wildtyp bzw. nicht aktivierende Mutation;vorläufig;Export beides → keine aktivierende Mutation
+fastTrack/findingList/finding/examination/examFastTrack/EGFR21/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis / OS.MolAktivierend;;UX;untersucht, kein Ergebnis;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/KRAS2/result;aktivierende Mutation;aktivierende Mutation;OS.MolGenErgebnis;;Ergebnis=P;Mutation, aktivierend;vorläufig;Annahme: P = aktivierend (kein Feld „Aktivierend“)
+fastTrack/findingList/finding/examination/examFastTrack/KRAS2/result;keine aktivierende Mutation;keine aktivierende Mutation;OS.MolGenErgebnis;;Ergebnis=N;Wildtyp bzw. nicht aktivierende Mutation;vorläufig;Export beides → keine aktivierende Mutation
+fastTrack/findingList/finding/examination/examFastTrack/KRAS2/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/MET14/result;Mutation;Mutation;OS.MolGenErgebnis;;P;Einfache Variante;vorläufig;Zusammenhang MET Level E-14 offen
+fastTrack/findingList/finding/examination/examFastTrack/MET14/result;keine Mutation;keine Mutation;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/MET14/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/NTRK1/result;Fusion;Fusion;OS.MolGenErgebnis;;F;Fusion;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/NTRK1/result;keine Fusion;keine Fusion;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/NTRK1/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/NTRK2/result;Fusion;Fusion;OS.MolGenErgebnis;;F;Fusion;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/NTRK2/result;keine Fusion;keine Fusion;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/NTRK2/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/NTRK3/result;Fusion;Fusion;OS.MolGenErgebnis;;F;Fusion;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/NTRK3/result;keine Fusion;keine Fusion;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/NTRK3/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/RET/result;Fusion;Fusion;OS.MolGenErgebnis;;F;Fusion;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/RET/result;keine Fusion;keine Fusion;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/RET/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/ROS1/result;Fusion;Fusion;OS.MolGenErgebnis;;F;Fusion;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/ROS1/result;keine Fusion;keine Fusion;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/ROS1/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/ALK/assay;fragmentLengthAnalysis;Fragmentlängenanalyse;OS.MolDiagMethode / OS.MolDiagSequenzierung;;P;PCR/ Realtime-PCR/ MLPA;vorläufig;"gröber; Export aus P nicht eindeutig"
+fastTrack/findingList/finding/examination/examFastTrack/ALK/assay;immunohistochemistry;Immunhistochemie;OS.MolDiagMethode / OS.MolDiagSequenzierung;;I;Immunhistochemie;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/ALK/assay;pyroSequencing;Pyrosequenzierung;OS.MolDiagMethode / OS.MolDiagSequenzierung;;S + ArtDerSequenzierung=PYRO;Sequenzierung / Pyrosequenzierung;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/ALK/assay;qPcr;qPCR;OS.MolDiagMethode / OS.MolDiagSequenzierung;;P;PCR/ Realtime-PCR/ MLPA;vorläufig;"gröber; Export aus P nicht eindeutig"
+fastTrack/findingList/finding/examination/examFastTrack/ALK/assay;rtPcr;RT-PCR;OS.MolDiagMethode / OS.MolDiagSequenzierung;;P;PCR/ Realtime-PCR/ MLPA;vorläufig;"gröber; Export aus P nicht eindeutig"
+fastTrack/findingList/finding/examination/examFastTrack/ALK/assay;sangerSequencing;Sanger Sequenzierung;OS.MolDiagMethode / OS.MolDiagSequenzierung;;S + ArtDerSequenzierung=Sanger;Sequenzierung / Sanger;vorläufig;
+fastTrack/findingList/finding/examination/examFastTrack/ALK/assay;meltCurveAnalysis;Schmelzkurvenanalyse;OS.MolDiagMethode / OS.MolDiagSequenzierung;;P;PCR/ Realtime-PCR/ MLPA;vorläufig;"gröber; Export aus P nicht eindeutig"
+fastTrack/findingList/finding/examination/examFastTrack/ALK/assay;other;Andere;OS.MolDiagMethode / OS.MolDiagSequenzierung;;A + MolDiagMethodeAndere;Andere;vorläufig;gilt für alle 12 assay-Felder in fastTrack
+ishFish/findingList/finding/examination/ishList/ishAlk/ishAlkResult;positiv;positiv;OS.MolGenErgebnis;;F oder T;Fusion bzw. Translokation;ungelöst;Frage F/T (E-9)
+ishFish/findingList/finding/examination/ishList/ishAlk/ishAlkResult;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+ishFish/findingList/finding/examination/ishList/ishAlk/ishAlkResult;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+ishFish/findingList/finding/examination/ishList/ishMet/ishMetResult;positiv (high-level amplification);Amplifikation high-level (positiv);OS.MolGenErgebnis;;CNV;Copy number variation;vorläufig;Stufe ohne Feld
+ishFish/findingList/finding/examination/ishList/ishMet/ishMetResult;positiv (moderate-level amplification);Amplifikation intermediate-level;OS.MolGenErgebnis;;CNV;Copy number variation;vorläufig;Stufe ohne Feld
+ishFish/findingList/finding/examination/ishList/ishMet/ishMetResult;negativ;keine Amplifikation;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+ishFish/findingList/finding/examination/ishList/ishMet/ishMetResult;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+ishFish/findingList/finding/examination/ishList/ishRet/ishRetResult;positiv;positiv;OS.MolGenErgebnis;;F oder T;Fusion bzw. Translokation;ungelöst;Frage F/T (E-9)
+ishFish/findingList/finding/examination/ishList/ishRet/ishRetResult;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+ishFish/findingList/finding/examination/ishList/ishRet/ishRetResult;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+ishFish/findingList/finding/examination/ishList/ishRos1/ishRos1Result;positiv;positiv;OS.MolGenErgebnis;;F oder T;Fusion bzw. Translokation;ungelöst;Frage F/T (E-9)
+ishFish/findingList/finding/examination/ishList/ishRos1/ishRos1Result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+ishFish/findingList/finding/examination/ishList/ishRos1/ishRos1Result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishAlk/fishAlkResult;positiv;positiv;OS.MolGenErgebnis;;F oder T;Fusion bzw. Translokation;ungelöst;Frage F/T (E-9)
+ishFish/findingList/finding/examination/fishList/fishAlk/fishAlkResult;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishAlk/fishAlkResult;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishEgfr/fishEgfrResult;positiv;positiv (Amplifikation);OS.MolGenErgebnis;;CNV;Copy number variation;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishEgfr/fishEgfrResult;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishEgfr/fishEgfrResult;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishErbb2/fishErbb2Result;positiv;positiv (Amplifikation);OS.MolGenErgebnis;;CNV;Copy number variation;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishErbb2/fishErbb2Result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishErbb2/fishErbb2Result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishKras/fishKrasResult;positiv;positiv (Amplifikation);OS.MolGenErgebnis;;CNV;Copy number variation;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishKras/fishKrasResult;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishKras/fishKrasResult;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishKras/fishKrasResult;highPolysomyOver40;hohe Polysomie (≥ 4 Kopien in ≥ 40% Zellen);OS.MolGenErgebnis;;;;ungelöst;kein Gegenstück
+ishFish/findingList/finding/examination/fishList/fishKras/fishKrasResult;highPolysomy10To40;hohe Polysomie (≥ 4 Kopien in 10-40% Zellen);OS.MolGenErgebnis;;;;ungelöst;kein Gegenstück
+ishFish/findingList/finding/examination/fishList/fishMet/fishMetResult;positiv;positiv (Amplifikation);OS.MolGenErgebnis;;CNV;Copy number variation;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishMet/fishMetResult;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishMet/fishMetResult;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishNtrk1/fishNtrk1Result;positiv;positiv;OS.MolGenErgebnis;;F oder T;Fusion bzw. Translokation;ungelöst;Frage F/T (E-9)
+ishFish/findingList/finding/examination/fishList/fishNtrk1/fishNtrk1Result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishNtrk1/fishNtrk1Result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishNtrk2/fishNtrk2Result;positiv;positiv;OS.MolGenErgebnis;;F oder T;Fusion bzw. Translokation;ungelöst;Frage F/T (E-9)
+ishFish/findingList/finding/examination/fishList/fishNtrk2/fishNtrk2Result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishNtrk2/fishNtrk2Result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishNtrk3/fishNtrk3Result;positiv;positiv;OS.MolGenErgebnis;;F oder T;Fusion bzw. Translokation;ungelöst;Frage F/T (E-9)
+ishFish/findingList/finding/examination/fishList/fishNtrk3/fishNtrk3Result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishNtrk3/fishNtrk3Result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishRet/fishRetResult;positiv;positiv;OS.MolGenErgebnis;;F oder T;Fusion bzw. Translokation;ungelöst;Frage F/T (E-9)
+ishFish/findingList/finding/examination/fishList/fishRet/fishRetResult;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishRet/fishRetResult;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishRos1/fishRos1Result;positiv;positiv;OS.MolGenErgebnis;;F oder T;Fusion bzw. Translokation;ungelöst;Frage F/T (E-9)
+ishFish/findingList/finding/examination/fishList/fishRos1/fishRos1Result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+ishFish/findingList/finding/examination/fishList/fishRos1/fishRos1Result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+immunohistochemistry/findingList/finding/examination/ALK/alkIHC/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+immunohistochemistry/findingList/finding/examination/ALK/alkIHC/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+immunohistochemistry/findingList/finding/examination/ALK/alkIHC/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+immunohistochemistry/findingList/finding/examination/ALK/alkIHC/result;fraglich;fraglich;OS.MolGenErgebnis;;;;ungelöst;kein Gegenstück
+immunohistochemistry/findingList/finding/examination/BRAF/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+immunohistochemistry/findingList/finding/examination/BRAF/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+immunohistochemistry/findingList/finding/examination/BRAF/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+immunohistochemistry/findingList/finding/examination/CK7/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+immunohistochemistry/findingList/finding/examination/CK7/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+immunohistochemistry/findingList/finding/examination/CK7/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+immunohistochemistry/findingList/finding/examination/MET/metIHC/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+immunohistochemistry/findingList/finding/examination/MET/metIHC/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+immunohistochemistry/findingList/finding/examination/MET/metIHC/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+immunohistochemistry/findingList/finding/examination/MET/metIHC/result;fraglich;fraglich;OS.MolGenErgebnis;;;;ungelöst;kein Gegenstück
+immunohistochemistry/findingList/finding/examination/NapsinA/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+immunohistochemistry/findingList/finding/examination/NapsinA/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+immunohistochemistry/findingList/finding/examination/NapsinA/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+immunohistochemistry/findingList/finding/examination/Synaptophysin/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+immunohistochemistry/findingList/finding/examination/Synaptophysin/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+immunohistochemistry/findingList/finding/examination/Synaptophysin/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+immunohistochemistry/findingList/finding/examination/NTRK1to3/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+immunohistochemistry/findingList/finding/examination/NTRK1to3/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+immunohistochemistry/findingList/finding/examination/NTRK1to3/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+immunohistochemistry/findingList/finding/examination/P40/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+immunohistochemistry/findingList/finding/examination/P40/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+immunohistochemistry/findingList/finding/examination/P40/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+immunohistochemistry/findingList/finding/examination/ROS1/ros1IHC/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+immunohistochemistry/findingList/finding/examination/ROS1/ros1IHC/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+immunohistochemistry/findingList/finding/examination/ROS1/ros1IHC/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+immunohistochemistry/findingList/finding/examination/ROS1/ros1IHC/result;fraglich;fraglich;OS.MolGenErgebnis;;;;ungelöst;kein Gegenstück
+immunohistochemistry/findingList/finding/examination/TTF1/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+immunohistochemistry/findingList/finding/examination/TTF1/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+immunohistochemistry/findingList/finding/examination/TTF1/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/ALK/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/ALK/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/ALK/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/ALK/result;fraglich;fraglich;OS.MolGenErgebnis;;;;ungelöst;kein Gegenstück
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/BRAF/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/BRAF/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/BRAF/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/CK7/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/CK7/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/CK7/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/MET/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/MET/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/MET/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/MET/result;fraglich;fraglich;OS.MolGenErgebnis;;;;ungelöst;kein Gegenstück
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/NapsinA/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/NapsinA/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/NapsinA/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/Synaptophysin/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/Synaptophysin/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/Synaptophysin/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/NTRK1to3/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/NTRK1to3/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/NTRK1to3/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/P40/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/P40/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/P40/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/ROS1/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/ROS1/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/ROS1/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/ROS1/result;fraglich;fraglich;OS.MolGenErgebnis;;;;ungelöst;kein Gegenstück
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/TTF1/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/TTF1/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/TTF1/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/Synaptophysin/neuroendocrineMarker;CD56;CD56;OS.Molekulargenetik;;NCAM1;NCAM1;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/Synaptophysin/neuroendocrineMarker;chromogranin;Chromogranin;OS.Molekulargenetik;;CHGA;CHGA;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/Synaptophysin/neuroendocrineMarker;synaptophysin;Synaptophysin;OS.Molekulargenetik;;SYP;SYP;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/Synaptophysin/neuroendocrineMarker;other;Andere;OS.Molekulargenetik;;(otherNeuroendocrineMarker);;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/PDL1/tpsGroup/tpsScore;lowerThan1%;< 1 %;OS.MolIC;;0;0 (<1%);vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/PDL1/tpsGroup/tpsScore;from1%To49%;1–49 %;OS.MolIC;;1, 2, 3, 4;≥1 % … ≥25 %;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/PDL1/tpsGroup/tpsScore;overOrEqual50%;≥ 50 %;OS.MolIC;;5, 6;≥50 %, ≥75 %;vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/PDL1/icsGroup/icsScore;lowerThan1%;< 1 %;OS.MolIC;;0;0 (<1%);vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/PDL1/icsGroup/icsScore;from1%To4%;1–4 %;OS.MolIC;;1;1 (>= 1%);vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/PDL1/icsGroup/icsScore;from5%To9%;5–9 %;OS.MolIC;;2;2 (>= 5%);vorläufig;
+preliminaryFindingsImmunohistochemistry/pfIhcs/pfIhc/IHC/PDL1/icsGroup/icsScore;overOrEqual10%;≥ 10 %;OS.MolIC;;3, 4, 5, 6;≥10 % …;vorläufig;
+immunohistochemistry/findingList/finding/examination/Synaptophysin/neuroendocrineMarker;CD56;CD56;OS.Molekulargenetik;;NCAM1;NCAM1;vorläufig;
+immunohistochemistry/findingList/finding/examination/Synaptophysin/neuroendocrineMarker;chromogranin;Chromogranin;OS.Molekulargenetik;;CHGA;CHGA;vorläufig;
+immunohistochemistry/findingList/finding/examination/Synaptophysin/neuroendocrineMarker;synaptophysin;Synaptophysin;OS.Molekulargenetik;;SYP;SYP;vorläufig;
+immunohistochemistry/findingList/finding/examination/Synaptophysin/neuroendocrineMarker;other;Andere;OS.Molekulargenetik;;(otherNeuroendocrineMarker);;vorläufig;
+immunohistochemistry/findingList/finding/examination/PDL1/tpsGroup/tpsScore;lowerThan1%;< 1 %;OS.MolIC;;0;0 (<1%);vorläufig;
+immunohistochemistry/findingList/finding/examination/PDL1/tpsGroup/tpsScore;from1%To49%;1–49 %;OS.MolIC;;1, 2, 3, 4;≥1 % … ≥25 %;vorläufig;
+immunohistochemistry/findingList/finding/examination/PDL1/tpsGroup/tpsScore;overOrEqual50%;≥ 50 %;OS.MolIC;;5, 6;≥50 %, ≥75 %;vorläufig;
+immunohistochemistry/findingList/finding/examination/PDL1/icsGroup/icsScore;lowerThan1%;< 1 %;OS.MolIC;;0;0 (<1%);vorläufig;
+immunohistochemistry/findingList/finding/examination/PDL1/icsGroup/icsScore;from1%To4%;1–4 %;OS.MolIC;;1;1 (>= 1%);vorläufig;
+immunohistochemistry/findingList/finding/examination/PDL1/icsGroup/icsScore;from5%To9%;5–9 %;OS.MolIC;;2;2 (>= 5%);vorläufig;
+immunohistochemistry/findingList/finding/examination/PDL1/icsGroup/icsScore;overOrEqual10%;≥ 10 %;OS.MolIC;;3, 4, 5, 6;≥10 % …;vorläufig;
+otherExamination/findingList/finding/examinations/examination/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;ggf. F oder CNV
+otherExamination/findingList/finding/examinations/examination/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+otherExamination/findingList/finding/examinations/examination/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+preliminaryOtherExaminations/findingList/finding/examinations/examination/result;positiv;positiv;OS.MolGenErgebnis;;P;Einfache Variante (Mutation / positiv);vorläufig;ggf. F oder CNV
+preliminaryOtherExaminations/findingList/finding/examinations/examination/result;negativ;negativ;OS.MolGenErgebnis;;N;Wildtyp (WT) / negativ;vorläufig;
+preliminaryOtherExaminations/findingList/finding/examinations/examination/result;nicht auswertbar;nicht auswertbar;OS.MolGenErgebnis;;UX;untersucht, kein Ergebnis;vorläufig;
+assessment/assessmentDetail/recommendationDetail/approvedTargetedTherapy;yes;Ja;OS.JaNein;;1;Ja;bestätigt;Export-Übersetzung
+assessment/assessmentDetail/recommendationDetail/approvedTargetedTherapy;no;Nein;OS.JaNein;;0;Nein;bestätigt;Export-Übersetzung
+assessment/assessmentDetail/recommendationDetail/clinicalStudy;yes;Ja;OS.JaNein;;1;Ja;bestätigt;Export-Übersetzung
+assessment/assessmentDetail/recommendationDetail/clinicalStudy;no;Nein;OS.JaNein;;0;Nein;bestätigt;Export-Übersetzung
+assessment/assessmentDetail/recommendationDetail/offLabelTherapy;yes;Ja;OS.JaNein;;1;Ja;bestätigt;Export-Übersetzung
+assessment/assessmentDetail/recommendationDetail/offLabelTherapy;no;Nein;OS.JaNein;;0;Nein;bestätigt;Export-Übersetzung
+assessment/assessmentDetail/recommendationDetail/mtbPresentation;yes;Ja;OS.JaNein;;1;Ja;bestätigt;Export-Übersetzung
+assessment/assessmentDetail/recommendationDetail/mtbPresentation;no;Nein;OS.JaNein;;0;Nein;bestätigt;Export-Übersetzung
+TherapyInformation/wasHelpful;yes;Ja;OS.JaNeinUnbekannt;;1;Ja;bestätigt;Export-Übersetzung
+TherapyInformation/wasHelpful;no;Nein;OS.JaNeinUnbekannt;;0;Nein;bestätigt;Export-Übersetzung
+TherapyInformation/wasHelpful;unknown;Unbekannt;OS.JaNeinUnbekannt;;9;Unbekannt;bestätigt;Export-Übersetzung
+TherapyInformation/wasImplemented;yes;Ja;OS.JaNeinUnbekannt;;1;Ja;bestätigt;Export-Übersetzung
+TherapyInformation/wasImplemented;no;Nein;OS.JaNeinUnbekannt;;0;Nein;bestätigt;Export-Übersetzung
+TherapyInformation/wasImplemented;unknown;Unbekannt;OS.JaNeinUnbekannt;;9;Unbekannt;bestätigt;Export-Übersetzung
+diagnosticsRequest/diagnosticRequirementGroup/ngsPanel;yes;Ja;OS.JaNein;;1;Ja;bestätigt;Export-Übersetzung
+diagnosticsRequest/diagnosticRequirementGroup/ngsPanel;no;Nein;OS.JaNein;;0;Nein;bestätigt;Export-Übersetzung
+diagnosticsRequest/tumorBoardRequirementGroup/tumorBoardParticipation;yes;Ja;OS.JaNein;;1;Ja;bestätigt;Export-Übersetzung
+diagnosticsRequest/tumorBoardRequirementGroup/tumorBoardParticipation;no;Nein;OS.JaNein;;0;Nein;bestätigt;Export-Übersetzung
+systemicTherapy/systemTherapyLineList/systemTherapyLine/noTherapyGroup/noTherapy;yes;Ja;OS.JaNein;;1;Ja;bestätigt;Export-Übersetzung
+systemicTherapy/systemTherapyLineList/systemTherapyLine/noTherapyGroup/noTherapy;no;Nein;OS.JaNein;;0;Nein;bestätigt;Export-Übersetzung
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/offLabelUse;yes;Ja;OS.JaNein;;1;Ja;bestätigt;Export-Übersetzung
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/offLabelUse;no;Nein;OS.JaNein;;0;Nein;bestätigt;Export-Übersetzung
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/therapyLineStudyParticipation;yes;Ja;OS.JaNein;;1;Ja;bestätigt;Export-Übersetzung
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/therapyLineStudyParticipation;no;Nein;OS.JaNein;;0;Nein;bestätigt;Export-Übersetzung
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/systemTherapyList/systemTherapy/isMaintainceTherapy;yes;Ja;OS.JaNeinUnbekannt;;1;Ja;bestätigt;Export-Übersetzung
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/systemTherapyList/systemTherapy/isMaintainceTherapy;no;Nein;OS.JaNeinUnbekannt;;0;Nein;bestätigt;Export-Übersetzung
+systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/systemTherapyList/systemTherapy/isMaintainceTherapy;unknown;Unbekannt;OS.JaNeinUnbekannt;;9;Unbekannt;bestätigt;Export-Übersetzung

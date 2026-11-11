@@ -1,0 +1,165 @@
+﻿id;name;beschreibung;aktiv;anzahl_felder;tabelle;tabelle_vorhanden;formulare
+286;Abschluss;Abschluss;;18;dk_abschluss;ja;OS.Abschluss
+829;Adjumed Fristen;Adjumed Fristen;;25;dk_adjumed fristen;nein;Adjumed Fristen
+811;Adjumed Komplikation;Adjumed Komplikation;;1;dk_adjumed komplikation;nein;Re-Operation wegen Komplikation
+812;Adjumed Operation;Adjumed Operation;;10;dk_adjumed operation;nein;Weitere plastische Operationen
+810;Adjumed SBCDB;Adjumed SBCDB;;236;dk_adjumed sbcdb;nein;Adjumed SBCDB
+803;AdjumedCyst;Cystectomia simplex;;126;dk_adjumedcyst;ja;Adjumed Cystectomia
+802;AdjumedCystAddFUHaupt;AdjumedCystAddFUHaupt;;1;dk_adjumedcystaddfuhaupt;ja;Adjumed Cystectomia
+807;AdjumedCystAddFUUnter;AdjumedCystAddFUUnter;;32;dk_adjumedcystaddfuunter;ja;UFA Adjumed Cystectomia zusätzlicher Follow Up
+799;AdjumedCystFU12Monate;AdjumedCystFU12Monate;;18;dk_adjumedcystfu12monate;ja;Adjumed Cystectomia
+801;AdjumedCystFU24Monate;AdjumedCystFU24Monate;;18;dk_adjumedcystfu24monate;ja;Adjumed Cystectomia
+800;AdjumedCystFU3Monate;AdjumedCystFU3Monate;;30;dk_adjumedcystfu3monate;ja;Adjumed Cystectomia
+805;AdjumedCystLaborChem12M;AdjumedCystLaborChem12M;;3;dk_adjumedcystlaborchem12m;ja;Adjumed Cystectomia
+804;AdjumedCystLaborChem24M;AdjumedCystLaborChem24M;;3;dk_adjumedcystlaborchem24m;ja;Adjumed Cystectomia
+806;AdjumedCystLaborChemie;AdjumedCystLaborChemie;;4;dk_adjumedcystlaborchemie;ja;Adjumed Cystectomia Labor Chemie
+798;AdjumedCystLaborChemie3M;AdjumedCystLaborChemie3M;;3;dk_adjumedcystlaborchemie3m;ja;Adjumed Cystectomia
+808;AdjumedCystOPStatHaupt;AdjumedCystOPStatHaupt;;7;dk_adjumedcystopstathaupt;ja;Adjumed Cystectomia Operationsstatistik
+809;AdjumedCystOPStatUnter;AdjumedCystOPStatUnter;;58;dk_adjumedcystopstatunter;ja;Adjumed Cystectomia OP Eingriffsteil
+815;AdjumedFollowUp12Monate;AdjumedFollowUp12Monate;;17;dk_adjumedfollowup12monate;ja;Adjumed Nephrectomy
+816;AdjumedFollowUp3Monate;AdjumedFollowUp3Monate;;35;dk_adjumedfollowup3monate;ja;Adjumed Nephrectomy
+818;AdjumedNephr;Adjumed Nephrectomy;;85;dk_adjumednephr;ja;Adjumed Nephrectomy
+814;AdjumedNephrAddFUHaupt;AdjumedNephrAddFUHaupt;;1;dk_adjumednephraddfuhaupt;ja;Adjumed Nephrectomy
+819;AdjumedNephrAddFUUnter;AdjumedNephrAddFUUnter;;15;dk_adjumednephraddfuunter;ja;UFA Adjumed Nephrectomy zusätzlicher Follow Up
+817;AdjumedNephrAddFUUnter2;AdjumedNephrAddFUUnter2;;10;dk_adjumednephraddfuunter2;ja;Adjumed Nephrectomy
+831;AdjumedNephrOPStatHaupt;AdjumedNephrOPStatHaupt;;7;dk_adjumednephropstathaupt;ja;Adjumed Nephrectomy Operationsstatistik
+830;AdjumedNephrOPStatUnter;AdjumedNephrOPStatUnter;;59;dk_adjumednephropstatunter;ja;Adjumed Nephrectomy OP Eingriffsteil
+825;AdjumedProst;Adjumed Prostata;;102;dk_adjumedprost;ja;Adjumed Prostatectomy
+822;AdjumedProstAddFUHaupt;AdjumedProstAddFUHaupt;;1;dk_adjumedprostaddfuhaupt;ja;Adjumed Prostatectomy
+828;AdjumedProstAddFUUnter;AdjumedProstAddFUUnter;;20;dk_adjumedprostaddfuunter;ja;UFA Adjumed Prostatectomy zusätzlicher Follow Up
+820;AdjumedProstFU12Monate;AdjumedProstFU12Monate;;13;dk_adjumedprostfu12monate;ja;Adjumed Prostatectomy
+824;AdjumedProstFU24Monate;AdjumedProstFU24Monate;;13;dk_adjumedprostfu24monate;ja;Adjumed Prostatectomy
+823;AdjumedProstFU3Monate;AdjumedProstFU3Monate;;53;dk_adjumedprostfu3monate;ja;Adjumed Prostatectomy
+827;AdjumedProstLaborChemie;AdjumedProstLaborChemie;;4;dk_adjumedprostlaborchemie;ja;Adjumed Prostatectomy Labor Chemie
+826;AdjumedProstOPStatHaupt;AdjumedProstOPStatHaupt;;8;dk_adjumedprostopstathaupt;ja;Adjumed Prostatectomy, Adjumed Prostatectomy Operationsstatistik
+821;AdjumedProstOPStatUnter;AdjumedProstOPStatUnter;;67;dk_adjumedprostopstatunter;ja;Adjumed Prostatectomy, Adjumed Prostatectomy OP Eingriffsteil
+813;AdjumendFollowUp24Monate;AdjumendFollowUp24Monate;;17;dk_adjumendfollowup24monate;ja;Adjumed Nephrectomy
+358;Anamnese;Anamnese;;23;dk_anamnese;ja;OS.Anamnese
+307;Begleiterkrankung;Begleiterkrankung;;4;dk_begleiterkrankung;ja;OS.Begleiterkrankung
+502;BehandelndeAerzte;Behandelnde Ärzte;;5;dk_behandelndeaerzte;ja;OS.Arzt
+505;Behandler;Behandler;;4;dk_behandler;ja;OS.Behandler
+447;BestOfTumor;Best-of Tumor;;61;dk_bestoftumor;ja;OS.BestOfTumor
+678;DGHO Zentrum;DGHO Zentrum;;7;dk_dgho zentrum;nein;DGHO Neuerkrankung, DGHO onkologischer Fall
+245;Diagnose;Diagnose Basisdatensatz;;67;dk_diagnose;ja;OS.Diagnose
+360;Diagnostik;Diagnostik;;9;dk_diagnostik;ja;OS.Untersuchung
+342;DiagnostikEinzel;Apparative Untersuchung;;15;dk_diagnostikeinzel;ja;OS.UntersuchungEinzel
+756;DMP;DMP;;52;dk_dmp;ja;DMP-Brustkrebs
+797;Dokumentationsanlass;Dokumentationsanlass;;12;dk_dokumentationsanlass;ja;OS.Dysplasie/weitere Zentren
+776;Dysplasie;Dysplasie;;19;dk_dysplasie;ja;DKG Dysplasie
+311;Einwilligung;Einwilligung;;13;dk_einwilligung;ja;OS.Einwilligung
+763;EinwilligungBefragung;Einwilligung Patientenbefragung;;7;dk_einwilligungbefragung;ja;EinwilligungBefragung
+772;EORTCQLQC30;EORTCQLQC30;;36;dk_eortcqlqc30;ja;EORTC-C30
+711;EPIC26;EPIC-26;;53;dk_epic26;ja;EPIC-26, EPIC-26-POST
+431;Ereignisstatus;Status von Ereignissen über Überlebenszeitanalysen;;6;dk_ereignisstatus;ja;OS.Ereignisstatus
+598;Ernaehrungsberatung;Ernährungsberatung;;9;dk_ernaehrungsberatung;ja;OS.Ernaehrungsberatung
+773;Erstbehandlungskomplex;Erstbehandlungskomplex;;3;dk_erstbehandlungskomplex;ja;OS.Erstbehandlungskomplex
+768;Fallbesprechung;Fallbesprechung;;5;dk_fallbesprechung;ja;OS.Fallbesprechung
+284;Fernmetastase;Fernmetastase;;6;dk_fernmetastase;ja;OS.FernmetastaseDiagnose, OS.FernmetastaseVerlauf
+759;Fragebogen-Basis;Allgemeine Basis für alle Fragebögen;;4;dk_fragebogen-basis;nein;EORTC-C30, EPIC-26, EPIC-26-POST, Fragebogen-Basis, IIEF5, IPSS, IPSSQ8
+348;GenetischeBeratung;Genetische Beratung;;10;dk_genetischeberatung;ja;OS.GenetischeBeratung
+387;GenetischeDiagnostik;Genetische Diagnostik;;9;dk_genetischediagnostik;ja;OS.GenetischeDiagnostik
+385;GenetischeMarker;Genetische Marker;;4;dk_genetischemarker;ja;OS.GenetischerMarker
+386;GenetischeVeraenderung;Genetische Veränderung (Chromosomenaberration);;2;dk_genetischeveraenderung;ja;OS.GenetischeVeraenderung
+771;IIEF5;IIEF5;;7;dk_iief5;ja;IIEF5
+769;IPSS;Internationaler Prostata-Symptomen-Score;;9;dk_ipss;ja;IPSS
+770;IPSSQ8;IPSSQ8;;3;dk_ipssq8;ja;IPSSQ8
+367;Labordiagnostik;Labordiagnostik;;5;dk_labordiagnostik;ja;OS.Labordiagnostik
+359;Laborwert;Laborwert;;9;dk_laborwert;ja;OS.Laborwert
+774;Leistungserbringer;Leistungserbringer;;3;dk_leistungserbringer;ja;OS.Leistungserbringer
+782;LogopaedischeBeratung;LogopaedischeBeratung;;8;dk_logopaedischeberatung;ja;OS.LogopaedischeBeratung
+714;Lokalisation;Lokalisation;;1;dk_lokalisation;ja;OS.Lokalisation
+700;MeldungDaten;Meldung der Daten;;3;dk_meldungdaten;ja;OS.MeldungDaten
+499;MMKonferenz;M&M Konferenz;;4;dk_mmkonferenz;ja;OS.MMKonferenz
+778;MolekluargenMSI;MSI Analyse;;22;dk_molekluargenmsi;ja;OS.MolGen Komplexe Biomarker
+741;Molekulargenetik;Molekulargenetik;;32;dk_molekulargenetik;ja;OS.Molekulargenetik
+780;MolekulargenExpression;Genexpressionstests;;3;dk_molekulargenexpression;ja;OS.Genexpressionstests
+742;MolekulargenUntersuchung;Molekulargenetische Untersuchung;;93;dk_molekulargenuntersuchung;ja;OS.Molekulargenetische Untersuchung
+777;MolekularHybridisierung;MolekularHybridisierung;;3;dk_molekularhybridisierung;ja;OS.Molekulargenetische Hybridisierung
+779;MolekularImmunhisto;MolekularImmunhistochemie;;8;dk_molekularimmunhisto;ja;OS.Molekulargenetische Immunhistochemie
+781;MolekularMethylierung;Methylierung;;5;dk_molekularmethylierung;ja;OS.Molekulargenetische Methylierung
+757;MolekularPCR;Sonstige- oder PCR-Analyse;;8;dk_molekularpcr;ja;OS.Molekulargenetische sonstige oder PCR Analyse
+345;Nebenwirkung;Nebenwirkung;;9;dk_nebenwirkung;ja;OS.Nebenwirkung
+338;NuklearmedTherapie;Nuklearmedizinische Therapie;;24;dk_nuklearmedtherapie;ja;OS.NuklearmedTherapie
+241;OperativeTherapie;OperativeTherapie;;62;dk_operativetherapie;ja;OS.Operative Therapie
+383;OPS;OPS-Code;;4;dk_ops;ja;OS.OPS
+761;OS_Prozedur;Prozedur;;5;dk_os_prozedur;ja;OS.Prozedur
+783;OZAK;Onkozert Analkarzinome;;29;dk_ozak;ja;OnkoZert Analkarzinom
+392;OZBZ;OnkoZert Brustzentrum;0;76;dk_ozbz;ja;DKG Dysplasie, OnkoZert Brustkrebs, OnkoZert Brustkrebs 18
+607;OZBZ_Matrix;Matrix Brustzentrum;;43;dk_ozbz_matrix;ja;DKG Brustkrebs Matrix
+438;OZBZ_ST;Strahlentherapie OncoBox;;6;dk_ozbz_st;ja;OnkoZert Brustkrebs ST
+439;OZBZ_SysT;Systemische Therapie OncoBox;;7;dk_ozbz_syst;ja;OnkoZert Brustkrebs SysT
+437;OZBZ_TK;Tumorkonferenzen OncoBox;;4;dk_ozbz_tk;ja;OnkoZert Brustkrebs TK
+440;OZBZ_V;Verlauf OncoBox;;10;dk_ozbz_v;ja;OnkoZert Brustkrebs Verlauf
+265;OZDZ;Onkozert Darmzentrum;;136;dk_ozdz;ja;OnkoZert Darmkrebs
+397;OZDZ_FollowUp;OnkoZert Darm Follow-Up;0;7;dk_ozdz_followup;ja;OnkoZert Darmkrebs FollowUp
+459;OZDZ_Matrix;OZDZ_Follow Up;;36;dk_ozdz_matrix;ja;OnkoZert Darmkrebs Matrix
+460;OZDZ_Matrix_Rektum;OZDZ FollowUp Rektum;;27;dk_ozdz_matrix_rektum;ja;OnkoZert Darmkrebs Matrix Rektum
+325;OZGZ;OnkoZert Gynäkologisches Zentrum;;102;dk_ozgz;ja;OnkoZert Gynäkologische Tumoren, OnkoZert Gynäkologische Tumoren 2019
+435;OZGZ_FollowUp;Ergebnisqualität Gyn;;28;dk_ozgz_followup;ja;Onkozert Gyn FollowUp
+758;OZHBZ;Onkozert Harnblase;;40;dk_ozhbz;ja;OnkoZert Harnblase
+767;OZHN;Onkozert Hämatologische Neoplasien;;40;dk_ozhn;ja;OnkoZert Hämatologie
+784;OZHoden;OZHoden;;27;dk_ozhoden;ja;OnkoZert Hodenkrebs
+432;OZHZ;OnkoZert Hautzentrum;;63;dk_ozhz;ja;OnkoZert Hautkrebs
+434;OZHZ_FollowUp;Ergebnisqualität Haut;;24;dk_ozhz_followup;ja;OnkoZert Hautkrebs FollowUp
+463;OZKHZ;OnkoZert Kopf-Hals-Tumore;;77;dk_ozkhz;ja;OnkoZert Kopf-Hals Tumoren
+698;OZKHZ_FollowUp;Onkozert Kopf-Hals Follow-Up;;13;dk_ozkhz_followup;ja;Onkozert Kopf-Hals-FollowUp
+614;OZKIO;OnkoZert Kinderonkologie;;32;dk_ozkio;ja;OnkoZert Kinderonkologie
+458;OZLBZ;OnkoZert Leberkrebszentrum;;79;dk_ozlbz;ja;OnkoZert Leberkrebs
+312;OZLZ;Onkozert Lungenzentrum;;57;dk_ozlz;ja;OnkoZert Lunge Mesotheliom, OnkoZert Lungenkrebs
+787;OZLZ23_Komorbiditaeten;Onkozert Lungenzentrum Komorbiditäten;;1;dk_ozlz23_komorbiditaeten;ja;OZLZ Komorbiditaeten (DKG23)
+785;OZLZ_23;Onkozert Lungenzentrum ab 2023;;107;dk_ozlz_23;ja;OnkoZert Lungenkrebs 2023
+790;OZLZ_23FM;Onkozert Lungenzentrum Fernmetastasen;;5;dk_ozlz_23fm;ja;OZLZ Fernmetastasen (DKG23)
+793;OZLZ_23Followup;Onkozert Lungenzentrum Follow-Up;;10;dk_ozlz_23followup;ja;OZLZ FollowUp (DKG23)
+794;OZLZ_23Histo;Onkozert Lungenzentrum Histologie;;42;dk_ozlz_23histo;ja;OZLZ Histologie (DKG23)
+791;OZLZ_23OP;Onkozert Lungenzentrum Operation;;9;dk_ozlz_23op;ja;OZLZ Operation (DKG23)
+795;OZLZ_23OPExpertise;Onkozert Lungenzentrum ab 2023 Operative Expertise;;7;dk_ozlz_23opexpertise;ja;OZLZ Operative Expertise (DKG23)
+789;OZLZ_23Strahlentherapie;Onkozert Lungenzentrum Strahlentherapie;;8;dk_ozlz_23strahlentherapie;ja;OZLZ Strahlentherapie (DKG23)
+788;OZLZ_23Studie;Onkozert Lungenzentrum Studie;;4;dk_ozlz_23studie;ja;OZLZ Studie (DKG23)
+792;OZLZ_23Systemtherapie;Onkozert Lungenzentrum Systemtherapie;;11;dk_ozlz_23systemtherapie;ja;OZLZ Systemtherapie (DKG23)
+786;OZLZ_23TK;Onkozert Lungenzentrum Tumorkonferenz;;4;dk_ozlz_23tk;ja;OZLZ Tumorkonferenz (DKG23)
+396;OZLZ_FollowUp;Ergebnisqualität Primärbehandlung Lunge;0;23;dk_ozlz_followup;ja;Onkozert Kopf-Hals-FollowUp, Onkozert Lungenkrebs FollowUp
+462;OZMZ;OnkoZert Magenkrebszentrum;;52;dk_ozmz;ja;OnkoZert Magenkrebs
+470;OZNK;OnkoZert Neuroonkologie;;47;dk_oznk;ja;OnkoZert Neuroonkologie
+734;OZNZ;Onkozert Niere;;47;dk_oznz;ja;OnkoZert Niere
+455;OZOZ;Onkologisches Zentrum;;10;dk_ozoz;ja;OnkoZert OZ CUP, OnkoZert OZ Dünndarm, OnkoZert OZ Endokrine Malignome, OnkoZert OZ Gallenwege, OnkoZert OZ GIST, OnkoZert OZ Gist Neuroendo, OnkoZert OZ Hämatolog. Systemerkrankungen, OnkoZert OZ Harnblase, OnkoZert OZ Hoden, Penis, OnkoZert OZ Leber, OnkoZert OZ Leukämie, OnkoZert OZ Lymphome, OnkoZert OZ Magen, OnkoZert OZ Muskuloskelet. Tumoren, OnkoZert OZ Niere, OnkoZert OZ Speiseröhre
+832;OZPenis;OnkoZert Penis;;31;dk_ozpenis;ja;OnkoZert Penis
+457;OZPK;Onkozert Pankreaszentrum;;72;dk_ozpk;ja;OnkoZert Pankreas
+461;OZPK_FollowUp;Ergebnisqualität Primärbehandlung Pankreaskarzinompatienten;;29;dk_ozpk_followup;ja;Onkozert Kopf-Hals-FollowUp, Onkozert Pankreaskrebs FollowUp
+436;OZPZ;Onkozert Prostatazentrum;;38;dk_ozpz;ja;Onkozert Prostatakrebs
+497;OZPZ_Fragebogen;Patientenfragebogen Prostata;;23;dk_ozpz_fragebogen;ja;OnkoZert Prostatakrebs Patientenfragebogen
+585;OZPZ_OZ_Diagnose;Onkozert Prostata Diagnose;;56;dk_ozpz_oz_diagnose;ja;Onkozert Prostata
+583;OZPZ_OZ_FollowUp;Onkozert Follow-Up;;11;dk_ozpz_oz_followup;ja;Onkozert PZ FollowUp
+582;OZPZ_OZ_Fragebogen;Onkozert Fragebogen;;10;dk_ozpz_oz_fragebogen;ja;Onkozert PZ Fragebogen
+601;OZPZ_OZ_Matrix;Daten für die Matrix;;31;dk_ozpz_oz_matrix;ja;Onkozert PZ Matrix
+581;OZPZ_OZ_Strahlentherapie;Onkozert Strahlentherapie;;12;dk_ozpz_oz_strahlentherapie;ja;Onkozert PZ ST
+584;OZPZ_OZ_Therapie;Onkozert Therapie;;8;dk_ozpz_oz_therapie;ja;Onkozert PZ Therapie
+580;OZPZ_OZ_Tumorkonferenz;Onkozert Tumorkonferenz;;4;dk_ozpz_oz_tumorkonferenz;ja;Onkozert PZ TK
+600;OZPZ_OZ_Zusatzkatalog;OZPZ_OZ_Zusatzkatalog;;20;dk_ozpz_oz_zusatzkatalog;ja;Onkozert Prostata
+653;OZSK;Onkozert Sarkome;;34;dk_ozsk;ja;OnkoZert Sarkome
+664;OZSKGIST;Sarkome GIST;;12;dk_ozskgist;ja;DKG Sarkome GIST
+654;OZSPZ;OnkoZert Speiseröhre;;54;dk_ozspz;ja;OnkoZert Speiseröhre
+275;Pathologie;Pathologie;;132;dk_pathologie;ja;OS.Pathologiebefund
+760;ProzedurenDurchgefuehrt;Durchgefuehrte Prozeduren;;3;dk_prozedurendurchgefuehrt;ja;OS.DurchgefuehrteProzeduren
+347;Psychoonkologie;Psychoonkologische Betreuung;;9;dk_psychoonkologie;ja;OS.Psychoonkologie
+699;Psychosozialdienst;Psychosozialdienst;;8;dk_psychosozialdienst;ja;OS.Psychosozialdienst
+669;ScreeningM;Screening Mangelernährung;;3;dk_screeningm;ja;OS.ScreeningMangelernaehrung
+670;ScreeningP;Screening Psychoonkologie;;7;dk_screeningp;ja;OS.ScreeningPsychoonkologie
+349;SonstigeTherapie;Sonstige Therapie;;22;dk_sonstigetherapie;ja;OS.Sonstige Therapie
+346;Sozialdienst;Sozialdienst;;7;dk_sozialdienst;ja;OS.Sozialdienst
+293;Stadium;Stadium;;48;dk_stadium;ja;OS.Stadium
+775;Stammdaten;Stammdaten;;7;dk_stammdaten;ja;OS.CH.Stammdaten
+319;Stammzelltransplantation;Stammzelltransplantation;;19;dk_stammzelltransplantation;ja;OS.Stammzelltransplantation
+239;Strahlentherapie;Strahlentherapie;;29;dk_strahlentherapie;ja;OS.Strahlentherapie
+350;StrahlentherapieEinzel;Einzelne Strahlentherapie;;60;dk_strahlentherapieeinzel;ja;OS.StrahlentherapieEinzel, OS.StrahlentherapieEinzel.V2
+388;Studie;Studie;;7;dk_studie;ja;OS.Studie
+479;Substanz;Substanz;;4;dk_substanz;ja;OS.Substanz
+240;Systemtherapie;Systemtherapie;;43;dk_systemtherapie;ja;OS.Systemische Therapie
+796;System_Patient;Virtueller DK für die Schnellerfassung;;25;dk_system_patient;ja;Probase.Patient
+416;TKEvaluation;Evaluation der TK-Empfehlung;;6;dk_tkevaluation;ja;OS.TKEvaluation, OS.TKModulEvaluation 
+344;Tumorkonferenz;Tumorkonferenz;;92;dk_tumorkonferenz;ja;OS.MultidisziplinaereBesprechung, OS.Tumorkonferenz, OS.Tumorkonferenzmodul
+273;Verlauf;Verlauf;;43;dk_verlauf;ja;OS.Verlauf
+765;Verordnung;Verordnung;;22;dk_verordnung;ja;Verordnung
+764;VerordnungFragebogen;Verordnung Fragebogen;;11;dk_verordnungfragebogen;ja;Verordnung Fragebogen
+384;WeitereKlassifikation;Weitere Klassifikation;;2;dk_weitereklassifikation;ja;OS.WeitereKlassifikation
+762;WiderrufBefragung;Widerruf Patientenbefragung;;5;dk_widerrufbefragung;ja;WiderrufBefragung
+766;Zugangscode;Zugangscode;;3;dk_zugangscode;ja;Zugangscode

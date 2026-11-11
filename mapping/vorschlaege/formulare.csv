@@ -1,0 +1,33 @@
+﻿nngm_instrument;nngm_label;nngm_visiten;datenfelder;vorschlag_formular;vorschlag_beschreibung;gewicht;alternativen
+patient;patient;;2;;;;
+consents;Zustimmungen nNGM;;122;OS.Einwilligung;Einwilligung/Meldung an das LKR;12.63;"WiderrufBefragung (2.02); EinwilligungBefragung (1.34); OS.Behandler (0.7)"
+tumorDiagnosis;Diagnosen;;9;OS.BestOfTumor;Tumor Zusammenfassung;3.44;"OS.Diagnose (2.6); OS.FernmetastaseDiagnose (0.92)"
+vitalStatus;Vitalstatus;;8;OS.Abschluss;Vitalstatus;4.45;"OS.Behandler (0.68); OS.Arzt (0.58)"
+nngmPortal;Patientenportal;;1;OS.Verlauf;Verlauf;0.56;
+operationTherapy;Operation;;11;OS.Operative Therapie;Operative Therapie;3.09;"OS.Lokalisation (0.94); Onkozert Prostata (0.78); OnkoZert Lungenkrebs 2023 (0.72)"
+radioTherapy;Strahlentherapie;;14;OS.Strahlentherapie;Strahlentherapie;3.46;"OS.StrahlentherapieEinzel.V2 (1.4); OZLZ Strahlentherapie (DKG23) (0.86)"
+systemicTherapy;Systemische Therapie;;35;OS.Systemische Therapie;Systemische Therapie;9.07;"OS.Strahlentherapie (2.45); OnkoZert Lungenkrebs 2023 (0.88); OnkoZert Lungenkrebs (0.75)"
+impalux;IMPALUX;;49;OS.Pathologiebefund;Pathologiebefund;3.9;"OS.GenetischeDiagnostik (3.53); OS.GenetischeBeratung (1.2); OS.FernmetastaseDiagnose (0.74)"
+diagnosticsRequest;Eckdaten der Anforderung;nngm-case;13;OS.Molekulargenetik;Molekulare/Genetische Diagnostik;0.64;"OS.MeldungDaten (0.63); OS.Begleiterkrankung (0.55)"
+healthCoverage;Krankenkasse;nngm-case;2;;;;
+smokerStatus;Raucherstatus;nngm-case;3;OnkoZert Lungenkrebs 2023;DKG Lungenkrebs 2023;0.91;
+ecog;ECOG;nngm-case;1;OnkoZert Lungenkrebs 2023;DKG Lungenkrebs 2023;0.86;
+tumorMaterial;Tumormaterial;nngm-case;5;OS.Molekulargenetik;Molekulare/Genetische Diagnostik;2.85;
+tumorStage;Tumorstadium;nngm-case;24;OS.Stadium;Stadium/Staging;4.25;"OS.Pathologiebefund (0.95); OS.Operative Therapie (0.78)"
+histology;Histologie;nngm-case;11;OnkoZert Darmkrebs;DKG Darm;0.89;"OS.Diagnose (0.81); OZLZ Histologie (DKG23) (0.71)"
+progressRezidiv;Rezidiv/Progress + Resistenztestung;nngm-case;64;OS.Anamnese;Anamnese;7.8;"OS.Molekulargenetische Untersuchung (2.6); OnkoZert Lungenkrebs 2023 (0.68)"
+preliminaryFindingsImmunohistochemistry;Immunhistochemie;nngm-case;51;OS.DurchgefuehrteProzeduren;OPS (Behandlungen/Untersuchungen);8.63;"OS.ScreeningPsychoonkologie (6.19); OS.Molekulargenetik (0.85); OS.LogopaedischeBeratung (0.61)"
+preliminaryOtherExaminations;Nicht-standard nNGM Untersuchungen;nngm-case;6;OS.ScreeningPsychoonkologie;Screening Psychoonkologie;0.62;
+diagnosticHistology;Histologie;nngm-case;13;OnkoZert Darmkrebs;DKG Darm;0.88;"OS.Molekulargenetik (0.85); OS.Diagnose (0.79); OS.LogopaedischeBeratung (0.61)"
+immunohistochemistry;Immunhistochemie;nngm-case;50;OS.DurchgefuehrteProzeduren;OPS (Behandlungen/Untersuchungen);8.63;OS.ScreeningPsychoonkologie (6.19)
+fastTrack;Fast Track;nngm-case;78;OS.Untersuchung;Untersuchung;9.8;OS.Psychoonkologie (0.6)
+lungPanel;NGS DNA Panel;nngm-case;28;OS.Molekulargenetische Untersuchung;Molekulargenetische Sequenzierung;4.01;"OS.Molekulargenetische Hybridisierung (1.75); OS.Untersuchung (1.44); OS.Molekulargenetik (0.91)"
+ngsFusion;NGS RNA Panel;nngm-case;25;OS.Molekulargenetische Hybridisierung;Hybridisierung;3.05;"OS.Molekulargenetische sonstige oder PCR Analyse (1.92); OS.Molekulargenetische Untersuchung (1.57); OS.Untersuchung (1.44)"
+ishFish;ISH/FISH;nngm-case;91;OS.Untersuchung;Untersuchung;10.52;"OS.Molekulargenetik (8.05); OS.ScreeningPsychoonkologie (7.4); OS.Psychoonkologie (0.6)"
+liquidBiopsy;Liquid Biopsy;nngm-case;20;OS.Molekulargenetische Untersuchung;Molekulargenetische Sequenzierung;2.17;"OS.Untersuchung (1.51); OS.Molekulargenetik (1.44); OS.ScreeningPsychoonkologie (1.23)"
+otherExamination;Sonstige Untersuchungen;nngm-case;6;OS.ScreeningPsychoonkologie;Screening Psychoonkologie;0.62;
+resistanceTesting;Resistenztestung;nngm-case;38;OS.Tumorkonferenz;Tumorkonferenz;4.8;"OS.Molekulargenetische Untersuchung (2.82); OS.Molekulargenetische Hybridisierung (1.75); OS.Molekulargenetische sonstige oder PCR Analyse (0.65)"
+assessment;MURIPEDIA Therapie Information;nngm-case;6;OS.Systemische Therapie;Systemische Therapie;1.26;"OS.Studie (0.68); OS.Operative Therapie (0.67)"
+TherapyInformation;Therapieinformation;nngm-case;4;OS.Systemische Therapie;Systemische Therapie;0.55;
+nngm-case;nNGM Fall spezifische Daten;nngm-case;0;;;;
+patient;patient;;2;;;;

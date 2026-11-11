@@ -1,0 +1,8 @@
+﻿id;code;typ;label;sichtbar;editierbar
+aa378996-de75-42ba-8c66-74180f65c8b2;nngmcase;IntermediateVisit;nNGM-Fall;no;yes
+6a2a6794-f478-4404-815a-8734f8bca3fa;digiNetInclusion;IntermediateVisit;DigiNet Einschluss/Einwilligung;yes;yes
+a15943d2-3fcb-435c-8a61-9f92b39bea52;digiNetBaseline;IntermediateVisit;DigiNet Baseline;yes;yes
+9b75ee3a-f61d-4db2-8892-fd165be89828;digiNetPlannedVisit;IntermediateVisit;DigiNet Geplante Visite;yes;yes
+6e4471a2-5227-432d-a8b7-2002ebbbfdfe;digiNetUnplannedVisit;IntermediateVisit;DigiNet Ungeplante Visite;yes;yes
+39d8d8d2-0732-46df-aae4-27948dc3f541;digiNetFollowUp;IntermediateVisit;DigiNet Follow Up;yes;yes
+e20b3568-d3e8-4b8a-b5fa-e0bd6525692a;digiNetDropoutVisit;IntermediateVisit;DigiNet Abbruch (Vorzeitiges Studienende);yes;yes

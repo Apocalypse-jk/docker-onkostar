@@ -1,0 +1,130 @@
+﻿nngm_dictionary;anzahl_werte;verwendet_in_feldern;vorschlag_merkmalskatalog;abdeckung;treffer_text;treffer_code;os_anzahl_werte;score;nicht_gefunden;alternativen
+yesNo;2;99;OS.JaNein;1;2;0;2;1.11;;"OZ.JaNein (100 %); OS.Einwilligung Tumordokumentation (100 %); EmpfehlungKörperlichesTraining (100 %)"
+posNegResult;3;29;OZ.LZ.MolGenErgebnis;1;3;0;4;0.97;;"OS.p16 (67 %); OZ.pos_neg (67 %); ADT.Darm.MSI (67 %)"
+fastTrackAssay;8;12;;;;;;;;
+systemischeTherapieMedikament;129;11;;;;;;;;
+consentReasonForChange;2;6;;;;;;;;
+exonFusionResult;3;6;;;;;;;;"OS.MolAktivierend (33 %); OZ.LZ.Mutation (33 %); OZ.LZ.MolGenErgebnis (33 %)"
+ihcResult;4;6;OZ.LZ.MolGenErgebnis;1;4;0;4;1.05;;"OS.p16 (50 %); OZ.pos_neg (50 %); ADT.Darm.MSI (50 %)"
+noExactPercentage;2;6;;;;;;;;"OS.MolAktivierend (50 %); OZ.pos_neg (50 %); OZ.LZ.Mutation (50 %)"
+resistanceTestingResult;3;6;;;;;;;;"OS.MolAktivierend (33 %); OZ.LZ.Mutation (33 %); OZ.LZ.MolGenErgebnis (33 %)"
+stainingPattern;3;6;;;;;;;;
+exonResult;3;5;;;;;;;;"OS.MolAktivierend (33 %); OZ.LZ.Mutation (33 %); OZ.LZ.MolGenErgebnis (33 %)"
+yesNoUnknown;3;4;OS.JaNeinUnbekannt;1;3;0;3;1.1;;"OZ.JaNeinUnbekannt (100 %); OZ.LZ.JaNeinUnbekannt (100 %); ADJU.Ja/Nein/Unbekannt (100 %)"
+ntrkAntibody;4;3;;;;;;;;
+ntrkExaminations;16;3;;;;;;;;
+tnmCpuPraefix;3;3;TNM N Präfix;1;3;0;3;1.07;;"TNM T Präfix (100 %); TNM M Präfix (100 %); OZ.PZ.Therapieintention (100 %)"
+alkAntibody;7;2;;;;;;;;
+analysisImossibleReason;2;2;;;;;;;;"ADURO.TherapieVorher (50 %); Probase.Biopsieverfahren (50 %); Probase.Anaesthesieverfahren (50 %)"
+aufenthaltsart;3;2;;;;;;;;"OS.JaNeinUnbekannt (33 %); OS.Therapiedurchführung (33 %); OZ.JaNeinUnbekannt (33 %)"
+brafAntibody;1;2;;;;;;;;
+chromosome;25;2;OS.MolDiagFusionChromosome;0.96;24;0;24;1.04;chrM;
+ck7Antibody;2;2;;;;;;;;
+ecog;7;2;ADT.LeistungszustandECOG;1;7;0;7;1.07;;"CTCAE Schweregrad (100 %); OZ.ASA-Klassifikation (86 %); OS.ACR (86 %)"
+fishAmplification;4;2;;;;;;;;
+genomeBuild;2;2;;;;;;;;OS.MolSeqGenom (50 %)
+gfrExaminations;17;2;;;;;;;;
+grading;8;2;OZ.Grading;0.63;5;0;5;0.7;G0, U, T;ADT.Grading (50 %)
+icdO3Histology;70;2;;;;;;;;ICD-O-3 Lokalisation (99 %)
+icsPercents;4;2;;;;;;;;"CH.Kantonsnummer (75 %); OZ.LZ.Therapielinie (75 %); KRBW.HER2neu (50 %)"
+ihcClassification;4;2;;;;;;;;"OS.RezeptorFaerbeintensitaet (100 %); OS.SicherheitsfrageAntwortTyp (100 %); OZ.Verstorben (100 %)"
+liquidBiopsyResult;3;2;OZ.LZ.MolGenErgebnis;1;3;0;4;0.97;;"OS.p16 (67 %); OZ.pos_neg (67 %); ADT.Darm.MSI (67 %)"
+materialAvailability;3;2;;;;;;;;
+metAntibody;2;2;;;;;;;;
+mib1Antibody;4;2;;;;;;;;
+mIB1Percents;4;2;;;;;;;;
+neuroendocrineMarkers;4;2;;;;;;;;
+p40Antibody;5;2;;;;;;;;
+pdl1Antibody;6;2;;;;;;;;
+pdl1Result;2;2;;;;;;;;"OS.MolAktivierend (50 %); OZ.LZ.Mutation (50 %); OZ.LZ.MolGenErgebnis (50 %)"
+positionSurgicalTherapy;6;2;;;;;;;;"OZ.LZ.SyTherapie (33 %); CDA.ZeitlicheRelation (33 %); OZ.BZ.Empfehlung (33 %)"
+reasonNoDiagnostics;2;2;;;;;;;;"OS.FB.Typ (50 %); OZ.GründeNichtdurchführung (50 %); OS.Stammzelltherapieart (50 %)"
+tnmMV8;6;2;OZ.LZ.TNMM;1;6;0;6;1.03;;"ADURO.PraeM (100 %); ADURO.PostM (100 %); OZ.PZ.PathologischesTNMpM (100 %)"
+tnmTV8;12;2;OZ.LZ.TNMT;1;12;0;13;1.01;;"OZ.PZ.PathologischesTNMpt (83 %); ADURO.PraeT (92 %); OZ.PZ.PrätherapeutischesT (83 %)"
+tpsPercents;3;2;;;;;;;;"OS.JaNein (33 %); ALC.PDE5HemmerHäufigkeit (67 %); OZ.JaNein (33 %)"
+ttf1Antibody;3;2;;;;;;;;
+uiccVersionWithUnknown;4;2;OS.GradingElstonEllis;1;1;3;8;0.7;;"OZ.LZ.Therapielinie (100 %); OS.GenetischeMarkerWerte (75 %); OS.GenetischeVeraenderungenWerte (75 %)"
+alkCishKit;1;1;;;;;;;;
+alkExaminations;20;1;;;;;;;;
+alkFishKit;3;1;;;;;;;;
+anforderungDiagnosticRequested;2;1;;;;;;;;OS.Studie.Ende (50 %)
+anforderungDiagnosticType;2;1;;;;;;;;
+anforderungFastTrack;5;1;;;;;;;;"OS.MolGenExon (80 %); CH.Kantonsnummer (100 %); ALC.ICIQ-UI (100 %)"
+anforderungHistologischeAbklaerung;6;1;;;;;;;;
+anforderungLiquidBiopsy;2;1;;;;;;;;
+anforderungMolekularpathologie;4;1;OS.GenetischeMarker;0.5;2;0;24;0.43;C18399, C18325;
+basedOnRecommendation;5;1;;;;;;;;
+bestResponse;10;1;KRBW.Gesamtbeurteilung;0.5;1;4;9;0.3;noChange, divergentEvents, relapse, assessmentImpossible, noInformation;"OZ.PZ.TumorstatusGesamt (30 %); System.Land (30 %)"
+bestSupportiveCareReason;4;1;OS.TK.Therapieabweichung;0.5;2;0;6;0.51;GeneralCondition, Other;OS.Unterbrechungsgrund (50 %)
+boostExecuted;5;1;;;;;;;;
+brafExaminations;16;1;;;;;;;;
+deathInformationSource;9;1;;;;;;;;
+diagnosisType;2;1;;;;;;;;
+egfrFishKit;1;1;;;;;;;;
+endOfRadiotherapy;8;1;;;;;;;;
+erbb2FishKit;1;1;;;;;;;;
+exonMetResult;3;1;;;;;;;;"OS.MolAktivierend (33 %); OZ.LZ.Mutation (33 %); OZ.LZ.MolGenErgebnis2 (33 %)"
+fastTrackNoAnalysisReason;2;1;;;;;;;;"ADURO.TherapieVorher (50 %); Probase.Biopsieverfahren (50 %); Probase.Anaesthesieverfahren (50 %)"
+fusionPartnerType;2;1;;;;;;;;
+gender;6;1;OZ.Geschlecht;0.83;4;1;5;0.88;other;"System.Geschlecht (83 %); ADURO.Geschlecht (67 %); ADJU.Geschlecht (50 %)"
+grundFehlendeBiopsie;5;1;;;;;;;;OS.WeitereKlassifikationenWerte (40 %)
+healthInsurance;191;1;;;;;;;;
+her2ImmunoReactiveScore;4;1;;;;;;;;"OS.RezeptorFaerbeintensitaet (100 %); OS.SicherheitsfrageAntwortTyp (100 %); OZ.Verstorben (100 %)"
+icdO3Lung;6;1;;;;;;;;"OZ.LZ.DiagnoseschlüsselICD10 (100 %); ICD-O-3 Lokalisation (100 %)"
+impaluxCohort;2;1;OS.ICCC-3-Codes;1;2;0;6;0.86;;"OS.WeitereKlassifikationenWerte (100 %); CDA.Binet (100 %); CDA.Ann-Arbor.Allgemeinsymptome (100 %)"
+kBVVSSFHIRICDSEITENLOKALISATION;4;1;ADT.Seitenlokalisation;1;3;1;6;0.9;;"ADJU.Seite (75 %); KRBW.Seitenlokalisation (100 %); OS.Präparat (75 %)"
+krasExaminations;18;1;;;;;;;;
+krasFishKit;1;1;;;;;;;;
+lastContactInformationSource;8;1;;;;;;;;
+liquidBiopsyResistanceTestingGene;5;1;OS.GenetischeMarker;0.6;3;0;24;0.51;ROS1, other;
+lungPanelConsequence;6;1;;;;;;;;
+materialTyp;2;1;;;;;;;;"OS.Probenmaterial (50 %); ICD-O-3 Lokalisation (50 %)"
+metCishKit;1;1;;;;;;;;
+metExaminations;19;1;;;;;;;;
+metFishKit;3;1;;;;;;;;
+metIshResult;4;1;OZ.LZ.MolGenErgebnis;0.5;2;0;4;0.55;positiv (high-level amplification), positiv (moderate-level amplification);
+metPhenotype;2;1;;;;;;;;"OS.MolGenMET_Level (50 %); OS.MolDiagEVInterpretation (50 %)"
+napsinAAntibody;4;1;;;;;;;;
+ntrk1FishKit;1;1;;;;;;;;
+ntrk2FishKit;1;1;;;;;;;;
+ntrk3FishKit;1;1;;;;;;;;
+operationIntention;6;1;;;;;;;;
+operationLokalisation;6;1;ADJU.LokalisationFM;0.67;4;0;10;0.54;Gehirn, Nebenniere;"TNM Metastasen (50 %); CDA.Organe bei extranodalem Befall (67 %); OZ.Leistungserbringer (33 %)"
+pkvTarifform;3;1;;;;;;;;OS.MolDokumentation (33 %)
+posNegPolysomyResult;5;1;OZ.LZ.MolGenErgebnis;0.6;3;0;4;0.69;highPolysomyOver40, highPolysomy10To40;"OS.p16 (40 %); OZ.pos_neg (40 %); HormonrezeptorstatusÖstrogen (40 %)"
+predominantIntensity;4;1;;;;;;;;
+radiationTarget;99;1;;;;;;;;KRBW.Diagnosesicherung (30 %)
+radiationTargetSide;6;1;;;;;;;;
+raucherstatus;4;1;OZ.LZ.Raucher;0.5;2;0;4;0.53;LA18979-7, unknown;
+resectionStatus;7;1;ADT.R-Klassifikation;0.86;6;0;6;0.93;u;"OS.R-Klassifikation (100 %); OZ.R-Klassifikation (57 %); ADURO.Resektion (57 %)"
+resectionType;8;1;;;;;;;;
+responseAssessmentBy;2;1;;;;;;;;
+retCishKit;1;1;;;;;;;;
+retExaminations;17;1;;;;;;;;
+retFishKit;3;1;;;;;;;;
+ros1CishKit;1;1;;;;;;;;
+ros1Examinations;19;1;;;;;;;;
+ros1FishKit;3;1;;;;;;;;
+studyRegister;5;1;;;;;;;;
+synaptoAntibody;6;1;;;;;;;;
+systemicTherapeuticIntention;4;1;;;;;;;;
+systemischeTherapieGrundNichtumsetzung;8;1;;;;;;;;
+therapeuticIntention;5;1;;;;;;;;
+therapyEndOrChangeReason;9;1;;;;;;;;
+tnmMUnknown;8;1;OZ.LZ.TNMM;0.75;6;0;6;0.86;M1c1, M1c2;"ADURO.PraeM (75 %); ADURO.PostM (75 %); OZ.PZ.PathologischesTNMpM (75 %)"
+tnmMV7;5;1;OZ.LZ.TNMM;1;5;0;6;0.98;;"ADURO.PraeM (100 %); ADURO.PostM (100 %); OZ.PZ.PathologischesTNMpM (100 %)"
+tnmMV9;7;1;OZ.LZ.TNMM;0.71;5;0;6;0.78;M1c1, M1c2;"ADURO.PraeM (71 %); ADURO.PostM (71 %); OZ.PZ.PathologischesTNMpM (71 %)"
+tnmN;5;1;OZ.LZ.TNMN;1;5;0;5;1.03;;"ADURO.PostN (100 %); ADURO.PraeN (100 %); OZ.PZ.PathologischesTNMpN (60 %)"
+tnmNUnknown;7;1;OZ.LZ.TNMN;0.71;5;0;5;0.83;N2a, N2b;"ADURO.PostN (71 %); ADURO.PraeN (100 %); OZ.PZ.PathologischesTNMpN (43 %)"
+tnmNV9;6;1;ADURO.PraeN;1;6;0;22;0.75;;"OZ.LZ.TNMN (67 %); ADURO.PostN (67 %); OZ.PZ.PathologischesTNMpN (50 %)"
+tnmPraefix;2;1;;;;;;;;"ADT.Gesamtbeurteilung (100 %); OZ.LZ.TumorstatusGesamt (100 %); TNM-y (50 %)"
+tnmSuffixT;3;1;OS.R-Klassifikation-Suffix;0.67;2;0;6;0.47;m;"OS.Mutationsort (33 %); TNM Multiplizität (33 %); OS.OrtDurchführung (33 %)"
+tnmTUnknown;12;1;OZ.LZ.TNMT;1;12;0;13;1.01;;"OZ.PZ.PathologischesTNMpt (83 %); ADURO.PraeT (92 %); OZ.PZ.PrätherapeutischesT (83 %)"
+tnmTV7;10;1;OZ.LZ.TNMT;1;10;0;13;0.97;;"ADURO.PraeT (100 %); OZ.PZ.PathologischesTNMpt (90 %); ADURO.PostT (90 %)"
+tnmTV9;12;1;OZ.LZ.TNMT;1;12;0;13;1.01;;"OZ.PZ.PathologischesTNMpt (83 %); ADURO.PraeT (92 %); OZ.PZ.PrätherapeutischesT (83 %)"
+uiccStadiumWithUnknown;15;1;UICC-Stadium;0.93;13;1;18;0.9;unknown;"OS.UICC-Stadium (93 %); OS.AJCC-Stadium (80 %); CDA.FIGO (87 %)"
+uiccUnknown;15;1;UICC-Stadium;0.93;13;1;18;0.9;unknown;"OS.UICC-Stadium (93 %); OS.AJCC-Stadium (80 %); CDA.FIGO (87 %)"
+uiccV7;9;1;OS.AJCC-Stadium;1;8;1;18;0.88;;"OS.UICC-Stadium (89 %); UICC-Stadium (89 %); OS.WeitereKlassifikationenWerte (100 %)"
+uiccV8;14;1;UICC-Stadium;0.93;12;1;18;0.88;unknown;"OS.UICC-Stadium (93 %); OS.AJCC-Stadium (79 %); CDA.FIGO (86 %)"
+uiccV9;15;1;UICC-Stadium;0.93;13;1;18;0.9;unknown;"OS.UICC-Stadium (93 %); OS.AJCC-Stadium (80 %); CDA.FIGO (87 %)"
+vitalstatus;3;1;OS.Vitalstatus;1;2;1;3;0.96;;"OZ.LZ.Vitalstatus (67 %); GEKID.Meldebegründung (67 %); GEKID.Meldebegründung.HH (67 %)"

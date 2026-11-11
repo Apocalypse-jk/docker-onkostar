@@ -1,0 +1,797 @@
+﻿id;name;beschreibung;standard;anzahl_versionen;aktuelle_version;gueltig_ab;anzahl_werte;werte_exportiert;verwendet_in_feldern
+974; FU_CLLBinet; CLL nach Binet;SIMPLE;1;1;2017-09-06;0;ja;0
+1568;ADJU.Antihormontherapie;ADJU.Antihormontherapie;SIMPLE;1;1;2020-07-05;4;ja;3
+1591;ADJU.Aromatasehemmer;ADJU.Aromatasehemmer;SIMPLE;2;2;2023-01-01;3;ja;1
+1586;ADJU.Aspirationszytologie;ADJU.Aspirationszytologie;SIMPLE;1;1;2019-08-18;8;ja;1
+1584;ADJU.Ausdehnung;ADJU.Ausdehnung;SIMPLE;1;1;2019-08-18;4;ja;1
+1547;ADJU.AusdehungALND;ADJU.AusdehungALND;SIMPLE;2;2;2023-01-01;6;ja;1
+1565;ADJU.AusdehungTumor;ADJU.AusdehungTumor;SIMPLE;2;2;2023-01-01;3;ja;1
+1552;ADJU.AusschaltungOvar;ADJU.AusschaltungOvar;SIMPLE;2;2;2023-01-01;6;ja;2
+1573;ADJU.Befund;ADJU.Befund;SIMPLE;2;2;2023-01-01;4;ja;2
+1570;ADJU.BestimmungGröße;ADJU.BestimmungGröße;SIMPLE;1;1;2019-08-18;5;ja;1
+1594;ADJU.BI-RADS;ADJU.BI-RADS;SIMPLE;1;1;2019-08-15;10;ja;2
+1583;ADJU.BiopsieDurchgefuehrt;ADJU.BiopsieDurchgefuehrt;SIMPLE;1;1;2022-12-31;3;ja;1
+1528;ADJU.BoostTechnik;ADJU.BoostTechnik;SIMPLE;2;2;2023-01-01;3;ja;1
+1540;ADJU.ChemoSchema;Chemotherapie Schema;SIMPLE;1;1;2020-07-26;15;ja;1
+1567;ADJU.cN;ADJU.cN;SIMPLE;2;2;2023-01-01;6;ja;1
+1531;ADJU.Durchgeführt;ADJU.Durchgeführt;SIMPLE;2;2;2023-01-01;5;ja;4
+1595;ADJU.ErgebnisRadiographie;ADJU.ErgebnisRadiographie;SIMPLE;1;1;2019-08-18;4;ja;1
+1526;ADJU.FM;ADJU.FM;SIMPLE;1;1;2019-08-18;3;ja;1
+1617;ADJU.Frist;ADJU.Frist;SIMPLE;1;1;2020-04-08;13;ja;3
+1566;ADJU.Gefrierschnitt;ADJU.Gefrierschnitt;SIMPLE;1;1;2019-08-18;7;ja;1
+1548;ADJU.GefrierschnittRand;ADJU.GefrierschnittRand;SIMPLE;1;1;2019-08-18;8;ja;1
+1558;ADJU.Geschlecht;ADJU.Geschlecht;SIMPLE;2;2;2023-01-01;3;ja;1
+1575;ADJU.GrundInfoSpaet;Gründe für die verspätete Information über Pathologiebefund;SIMPLE;1;1;2022-12-31;3;ja;2
+1577;ADJU.GrundTherapieSpaet;Gründe für den verzögerten Therapiebeginn;SIMPLE;1;1;2022-12-31;3;ja;2
+1530;ADJU.Hauptdiagnose;ADJU.Hauptdiagnose;SIMPLE;2;2;2023-01-01;4;ja;1
+1564;ADJU.Her2;ADJU.Her2;SIMPLE;2;2;2023-01-01;6;ja;1
+1551;ADJU.Herkunft;ADJU.Herkunft;SIMPLE;2;2;2023-01-01;5;ja;1
+1527;ADJU.HistoLeasionGutartig;ADJU.HistoLeasionGutartig;SIMPLE;1;1;2019-08-18;13;ja;1
+1596;ADJU.HistologieLaesionInvasiv;ADJU.HistologieLaesionInvasiv;SIMPLE;2;2;2023-01-01;8;ja;1
+1554;ADJU.HistologischeWertung;ADJU.HistologischeWertung;SIMPLE;1;1;2019-08-18;4;ja;1
+1597;ADJU.HistologResultat;ADJU.HistologResultat;SIMPLE;1;1;2019-08-18;4;ja;1
+1556;ADJU.HistologTyp;ADJU.HistologTyp;SIMPLE;1;1;2019-08-18;11;ja;1
+1538;ADJU.InSituKomponente;ADJU.InSituKomponente;SIMPLE;2;2;2023-01-01;3;ja;1
+1590;ADJU.Intraoperativ/Postoperativ;ADJU.Intraoperativ/Postoperativ;SIMPLE;1;1;2019-09-01;4;ja;1
+1525;ADJU.Invasion;ADJU.Invasion;SIMPLE;1;1;2019-08-18;3;ja;1
+1537;ADJU.Ja/Nein;ADJU.Ja/Nein;SIMPLE;1;1;2019-07-14;2;ja;13
+1550;ADJU.ja/nein(manuell/automatisch);ADJU.ja/nein(manuell/automatisch);SIMPLE;1;1;2019-09-15;4;ja;1
+1317;ADJU.Ja/Nein/Unbekannt;ADJU.Ja/Nein/Unbekannt;SIMPLE;1;1;2019-07-14;3;ja;27
+1529;ADJU.Ja/Nein2;ADJU.Ja/Nein;SIMPLE;1;1;2020-07-21;2;ja;7
+1523;ADJU.KlinischeUntersuchung;ADJU.KlinischeUntersuchung;SIMPLE;1;1;2019-07-14;5;ja;1
+1592;ADJU.KlUntersuchungNEO;ADJU.KlinischeUntersuchungNEO;SIMPLE;1;1;2020-07-06;6;ja;1
+1521;ADJU.Komplikation;ADJU.Komplikation;SIMPLE;2;2;2023-01-01;5;ja;3
+1562;ADJU.Laesion;ADJU.Laesion;SIMPLE;1;1;2019-07-14;6;ja;1
+1580;ADJU.LokalisationFM;ADJU.LokalisationFM;SIMPLE;1;1;2019-09-02;10;ja;1
+1574;ADJU.LymphovaskuläreInvasion;ADJU.LymphovaskuläreInvasion;SIMPLE;1;1;2019-08-18;5;ja;1
+1539;ADJU.Mastektomie;Indikation Mastektomie;SIMPLE;1;1;2022-12-31;5;ja;3
+1559;ADJU.negativ/positiv/unbekannt;ADJU.negativ/positiv/unbekannt;SIMPLE;1;1;2019-08-18;3;ja;1
+1544;ADJU.NichtDurchgeführt;ADJU.NichtDurchgeführt;SIMPLE;1;1;2019-08-18;5;ja;3
+1585;ADJU.OnkIntervention;ADJU.OnkIntervention;SIMPLE;2;2;2023-01-01;6;ja;3
+1571;ADJU.PathologischesGrading;ADJU.PathologischesGrading;SIMPLE;1;1;2019-08-18;5;ja;2
+1581;ADJU.PatientInformiert;ADJU.PatientInformiert;SIMPLE;1;1;2020-08-09;5;ja;1
+1563;ADJU.PatientOperiert;Patientin operiert;SIMPLE;1;1;2022-12-31;4;ja;1
+1553;ADJU.PLASTIC;ADJU.PLASTIC;SIMPLE;1;1;2019-08-18;3;ja;2
+1520;ADJU.PlastischeOP;Plastische Operation;SIMPLE;1;1;2022-12-31;3;ja;1
+1593;ADJU.positiv/negativ/equivocal;ADJU.positiv/negativ/equivocal;SIMPLE;2;2;2023-01-01;4;ja;1
+1589;ADJU.PräopEmpfehlung;ADJU.PräopEmpfehlung;SIMPLE;2;2;2023-01-01;5;ja;1
+1572;ADJU.PrimaerMammaCA;ADJU.PrimaerMammaCA;SIMPLE;1;1;2019-09-02;4;ja;1
+1536;ADJU.PunktionAxilla;ADJU.PunktionAxilla;SIMPLE;2;2;2023-01-01;9;ja;1
+1587;ADJU.RadioAxilla;ADJU.RadioAxilla;SIMPLE;2;2;2023-01-01;3;ja;1
+1532;ADJU.RadioBrust;ADJU.RadioBrust;SIMPLE;1;1;2019-09-01;6;ja;1
+1578;ADJU.RadioBrustwand;ADJU.RadioBrustwand;SIMPLE;2;2;2023-01-01;3;ja;1
+1588;ADJU.Radiographie;ADJU.Radiographie;SIMPLE;2;2;2023-01-01;2;ja;1
+1560;ADJU.Radiotherapie;ADJU.Radiotherapie;SIMPLE;2;2;2023-01-01;3;ja;1
+1561;ADJU.RECONSTRUCTION;ADJU.Reconstruction;SIMPLE;1;1;2019-08-18;6;ja;2
+1557;ADJU.RTpartialeBrust;ADJU.RTpartialeBrust;SIMPLE;2;2;2023-01-01;3;ja;1
+1542;ADJU.RTsupraclavicular;ADJU.RTsupraclavicular;SIMPLE;2;2;2023-01-01;3;ja;2
+1302;ADJU.Schwerpunkt;Adjumed Schwerpunkte Urologie;SIMPLE;1;1;2022-08-28;3;ja;2
+1555;ADJU.Seite;ADJU.Seite;SIMPLE;1;1;2019-07-14;3;ja;1
+1543;ADJU.SofortRekonstruktion;Typ der Sofort-Rekonstruktion;SIMPLE;1;1;2022-12-31;4;ja;1
+1533;ADJU.Stanzbiobsie;ADJU.Stanzbiobsie;SIMPLE;2;2;2023-01-01;6;ja;1
+1576;ADJU.StatusFollowUp;ADJU.StatusFollowUp;SIMPLE;2;2;2023-01-01;6;ja;1
+1579;ADJU.TechnikBiopsie;ADJU.TechnikBiopsie;SIMPLE;2;2;2023-01-01;4;ja;1
+1569;ADJU.Therapiedurchf01;ADJU.Therapiedurchf01;SIMPLE;1;1;2020-07-05;4;ja;1
+1524;ADJU.Therapiedurchführung;ADJU.Therapiedurchführung;SIMPLE;2;2;2023-01-01;6;ja;5
+1622;ADJU.TNM-N;ADJU.TNM-N;SIMPLE;1;1;2019-08-18;11;ja;0
+1546;ADJU.TNM-N_abschliessend;ADJU.TNM-N_abschliessend;SIMPLE;2;2;2023-01-01;16;ja;1
+1541;ADJU.TNM-N_pN;ADJU.TNM-N_pN;SIMPLE;1;1;2020-07-05;12;ja;1
+1534;ADJU.TNM-N_yN;ADJU.TNM-N_yN;SIMPLE;1;1;2020-07-14;17;ja;1
+1545;ADJU.TNM-T;ADJU.TNM-T;SIMPLE;2;2;2023-01-01;16;ja;3
+1522;ADJU.Todesursache;ADJU.Todesursache;SIMPLE;1;1;2019-09-02;3;ja;1
+1549;ADJU.TypRezidiv1;ADJU.TypRezidiv1;SIMPLE;1;1;2019-09-01;5;ja;1
+1535;ADJU.Wundinfektion;ADJU.Wundinfektion;SIMPLE;2;2;2023-01-01;5;ja;1
+1582;ADJU:GrundNichtOP;ADJU:GrundNichtOP;SIMPLE;2;2;2023-01-01;4;ja;1
+1341;ADT.AbschlussNachsorge;Abschluss Nachsorge;SIMPLE;1;1;2013-07-09;4;ja;1
+175;ADT.ApplikationsartStrahlentherapie;Applikationsart Strahlentherapie;SIMPLE;1;1;2013-04-28;18;ja;2
+165;ADT.BeendigungsstatusTherapie;Beendigungsstatus der Therapie;SIMPLE;1;1;2013-04-01;3;ja;5
+395;ADT.BI-RADS;BI-RADS Diagnosekategorien;SIMPLE;1;1;2013-09-23;11;ja;1
+371;ADT.Darm.MSI;Mikrosatelliteninstabilität;SIMPLE;1;1;2013-08-28;4;ja;1
+171;ADT.Diagnosesicherung;Diagnosesicherung;SIMPLE;1;1;2014-01-01;9;ja;2
+950;ADT.Drahtmarkierung;Präop. Drahtmarkierung;SIMPLE;1;1;2017-07-24;5;ja;0
+260;ADT.EGFR-Mutation;EGFR-Mutation;SIMPLE;1;1;2013-07-09;4;ja;0
+324;ADT.Extralymphatisch;Extralymphatisch;SIMPLE;1;1;2013-07-29;3;ja;0
+421;ADT.Gesamtbeurteilung;Remissionsstatus;SIMPLE;1;1;2014-01-01;10;ja;5
+242;ADT.Gesamtbeurteilung.v1;Gesamtbeurteilung Tumorstatus;SIMPLE;1;1;2013-07-03;7;ja;1
+184;ADT.Grading;Histopathologisches Grading;SIMPLE;1;1;2014-01-01;12;ja;3
+561;ADT.Intention;ADT.Intention;SIMPLE;1;1;2015-01-01;4;ja;1
+259;ADT.LeistungszustandECOG;Allgemeiner Leistungszustand;SIMPLE;1;1;2013-07-09;7;ja;16
+394;ADT.Menopause;Menopausenstatus;SIMPLE;1;1;2013-09-23;4;ja;1
+948;ADT.Menopausenstatus;Prätherapeutischer Menopausenstatus;SIMPLE;1;1;2017-07-24;3;ja;0
+417;ADT.Oestrogen;Hormonrezeptorstatus Östrogen;SIMPLE;1;1;2013-10-26;2;ja;0
+559;ADT.OP_Komplikationen;OP_Komplikationen;SIMPLE;1;1;2015-01-01;80;ja;1
+951;ADT.Praeparatkontrolle;Intraop. Präparatkontrolle;SIMPLE;1;1;2017-07-24;4;ja;0
+418;ADT.Progesteron;Hormonrezeptorstatus Progesteron;SIMPLE;1;1;2013-10-26;2;ja;0
+560;ADT.R-Klassifikation;R-Klassifikation;SIMPLE;1;1;2015-01-01;6;ja;3
+949;ADT.Rezeptorstatus;Hormonrezeptorstatus;SIMPLE;1;1;2017-07-24;3;ja;0
+170;ADT.Seitenlokalisation;Seite;SIMPLE;1;1;2013-04-16;6;ja;6
+562;ADT.Stellung_OP;ADT.Stellung_OP;SIMPLE;1;1;2015-01-01;5;ja;0
+750;ADT.TherapieartSYST;Art der systemischen oder abwartenden Therapie;SIMPLE;1;1;2016-03-15;8;ja;3
+1342;ADT.Todesursache;Todesursache;SIMPLE;1;1;2013-07-09;4;ja;1
+364;ADT.Untersuchungen;Untersuchungen;SIMPLE;1;1;2013-08-22;13;ja;0
+355;ADT.Untersuchungsanlass;Untersuchungsanlass;SIMPLE;1;1;2013-08-12;10;ja;1
+385;ADT.Wachstumsform;Histo-Wachstumsform;SIMPLE;1;1;2013-09-23;2;ja;1
+266;ADT.Zelltyp;Zelltyp;SIMPLE;1;1;2013-07-19;6;ja;1
+749;ADT.Zielgebiete;ADT.Zielgebiete;SIMPLE;3;3;2017-01-11;68;ja;1
+1496;ADURO.Altersklasse;Altersklasse;SIMPLE;1;1;2021-09-20;13;ja;3
+1602;ADURO.AnderePathologie;Andere Pathologie;SIMPLE;1;1;2021-09-20;5;ja;1
+1515;ADURO.ArtHarnableitung;Art der Harnableitung;SIMPLE;1;1;2022-03-30;6;ja;1
+1506;ADURO.ASA;ASA-Klasse;SIMPLE;1;1;2021-09-20;7;ja;3
+1490;ADURO.Behandlungsart;Behandlungsart;SIMPLE;1;1;2022-03-21;5;ja;1
+1614;ADURO.BiopTechnik;Biopsie Technik;SIMPLE;1;1;2021-09-28;5;ja;1
+1448;ADURO.ChemoArt;ADURO.ChemoArt;SIMPLE;1;1;2022-03-22;3;ja;4
+1489;ADURO.ChemoArtHarnblase;ADURO.ChemoArtHarnblase;SIMPLE;1;1;2020-12-31;4;ja;1
+1620;ADURO.ChirTherapie;Chirurgische Therapie;SIMPLE;1;1;2021-09-20;2;ja;1
+1519;ADURO.Darmsegment;Verwendetes Darmsegment;SIMPLE;1;1;2022-03-30;5;ja;1
+1478;ADURO.DatTod;Todesdatum nur ungefähr bekannt;SIMPLE;1;1;2021-09-29;3;ja;3
+1477;ADURO.DiagnoseKorrekt;Diagnose korrekt;SIMPLE;1;1;2022-03-22;3;ja;1
+1517;ADURO.Eingriffe;Eingriffe;SIMPLE;1;1;2021-09-29;5;ja;3
+1616;ADURO.ErblBelastung;Erbliche Belastung;SIMPLE;1;1;2021-09-28;3;ja;1
+1510;ADURO.ErhaltSamenblase;Samenblasenerhalt durchgeführt;SIMPLE;1;1;2021-09-29;3;ja;4
+1488;ADURO.Fallfilter;ADURO.Fallfilter;SIMPLE;1;1;2022-03-07;3;ja;3
+1479;ADURO.Geschlecht;Geschlecht;SIMPLE;1;1;2021-09-20;5;ja;3
+1474;ADURO.GLEASON;Gleason;SIMPLE;1;1;2021-09-28;5;ja;6
+1605;ADURO.Grading;Histologisches Grading;SIMPLE;1;1;2021-09-20;4;ja;1
+1470;ADURO.GradingHarnblase;ADURO.GradingHarnblase;SIMPLE;1;1;2020-12-31;2;ja;2
+1603;ADURO.Hautfarbe;Hautfarbe;SIMPLE;1;1;2021-09-20;2;ja;1
+1508;ADURO.HSM_Aufbau;ADURO.HSM_Aufbau;SIMPLE;1;1;2022-05-22;6;ja;1
+1512;ADURO.HSM_Auswahl;ADURO.HSM_Auswahl;SIMPLE;1;1;2022-06-21;5;ja;1
+1509;ADURO.HSM_Harnableitung;ADURO.HSM_Harnableitung;SIMPLE;1;1;2022-05-22;5;ja;1
+1513;ADURO.HSM_Revision;ADURO.HSM_Revision;SIMPLE;1;1;2022-05-22;3;ja;1
+1511;ADURO.HSM_SonstigeZystektomie;ADURO.HSM_SonstigeZystektomie;SIMPLE;1;1;2022-05-22;6;ja;1
+1514;ADURO.HSM_SonstInzision/Exzision;ADURO.HSM_SonstInzision/Exzision;SIMPLE;1;1;2022-05-22;1;ja;1
+1624;ADURO.Infektion;Art der Infektion;SIMPLE;1;1;2021-09-20;7;ja;0
+1482;ADURO.Instillationstherapie;ADURO.Instillationstherapie;SIMPLE;1;1;2020-12-31;4;ja;1
+1621;ADURO.Ischaemie;Typ Ischämie;SIMPLE;1;1;2021-09-20;3;ja;1
+1449;ADURO.JaNein;Ja Nein;SIMPLE;1;1;2021-09-28;2;ja;69
+1599;ADURO.Koerperseite;Körperseite;SIMPLE;1;1;2021-09-20;2;ja;1
+1505;ADURO.KompAddFU;Komplikationen zusätzlicher FU;SIMPLE;1;1;2022-03-29;16;ja;10
+1462;ADURO.KompAndere;Komplikationen - Verschiedene / andere;SIMPLE;1;1;2021-10-06;4;ja;9
+1607;ADURO.KompArt;Art der Komplikation;SIMPLE;1;1;2021-09-29;5;ja;8
+1611;ADURO.KompArtIntraOP;Art der intraoperativen Komplikationen;SIMPLE;1;1;2021-09-29;13;ja;3
+1455;ADURO.KompBlutung;Art der Blutungskomplikation;SIMPLE;1;1;2021-09-20;4;ja;8
+1451;ADURO.KompDiversion;Harnableitungs-bedingte Komplikation;SIMPLE;1;1;2022-03-28;3;ja;2
+1447;ADURO.KompGenitourinary;Urogenitale Komplikationen Art;SIMPLE;1;1;2022-03-28;4;ja;3
+1457;ADURO.KompInfektArt;Komplikation - Art der Infektion;SIMPLE;1;1;2021-10-06;7;ja;8
+1507;ADURO.KompIntraop;Art der intraoperativen Komplikationen;SIMPLE;1;1;2021-09-20;13;ja;1
+1459;ADURO.KompKardio;Art der kardiovaskulären Komplikation;SIMPLE;1;1;2021-09-20;4;ja;8
+1453;ADURO.KompMetabolic;Komplikationen Metabolisch Art;SIMPLE;1;1;2022-03-28;4;ja;2
+1464;ADURO.KompNeuro;Art der neurologischen Komplikation;SIMPLE;1;1;2021-09-20;4;ja;8
+1463;ADURO.KompPul;Komplikation der Lunge;SIMPLE;1;1;2021-09-20;3;ja;8
+1460;ADURO.KompThrombo;Komplikation - Art  der Thromboembolie;SIMPLE;1;1;2021-10-06;3;ja;8
+1456;ADURO.KompUrogential;Urogenitale Komplikationen;SIMPLE;1;1;2021-09-20;5;ja;7
+1494;ADURO.KompViszeralDindo;Höchster Grad aller Komplikationen während Spitalaufenthalt (gemäss Clavien-Dindo);SIMPLE;1;1;2021-09-20;14;ja;3
+1458;ADURO.KompWunde;Art der Wundheilungsstörungen;SIMPLE;1;1;2021-09-20;3;ja;8
+1604;ADURO.LongestTumor;Gemessen mit;SIMPLE;1;1;2021-09-20;4;ja;1
+1454;ADURO.MagenDarmArt;Art Magen Darm Störung;SIMPLE;1;1;2022-03-28;4;ja;2
+1461;ADURO.MagenDarmSt;Magen Darm Störungen;SIMPLE;1;1;2021-09-20;6;ja;8
+1610;ADURO.Naht;Nahttechnik (Anastomose);SIMPLE;1;1;2021-09-29;2;ja;1
+1601;ADURO.NeoAdThArt;Art der Neoadjuvante Therapie ;SIMPLE;1;1;2021-09-20;4;ja;1
+1618;ADURO.NiereZugang;Zugang;SIMPLE;1;1;2021-09-20;2;ja;1
+1518;ADURO.OperateurKlasse;Operateur-Klasse;SIMPLE;1;1;2021-09-20;10;ja;3
+1516;ADURO.OPTechnik;Operationstechnik;SIMPLE;1;1;2021-09-20;5;ja;3
+1608;ADURO.OPTechnikProst;Operationstechnik Prostata;SIMPLE;1;1;2021-09-29;7;ja;1
+1503;ADURO.OrtHydronephrosis;Ort der Hydronephrosis;SIMPLE;1;1;2022-03-21;2;ja;1
+1467;ADURO.PathDGZystek;ADURO.PathDGZystek;SIMPLE;1;1;2020-12-31;5;ja;2
+1598;ADURO.PathDiagnose;Pathologische Diagnose;SIMPLE;1;1;2021-09-20;12;ja;2
+1613;ADURO.PathDiagnProst;Pathologische Diagnose Prostata;SIMPLE;1;1;2021-09-28;3;ja;2
+1484;ADURO.PatInformiert;Patient informiert;SIMPLE;1;1;2021-09-20;5;ja;3
+1465;ADURO.PostL;Post L-Stadium;SIMPLE;1;1;2021-09-28;5;ja;3
+1471;ADURO.PostM;Post M-Stadium;SIMPLE;1;1;2021-09-28;6;ja;3
+1487;ADURO.PostN;Post N-Stadium;SIMPLE;1;1;2021-09-28;5;ja;3
+1502;ADURO.PostPn;Post Pn-Stadium;SIMPLE;1;1;2021-09-28;5;ja;2
+1626;ADURO.PostR;Post Chirurgische Resektion;SIMPLE;1;1;2021-09-28;6;ja;0
+1486;ADURO.PostT;Post T-Stadium;SIMPLE;1;1;2021-09-28;17;ja;3
+1475;ADURO.PostV;Post V-Stadium;SIMPLE;1;1;2021-09-28;6;ja;3
+1466;ADURO.PraeFokusTumor;ADURO.PraeFokusTumor;SIMPLE;1;1;2020-12-31;4;ja;2
+1493;ADURO.PraeM;praeTNMM;SIMPLE;1;1;2021-09-20;6;ja;4
+1499;ADURO.PraeN;praeTNMN;SIMPLE;1;1;2021-09-20;22;ja;4
+1485;ADURO.PraeRisikoAnderes;Präoperative Risiken - Anderes;SIMPLE;1;1;2021-09-26;9;ja;4
+1600;ADURO.PraeRisikoBindegewebe;Präoperative Risiken - Bindegewebserkrankungen;SIMPLE;1;1;2021-10-03;3;ja;1
+1500;ADURO.PraeRisikoGastro;Präoperative Risiken - Gastrointestinal;SIMPLE;1;1;2021-09-26;3;ja;4
+1472;ADURO.PraeRisikoHerz;Präoperative Risiken - Herz/Kreislauf    ;SIMPLE;1;1;2021-09-26;6;ja;4
+1501;ADURO.PraeRisikoLunge;Präoperative Risiken - Lunge;SIMPLE;1;1;2021-09-26;1;ja;4
+1468;ADURO.PraeRisikoMalErkrankungen;Präoperative Risiken - Maligne Erkrankungen;SIMPLE;1;1;2021-09-26;4;ja;4
+1495;ADURO.PraeRisikoNeuro;Präoperative Risiken - Neurologie;SIMPLE;1;1;2021-10-03;3;ja;2
+1480;ADURO.PraeRisikoNiere;Präoperative Risiken - Niere;SIMPLE;1;1;2021-09-26;1;ja;4
+1492;ADURO.PraeRisikoStoffwechsel;Präoperative Risiken - Stoffwechselerkrankungen;SIMPLE;1;1;2021-09-26;2;ja;4
+1473;ADURO.PraeT;praeTNMT;SIMPLE;1;1;2021-09-20;26;ja;4
+1623;ADURO.PreOpBiopsie;PreOpBiopsie;SIMPLE;1;1;2021-09-20;2;ja;0
+1491;ADURO.PreOpBiopsieHarnblase;ADURO.PreOpBiopsieHarnblase;SIMPLE;1;1;2020-12-31;3;ja;1
+1497;ADURO.PreOpBiopsieSpecHarnblase;ADURO.PreOpBiopsieSpecHarnblase;SIMPLE;1;1;2020-12-31;4;ja;1
+1609;ADURO.ProstOPCOde;ADURO.ProstOPCOde;SIMPLE;1;1;2021-10-26;5;ja;1
+1446;ADURO.PSAVorzeichen;PSA Vorzeichen;SIMPLE;1;1;2021-10-03;1;ja;11
+1483;ADURO.Rauchen;Nikotin / Rauchen;SIMPLE;1;1;2022-03-21;4;ja;1
+1469;ADURO.Resektion;Chirurgische Resektion;SIMPLE;1;1;2021-09-20;6;ja;3
+1450;ADURO.StatusPatient;Status des Patienten;SIMPLE;1;1;2022-03-22;4;ja;4
+1452;ADURO.StatusTumor;Status des Tumors;SIMPLE;1;1;2021-09-20;7;ja;12
+1504;ADURO.StatusTumorFollowUp;ADURO.StatusTumorFollowUp;SIMPLE;1;1;2021-10-17;6;ja;1
+1612;ADURO.TherapieVorher;Art der vorgängigen Therapie;SIMPLE;1;1;2021-09-28;6;ja;1
+1606;ADURO.TherapRadio;Radiotherapie;SIMPLE;1;1;2021-09-29;3;ja;4
+1625;ADURO.Thrombo;Thromboembolie;SIMPLE;1;1;2021-09-20;3;ja;0
+1476;ADURO.TrueFalse;TrueFalse;SIMPLE;1;1;2021-09-20;2;ja;3
+1498;ADURO.UroFall;Fall;SIMPLE;1;1;2021-09-20;4;ja;3
+1619;ADURO.UroOPCode;ADURO.UroOPCode;SIMPLE;1;1;2021-10-21;5;ja;2
+1481;ADURO.UrothelialPraeOp;ADURO.UrothelialPraeOp;SIMPLE;1;1;2020-12-31;5;ja;2
+1615;ADURO.VolumenBasis;Prostata Volumen basierend auf;SIMPLE;1;1;2021-09-28;6;ja;1
+239;Akteure;;ACTOR;0;;;0;nein;9
+1343;Aktuelle adjuvante endokrine Therapie;Aktuelle adjuvante endokrine Therapie;SIMPLE;1;1;2019-03-06;5;ja;2
+807;ALC.EinheitBegleitmedikation;Einheit Begleitmedikation;SIMPLE;1;1;2016-06-11;7;ja;0
+762;ALC.Entdeckung;Entdeckung des Tumors;SIMPLE;1;1;2016-06-08;7;ja;0
+791;ALC.ErkankungSSTDetail;Sonstiger solider Tumor Detail;SIMPLE;1;1;2016-06-08;3;ja;0
+790;ALC.Erkrankung;Erkrankung;SIMPLE;1;1;2016-06-08;17;ja;0
+793;ALC.ErkrankungRelevantHaut;Relevantes Jahr für Zertifizierung Haut ;SIMPLE;1;1;2016-06-08;21;ja;0
+768;ALC.ExRaucher;Ex-Raucher;SIMPLE;1;1;2016-06-08;3;ja;0
+796;ALC.FragebogenDKG;Beurteilung gmäß DKG Fragebogen;SIMPLE;1;1;2016-06-09;2;ja;0
+808;ALC.FunktionArzt;Funktion Arzt;SIMPLE;1;1;2016-06-11;10;ja;0
+788;ALC.GZ-DKG;Gesundheitszustand (DKG);SIMPLE;1;1;2016-06-08;8;ja;0
+800;ALC.Histologie;Dignität;SIMPLE;1;1;2016-06-09;2;ja;0
+769;ALC.HormonsubstututionArt;Art der Hormonsubstitution;SIMPLE;1;1;2016-06-08;4;ja;0
+765;ALC.HPV;HPV-Typ;SIMPLE;1;1;2016-06-08;19;ja;0
+783;ALC.ICIQ-UI;ICIQ-UI-Gesamtscore;SIMPLE;1;1;2016-06-08;22;ja;0
+784;ALC.ICS;ICS-Score;SIMPLE;1;1;2016-06-08;55;ja;0
+785;ALC.IIEF-5;IIEF-5 Score;SIMPLE;1;1;2016-06-08;25;ja;0
+786;ALC.IPSS;IPSS-Score;SIMPLE;1;1;2016-06-08;36;ja;0
+778;ALC.JaNein;Ja, Nein;SIMPLE;1;1;2016-06-08;2;ja;0
+777;ALC.JaNeinNB;Ja, Nein, Nicht bekannt;SIMPLE;1;1;2016-06-08;3;ja;0
+798;ALC.JaNeinVerdacht;Ja, Nein, Verdacht;SIMPLE;1;1;2016-06-09;3;ja;0
+804;ALC.Karzinom;Karzinom bei Familienanamnese;SIMPLE;1;1;2016-06-11;51;ja;0
+787;ALC.LQ-DKG;Lebensqualität (DKG);SIMPLE;1;1;2016-06-08;8;ja;0
+761;ALC.Mehrling;Mehrlingseigenschaft;SIMPLE;1;1;2016-06-08;5;ja;0
+781;ALC.MenopauseIatrogenUrsache;Menopause iatrogen, Ursache;SIMPLE;1;1;2016-06-08;5;ja;0
+780;ALC.Menopausenstatus;Menopausenstatus;SIMPLE;1;1;2016-06-08;3;ja;0
+764;ALC.NeinJa;nein / ja;SIMPLE;1;1;2016-06-08;0;ja;0
+766;ALC.Noxen;Noxen;SIMPLE;1;1;2016-06-08;4;ja;0
+776;ALC.ParaSyndromSymptom;Paraneoplastisches Syndrom, Symptome;SIMPLE;1;1;2016-06-08;4;ja;0
+789;ALC.PDE5HemmerHäufigkeit;Häufigkeit der PDE5-Hemmer Einnahme;SIMPLE;1;1;2016-06-08;3;ja;0
+782;ALC.Platinresistenz;Platinresistenz;SIMPLE;1;1;2016-06-08;4;ja;0
+797;ALC.QL-Index;QL-Index;SIMPLE;1;1;2016-06-09;7;ja;0
+767;ALC.Raucher;Raucher;SIMPLE;1;1;2016-06-08;3;ja;0
+770;ALC.Schmerzen;Schmerzen;SIMPLE;1;1;2016-06-08;4;ja;0
+773;ALC.SchmerzScore;Schmerz-Score;SIMPLE;1;1;2016-06-08;11;ja;0
+772;ALC.SeiteRL;Rechts Links;SIMPLE;1;1;2016-06-08;3;ja;0
+771;ALC.SeiteRLB;Rechts Links Beidseitig;SIMPLE;1;1;2016-06-08;3;ja;0
+795;ALC.SonnenschutzmittelDetail;Art des Sonnenschutzmittels;SIMPLE;1;1;2016-06-09;2;ja;0
+792;ALC.Stamm.Benutzer;Benutzer;SIMPLE;1;1;2016-06-08;0;ja;0
+794;ALC.Stamm.Einweiser;Einweiser;SIMPLE;1;1;2016-06-08;0;ja;0
+774;ALC.SymptomatikDauerEinheit;Dauer der Symptomatik, Einheit;SIMPLE;1;1;2016-06-08;2;ja;0
+775;ALC.SymptomSchwere;Schwere der Symptome;SIMPLE;1;1;2016-06-08;4;ja;0
+803;ALC.TodTumorassoziation;Tumorassoziation bei Tod;SIMPLE;1;1;2016-06-11;4;ja;0
+802;ALC.UrsacheQuelle;Quelle der Todesursachse;SIMPLE;1;1;2016-06-11;3;ja;0
+805;ALC.Verwandtschaftsgrad;Verwandtschaftsgrad bei Familienanamnese;SIMPLE;1;1;2016-06-11;17;ja;0
+799;ALC.VoropOrgan;Voroperierte Organe;SIMPLE;1;1;2016-06-09;5;ja;0
+763;ALC.Vorsorgeintervall;Vorsorgeintervall;SIMPLE;1;1;2016-06-08;5;ja;0
+221;Alt.OZ.GüteMesorektumresektion;OnkoZert Güte Mesorektumresektion;SIMPLE;1;1;2013-01-01;4;ja;1
+1278;Befragungen;;BEFRAGUNG;0;;;0;nein;1
+744;BehandelndeAerzte Typ;BehandelndeAerzte Typ;SIMPLE;1;1;2016-02-03;4;ja;1
+432;CDA.Ann-Arbor.Allgemeinsymptome;Ann-Arbor Allgemeinsymptome;SIMPLE;1;1;2013-01-01;3;ja;1
+433;CDA.Ann-Arbor.Organbefall;CDA.Ann-Arbor.Organbefall;SIMPLE;1;1;2013-01-01;5;ja;1
+286;CDA.Ann-Arbor.v1;Ann Arbor (Hogkin/Non-Hogkin-Lymphom);SIMPLE;1;1;2013-07-19;6;ja;1
+287;CDA.Binet;Binet (lymphatische Leukämien);SIMPLE;1;1;2013-07-19;5;ja;0
+298;CDA.Bismuth und Corlette;Bismuth und Corlette 1975 (Gallengangskarzinome);SIMPLE;1;1;2013-07-19;5;ja;0
+299;CDA.Borrmann-Klassifikation;Borrmann-Klassifikation (Magenkarzinom);SIMPLE;1;1;2013-07-19;4;ja;0
+296;CDA.Breslow;Breslow (Haut);SIMPLE;1;1;2013-07-19;5;ja;0
+270;CDA.Clark Level;Clark Level (MM);SIMPLE;1;1;2013-07-19;5;ja;0
+292;CDA.CML;Phasen CML (chronisch myeloische Leukämien);SIMPLE;1;1;2013-07-19;3;ja;0
+345;CDA.Diagnoseanlass;Diagnoseanlass;SIMPLE;1;1;2013-08-12;11;ja;1
+271;CDA.Dukes;Dukes (KRK);SIMPLE;1;1;2013-07-19;8;ja;0
+288;CDA.Durie Salmon;Durie Salmon (Multiples Myelom);SIMPLE;1;1;2013-07-19;9;ja;0
+272;CDA.Enneking;Enneking (Weichteilsarkome);SIMPLE;1;1;2013-07-19;6;ja;0
+289;CDA.FAB-Klassifikation;FAB-Klassifikationen (AML);SIMPLE;1;1;2013-07-19;17;ja;0
+273;CDA.FIGO;FIGO (gyn. Tumoren);SIMPLE;2;2;2018-01-01;32;ja;4
+301;CDA.Hannover-Klassifikation;Hannover-Klassifikation (Akustikusneuriome);SIMPLE;1;1;2013-07-19;6;ja;0
+302;CDA.Helpap;Grading nach Helpap (Prostatakarzinom);SIMPLE;1;1;2013-07-19;6;ja;0
+297;CDA.Holoye;Holoye (Bronchial-Ca);SIMPLE;1;1;2013-07-19;3;ja;0
+276;CDA.IGCCCG;IGCCCG (Hoden);SIMPLE;1;1;2013-07-19;3;ja;0
+277;CDA.INDIANA;INDIANA (metast. Hodentumoren);SIMPLE;1;1;2013-07-19;3;ja;0
+278;CDA.INSS Klassifikation;INSS Klassifikation (Neuroblastom);SIMPLE;1;1;2013-07-19;6;ja;0
+290;CDA.Jansen und Hermanns;Jansen und Hermanns (Haarzellleukämien);SIMPLE;1;1;2013-07-19;9;ja;0
+300;CDA.Kerngard nach Fuhrmann;Kerngard nach Fuhrmann (Nierenzellkarzinom);SIMPLE;1;1;2013-07-19;4;ja;0
+279;CDA.Kernohan;Kernohan (Astrozytom);SIMPLE;1;1;2013-07-19;4;ja;0
+280;CDA.Lugano Klassifikation;Lugano Klassifikation (Hoden);SIMPLE;1;1;2013-07-19;14;ja;0
+281;CDA.Marburger Klassifikation;Marburger Klassifikation (kleinz. Bronchial-Ca);SIMPLE;1;1;2013-07-19;5;ja;0
+291;CDA.Murphy;Murphy (kindliches/jugendliches NHL);SIMPLE;1;1;2013-07-19;4;ja;0
+282;CDA.NWTS;NWTS (Wilms-Tumor, Nephroblastom);SIMPLE;1;1;2013-07-19;5;ja;0
+353;CDA.Organe bei extranodalem Befall;Organe bei extranodalem Befall (SNOMED Kodierung);SIMPLE;1;1;2013-08-12;11;ja;0
+293;CDA.Philadelphia;Philadelphia (CML und ALL);SIMPLE;1;1;2013-07-19;2;ja;0
+1367;CDA.R-Klassifikation;R-Klassifikation;SIMPLE;1;1;2013-01-01;8;ja;0
+294;CDA.Radaszkiewicz;Radaszkiewicz (gastrointestinale Lymphome);SIMPLE;1;1;2013-07-19;8;ja;0
+295;CDA.Rai;Rai (CLL);SIMPLE;1;1;2013-07-19;5;ja;0
+305;CDA.Siewert-Einteilung;Siewert-Einteilung (Kardialkarzinom);SIMPLE;1;1;2013-07-19;3;ja;0
+284;CDA.VALG;VALG (kleinz. Bronchial-Ca);SIMPLE;1;1;2013-07-19;2;ja;0
+306;CDA.Van Nuys Prognoseindex;Van Nuys Prognoseindex (Mammakarzinom, DCIS);SIMPLE;1;1;2013-07-19;7;ja;0
+285;CDA.WHO Gehirn;WHO Gehirn (Gehirntumoren);SIMPLE;1;1;2013-07-19;4;ja;0
+419;CDA.ZeitlicheRelation;Zeitliche Relation der Therapie;SIMPLE;2;3;2023-07-01;8;ja;8
+346;CDA.Zielgebiet Strahlentherapie;Zielgebiete der Strahlentherapie;SIMPLE;2;3;2024-04-01;138;ja;1
+1307;CH.BFS-Orts/-Gemeindenummer;CH.BFS-Orts/-Gemeindenummer;SIMPLE;1;1;2020-04-20;2205;nein;1
+1308;CH.Kantonsnummer;CH.Kantonsnummer;SIMPLE;1;1;2020-04-20;26;ja;1
+374;Chemotherapieprotokolle;Chemotherapieprotokolle;CHEMO;0;;;0;nein;2
+1320;CIN Stadien;CIN Stadien;SIMPLE;1;1;2021-10-31;4;ja;1
+377;CTCAE;NCI Common Terminology Criteria for Adverse Events;SIMPLE;1;1;2013-04-15;788;ja;1
+500;CTCAE Schweregrad;Schweregrad CTC;SIMPLE;1;1;2013-04-15;7;ja;1
+1057;DGHO.Fallart;DGHO Fallart;SIMPLE;1;1;2018-04-25;3;ja;1
+1043;DGHO.Quartal;Quartal;SIMPLE;1;1;2018-04-18;4;ja;1
+1344;DMP.AuswahlDoku;DMP.AuswahlDoku;SIMPLE;1;1;2020-02-26;3;ja;1
+1349;DMP.BioptischeSicherung;DMP.BioptischeSicherung;SIMPLE;1;1;2020-02-26;3;ja;1
+1348;DMP.Einschreibung;DMP.Einschreibung;SIMPLE;1;1;2020-02-26;4;ja;1
+1347;DMP.QuartalDokumentation;DMP.QuartalDokumentation;SIMPLE;1;1;2019-12-11;4;ja;1
+1361;DMP.Uebermittlungsstatus;DMP.Uebermittlungsstatus;SIMPLE;1;1;2020-05-26;3;ja;1
+1027;Dokument;Dokument;DOCUMENT;0;;;0;nein;0
+1277;DXABefund;Dual-X-Ray-Absorptiometrie;SIMPLE;1;1;2019-03-05;3;ja;1
+1318;DysExzisionLokalisation;DysExzisionLokalisation;SIMPLE;1;1;2021-10-12;3;ja;1
+1319;DysplasieFormulartyp;DysplasieFormulartyp;SIMPLE;1;1;2021-10-12;2;ja;1
+1354;EmpfehlungKörperlichesTraining;Empfehlung zu regelmäßigem körperlichem Training abgegeben ;SIMPLE;1;1;2019-03-06;2;ja;1
+1142;EPIC26.Abschluss;EPIC26.Abschluss;SIMPLE;1;1;2018-10-03;7;ja;1
+1131;EPIC26.Einschätzung;EPIC26.Einschätzung;SIMPLE;1;1;2018-10-03;5;ja;2
+1133;EPIC26.Erektion;EPIC26.Erektion;SIMPLE;1;1;2018-10-03;4;ja;1
+1135;EPIC26.Funktionsfähigkeit;EPIC26.Funktionsfähigkeit;SIMPLE;1;1;2018-10-03;5;ja;1
+1126;EPIC26.Harnentleerung;EPIC26.Harnentleerung;SIMPLE;1;1;2018-10-03;4;ja;1
+1134;EPIC26.HäufigkeitErektion;EPIC26.HäufigkeitErektion;SIMPLE;1;1;2018-10-03;5;ja;1
+1127;EPIC26.Inkontinenzvorlagen;EPIC26.Inkontinenzvorlagen;SIMPLE;1;1;2018-10-03;4;ja;1
+1141;EPIC26.Krankenversicherung;EPIC26.Krankenversicherung;SIMPLE;1;1;2018-10-03;3;ja;1
+1138;EPIC26.Nutzen;EPIC26.Nutzen;SIMPLE;1;1;2018-10-03;5;ja;5
+1128;EPIC26.Probleme;EPIC26.Probleme;SIMPLE;1;1;2018-10-03;5;ja;18
+1137;EPIC26.SexInteresse;EPIC26.SexInteresse;SIMPLE;1;1;2018-10-03;4;ja;1
+1140;EPIC26.Staatsangehörigkeit;EPIC26.Staatsangehörigkeit;SIMPLE;1;1;2018-10-03;2;ja;1
+1125;EPIC26.Urinverlust;EPIC26.Urinverlust;SIMPLE;1;1;2018-10-03;5;ja;1
+1282;EPIC26POST.JaNeinWeißNicht;EPIC26POST.JaNeinWeißNicht;SIMPLE;1;1;2021-02-03;3;ja;3
+543;Fallnummer;;CASENUMBER;0;;;0;nein;1
+1352;Fortführung adjuvante endokrine Therapie;Fortführung adjuvante endokrine Therapie;SIMPLE;1;1;2019-03-06;5;ja;1
+1287;FragebogenStatus;Fragebogen-Status Schön Klinik;SIMPLE;1;1;2016-08-22;3;ja;1
+267;GEKID.Grobstadium;Grobstadium;SIMPLE;1;1;2013-07-19;6;ja;0
+441;GEKID.Meldebegründung;Meldebegründung;SIMPLE;1;1;2013-01-01;5;ja;2
+344;GEKID.Meldebegründung.BY;Meldebegründung;SIMPLE;1;1;2013-08-12;3;ja;0
+440;GEKID.Meldebegründung.HE;Meldebegründung für Hessen;SIMPLE;1;1;2013-01-01;0;ja;0
+436;GEKID.Meldebegründung.HH;Meldebegründung für Hamburg;SIMPLE;1;1;2013-01-01;3;ja;0
+435;GEKID.Meldebegründung.NI;Meldebegründung für Niedersachsen;SIMPLE;1;1;2013-11-01;3;ja;0
+438;GEKID.Meldebegründung.NW;Meldebegründung für Nordrhein-Westfalen;SIMPLE;1;1;2013-01-01;3;ja;0
+439;GEKID.Meldebegründung.SH;Meldebegründung für Schleswig-Holstein;SIMPLE;1;1;2013-01-01;0;ja;0
+437;GEKID.Meldebegründung.SL;Meldebegründung für das Saarland;SIMPLE;1;1;2013-01-01;3;ja;0
+1346;HormonrezeptorstatusÖstrogen;Hormonrezeptorstatus Östrogen (gemäß Immunreaktiver Score [IRS]);SIMPLE;1;1;2019-03-06;3;ja;1
+187;ICD-10 GM;ICD-10 GM;ICD10;16;16;2024-01-01;16623;nein;14
+186;ICD-O-3 Histologie;ICD-O-3 Histologie;ICD-O-3-HIST;4;4;2020-01-01;122;ja;7
+185;ICD-O-3 Lokalisation;ICD-O-3 Lokalisation;ICD-O-3-LOK;2;2;2014-01-20;776;ja;5
+1360;KardiotoxischeTherapie;Z.n. besonders krdiotoxischer Therapie;SIMPLE;1;1;2019-03-06;5;ja;1
+511;Konferenzen;Konferenzen;CONFERENCE;0;;;0;nein;2
+727;Kontakte;Kontakte;CONTACT;0;;;0;nein;4
+365;Körperregionen;Körperregionen;SIMPLE;1;1;2013-08-22;9;ja;0
+370;KRAS;KRAS;SIMPLE;1;1;2013-08-28;3;ja;0
+496;KRBW.Datenquelle;Datenquelle der Diagnose;SIMPLE;1;1;2014-05-28;3;ja;0
+493;KRBW.Diagnosesicherung;Art der Diagnosesicherung;SIMPLE;1;1;2014-05-28;11;ja;0
+505;KRBW.Gesamtbeurteilung;Gesamtbeurteilung des Tumorgeschehens;SIMPLE;1;1;2014-06-01;9;ja;0
+491;KRBW.Grading;Das histopathologische Grading;SIMPLE;1;1;2014-05-28;12;ja;0
+388;KRBW.HER2neu;Rezeptor HER2neu;SIMPLE;1;1;2013-09-23;8;ja;1
+494;KRBW.JaNeinUnbekannt;KRBW JaNeinUnbekannt;SIMPLE;1;1;2014-06-01;3;ja;0
+495;KRBW.L-Kategorie;L-Kategorie, Lymphgefäßinvasion;SIMPLE;1;1;2014-05-28;3;ja;0
+386;KRBW.Oestrogen;Hormonrezeptorstatus Östrogen;SIMPLE;1;1;2013-09-23;5;ja;0
+492;KRBW.Pn-Kategorie;Pn-Kategorie, Perineurale Invasion;SIMPLE;1;1;2014-05-28;3;ja;0
+387;KRBW.Progesteron;Hormonrezeptorstatus Progesteron;SIMPLE;1;1;2013-09-23;5;ja;0
+497;KRBW.S-Kategorie;S-Kategorie, Serumtumormarker bei germinalen Hodentumoren;SIMPLE;1;1;2014-05-28;5;ja;0
+499;KRBW.Seitenlokalisation;Die Seitenlokalisation des Tumor.;SIMPLE;1;1;2014-05-28;6;ja;0
+504;KRBW.SonstigeTherapien;KRBW_SonstigeTherapien;SIMPLE;1;1;2014-06-12;3;ja;0
+503;KRBW.Systemtherapieart;Systemtherapieart für KRBW;SIMPLE;1;1;2014-06-11;4;ja;0
+329;KRBW.Unterrichtung;Patientenunterrichtung KRBW;SIMPLE;1;1;2013-07-29;5;ja;1
+498;KRBW.V-Kategorie;V-Kategorie, Veneninvasion;SIMPLE;1;1;2014-05-28;4;ja;0
+1358;LokalisationFernmetastasen;Lokalisation von Fernmetastasen;SIMPLE;1;1;2019-03-06;5;ja;1
+1345;M;M;SIMPLE;1;1;2019-03-06;2;ja;1
+1356;N;N;SIMPLE;1;1;2019-03-06;5;ja;1
+1351;Nebenwirkungen adjuvante endokrine Therapie;Nebenwirkungen adjuvante endokrine Therapie;SIMPLE;1;1;2019-03-06;5;ja;1
+1443;oBDS.DauerDosisabgabe;Dauer der Dosisabgabe;SIMPLE;1;1;2023-07-04;2;ja;2
+1444;oBDS.Dosisleistung;Dosisleistung;SIMPLE;1;1;2023-07-04;3;ja;2
+1629;oBDS.STZiel;oBDS.STZiel;SIMPLE;1;1;2023-08-02;3;ja;1
+1438;oBDS.Zielgebiete;oBDS.Zielgebiete;SIMPLE;1;1;2023-06-30;98;ja;2
+1350;OperativeTherapie;Operative Therapie;SIMPLE;1;1;2019-03-06;7;ja;1
+188;OPS;OPS;OPS;16;16;2024-01-01;37870;nein;7
+342;Organisationseinheit;;EXECUTING-OE;0;;;0;nein;74
+404;OS.Abbruchgrund;Abbruchgrund bei Therapien;SIMPLE;2;3;2023-07-01;7;ja;5
+348;OS.Abschlussgrund;Abschlussgrund;SIMPLE;1;1;2013-08-12;3;ja;1
+507;OS.ACR;Mammographische Parenchymdichte nach ACR;SIMPLE;1;1;2000-01-01;5;ja;1
+523;OS.AJCC-Stadium;AJCC Stadium;SIMPLE;1;1;2014-07-01;18;ja;3
+1363;OS.AllogeneTransplantation;Art der allogene Transplantation;SIMPLE;1;1;2019-10-28;3;ja;1
+509;OS.Allred.AnzPosZellkerne;Allred Anzahl positiver Zellkerne;SIMPLE;1;1;2014-01-01;6;ja;2
+1301;OS.AML;AML;SIMPLE;1;1;2019-10-28;3;ja;1
+1306;OS.ArtLeistungserbringer;Art des Leistungserbringers;SIMPLE;1;1;2020-06-08;2;ja;1
+620;OS.BefundAuffaellig;Befund auffaellig;SIMPLE;1;1;2015-01-01;4;ja;1
+1300;OS.Behandlungsentscheid;Grundlage des Behandlungsentscheids;SIMPLE;1;1;2020-05-17;3;ja;1
+521;OS.Biopsieart;Art der Biopsie;SIMPLE;1;1;2014-07-01;13;ja;2
+524;OS.Boost;Boost;SIMPLE;1;1;2014-08-01;7;ja;1
+383;OS.Brachytherapieform;Brachytherapieform;SIMPLE;1;0;2013-08-01;5;ja;2
+1091;OS.CalcUICC.V8;UICC Stadien für TNM 8;SIMPLE;74;1;2018-06-12;6;ja;0
+1205;OS.CHOP;Schweizerische Operationsklassifikation CHOP ;SIMPLE;4;4;2021-12-31;14197;nein;13
+502;OS.Diagnosestatus;Diagnosestatus;SIMPLE;1;1;2014-07-03;3;ja;1
+1445;OS.Dokumentationsanlass;Dokumentationsanlass;SIMPLE;1;1;2023-01-30;2;ja;1
+400;OS.Einheiten;Einheiten Labordiagnostik;SIMPLE;1;1;2013-10-09;22;ja;1
+330;OS.Einwilligung Tumordokumentation;Einwilligung Tumordokumentation;SIMPLE;1;1;2013-07-29;2;ja;1
+382;OS.Einzelstrahlentherapieart;Einzelstrahlentherapieart;SIMPLE;2;3;2023-07-01;4;ja;2
+1313;OS.EntnahmestelleBiopsie;Entnahmestelle der Biopsie;SIMPLE;1;1;2020-06-29;4;ja;1
+1279;OS.EORTC;OS.EORTC;SIMPLE;1;1;2019-07-21;3;ja;1
+1298;OS.EORTCQLQC30;OS.EORTCQLQC30;SIMPLE;1;1;2020-02-10;4;ja;28
+1299;OS.EORTCQLQC30Einschaetzen;OS.EORTCQLQC30Einschaetzen;SIMPLE;1;1;2020-02-10;7;ja;2
+512;OS.Ereignis;Ereignis;SIMPLE;1;1;2014-07-01;2;ja;1
+1290;OS.FB.Art;Art der Fallbesprechung;SIMPLE;1;1;2020-01-27;3;ja;2
+1291;OS.FB.Typ;Typ in der Fallbesprechung;SIMPLE;1;1;2020-01-27;3;ja;1
+1437;OS.FIGOVersion;OS.FIGOVersion;SIMPLE;1;1;2023-04-26;2;ja;1
+506;OS.Fokalität;Fokalität;SIMPLE;1;1;2000-01-01;5;ja;1
+452;OS.GenetischeMarker;(Zyto-)Genetische Marker;SIMPLE;1;1;2013-01-01;24;ja;1
+453;OS.GenetischeMarkerWerte;Werte der genetischen Marker;SIMPLE;1;1;2013-01-01;4;ja;1
+458;OS.GenetischeVeraenderungenWerte;Ausprägungen der genetischen (chromosomalen) Veränderungen;SIMPLE;1;1;2013-01-01;4;ja;1
+457;OS.GenetischeVeränderungen;Genetische Veränderungen;SIMPLE;1;1;2013-01-01;28;ja;1
+1339;OS.Genexpressionstests;Genexpressionstests;SIMPLE;1;1;2022-02-22;3;ja;1
+274;OS.Gleason Grading;Gleason Grading (Prostata);SIMPLE;1;1;2013-07-19;5;ja;4
+275;OS.Gleason Score;Gleason Score (Prostata);SIMPLE;1;1;2013-07-19;11;ja;2
+462;OS.GradingElstonEllis;Grading nach Elston und Ellis;SIMPLE;1;1;2013-01-01;8;ja;1
+1281;OS.GradingII;Grading II;SIMPLE;1;1;2019-09-02;2;ja;2
+752;OS.GrundLostToFollowUp;Gründe warum ein Patient nicht mehr im FollowUp ist;SIMPLE;1;1;2016-05-01;0;ja;0
+1364;OS.HLAMatching;HLA matching;SIMPLE;1;1;2019-10-28;3;ja;1
+513;OS.HPVNachweis;HPV Nachweis;SIMPLE;1;1;2014-07-01;7;ja;1
+1304;OS.ICCC-3-Codes;ICCC-3-Codes;SIMPLE;1;1;2020-05-17;6;ja;1
+1305;OS.ICCC-3-Erweiterter-Code;ICCC3 Erweiterter Code;SIMPLE;1;1;2020-05-12;14;ja;1
+1303;OS.ICCC-3-Hauptgruppe;ICCC-3-Hauptgruppe;SIMPLE;1;1;2020-05-11;12;ja;1
+1296;OS.IIEF5;OS.IIEF5;SIMPLE;1;1;2020-02-10;6;ja;4
+1297;OS.IIEF5Schwierig;OS.IIEF5Schwierig;SIMPLE;1;1;2020-02-10;6;ja;1
+1293;OS.IPSS;OS.IPSS;SIMPLE;1;1;2020-02-10;6;ja;6
+1294;OS.IPSSHaeufigkeit;OS.IPSSHaeufigkeit;SIMPLE;1;1;2020-03-09;6;ja;1
+1295;OS.IPSSQ8;OS.IPSSQ8;SIMPLE;1;1;2020-02-10;7;ja;1
+508;OS.IRS.ProzentPosZellkerne;IRS Prozentsatz positiver Zellkerne;SIMPLE;1;1;2000-01-01;5;ja;2
+449;OS.ISS-Stadium;ISS-Stadium;SIMPLE;1;1;2013-01-01;3;ja;0
+1420;OS.ISUP;OS.ISUP;SIMPLE;1;1;2023-01-17;4;ja;1
+167;OS.JaNein;Standardkatalog Ja/Nein;SIMPLE;1;1;2013-04-01;2;ja;669
+168;OS.JaNeinUnbekannt;Standardkatalog Ja/Nein/Unbekannt;SIMPLE;1;1;2013-04-01;3;ja;312
+729;OS.Karnofsky Index;Karnofsky Allgemeinzustand;SIMPLE;1;1;2014-12-31;10;ja;0
+399;OS.Laborwerte;Laborwerte;SIMPLE;1;1;2013-10-09;26;ja;1
+454;OS.Laborwerte.Einheiten;Einheiten der Laborwerte;SIMPLE;1;1;2013-01-01;11;ja;1
+1430;OS.LFUGrund;OS.LFUGrund;SIMPLE;1;1;2022-12-19;7;ja;1
+198;OS.Lymphgefäßinvasion;L-Kategorie;SIMPLE;1;1;2013-05-27;3;ja;2
+391;OS.Markierung;Markierung (Brust);SIMPLE;1;1;2013-09-23;4;ja;0
+1332;OS.Material;OS.Material;SIMPLE;1;1;2020-03-07;6;ja;1
+1631;OS.Meldeformat;Einstellung des Meldeformats;SIMPLE;1;1;2024-02-13;2;ja;2
+307;OS.Mercury;Mercury (KRK mittleres und unteres Rektumdrittel);SIMPLE;1;1;2013-07-19;3;ja;0
+174;OS.Mikroskopische Sicherung;Mikroskopische Sicherung der Malignität vor OP;SIMPLE;1;1;2013-04-28;4;ja;1
+468;OS.MM.Leichtkettentyp;Multiples Myelom Leichtkettentyp;SIMPLE;1;1;2014-01-01;3;ja;1
+467;OS.MM.Subtyp;Multiples Myelom Subtyp;SIMPLE;1;1;2014-01-01;6;ja;1
+1375;OS.MolAktivierend;Aktivierend;SIMPLE;1;1;2023-03-12;3;ja;2
+1323;OS.MolArtderHybridisierung;Art der (in-situ) Hybridisierung;SIMPLE;1;1;2020-05-24;5;ja;1
+1337;OS.MolCopyNumberVariation;CopyNumber Variation;SIMPLE;1;1;2020-05-10;7;ja;1
+1428;OS.MolDiag.Assay;Assay;SIMPLE;1;1;2023-03-12;0;ja;3
+1322;OS.MolDiag.KitHersteller;KIT Hersteller;SIMPLE;1;1;2022-03-07;0;ja;1
+1326;OS.MolDiag.KitTyp;KIT Tyo;SIMPLE;1;1;2022-03-07;0;ja;1
+1327;OS.MolDiag.Panels;Panels für molekulare Diagnostik;SIMPLE;1;1;2020-05-07;3;ja;3
+1335;OS.MolDiag.Pipeline;Pipeline;SIMPLE;1;1;2022-03-07;0;ja;1
+1421;OS.MolDiag.Projekte;Projektzugehörigkeit;SIMPLE;1;1;2022-10-24;3;ja;1
+1324;OS.MolDiag.Sequenziergerät;Sequenziergerät;SIMPLE;1;1;2022-03-07;0;ja;1
+1325;OS.MolDiagEntnahmemethode;Entnahmemethode;SIMPLE;1;1;2022-02-22;5;ja;1
+1331;OS.MolDiagErgebnisMSI;MSI Ergebnis;SIMPLE;1;1;2022-02-22;5;ja;6
+1425;OS.MolDiagEVInterpretation;Interpretation einfache Variante;SIMPLE;1;1;2022-10-26;10;ja;1
+1426;OS.MolDiagFusion;Art der Fusion;SIMPLE;1;1;2022-10-25;2;ja;1
+1424;OS.MolDiagFusionChromosome;Chromosome bei Fusion;SIMPLE;1;1;2022-10-25;24;ja;4
+1422;OS.MolDiagFusionStrand;Strand;SIMPLE;1;1;2022-10-25;2;ja;2
+1429;OS.MolDiagKomplexeBiomarker;Komplexe Biomarker;SIMPLE;1;1;2023-03-03;4;ja;1
+1328;OS.MolDiagMethode;Analysemethode molekulare Diagnostik;SIMPLE;1;1;2020-03-08;10;ja;4
+1333;OS.MolDiagSequenzierung;Art der Sequenzierung;SIMPLE;1;1;2020-03-08;8;ja;1
+1334;OS.MolDokumentation;Dokumentation;SIMPLE;1;1;2020-05-24;2;ja;2
+1178;OS.Molekulargenetik;Gegenstand der molekulargenetischen Untersuchung;SIMPLE;1;1;2019-01-02;19331;nein;9
+1181;OS.MolGenCodon;Codon;SIMPLE;1;1;2019-01-02;3;ja;1
+1179;OS.MolGenErgebnis;Ergebnis der molekulargenetischen Untersuchung;SIMPLE;1;1;2019-01-02;9;ja;26
+1180;OS.MolGenExon;Exon;SIMPLE;1;1;2019-01-02;8;ja;1
+1340;OS.MolGenGenexpresionGraduierung;Graduierung Genexpressionstest;SIMPLE;1;1;2022-03-07;3;ja;1
+1182;OS.MolGenMET_Level;MET Level;SIMPLE;1;1;2019-01-02;6;ja;2
+1338;OS.MolIC;OS.MolIC;SIMPLE;1;1;2020-10-22;7;ja;2
+1427;OS.MolMarkerBewertung;Bewertung komplexer Marker;SIMPLE;1;1;2023-03-12;4;ja;1
+1329;OS.MolNukleinsäure;Nukleinsäure;SIMPLE;1;1;2020-05-03;4;ja;1
+1330;OS.MolSeqGenom;Referenz Genom;SIMPLE;1;1;2020-03-08;2;ja;2
+1336;OS.MolSeqPathogenitätsklasse;Pathogenitätsklasse;SIMPLE;1;1;2020-03-08;5;ja;1
+1423;OS.MolZygosität;Zygosität;SIMPLE;1;1;2023-03-13;2;ja;1
+640;OS.Mutationsart;Art der Mutation;SIMPLE;1;1;2015-11-25;3;ja;1
+641;OS.Mutationsort;Ort der Mutation;SIMPLE;1;1;2015-11-25;2;ja;1
+1633;OS.Nebenwirkungskatalog;OS.Nebenwirkungskatalog;SIMPLE;1;1;2024-03-18;2;ja;1
+218;OS.NotfallElektiv;Notfall/Elektiv;SIMPLE;1;1;2013-01-01;3;ja;7
+1632;OS.NUC.TherapieartSonstige;sonstige Therapiearten Nuklearmedizin;SIMPLE;1;1;2024-02-18;4;ja;0
+416;OS.NuklearMedTechnik;Techniken der nuklearmedizinischen Therapie;SIMPLE;1;1;2013-10-22;4;ja;1
+367;OS.NuklearmedTherapieart;Art der nuklearmedizinischen Therapie;SIMPLE;2;2;2024-06-24;6;ja;1
+473;OS.OP-Komplikationen;OP Komplikationen;SIMPLE;1;1;2014-01-01;80;ja;0
+368;OS.OrtDurchführung;Ort der Durchführung;SIMPLE;1;1;2013-08-28;3;ja;32
+1311;OS.p16;OS.p16;SIMPLE;1;1;2020-05-27;3;ja;1
+1101;OS.PDL1Positivitaet;PDL-1 Positivität;SIMPLE;1;1;2018-08-22;3;ja;1
+318;OS.Perineurale Invasion;Pn-Kategorie;SIMPLE;1;1;2013-07-29;3;ja;1
+376;OS.Phaenomen;Phänomen;SIMPLE;1;1;2013-09-20;5;ja;3
+423;OS.Präparat;Untersuchtes Präparat;SIMPLE;1;1;2013-10-26;4;ja;3
+1177;OS.Probenmaterial;OS.Probenmaterial;SIMPLE;1;1;2019-01-02;14;ja;1
+538;OS.QuelleVitalstatus;OS.QuelleVitalstatus;SIMPLE;1;1;2014-08-01;13;ja;3
+434;OS.R-Klassifikation;R-Klassifikation;SIMPLE;1;1;2013-01-01;11;ja;14
+442;OS.R-Klassifikation-Suffix;R-Klassifikation, Suffix;SIMPLE;1;1;2013-01-01;6;ja;0
+655;OS.Radionuklid;Radionuklide bei Bestrahlung;SIMPLE;2;3;2023-06-01;14;ja;3
+1638;OS.Radiopharmakon;OS.Radiopharmakon;SIMPLE;1;1;2024-06-23;6;ja;1
+1441;OS.RadioSystemTherapie;Radio-, Systemtherapie;SIMPLE;1;1;2023-07-04;3;ja;1
+392;OS.Radiotherapieart;Radiotherapie bzw. Radio-/Chemotherapie;SIMPLE;2;2;2023-12-01;2;ja;2
+514;OS.Raucher;Raucherstatus;SIMPLE;1;1;2014-07-01;5;ja;1
+1316;OS.Regressionsgrading;OS.Regressionsgrading;SIMPLE;1;1;2021-01-27;12;ja;1
+1315;OS.RegressionsgradingWerte;OS.RegressionsgradingWerte;SIMPLE;1;1;2021-01-27;21;ja;1
+501;OS.RegressionsgradLunge;Regressionsgrad nach Junker;SIMPLE;1;1;2000-01-01;5;ja;1
+190;OS.Rezeptor Her2-neu;Her2-neu-Expression;SIMPLE;1;1;2013-05-17;4;ja;0
+510;OS.RezeptorFaerbeintensitaet;Färbeintensität für die Scoreberechnung (IRS und Allred);SIMPLE;1;1;2000-01-01;4;ja;2
+455;OS.RezeptorMethode;Methode zur Ermittlung der Hormonrezeptoren;SIMPLE;1;1;2013-01-01;5;ja;2
+456;OS.RezeptorScore;Score für Hormonrezeptoren;SIMPLE;1;1;2013-01-01;13;ja;2
+269;OS.Risikokategorie C58;Risikokategorien C58;SIMPLE;1;1;2013-07-19;2;ja;0
+283;OS.Robson;Robson (Nieren);SIMPLE;1;1;2013-07-19;7;ja;0
+1442;OS.RTX.Techniken;OS.RTX.Techniken;SIMPLE;1;1;2023-06-22;2;ja;1
+471;OS.Serumtumormarker;Serumtumormarker TNM;SIMPLE;1;1;2014-03-01;5;ja;2
+1288;OS.SicherheitsfrageAntwortTyp;OS.SicherheitsfrageAntwortTyp;SIMPLE;1;1;2022-03-13;4;ja;1
+389;OS.Sicherung;Sicherung durch (Brust);SIMPLE;1;1;2013-09-23;3;ja;0
+751;OS.sm;Infiltration Submukosa;SIMPLE;1;1;2016-04-08;7;ja;1
+1637;OS.SonstigeApplikationsartenNUC;OS.SonstigeApplikationsartenNUC;SIMPLE;1;1;2024-06-23;5;ja;1
+1640;OS.SonstigeStrahlentechnik;OS.SonstigeStrahlentechnik;SIMPLE;1;1;2024-07-23;3;ja;2
+381;OS.SonstigeTherapien;Sonstige Therapien;SIMPLE;1;1;2013-09-22;39;ja;2
+549;OS.SonstigeTherapien.Erweiterung;Erweiterung der sonstigen Therapien;SIMPLE;1;1;2000-01-01;1;ja;1
+1366;OS.SplenoHepatomegalie;Spleno-, Hepatomegalie;SIMPLE;1;1;2019-10-28;2;ja;0
+1440;OS.ST.Applikationsart ;Applikationsart;SIMPLE;1;1;2023-06-21;3;ja;2
+1439;OS.ST.Boost;Boost Einzelbestrahlung;SIMPLE;1;1;2023-06-21;5;ja;1
+349;OS.Stammzelltherapieart;Art der Stammzelltherapie;SIMPLE;1;1;2013-08-12;4;ja;2
+390;OS.SteuerungMarkierung;Steuerung der Markierung (Brust);SIMPLE;1;1;2013-09-23;5;ja;0
+407;OS.Strahlenart;Strahlenart;SIMPLE;2;3;2023-07-01;8;ja;2
+408;OS.Strahlentechnik;Strahlentechnik;SIMPLE;1;1;2013-10-14;21;ja;1
+472;OS.Studie.Ende;Gründe für die Beendigung einer Studie;SIMPLE;1;1;2014-03-27;6;ja;0
+431;OS.Studien;Studien;STUDY;1;1;2013-11-01;0;ja;1
+425;OS.Substanzen;Substanzen für Systemtherapien;SIMPLE;1;1;2013-10-28;273;ja;1
+178;OS.Systemtherapieart;Art der Systemtherapie;SIMPLE;1;1;2013-04-28;6;ja;2
+545;OS.Systemtherapieeigenschaft;Merkmalskatalog für Systemtherapieeigenschaften;SIMPLE;1;1;2014-11-26;29;ja;0
+1431;OS.TBResektion;keine Empfehlung zur Resektion ;SIMPLE;1;1;2023-05-08;3;ja;1
+380;OS.Therapiedurchführung;Durchführung der Therapie;SIMPLE;1;1;2013-09-22;3;ja;13
+176;OS.Therapieintention;Therapieintention;SIMPLE;2;3;2023-07-01;8;ja;10
+325;OS.TK Anlass;TK Anlass;SIMPLE;1;1;2013-07-29;7;ja;1
+522;OS.TK.Bewertung;TK Bewertung;SIMPLE;1;1;2014-07-01;3;ja;1
+357;OS.TK.EmpfehlungLeitliniengerecht;Empfehlung leitliniengerecht;SIMPLE;1;1;2013-08-13;3;ja;1
+1090;OS.TK.Status;Status des Konferenztermins;SIMPLE;1;1;2018-07-10;5;ja;1
+1636;OS.TK.Therapieabweichung;OS.TK.Therapieabweichung;SIMPLE;1;1;2024-03-18;6;ja;1
+1634;OS.TK.Therapieempfehlung;OS.TK.Therapieempfehlung;SIMPLE;1;1;2024-03-18;16;ja;1
+375;OS.TK.Therapien;Empfohlene Therapien der TK;SIMPLE;1;1;2013-09-20;6;ja;4
+1635;OS.TK.Therapieplanung;OS.TK.Therapieplanung;SIMPLE;1;1;2024-03-18;4;ja;1
+327;OS.TKTyp;Typ der Tumorkonferenz;SIMPLE;1;1;2013-07-29;3;ja;1
+328;OS.Tumorausbreitung;Tumorausbreitung;SIMPLE;2;1;2013-07-29;8;ja;4
+463;OS.TumorausbreitungResidualtumor;Tumorausbreitung bei Tumornachweis;SIMPLE;2;1;2014-01-01;3;ja;4
+430;OS.Tumorkonferenzen;Tumorkonferenzen;SIMPLE;1;1;2013-11-01;4;ja;2
+169;OS.UICC-Stadium;Stadium;SIMPLE;6;6;2017-04-03;24;ja;15
+1630;OS.UmfangBestrahlung;Umfang der Einzelbestrahlung;SIMPLE;1;1;2024-02-13;3;ja;1
+405;OS.Unterbrechungsgrund;Unterbrechungsgrund;SIMPLE;1;1;2013-10-14;4;ja;1
+424;OS.Untersuchungen;Untersuchungen;SIMPLE;1;1;2013-10-26;167;ja;2
+459;OS.UntersuchungenDurchgeführt;Status der Durchführung einer Untersuchung;SIMPLE;1;1;2013-01-01;3;ja;1
+1312;OS.Vancouver;Vancouver Klassifikation;SIMPLE;1;1;2019-11-06;5;ja;1
+199;OS.Veneninvasion;V-Kategorie;SIMPLE;1;1;2013-05-27;4;ja;2
+563;OS.Vitalstatus;Vitalstatus;SIMPLE;1;1;2015-01-01;3;ja;1
+450;OS.WeitereKlassifikationen;Weitere Klassifikationen;SIMPLE;1;1;2013-01-01;81;ja;2
+451;OS.WeitereKlassifikationenWerte;Werte der weiteren Klassifikationen;SIMPLE;1;1;2013-01-01;204;ja;3
+1314;OS.WHOHistoGrading;WHO Histopathologisches Grading;SIMPLE;1;1;2020-05-07;6;ja;1
+422;OZ.AnastomoseninsuffizienzInterventionspflichtig;Anastomoseninsuffizienz interventionspflichtig;SIMPLE;1;1;2013-10-26;4;ja;1
+163;OZ.ASA-Klassifikation;OZ ASA Klassifikation;SIMPLE;1;1;2013-04-08;6;ja;2
+224;OZ.BedingungenLebermetastasenresektion;OnkoZert Bedingung sek. Lebermetastasenresektion;SIMPLE;1;1;2013-01-01;2;ja;1
+553;OZ.BZ.ArtDerOP;Art der OP;SIMPLE;1;1;2015-01-01;3;ja;1
+557;OZ.BZ.ArtSystemtherapie;Art der Systemtherapie;SIMPLE;1;1;2015-01-01;3;ja;1
+490;OZ.BZ.AusbreitungSeite;Ausbreitung auf eine oder beide Seiten;SIMPLE;1;1;2013-01-01;2;ja;0
+558;OZ.BZ.DetailsFollowUp;Details zum TUmorstatus;SIMPLE;1;1;2015-01-01;4;ja;3
+488;OZ.BZ.Drahtmarkierung;Art der Drahtmarkierung;SIMPLE;1;1;2013-01-01;5;ja;1
+623;OZ.BZ.Empfehlung;Zeitpunkt der Empfehlung;SIMPLE;1;1;2015-01-01;8;ja;4
+555;OZ.BZ.KomplikationZeitpunkt;Zeitpunkt der Komplikation;SIMPLE;1;1;2015-01-01;4;ja;1
+554;OZ.BZ.PraeparatroentgenIntraop;Angabe ob eine intraoperative Präparateradio-/-sonographie erfolgt ist.;SIMPLE;1;1;2015-01-01;3;ja;0
+489;OZ.BZ.Praeparatuntersuchung;Art der Präparatuntersuchung;SIMPLE;1;1;2013-01-01;2;ja;0
+486;OZ.BZ.Verwendungsjahr;Verwendungsjahr;SIMPLE;1;1;2013-01-01;3;ja;1
+551;OZ.Diagnosesicherheit;Onkozert Diagnosesicherheit;SIMPLE;1;1;2015-01-01;8;ja;0
+220;OZ.DZ.Anastomoseninsuffizienz;OnkoZert Anastomoseninsuffizienz;SIMPLE;1;1;2013-01-01;4;ja;1
+164;OZ.DZ.Fallart Primärtumor;Fallart Primärtumor;SIMPLE;1;1;2013-04-01;6;ja;1
+217;OZ.DZ.KolonRektum;OnkoZert Kolon oder Rektum;SIMPLE;1;1;2013-01-01;2;ja;3
+1310;OZ.DZ.Lebermetastasenresektion;Lebermetastasenresektion;SIMPLE;1;1;2020-05-21;2;ja;1
+366;OZ.DZ.Mesorektumresektion;Mesorektumresektion;SIMPLE;1;1;2013-08-22;4;ja;2
+1309;OZ.DZ.MTL22;MTL22 DKG Darmzentrum;SIMPLE;1;1;2021-04-12;5;ja;2
+212;OZ.DZ.SpezTumorlokalisationRektum;Onkozert, Spezifikation der Tumorlokalisation Rekturm;SIMPLE;1;1;2013-01-01;3;ja;1
+219;OZ.DZ.TME;OnkoZert TME, PME;SIMPLE;1;1;2013-01-01;3;ja;2
+208;OZ.Einwilligung;OnkoZert Einwilligung;SIMPLE;1;1;2013-01-01;2;ja;2
+331;OZ.EinwilligungVersandExterneStelle;Einwilligung Versand Externe Stelle;SIMPLE;1;1;2013-07-29;2;ja;1
+233;OZ.EmpfehlungAusgesprochen;OnkoZert Empfehlung ausgesprochen;SIMPLE;1;1;2013-01-01;2;ja;1
+214;OZ.EmpfehlungLeitliniengerecht;OnkoZert Leitliniengerechte Empfehlung;SIMPLE;1;1;2013-01-01;2;ja;2
+358;OZ.Fallart Primärtumor;Fallart des Primärtumors;SIMPLE;1;1;2013-08-13;3;ja;2
+210;OZ.Familienanamnese;OnkoZert Familienanamnese;SIMPLE;1;1;2013-01-01;3;ja;1
+235;OZ.FollowUpStatus;OnkoZert Follow-up Status;SIMPLE;1;1;2013-01-01;4;ja;5
+234;OZ.GenetischeBeratung;OnkoZert genetische Beratung;SIMPLE;1;1;2013-01-01;3;ja;1
+207;OZ.Geschlecht;OnkoZert Geschlecht;SIMPLE;1;1;2013-01-01;5;ja;5
+223;OZ.Grading;OnkoZert Grading;SIMPLE;1;1;2013-01-01;5;ja;3
+227;OZ.GründeBeendigung;OnkoZert Gründe Beendigung Therapie;SIMPLE;1;1;2013-01-01;4;ja;4
+226;OZ.GründeNichtdurchführung;OnkoZert Gründe für Nichtfürchführung Therapie;SIMPLE;1;1;2013-01-01;4;ja;15
+474;OZ.Grundgesamtheit;Grundgesamtheit Darmkrebs;SIMPLE;1;1;2012-01-01;4;ja;3
+540;OZ.GZ.Tumorart;Tumorart;SIMPLE;1;1;2014-10-03;7;ja;2
+547;OZ.Haut.Histo.Kategorie;ICDO-3 Kategorie;SIMPLE;1;1;2010-01-01;7;ja;0
+548;OZ.Haut.Krebsarten;Krebsarten der Haut;SIMPLE;1;1;2010-01-01;9;ja;3
+907;OZ.Haut.Melanomstatus;Status des MM;SIMPLE;1;1;2017-02-07;7;ja;1
+1280;OZ.HBZ.Fallart;Fallart Modul Harnblase;SIMPLE;1;1;2019-07-21;6;ja;1
+1374;OZ.HN.ArtStammzellentrans;OZ.HN.ArtStammzellentrans;SIMPLE;1;1;2020-01-26;2;ja;0
+1289;OZ.HN.Entitaet;Entitäten;SIMPLE;1;1;2020-01-26;11;ja;1
+1365;OZ.HN.Risikofaktoren;Risikofaktoren nach Ann Arbor;SIMPLE;1;1;2022-05-11;5;ja;1
+1380;OZ.Hoden.ArtHisto;Histologieeinteilung;SIMPLE;1;1;2023-01-22;5;ja;1
+1378;OZ.Hoden.LokTumorart;Tumorart Hoden;SIMPLE;1;1;2023-01-15;3;ja;1
+1379;OZ.Hoden.PostOPTherapie;Postoperative Therapieform;SIMPLE;1;1;2023-01-22;6;ja;1
+1377;OZ.Hoden.Therapie;Hodenkrebs Therapiearten;SIMPLE;1;1;2023-01-15;7;ja;1
+1004;OZ.HZ.Primärtumorstatus;Primärtumorstatus;SIMPLE;1;1;2017-11-16;2;ja;1
+211;OZ.JaNein;OnkoZert Ja, Nein;SIMPLE;1;1;2013-01-01;2;ja;53
+556;OZ.JaNeinText;JaNein als J/N;SIMPLE;1;1;2015-01-01;3;ja;11
+209;OZ.JaNeinUnbekannt;OnkoZert ja, nein oder unbekannt;SIMPLE;1;1;2013-01-01;3;ja;12
+1224;OZ.KHT.Entitaeten;OZ.KHT.Entitäten;SIMPLE;1;1;2019-03-02;6;ja;2
+973;OZ.KIO.Krebsart;OZ.KIO.Krebsart;SIMPLE;1;1;2017-08-29;12;ja;3
+1100;OZ.KIO.Tumorart;OZ.KIO.Tumorart;SIMPLE;1;1;2018-08-16;3;ja;1
+929;OZ.KIO.Wohnsitz;Wohnsitz;SIMPLE;1;1;2017-06-11;3;ja;1
+1089;OZ.LBZ.Fallart;OZ.LBZ.Fallart;SIMPLE;1;1;2018-07-03;4;ja;1
+906;OZ.LBZ.ThermotherapieZugang;Zugang der Thermotherapien;SIMPLE;1;1;2017-01-01;6;ja;1
+1628;OZ.LBZ.Typ;OZ.LBZ.Typ;SIMPLE;1;1;2023-11-21;2;ja;1
+656;OZ.Leistungserbringer;Leistungserbringer;SIMPLE;1;1;2011-12-31;4;ja;1
+1402;OZ.LZ.AntikörperImmun;Antikörper-/Immuntherapie Substanzen;SIMPLE;1;1;2023-01-05;13;ja;1
+1395;OZ.LZ.ArtStrahlentherapie;Art Strahlentherapie;SIMPLE;1;1;2023-01-11;11;ja;1
+1405;OZ.LZ.CTCAEGrad;CTCAE-Grad unter Systemtherapie;SIMPLE;1;1;2023-01-09;7;ja;1
+1383;OZ.LZ.DiagnoseschlüsselICD10;Diagnoseschlüssel ICD-10;SIMPLE;1;1;2023-01-16;9;ja;2
+1384;OZ.LZ.DiagnoseschlüsselICD11;Diagnoseschlüssel ICD-11;SIMPLE;1;1;2023-01-16;7;ja;2
+1283;OZ.LZ.Eingriff;Eingriffe an der Lunge;SIMPLE;1;1;2019-03-15;4;ja;2
+1387;OZ.LZ.Falldokumentation;Falldokumentation;SIMPLE;1;1;2023-01-16;3;ja;1
+1410;OZ.LZ.FollowupArt;Aktives/Passives Follow-Up;SIMPLE;1;1;2023-01-10;2;ja;1
+1284;OZ.LZ.HistoTyp;OZ.LZ.HistoTyp;SIMPLE;1;1;2021-01-01;4;ja;2
+1382;OZ.LZ.ICDVersion;ICD-Code Version;SIMPLE;1;1;2023-01-09;2;ja;3
+1381;OZ.LZ.JaNeinUnbekannt;Ja/Nein/Unbekannt;SIMPLE;1;1;2023-01-05;3;ja;26
+1393;OZ.LZ.Komorbiditaeten;Komorbiditäten vor Diagnose;SIMPLE;1;1;2023-01-10;35;ja;1
+1401;OZ.LZ.KomplikationenZeitpunkt;Komplikationen Zeitpunkt;SIMPLE;1;1;2023-01-17;5;ja;1
+1389;OZ.LZ.Manifestation;Tumormanifestation;SIMPLE;1;1;2023-01-16;3;ja;1
+1411;OZ.LZ.Melder;Melder/Quelle der Meldung;SIMPLE;1;1;2023-01-05;6;ja;1
+1417;OZ.LZ.MolGenErgebnis;Ergebnis Molekulare Genetik;SIMPLE;1;1;2023-01-10;4;ja;15
+1418;OZ.LZ.MolGenErgebnis2;Mutation oder Wildtyp;SIMPLE;1;1;2023-01-10;3;ja;1
+1416;OZ.LZ.Mutation;Genuntersuchung Ergebnis;SIMPLE;1;1;2023-01-10;3;ja;4
+1419;OZ.LZ.PathoEinheit;Behandlungseinheit Pathologie;SIMPLE;1;1;2023-01-08;5;ja;1
+1386;OZ.LZ.PneumoEinheit;Behandlungseinheit Pneumologie;SIMPLE;1;1;2023-01-05;8;ja;1
+1398;OZ.LZ.Radiochemotherapie;Radiochemotherapie;SIMPLE;1;1;2023-01-11;3;ja;1
+1390;OZ.LZ.Raucher;Raucher-Status;SIMPLE;1;1;2023-01-08;4;ja;1
+1397;OZ.LZ.StrahlenEinheit;Behandlungseinheit Strahlentherapie;SIMPLE;1;1;2023-01-08;5;ja;1
+1394;OZ.LZ.Studie;Studie;SIMPLE;1;1;2023-01-05;2;ja;1
+1396;OZ.LZ.STZeitpunkt;Zeitpunkt Strahlentherapie;SIMPLE;1;1;2023-01-08;6;ja;1
+1406;OZ.LZ.SubtanzenChemo;Chemotherapie Substanzen;SIMPLE;1;1;2023-01-05;11;ja;1
+1408;OZ.LZ.SystemEinheit;Behandlungseinheit Systemtherapie;SIMPLE;1;1;2023-01-09;20;ja;1
+1404;OZ.LZ.SystemtherapieArt;Art der Systemtherapie;SIMPLE;1;1;2023-01-09;13;ja;1
+1407;OZ.LZ.SyTherapie;Systemtherapie Zeitpunkt;SIMPLE;1;1;2023-01-16;5;ja;1
+1399;OZ.LZ.TherapieFM;Therapie Fernmetastasen;SIMPLE;1;1;2023-01-10;7;ja;1
+1403;OZ.LZ.Therapielinie;Therapielinie;SIMPLE;1;1;2023-01-09;16;ja;1
+1400;OZ.LZ.ThoraxEinheit;Behandlungseinheit Thoraxchirurgie;SIMPLE;1;1;2023-01-05;4;ja;2
+1409;OZ.LZ.TKI;TKI-Therapie Substanzen;SIMPLE;1;1;2023-01-05;19;ja;1
+1392;OZ.LZ.TKZeitpunkt;Zeitpunkt Tumorkonferenz;SIMPLE;1;1;2023-01-08;4;ja;1
+1433;OZ.LZ.TNMM;M-Stadium;SIMPLE;1;1;2023-04-11;6;ja;2
+1434;OZ.LZ.TNMN;TNM N-Stadium;SIMPLE;1;1;2023-04-11;5;ja;2
+1432;OZ.LZ.TNMT;TNM T-Stadium;SIMPLE;1;1;2023-04-11;13;ja;2
+1413;OZ.LZ.TumorstatusFM;Tumorstatus Fernmetastasen;SIMPLE;1;1;2023-01-09;8;ja;1
+1391;OZ.LZ.TumorstatusGesamt;Gesamtbeurteilung Tumorstatus;SIMPLE;1;1;2023-01-09;10;ja;2
+1414;OZ.LZ.TumorstatusLK;Tumorstatus Lymphknoten;SIMPLE;1;1;2023-01-09;8;ja;1
+1412;OZ.LZ.TumorstatusLokal;Tumorstatus lokal;SIMPLE;1;1;2023-01-09;8;ja;1
+1385;OZ.LZ.Versicherungsform;Versicherungsform;SIMPLE;1;1;2023-01-16;5;ja;1
+1415;OZ.LZ.Vitalstatus;Vitalstatus;SIMPLE;1;1;2023-01-09;2;ja;1
+1388;OZ.LZ.Zentrumsfall;Zentrumsfall/Primärfall;SIMPLE;1;1;2023-01-08;3;ja;1
+1099;OZ.MZ.AEG;Siewert;SIMPLE;1;1;2018-08-12;3;ja;1
+1292;OZ.MZ.Typ;OZ.MZ.Typ;SIMPLE;1;1;2020-03-09;2;ja;1
+1321;OZ.NZ.Fallart;Fallart Modul Niere;SIMPLE;1;1;2019-07-29;6;ja;1
+470;OZ.PatientTumorstatus;OZ.PatientTumorstatus;SIMPLE;1;1;2013-01-01;4;ja;3
+1639;OZ.Penis.Fallart;Fallart Penis;SIMPLE;1;1;2022-12-31;4;ja;1
+638;OZ.PK.Fallart Grundgesamtheit;Fallart Primärtumor;SIMPLE;1;1;2014-01-01;1;ja;0
+487;OZ.pos_neg;Positiv Negativ;SIMPLE;1;1;2013-01-01;4;ja;8
+231;OZ.PsychoonkologischeBetreuung;OnkoZert Psychoonkologische Betreuung;SIMPLE;1;1;2013-01-01;2;ja;1
+873;OZ.PZ.ArtOP;Art OP;SIMPLE;1;1;2016-09-05;2;ja;1
+859;OZ.PZ.ArtTherapie;Therapieart;SIMPLE;1;1;2016-09-05;17;ja;1
+889;OZ.PZ.ClavienDindoGrad;Clavien Dindo Grad;SIMPLE;1;1;2016-09-06;10;ja;1
+886;OZ.PZ.CTCAEGrad;CTC AE Grad;SIMPLE;1;1;2016-09-05;6;ja;0
+734;OZ.PZ.DauerErektion;OZ.PZ.DauerErektion;SIMPLE;1;1;2013-12-30;6;ja;1
+870;OZ.PZ.Diagnosesicherheit;Diagnosesicherheit;SIMPLE;1;1;2016-09-05;8;ja;1
+1376;OZ.PZ.Empfehlung;OZ.PZ.Empfehlung;SIMPLE;1;1;2022-10-19;9;ja;1
+732;OZ.PZ.ErektionZuversicht;OZ.PZ.ErektionZuversicht;SIMPLE;1;1;2013-12-30;5;ja;1
+894;OZ.PZ.Fallart;Art des Falls;SIMPLE;1;1;2016-09-20;12;ja;1
+856;OZ.PZ.Fernmetastasen;Fernmetastasen;SIMPLE;1;1;2016-09-05;3;ja;1
+1044;OZ.PZ.Fokal;OZ.PZ.Fokal;SIMPLE;1;1;2018-04-22;2;ja;1
+622;OZ.PZ.Fortschritt;Lokaler Fortschritt;SIMPLE;1;1;2015-01-01;5;ja;2
+736;OZ.PZ.Geschlechtsverkehr;OZ.PZ.Geschlechtsverkehr;SIMPLE;1;1;2013-12-30;6;ja;1
+879;OZ.PZ.GleasonScoreWert;Gleason-Score Wert;SIMPLE;1;1;2016-09-05;5;ja;4
+731;OZ.PZ.HoeheUrinverlust;OZ.PZ.HoeheUrinverlust;SIMPLE;1;1;2013-12-30;4;ja;1
+892;OZ.PZ.JaNein;Ja Nein;SIMPLE;1;1;2016-09-06;2;ja;3
+890;OZ.PZ.JaNeinUnbekannt;JaNeinUnbekannt;SIMPLE;1;1;2016-09-06;3;ja;9
+866;OZ.PZ.Komorbiditäten;Komorbiditäten;SIMPLE;1;1;2016-09-05;13;ja;0
+862;OZ.PZ.KomplikationenBereich;Komplikationen Bereich;SIMPLE;1;1;2016-09-05;19;ja;0
+737;OZ.PZ.Lebensquali;OZ.PZ.Lebensquali;SIMPLE;1;1;2013-12-30;9;ja;2
+865;OZ.PZ.Leistungsbringer;Patient eingebracht über Leistungserbringer;SIMPLE;1;1;2016-09-05;4;ja;1
+883;OZ.PZ.PathologischesTNMpM;pathologisches TNM - pM;SIMPLE;1;1;2016-09-05;6;ja;1
+882;OZ.PZ.PathologischesTNMpN;pathologisches TNM - pT ;SIMPLE;1;1;2016-09-05;3;ja;1
+881;OZ.PZ.PathologischesTNMpt;pathologisches TNM - pT ;SIMPLE;1;1;2016-09-05;14;ja;1
+733;OZ.PZ.Penetration;OZ.PZ.Penetration;SIMPLE;1;1;2013-12-30;6;ja;1
+878;OZ.PZ.PrätherapeutischesM  ;Prätherapeutisches M  ;SIMPLE;1;1;2016-09-05;6;ja;1
+877;OZ.PZ.PrätherapeutischesN;PrätherapeutischesN;SIMPLE;1;1;2016-09-05;3;ja;1
+876;OZ.PZ.PrätherapeutischesT;Prätherapeutisches T;SIMPLE;1;1;2016-09-05;14;ja;1
+885;OZ.PZ.Resektionsrand;Resektionsrand;SIMPLE;1;1;2016-09-05;2;ja;1
+884;OZ.PZ.Residualstatus;Residualstatus;SIMPLE;1;1;2016-09-05;4;ja;1
+552;OZ.PZ.Risiko;Risiko level;SIMPLE;1;1;2015-01-01;4;ja;2
+863;OZ.PZ.Strahlenart;Art;SIMPLE;1;1;2016-09-05;3;ja;1
+861;OZ.PZ.Therapieintention;Therapieintention;SIMPLE;1;1;2016-09-05;3;ja;3
+860;OZ.PZ.Therapiezeitpunkt;Therapiezeitpunkt;SIMPLE;1;1;2016-09-05;5;ja;4
+869;OZ.PZ.Tumordiagnose;Tumordiagnose (ICD-10);SIMPLE;1;1;2016-09-05;3;ja;1
+857;OZ.PZ.TumorstatusGesamt;Tumorstatus gesamt;SIMPLE;1;1;2016-09-05;5;ja;1
+853;OZ.PZ.TumorstatusLokal;Tumorstatus lokal (Lokalrezidiv);SIMPLE;1;1;2016-09-04;3;ja;1
+730;OZ.PZ.Urinverlust;Urinverlust;SIMPLE;1;1;2013-12-31;6;ja;1
+738;OZ.PZ.UrinverlustBeeint;OZ.PZ.UrinverlustBeeintraechtigung;SIMPLE;1;1;2013-12-30;11;ja;1
+875;OZ.PZ.Verfahren;Verfahren;SIMPLE;1;1;2016-09-05;9;ja;1
+854;OZ.PZ.Vitalstatus;Vitalstatus;SIMPLE;1;1;2016-09-05;4;ja;1
+735;OZ.PZ.Vollendung;OZ.PZ.Vollendung;SIMPLE;1;1;2013-12-30;6;ja;1
+867;OZ.PZ.Wiedererkrankung ;Primärtumor oder Wiedererkrankung;SIMPLE;1;1;2016-09-05;3;ja;1
+858;OZ.PZ.Zeitpunkt;Zeitpunkt;SIMPLE;1;1;2016-09-05;2;ja;2
+864;OZ.PZ.ZeitpunktTK;Zeitpunkt Tumorkonferenz;SIMPLE;1;1;2016-09-05;3;ja;1
+868;OZ.PZ.Zentrumsfall;Zentrumsfall;SIMPLE;1;1;2016-09-05;2;ja;1
+237;OZ.QuelleFollowUp;OnkoZert Quelle Follow-up;SIMPLE;1;1;2013-01-01;7;ja;9
+203;OZ.R-Klassifikation;OnkoZert R-Klassifikation;SIMPLE;1;1;2013-05-28;5;ja;3
+544;OZ.Robinson;Robinsonklassifikation;SIMPLE;1;1;2010-01-01;7;ja;2
+996;OZ.Schwerpunkte;DKG Schwerpunkte;SIMPLE;1;1;2017-10-04;14;ja;5
+1627;OZ.SK.Resektion;Anatomische Abgrenzung der Resektion;SIMPLE;1;1;2023-12-19;3;ja;2
+1028;OZ.SK.RisikoklassifikationGIST;Risikoklassifikation nach Miettinen;SIMPLE;1;1;2017-01-01;6;ja;2
+1011;OZ.SK.Tumortyp;Tumortyp;SIMPLE;1;1;2017-12-12;4;ja;4
+232;OZ.Sozialdienst;OnkoZert Sozialdienst;SIMPLE;1;1;2013-01-01;3;ja;1
+1012;OZ.SPZ.Tumortyp;Tumortyp;SIMPLE;1;1;2017-12-13;3;ja;1
+997;OZ.StatusZuordnung;Status der Zuordnung;SIMPLE;1;1;2017-10-10;2;ja;5
+230;OZ.Studientyp;OnkoZert Studientyp;SIMPLE;1;1;2013-01-01;3;ja;1
+225;OZ.Therapieintention;OnkoZert Therapieintention;SIMPLE;1;1;2013-01-01;2;ja;5
+228;OZ.TherapiezeitpunktAdjuvant;OnkoZert Therapiezeitpunkt Adjuvant;SIMPLE;1;1;2013-01-01;1;ja;2
+229;OZ.TherapiezeitpunktNeoadjuvant;OnkoZert Therapiezeitpunkt Neoadjuvant;SIMPLE;1;1;2013-01-01;1;ja;2
+215;OZ.TKVorstellung;OnkoZert Vorstellung in Tumorkonferenz;SIMPLE;1;1;2013-01-01;2;ja;2
+216;OZ.Tumorausprägung;Onkozert Tumorausprägung;SIMPLE;1;1;2013-01-01;2;ja;1
+362;OZ.Tumorentfernung;Tumorentfernung;SIMPLE;1;1;2013-08-17;4;ja;0
+213;OZ.UICC;Onkozert, UICC-Stadium;SIMPLE;1;1;2013-01-01;6;ja;5
+1038;OZ.UnterEntitäten;Unterteilung von Entitäten;SIMPLE;1;1;2018-03-08;8;ja;1
+236;OZ.Verstorben;OnkoZert Status verstorben;SIMPLE;1;1;2013-01-01;4;ja;8
+637;OZ.WeitereEntitäten;Weitere Entitäten (Onkologisches Zentrum);SIMPLE;1;1;2015-07-01;25;ja;1
+222;OZ.Wundinfektion;OnkoZert Wundinfektion;SIMPLE;1;1;2013-01-01;2;ja;1
+1002;OZ.Zentren;Onkologische Zentren;SIMPLE;1;1;2017-10-15;21;ja;1
+1285;PAT.Fallart;Fallart;SIMPLE;1;1;2022-08-01;2;ja;2
+905;Person;;PERSON;0;;;0;nein;0
+1370;Probase.Anaesthesieverfahren;Anaesthesieverfahren;SIMPLE;1;1;2014-02-10;6;ja;0
+1060;Probase.AngehoerigeProstatakrebs;AngehoerigeProstatakrebs;SIMPLE;1;1;2014-01-28;5;ja;0
+1369;Probase.AnzahlZylinder;AnzahlZylinder;SIMPLE;1;1;2014-02-10;5;ja;0
+1070;Probase.Ausbildungsabschluss;Ausbildungsabschluss;SIMPLE;1;1;2014-01-28;12;ja;0
+1372;Probase.Biopsiebericht;Biopsiebericht;SIMPLE;1;1;2014-02-10;9;ja;0
+1368;Probase.BiopsieKomplikationen;BiopsieKomplikationen;SIMPLE;1;1;2014-02-10;7;ja;0
+1371;Probase.Biopsieverfahren;Biopsieverfahren;SIMPLE;1;1;2014-02-10;4;ja;0
+1066;Probase.DerzeitigeSituation;DerzeitigeSituation;SIMPLE;1;1;2014-01-28;8;ja;0
+1373;Probase.DRU;DRU;SIMPLE;1;1;2014-02-10;7;ja;0
+479;Probase.Einladungsschreiben;Einladungsschreiben;SIMPLE;1;1;2013-08-11;5;ja;0
+481;Probase.Ergebnis;Ergebnis;SIMPLE;1;1;2014-01-01;4;ja;0
+1068;Probase.Erwerbstätig;Erwerbstätig;SIMPLE;1;1;2014-01-28;12;ja;0
+1072;Probase.Familienstand;Familienstand;SIMPLE;1;1;2013-08-14;7;ja;0
+1065;Probase.Geburtsland;Angabe Geburtsland;SIMPLE;1;1;2014-01-27;4;ja;0
+1062;Probase.GrundBestimmungPSA;GrundBestimmungPSA;SIMPLE;1;1;2014-01-28;6;ja;0
+478;Probase.JaNein;Probase.JaNein;SIMPLE;1;1;2014-02-12;3;ja;0
+1073;Probase.JaNeinWeißNicht;Ja, Nein, Weiß nicht;SIMPLE;1;1;2014-01-28;4;ja;0
+1069;Probase.Krebserkrankung1;Krebserkrankung1;SIMPLE;1;1;2014-01-28;4;ja;0
+1074;Probase.LebenSieMitPartnerZusammen;Leben Sie mit Partner zusammen;SIMPLE;1;1;2013-08-14;5;ja;0
+1059;Probase.ProstataTastuntersuchung;ProstataTastuntersuchung;SIMPLE;1;1;2014-01-28;6;ja;0
+1058;Probase.Schulabschluss;Schulabschluss;SIMPLE;1;1;2014-01-28;11;ja;0
+1071;Probase.Staatsangehörigkeit;Angabe Staatsangehörigkeit;SIMPLE;1;1;2014-01-27;4;ja;0
+480;Probase.Studienarm;Studienarm;SIMPLE;1;1;2014-01-01;2;ja;0
+1061;Probase.Studienzentrum;Studienzentrum;SIMPLE;1;1;2014-02-12;4;ja;0
+343;Probase.Terminstatus;Status einer Terminvereinbarung;SIMPLE;1;1;2013-08-10;4;ja;0
+1067;Probase.VerstorbenProstatakrebs;VerstorbenProstatakrebs;SIMPLE;1;1;2014-01-28;5;ja;0
+1063;Probase.WeißNicht;WeißNicht;SIMPLE;1;1;2014-01-28;2;ja;0
+1064;Probase.WirtschaftlicheSituation;WirtschaftlicheSituation;SIMPLE;1;1;2014-01-28;6;ja;0
+1286;SK.Fragebogen;Fragebogen;SIMPLE;1;1;2016-08-22;49;ja;1
+1357;Symptomatisches Lymphödem;Symptomatisches Lymphödem;SIMPLE;1;1;2019-03-06;3;ja;1
+378;System.Bundesland;Bundesland;SIMPLE;1;1;2013-09-21;16;ja;0
+332;System.Geschlecht;Geschlecht;SIMPLE;1;1;2013-07-29;5;ja;1
+1436;System.Krankenversicherung;System.Krankenversicherung;SIMPLE;1;1;2020-11-04;3383;nein;1
+1435;System.Land;Länder für Geburtsland;SIMPLE;1;1;2020-11-04;192;ja;3
+1359;T;T;SIMPLE;1;1;2019-03-06;7;ja;1
+1353;TherapieKnochenmetastasenBiphosphonate;Therapie bei Knochenmetastasen Biphosphonate;SIMPLE;1;1;2019-03-06;3;ja;2
+1355;TherapieKnochenmetastasenDenosumab;Therapie bei Knochenmetastasen Denosumab;SIMPLE;1;1;2019-03-06;3;ja;2
+542;TK Phaenomen;TK Phänomen;SIMPLE;1;1;2013-09-20;3;ja;1
+257;TNM Certainty;TNM Certainty-Faktor;SIMPLE;6;6;2017-04-03;5;ja;6
+256;TNM M;TNM M-Stadium;SIMPLE;6;6;2017-04-03;21;ja;15
+255;TNM M Präfix;TNM M-Stadium Präfix;SIMPLE;6;6;2017-04-03;3;ja;8
+258;TNM Metastasen;TNM Metastasen Lokalisationen;SIMPLE;6;1;2010-01-01;12;ja;8
+621;TNM Multiplizität;TNM m;SIMPLE;1;1;2013-01-01;10;ja;5
+254;TNM N;TNM N-Stadium;SIMPLE;6;6;2017-04-03;26;ja;17
+253;TNM N Präfix;TNM N-Stadium Präfix;SIMPLE;6;6;2017-04-03;3;ja;9
+539;TNM Org;Organisation TNM;SIMPLE;1;1;2013-01-01;2;ja;2
+202;TNM T;TNM T;SIMPLE;6;6;2017-04-03;43;ja;16
+201;TNM T Präfix;TNM T Präfix;SIMPLE;6;6;2017-04-03;3;ja;9
+200;TNM-y;TNM-y;SIMPLE;6;6;2017-04-03;2;ja;2
+1362;TNMKlassifizierung;TNM-Klassifizierung;SIMPLE;1;1;2019-03-06;3;ja;1
+469;UICC-Stadium;UICC-Stadium;SIMPLE;1;1;2013-04-01;18;ja;2
+541;Verantwortliche Ärzte;Verantwortliche Ärzte;DOCTOR;0;;;0;nein;1
+743;Versandtypen;Versandtypen;SIMPLE;1;1;2016-02-03;3;ja;1

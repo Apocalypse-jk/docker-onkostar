@@ -1,0 +1,32 @@
+﻿name;label;visiten;anzahl_felder
+patient;patient;;2
+consents;Zustimmungen nNGM;;167
+tumorDiagnosis;Diagnosen;;12
+vitalStatus;Vitalstatus;;11
+nngmPortal;Patientenportal;;1
+operationTherapy;Operation;;20
+radioTherapy;Strahlentherapie;;24
+systemicTherapy;Systemische Therapie;;50
+impalux;IMPALUX;;62
+diagnosticsRequest;Eckdaten der Anforderung;nngm-case;23
+healthCoverage;Krankenkasse;nngm-case;2
+smokerStatus;Raucherstatus;nngm-case;4
+ecog;ECOG;nngm-case;2
+tumorMaterial;Tumormaterial;nngm-case;9
+tumorStage;Tumorstadium;nngm-case;34
+histology;Histologie;nngm-case;17
+progressRezidiv;Rezidiv/Progress + Resistenztestung;nngm-case;130
+preliminaryFindingsImmunohistochemistry;Immunhistochemie;nngm-case;85
+preliminaryOtherExaminations;Nicht-standard nNGM Untersuchungen;nngm-case;13
+diagnosticHistology;Histologie;nngm-case;19
+immunohistochemistry;Immunhistochemie;nngm-case;85
+fastTrack;Fast Track;nngm-case;108
+lungPanel;NGS DNA Panel;nngm-case;37
+ngsFusion;NGS RNA Panel;nngm-case;35
+ishFish;ISH/FISH;nngm-case;126
+liquidBiopsy;Liquid Biopsy;nngm-case;32
+otherExamination;Sonstige Untersuchungen;nngm-case;13
+resistanceTesting;Resistenztestung;nngm-case;58
+assessment;MURIPEDIA Therapie Information;nngm-case;11
+TherapyInformation;Therapieinformation;nngm-case;4
+nngm-case;nNGM Fall spezifische Daten;nngm-case;1

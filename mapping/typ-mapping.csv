@@ -1,0 +1,31 @@
+﻿nngm_typ;onkostar_datentypen;onkostar_element;kategorie;fester_merkmalskatalog;hinweis
+Enumeration;propertyCatalogue;combobox / radiogroup;;;Werteliste siehe vorschlaege/merkmalskataloge.csv
+FreeText;shorttext,longtext;textfield / textarea;;;"""maximal length"" aus der Definition beachten (shorttext max. 255)"
+MedicalDate;date,datetime;datefield;;;"Teildatum (""needs day/month"", ""can day be unknown"") → Datumsgenauigkeit in Spalte <feld>_acc"
+Date;date,datetime;datefield;;;
+Integer;integer,decimal;textfield (Zahl);;;"""minimal""/""maximal""/""unit"" als Wertebereich bzw. Einheit übernehmen"
+Decimal;decimal,integer;textfield (Zahl);;;Nachkommastellen beachten
+Autocomplete;propertyCatalogue;propcatLookup / checkbox;;;"Nur Excel. Werte aus FHIR-ValueSet (""items""); ""selectAll: yes"" = Mehrfachauswahl"
+MultipleChoice;propertyCatalogue;checkbox;;;Schema: Mehrfachauswahl (mehrere <value>) → Datenkatalog-Feld mit MultipleChoice=true, Werte in dk_<katalog>_merkmale
+Terminology;propertyCatalogue;propcatLookup;;;"Schema: Code aus nNGM-Terminologie; Katalog je Terminologie siehe TERMINOLOGY_CATALOG in mapping-vorschlaege.mjs (icd03morphology → ICD-O-3 Histologie, atc → OS.Substanzen, gene → OS.Molekulargenetik …)"
+EntryId;;;A;;Schema: ID des Listeneintrags bzw. des nNGM-Falls zum Reidentifizieren → prozedur.id des Onkostar-Eintrags
+Icd03Morphology;propertyCatalogue;propcatLookup;;ICD-O-3 Histologie;nNGM schränkt per ValueSet auf Lungen-Histologien ein
+NngmTerminologyCollection;propertyCatalogue;combobox;;;"nNGM-Terminologie (""collection"", z. B. gene, ngsDnaPanel) – muss als Merkmalskatalog angelegt werden"
+NngmTerminologyCodeEnumeration;propertyCatalogue;combobox;;;Wie NngmTerminologyCollection
+TerminologyMultipleCollection;propertyCatalogue;checkbox;;;Mehrfachauswahl aus nNGM-Terminologie
+NngmHealthCoverageType;propertyCatalogue;combobox;;;Krankenkassentyp
+ListEntryReference;formReference;formReference;;;Verweis auf einen Listeneintrag eines anderen Instruments (z. B. Biopsie, Erstdiagnose)
+NngmCaseReference;formReference;formReference;;;Verweis auf einen anderen nNGM-Fall
+FieldGroup;;section / group;Struktur;;Abschnitt im Formular
+List;;subform;Struktur;;Wiederholbare Liste → Unterformular
+ListEntry;;subform;Struktur;;Eintrag einer Liste → Inhalt des Unterformulars
+Table;;subform;Struktur;;Tabelle → Unterformular
+TableEntry;;subform;Struktur;;Tabellenzeile → Inhalt des Unterformulars
+DisplayValue;;label;D;;Berechnete Anzeige → Formularskript oder Plugin
+NngmCasePopulation;;;D;;Wert wird automatisch aus dem nNGM-Fall übernommen → Plugin
+NngmCaseArchiveCodesPopulation;;;D;;Automatisch befüllt → Plugin
+NngmNetworkPartner;;organisationUnit;D;;Behandelnde Einrichtung und Therapeut aus dem nNGM-Netzwerk → Plugin/Stammdaten
+NngmNetworkLocation;;organisationUnit;D;;Standort aus dem nNGM-Netzwerk → Plugin/Stammdaten
+NngmNetworkPathologist;;;D;;Pathologe aus dem nNGM-Netzwerk → Plugin/Stammdaten
+PatientPortalButton;;button;D;;Aktion im nNGM-Patientenportal – vermutlich nicht relevant
+SynQuestData;;;D;;Externe Befragungsdaten → Plugin

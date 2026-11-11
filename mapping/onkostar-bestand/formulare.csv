@@ -1,0 +1,173 @@
+﻿id;name;beschreibung;aktiv;version;menue_kategorie;datenkataloge;anzahl_datenfelder;unterformulare;unterformular_von
+733;Adjumed Cystectomia;Adjumed Cystectomia ;0;1;Sonstiges;AdjumedCyst, AdjumedCystAddFUHaupt, AdjumedCystFU12Monate, AdjumedCystFU24Monate, AdjumedCystFU3Monate, AdjumedCystLaborChem12M, AdjumedCystLaborChem24M, AdjumedCystLaborChemie3M;190;Adjumed Cystectomia Labor Chemie, UFA Adjumed Cystectomia zusätzlicher Follow Up;
+725;Adjumed Cystectomia Labor Chemie;Adjumed Cystectomia Labor Chemie;1;1;Sonstiges;AdjumedCystLaborChemie;4;;Adjumed Cystectomia
+727;Adjumed Cystectomia OP Eingriffsteil;Adjumed Cystectomia OP Eingriffsteil;1;1;;AdjumedCystOPStatUnter;58;;Adjumed Cystectomia Operationsstatistik
+734;Adjumed Cystectomia Operationsstatistik;Adjumed Cystectomia Operationsstatistik;1;1;;AdjumedCystOPStatHaupt;7;Adjumed Cystectomia OP Eingriffsteil;
+738;Adjumed Fristen;Adjumed Fristen;1;1;Sonstiges;Adjumed Fristen;24;;
+736;Adjumed Nephrectomy;Adjumed Nephrectomy;1;1;Sonstiges;AdjumedFollowUp12Monate, AdjumedFollowUp3Monate, AdjumedNephr, AdjumedNephrAddFUHaupt, AdjumedNephrAddFUUnter2, AdjumendFollowUp24Monate;143;UFA Adjumed Nephrectomy zusätzlicher Follow Up;
+739;Adjumed Nephrectomy OP Eingriffsteil;Adjumed Nephrectomy OP Eingriffsteil;1;1;;AdjumedNephrOPStatUnter;58;;Adjumed Nephrectomy Operationsstatistik
+741;Adjumed Nephrectomy Operationsstatistik;Adjumed Nephrectomy Operationsstatistik;1;1;Sonstiges;AdjumedNephrOPStatHaupt;7;Adjumed Nephrectomy OP Eingriffsteil;
+737;Adjumed Prostatectomy;Adjumed Prostatectomy;1;1;Sonstiges;AdjumedProst, AdjumedProstAddFUHaupt, AdjumedProstFU12Monate, AdjumedProstFU24Monate, AdjumedProstFU3Monate, AdjumedProstOPStatHaupt, AdjumedProstOPStatUnter;168;Adjumed Prostatectomy Labor Chemie, UFA Adjumed Prostatectomy zusätzlicher Follow Up;
+731;Adjumed Prostatectomy Labor Chemie;Adjumed Prostatectomy Labor Chemie;1;1;;AdjumedProstLaborChemie;4;;Adjumed Prostatectomy
+740;Adjumed Prostatectomy OP Eingriffsteil;Adjumed Prostatectomy OP Eingriffsteil;1;1;;AdjumedProstOPStatUnter;51;;Adjumed Prostatectomy Operationsstatistik
+742;Adjumed Prostatectomy Operationsstatistik;Adjumed Prostatectomy Operationsstatistik;1;1;;AdjumedProstOPStatHaupt;7;Adjumed Prostatectomy OP Eingriffsteil;
+735;Adjumed SBCDB;Adjumed SBCDB;1;1;Sonstiges;Adjumed SBCDB;221;Re-Operation wegen Komplikation, Weitere plastische Operationen;
+600;DGHO Neuerkrankung;DGHO Neuerkrankung;0;1;;DGHO Zentrum;4;;
+605;DGHO onkologischer Fall;DGHO onkologischer Fall;1;1;;DGHO Zentrum;7;;
+492;DKG Brustkrebs Matrix;DKG Brustkrebs Matrix;1;1;;OZBZ_Matrix;31;;
+706;DKG Dysplasie;DKG Dysplasie;1;1;Sonstiges;Dysplasie, OZBZ;17;;
+585;DKG Sarkome GIST;DKG Sarkome GIST;0;1;;OZSKGIST;11;;
+708;DMP-Brustkrebs;DMP-Brustkrebs;0;1;Sonstiges;DMP;43;;
+694;EinwilligungBefragung;Einwilligung Patientenbefragung;1;1;Sonstiges;EinwilligungBefragung;7;;
+705;EORTC-C30;EORTC-QLQ-C30;1;1;Fragebogen;EORTCQLQC30, Fragebogen-Basis;40;;
+647;EPIC-26;EPIC-26;1;1;Fragebogen;EPIC26, Fragebogen-Basis;49;;
+690;EPIC-26-POST;EPIC-26-POST;1;1;Fragebogen;EPIC26, Fragebogen-Basis;48;;
+697;Fragebogen-Basis;Allgemeine Basis für alle Fragebögen;0;1;;Fragebogen-Basis;4;;
+704;IIEF5;International Index of Erectile Function;1;1;Fragebogen;Fragebogen-Basis, IIEF5;11;;
+702;IPSS;Internationaler Prostata-Symptomen-Score;1;1;Fragebogen;Fragebogen-Basis, IPSS;13;;
+703;IPSSQ8;IPSS Q8;1;1;Fragebogen;Fragebogen-Basis, IPSSQ8;7;;
+718;OnkoZert Analkarzinom;DKG Analkarzinom;1;1;;OZAK;25;;
+275;OnkoZert Brustkrebs;DKG Brust;1;1;;OZBZ;73;OnkoZert Brustkrebs ST, OnkoZert Brustkrebs SysT, OnkoZert Brustkrebs TK, OnkoZert Brustkrebs Verlauf;
+572;OnkoZert Brustkrebs 18;DKG Brust 18;1;1;;OZBZ;76;OnkoZert Brustkrebs ST, OnkoZert Brustkrebs SysT, OnkoZert Brustkrebs TK, OnkoZert Brustkrebs Verlauf;
+313;OnkoZert Brustkrebs ST;DKG Brustkrebs ST;1;1;;OZBZ_ST;4;;OnkoZert Brustkrebs, OnkoZert Brustkrebs 18
+314;OnkoZert Brustkrebs SysT;DKG Brustkrebs SysT;1;1;;OZBZ_SysT;5;;OnkoZert Brustkrebs, OnkoZert Brustkrebs 18
+312;OnkoZert Brustkrebs TK;DKG Brustkrebs TK;1;1;;OZBZ_TK;2;;OnkoZert Brustkrebs, OnkoZert Brustkrebs 18
+315;OnkoZert Brustkrebs Verlauf;DKG Brustkrebs Verlauf;1;1;;OZBZ_V;8;;OnkoZert Brustkrebs, OnkoZert Brustkrebs 18
+155;OnkoZert Darmkrebs;DKG Darm;1;1;;OZDZ;136;OnkoZert Darmkrebs FollowUp;
+268;OnkoZert Darmkrebs FollowUp;DKG Darm FollowUp;1;1;;OZDZ_FollowUp;7;;OnkoZert Darmkrebs
+343;OnkoZert Darmkrebs Matrix;DKG Darm Matrix;1;1;;OZDZ_Matrix;23;;
+342;OnkoZert Darmkrebs Matrix Rektum;OnkoZert Darmkrebs Matrix Rektum;0;1;;OZDZ_Matrix_Rektum;21;;
+310;Onkozert Gyn FollowUp;DKG Gyn FollowUp;1;1;;OZGZ_FollowUp;24;;
+200;OnkoZert Gynäkologische Tumoren;DKG Gyn;1;1;;OZGZ;76;;
+700;OnkoZert Gynäkologische Tumoren 2019;DKG Gyn 2019;1;1;;OZGZ;99;;
+699;OnkoZert Hämatologie;Hämatologische Neoplasien;0;1;;OZHN;40;;
+689;OnkoZert Harnblase;DKG Harnblase;0;1;;OZHBZ;40;;
+307;OnkoZert Hautkrebs;DKG Haut;1;1;;OZHZ;63;;
+309;OnkoZert Hautkrebs FollowUp;DKG Haut FollowUp;1;1;;OZHZ_FollowUp;22;;
+719;OnkoZert Hodenkrebs;DKG Hoden;1;1;Sonstiges;OZHoden;27;;
+507;OnkoZert Kinderonkologie;DKG Kinderonkologie;1;1;;OZKIO;21;;
+346;OnkoZert Kopf-Hals Tumoren;DKG Kopf-Hals;1;1;;OZKHZ;61;;
+479;Onkozert Kopf-Hals-FollowUp;DKG Quelle Letzte Info;1;1;;OZKHZ_FollowUp, OZLZ_FollowUp, OZPK_FollowUp;13;;
+341;OnkoZert Leberkrebs;DKG Leber;1;1;;OZLBZ;39;;
+691;OnkoZert Lunge Mesotheliom;DKG Lunge Mesotheliom;1;1;;OZLZ;13;;
+186;OnkoZert Lungenkrebs;DKG Lunge;1;1;;OZLZ;49;;
+720;OnkoZert Lungenkrebs 2023;DKG Lungenkrebs 2023;1;1;;OZLZ_23;107;OZLZ Fernmetastasen (DKG23), OZLZ FollowUp (DKG23), OZLZ Histologie (DKG23), OZLZ Komorbiditaeten (DKG23), OZLZ Operation (DKG23), OZLZ Strahlentherapie (DKG23), OZLZ Studie (DKG23), OZLZ Systemtherapie (DKG23), OZLZ Tumorkonferenz (DKG23);
+265;Onkozert Lungenkrebs FollowUp;DKG Lunge Follow-Up;1;1;;OZLZ_FollowUp;18;;
+345;OnkoZert Magenkrebs;DKG Magen;1;1;;OZMZ;47;;
+355;OnkoZert Neuroonkologie;DKG Neuroonkologie;0;1;;OZNK;34;;
+675;OnkoZert Niere;DKG Niere;1;1;;OZNZ;42;;
+405;OnkoZert OZ CUP;DKG CUP;1;1;;OZOZ;7;;
+502;OnkoZert OZ Dünndarm;DKG Dünndarm;1;1;;OZOZ;7;;
+330;OnkoZert OZ Endokrine Malignome;DKG Endokrine Malignome;1;1;;OZOZ;8;;
+329;OnkoZert OZ Gallenwege;DKG Gallenwege;1;1;;OZOZ;7;;
+473;OnkoZert OZ GIST;DKG GIST;1;1;;OZOZ;7;;
+474;OnkoZert OZ Gist Neuroendo;DKG OZ Neuroendokrin;1;1;;OZOZ;7;;
+331;OnkoZert OZ Hämatolog. Systemerkrankungen;DKG Hämatolog;1;1;;OZOZ;7;;
+334;OnkoZert OZ Harnblase;DKG Harnblase;1;1;;OZOZ;7;;
+332;OnkoZert OZ Hoden, Penis;DKG Hoden, Penis;1;1;;OZOZ;8;;
+516;OnkoZert OZ Leber;DKG OZ Leber;0;1;;OZOZ;7;;
+327;OnkoZert OZ Leukämie;DKG Leukämie;1;1;;OZOZ;7;;
+326;OnkoZert OZ Lymphome;DKG Lymphome;1;1;;OZOZ;7;;
+472;OnkoZert OZ Magen;DKG OZ Magen;0;1;;OZOZ;7;;
+335;OnkoZert OZ Muskuloskelet. Tumoren;DKG Muskuloskelet. Tumoren;1;1;;OZOZ;8;;
+333;OnkoZert OZ Niere;DKG Niere/Nebenniere;1;1;;OZOZ;8;;
+328;OnkoZert OZ Speiseröhre;DKG Speiseröhre;1;1;;OZOZ;7;;
+339;OnkoZert Pankreas;DKG Pankreas;1;1;;OZPK;62;;
+344;Onkozert Pankreaskrebs FollowUp;DKG Quelle Letzte Info;1;1;;OZPK_FollowUp;20;;
+743;OnkoZert Penis;DKG Penis;1;1;Sonstiges;OZPenis;30;;
+465;Onkozert Prostata;DKG Prostata;1;1;;OZPZ_OZ_Diagnose, OZPZ_OZ_Zusatzkatalog;73;Onkozert PZ FollowUp, Onkozert PZ Fragebogen, Onkozert PZ ST, Onkozert PZ Therapie, Onkozert PZ TK;
+311;Onkozert Prostatakrebs;DKG Prostata;0;1;;OZPZ;34;;
+391;OnkoZert Prostatakrebs Patientenfragebogen;DKG Prostatakarzinom Patientenfragebogen;1;1;Fragebogen;OZPZ_Fragebogen;20;;
+470;Onkozert PZ FollowUp;DKG Tumorstatus gesamt;1;1;;OZPZ_OZ_FollowUp;11;;Onkozert Prostata
+469;Onkozert PZ Fragebogen;DKG ICIQ-Score;1;1;;OZPZ_OZ_Fragebogen;8;;Onkozert Prostata
+488;Onkozert PZ Matrix;DKG PZ Matrix;1;1;;OZPZ_OZ_Matrix;17;;
+467;Onkozert PZ ST;DKG CTC AE Grad;1;1;;OZPZ_OZ_Strahlentherapie;10;;Onkozert Prostata
+468;Onkozert PZ Therapie;DKG Laufende Therapie;1;1;;OZPZ_OZ_Therapie;6;;Onkozert Prostata
+466;Onkozert PZ TK;DKG Datum;1;1;;OZPZ_OZ_Tumorkonferenz;2;;Onkozert Prostata
+570;OnkoZert Sarkome;DKG Sarkome;0;1;;OZSK;32;;
+571;OnkoZert Speiseröhre;DKG Speiseröhre;1;1;;OZSPZ;53;;
+169;OS.Abschluss;Vitalstatus;1;1;Allgemein;Abschluss;12;;
+228;OS.Anamnese;Anamnese;1;1;Diagnostik;Anamnese;23;OS.Begleiterkrankung;
+393;OS.Arzt;Arzt;1;1;;BehandelndeAerzte;5;;OS.Behandler
+180;OS.Begleiterkrankung;Wichtige Begleiterkrankung;1;1;Diagnostik;Begleiterkrankung;3;;OS.Anamnese
+394;OS.Behandler;Behandelnde Ärzte;1;1;Sonstiges;Behandler;4;OS.Arzt;
+319;OS.BestOfTumor;Tumor Zusammenfassung;1;1;;BestOfTumor;59;;
+682;OS.CH.Stammdaten;Adresse zum Zeitpunkt der Diagnose;1;1;Allgemein;Stammdaten;7;;OS.Diagnose
+148;OS.Diagnose;Diagnose;1;1;Allgemein;Diagnose;64;OS.CH.Stammdaten, OS.FernmetastaseDiagnose, OS.FernmetastaseVerlauf, OS.Leistungserbringer;
+692;OS.DurchgefuehrteProzeduren;OPS (Behandlungen/Untersuchungen);1;1;Therapie;ProzedurenDurchgefuehrt;3;OS.Prozedur;
+724;OS.Dysplasie/weitere Zentren;Dysplasie/weitere Zentren;1;1;Allgemein;Dokumentationsanlass;12;;
+185;OS.Einwilligung;Einwilligung/Meldung an das LKR;1;1;Allgemein;Einwilligung;9;;
+306;OS.Ereignisstatus;Ereignisstatus für Überlebenszeitanalysen;1;1;;Ereignisstatus;6;;
+485;OS.Ernaehrungsberatung;Ernährungsberatung;1;1;Beratung und Betreuung;Ernaehrungsberatung;9;;
+680;OS.Erstbehandlungskomplex;Behandlungsdetails;1;1;;Erstbehandlungskomplex;3;;OS.NuklearmedTherapie, OS.Operative Therapie, OS.Sonstige Therapie, OS.Stammzelltransplantation, OS.Strahlentherapie, OS.Systemische Therapie
+701;OS.Fallbesprechung;Fallbesprechung;1;1;Konferenz;Fallbesprechung;5;;
+250;OS.FernmetastaseDiagnose;Fernmetastase im Diagnoseformular;1;1;;Fernmetastase;5;;OS.Diagnose
+227;OS.FernmetastaseVerlauf;Fernmetastase im Verlauf;1;1;;Fernmetastase;6;;OS.Diagnose, OS.Verlauf
+216;OS.GenetischeBeratung;Genetische Beratung;1;1;Beratung und Betreuung;GenetischeBeratung;10;;
+257;OS.GenetischeDiagnostik;(Zyto-)Genetische Diagnostik;1;1;Diagnostik;GenetischeDiagnostik;9;OS.GenetischerMarker, OS.GenetischeVeraenderung;
+255;OS.GenetischerMarker;(Zyto-)Genetischer Marker;1;1;;GenetischeMarker;4;;OS.GenetischeDiagnostik, OS.Labordiagnostik
+256;OS.GenetischeVeraenderung;Genetische (chromosomale) Veränderung;1;1;;GenetischeVeraenderung;2;;OS.GenetischeDiagnostik, OS.Molekulargenetik
+686;OS.Genexpressionstests;Genexpressionstests;1;1;;MolekulargenExpression;3;;OS.Molekulargenetik
+240;OS.Labordiagnostik;Labordiagnostik;1;1;Diagnostik;Labordiagnostik;4;OS.GenetischerMarker, OS.Laborwert;
+231;OS.Laborwert;Laborwert;1;1;;Laborwert;8;;OS.Labordiagnostik
+681;OS.Leistungserbringer;Leistungserbringer;1;1;;Leistungserbringer;3;;OS.Diagnose
+707;OS.LogopaedischeBeratung;Logopädische Beratung;1;1;Beratung und Betreuung;LogopaedischeBeratung;8;;
+652;OS.Lokalisation;Lokalisation;1;1;Diagnostik;Lokalisation;1;;OS.Operative Therapie, OS.Stadium, OS.Verlauf
+632;OS.MeldungDaten;Meldung der Daten;1;1;Allgemein;MeldungDaten;3;;
+390;OS.MMKonferenz;M&M Konferenz;1;1;Konferenz;MMKonferenz;4;;
+677;OS.Molekulargenetik;Molekulare/Genetische Diagnostik;1;1;Diagnostik;Molekulargenetik;32;OS.GenetischeVeraenderung, OS.Genexpressionstests, OS.Molekulargenetische Hybridisierung, OS.Molekulargenetische Immunhistochemie, OS.Molekulargenetische Methylierung, OS.Molekulargenetische sonstige oder PCR Analyse, OS.Molekulargenetische Untersuchung, OS.MolGen Komplexe Biomarker;
+683;OS.Molekulargenetische Hybridisierung;Hybridisierung;1;1;;MolekularHybridisierung;3;;OS.Molekulargenetik
+685;OS.Molekulargenetische Immunhistochemie;Molekulargenetische Immunhistochemie;1;1;;MolekularImmunhisto;8;;OS.Molekulargenetik
+687;OS.Molekulargenetische Methylierung;Methylierung;1;1;;MolekularMethylierung;5;;OS.Molekulargenetik
+688;OS.Molekulargenetische sonstige oder PCR Analyse;Sonstige- oder PCR-Analyse;1;1;;MolekularPCR;8;;OS.Molekulargenetik
+678;OS.Molekulargenetische Untersuchung;Molekulargenetische Sequenzierung;1;1;;MolekulargenUntersuchung;89;;OS.Molekulargenetik
+684;OS.MolGen Komplexe Biomarker;Komplexe Biomarker;1;1;;MolekluargenMSI;22;;OS.Molekulargenetik
+631;OS.MultidisziplinaereBesprechung;Multidisziplinäre Teambesprechung;1;1;Konferenz;Tumorkonferenz;9;;
+213;OS.Nebenwirkung;Nebenwirkung/Komplikation;1;1;;Nebenwirkung;9;;OS.NuklearmedTherapie, OS.Operative Therapie, OS.Sonstige Therapie, OS.Stammzelltransplantation, OS.Strahlentherapie, OS.Systemische Therapie
+206;OS.NuklearmedTherapie;Nuklearmedizinische Therapie;1;1;Therapie;NuklearmedTherapie;24;OS.Erstbehandlungskomplex, OS.Nebenwirkung;
+157;OS.Operative Therapie;Operative Therapie;1;1;Therapie;OperativeTherapie;55;OS.Erstbehandlungskomplex, OS.Lokalisation, OS.Nebenwirkung, OS.OPS;
+253;OS.OPS;OPS-Code;1;1;;OPS;4;;OS.Operative Therapie
+160;OS.Pathologiebefund;Pathologiebefund;1;1;Diagnostik;Pathologie;130;;
+679;OS.Prozedur;Prozedur;1;1;;OS_Prozedur;5;;OS.DurchgefuehrteProzeduren
+217;OS.Psychoonkologie;Psychoonkologische Betreuung;1;1;Beratung und Betreuung;Psychoonkologie;9;;
+630;OS.Psychosozialdienst;Psychosozialdienst;1;1;Beratung und Betreuung;Psychosozialdienst;8;;
+590;OS.ScreeningMangelernaehrung;Screening Mangelernährung;1;1;Beratung und Betreuung;ScreeningM;3;;
+589;OS.ScreeningPsychoonkologie;Screening Psychoonkologie;1;1;Beratung und Betreuung;ScreeningP;7;;
+215;OS.Sonstige Therapie;Sonstige Therapie;1;1;Therapie;SonstigeTherapie;22;OS.Erstbehandlungskomplex, OS.Nebenwirkung, OS.Substanz;
+214;OS.Sozialdienst;Beratung durch Sozialdienst;1;1;Beratung und Betreuung;Sozialdienst;7;;
+233;OS.Stadium;Stadium/Staging;1;1;Diagnostik;Stadium;46;OS.Lokalisation, OS.WeitereKlassifikation;
+193;OS.Stammzelltransplantation;Stammzelltransplantation;1;1;Therapie;Stammzelltransplantation;19;OS.Erstbehandlungskomplex, OS.Nebenwirkung;
+137;OS.Strahlentherapie;Strahlentherapie;1;1;Therapie;Strahlentherapie;27;OS.Erstbehandlungskomplex, OS.Nebenwirkung, OS.StrahlentherapieEinzel;
+219;OS.StrahlentherapieEinzel;Einzelne Strahlentherapie;1;1;;StrahlentherapieEinzel;55;;OS.Strahlentherapie
+723;OS.StrahlentherapieEinzel.V2;Einzelne Strahlentherapie;1;1;Therapie;StrahlentherapieEinzel;30;;
+258;OS.Studie;Studie;1;1;Studie;Studie;7;;
+363;OS.Substanz;Substanz;1;1;;Substanz;4;;OS.Sonstige Therapie, OS.Systemische Therapie
+158;OS.Systemische Therapie;Systemische Therapie;1;1;Therapie;Systemtherapie;34;OS.Erstbehandlungskomplex, OS.Nebenwirkung, OS.Substanz;
+288;OS.TKEvaluation;Bewertung der Umsetzung der Empfehlung;1;1;Konferenz;TKEvaluation;6;;
+744;OS.TKModulEvaluation ;Bewertung der Umsetzung der Empfehlung;1;1;Konferenz;TKEvaluation;6;;
+212;OS.Tumorkonferenz;Tumorkonferenz;1;1;Konferenz;Tumorkonferenz;31;;
+285;OS.Tumorkonferenzmodul;Konferenzanmeldung/Empfehlung;1;1;Konferenz;Tumorkonferenz;65;;
+230;OS.Untersuchung;Untersuchung;1;1;Diagnostik;Diagnostik;9;OS.UntersuchungEinzel;
+235;OS.UntersuchungEinzel;Einzelne Untersuchung;1;1;;DiagnostikEinzel;13;;OS.Untersuchung
+159;OS.Verlauf;Verlauf;1;1;Allgemein;Verlauf;42;OS.FernmetastaseVerlauf, OS.Lokalisation;
+254;OS.WeitereKlassifikation;Weitere Klassifikation;1;1;;WeitereKlassifikation;2;;OS.Stadium
+713;OZLZ Fernmetastasen (DKG23);OZLZ Fernmetastasen (DKG23);1;1;;OZLZ_23FM;5;;OnkoZert Lungenkrebs 2023
+716;OZLZ FollowUp (DKG23);OZLZ FollowUp (DKG23);1;1;;OZLZ_23Followup;10;;OnkoZert Lungenkrebs 2023
+717;OZLZ Histologie (DKG23);Onkozert Lungenzentrum Histologie;1;1;;OZLZ_23Histo;41;;OnkoZert Lungenkrebs 2023
+710;OZLZ Komorbiditaeten (DKG23);OZLZ Komorbiditaeten;1;1;;OZLZ23_Komorbiditaeten;1;;OnkoZert Lungenkrebs 2023
+714;OZLZ Operation (DKG23);OZLZ Operation (DKG23);1;1;;OZLZ_23OP;9;;OnkoZert Lungenkrebs 2023
+721;OZLZ Operative Expertise (DKG23);OZLZ Operative Expertise (DKG23);0;1;;OZLZ_23OPExpertise;7;;
+712;OZLZ Strahlentherapie (DKG23);OZLZ Strahlentherapie (DKG23);1;1;;OZLZ_23Strahlentherapie;8;;OnkoZert Lungenkrebs 2023
+711;OZLZ Studie (DKG23);OZLZ Studie (DKG23);1;1;;OZLZ_23Studie;4;;OnkoZert Lungenkrebs 2023
+715;OZLZ Systemtherapie (DKG23);OZLZ Systemtherapie (DKG23);1;1;;OZLZ_23Systemtherapie;11;;OnkoZert Lungenkrebs 2023
+709;OZLZ Tumorkonferenz (DKG23);OZLZ Tumorkonferenz (DKG23);1;1;;OZLZ_23TK;4;;OnkoZert Lungenkrebs 2023
+722;Probase.Patient;Patient;1;1;;System_Patient;25;;
+728;Re-Operation wegen Komplikation;Re-Operation wegen Komplikation;1;1;;Adjumed Komplikation;1;;Adjumed SBCDB
+726;UFA Adjumed Cystectomia zusätzlicher Follow Up;UFA Adjumed Cystectomia zusätzlicher Follow Up;1;1;Sonstiges;AdjumedCystAddFUUnter;31;;Adjumed Cystectomia
+730;UFA Adjumed Nephrectomy zusätzlicher Follow Up;Zusätzlicher Follow Up Niere;1;1;;AdjumedNephrAddFUUnter;11;;Adjumed Nephrectomy
+732;UFA Adjumed Prostatectomy zusätzlicher Follow Up;Zusätzlicher Follow Up Prostata;1;1;;AdjumedProstAddFUUnter;19;;Adjumed Prostatectomy
+696;Verordnung;Verordnung;1;1;Allgemein;Verordnung;17;Verordnung Fragebogen;
+695;Verordnung Fragebogen;Verordnung Fragebogen;1;1;;VerordnungFragebogen;10;;Verordnung
+729;Weitere plastische Operationen;Weitere plastische Operationen;1;1;;Adjumed Operation;3;;Adjumed SBCDB
+693;WiderrufBefragung;Widerruf Patientenbefragung;1;1;Sonstiges;WiderrufBefragung;4;;
+698;Zugangscode;Zugangscode;1;1;;Zugangscode;2;;

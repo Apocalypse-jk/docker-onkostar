@@ -1,0 +1,46 @@
+﻿id;name;label;observation;visiten;anzahl_felder
+003941c1-d310-4d3f-8cb9-1a3c9e25087e;consents;Zustimmungen nNGM;ja;-;164
+b8ffa017-778d-4302-9e33-5fec3c281405;healthCoverage;Krankenkasse;ja;nngmcase;3
+5ddccdb8-4254-4673-9da7-28111f8cfce9;vitalStatus;Vitalstatus;ja;-;10
+8b694a13-82bd-4c26-b9b3-a0de2566bcc6;smokerStatus;Raucherstatus;ja;nngmcase;4
+7e45caee-1e3c-4cea-8f66-52c77b31a6ea;ecog;ECOG;ja;nngmcase;2
+a3250492-b888-498f-95b5-32a55618b795;diagnosticsRequest;Eckdaten der Anforderung;ja;nngmcase;22
+fcbfa952-a826-4ff7-839c-435bea1d5551;tumorMaterial;Tumormaterial;ja;nngmcase;8
+867571ae-ec4e-439e-8a6d-5d81e513a11b;tumorDiagnosis;Diagnosen;ja;-;9
+48ce596a-f906-4edb-8811-ce721fd9af52;progressRezidiv;Rezidiv/Progress + Resistenztestung;ja;nngmcase;107
+2d4ee829-8e93-462e-b069-63a13e926387;histology;Histologie;ja;nngmcase;16
+dd6371a9-8f65-4efd-9a73-f76bb6c759c8;tumorStage;Tumorstadium;ja;nngmcase;28
+5c483841-f14a-4e9c-a2e5-24f73070bc58;diagnosticHistology;Histologie;ja;nngmcase;18
+f7db47a2-db89-4793-8fe7-fd5c5d1670ca;preliminaryFindingsImmunohistochemistry;Immunhistochemie;ja;nngmcase;72
+075b8e59-c03a-4b8e-a775-960615e697fe;preliminaryOtherExaminations;Nicht-standard nNGM Untersuchungen;ja;nngmcase;11
+83dc9969-4a8e-4028-b21b-398d139e9283;immunohistochemistry;Immunhistochemie;ja;nngmcase;72
+11de303f-a70a-49a4-af81-eb7edbf5d4bc;lungPanel;NGS DNA Panel;ja;nngmcase;36
+81457232-58a0-45f8-9552-16b49961ccec;ishFish;ISH/FISH;ja;nngmcase;88
+093b5482-ad1a-4865-b217-7081bea49b76;ngsFusion;NGS RNA Panel;ja;nngmcase;35
+ce9acec9-ccb3-46ad-b0bf-ef2965def3af;fastTrack;Fast Track;ja;nngmcase;96
+91fdf414-8d4b-4e81-b488-584294e91035;otherExamination;Sonstige Untersuchungen;ja;nngmcase;11
+aff76fc0-cc95-413e-a0ae-ed3e6d949229;liquidBiopsy;Liquid Biopsy;ja;nngmcase;29
+b35e8cf0-ad5e-45cd-a65f-c366a6c280bb;resistanceTesting;Resistenztestung;ja;nngmcase;50
+e822a3c7-01a4-4e4a-8e8e-bf2a8842b12d;assessment;Klinische Information (MURIPEDIA);ja;nngmcase;10
+9d9395e6-b5ad-4608-b222-aff638a4124f;TherapyInformation;Therapieinformation;ja;nngmcase;4
+a7f063a7-ab8e-4656-9380-d34da6f4388e;operationTherapy;Operation;ja;nngmcase;19
+900ecc66-d692-4be8-b8d0-2c3416754533;radioTherapy;Strahlentherapie;ja;nngmcase;23
+1af9b82b-1cc5-4a90-b7ce-cfb1db543cf6;systemicTherapy;Systemische Therapie;ja;nngmcase;46
+6abcbe5e-e545-4416-a7f9-4203ed51c6ee;digiNetConsent;Einschluss/Einwilligung;;digiNetInclusion;11
+de28a14f-6c0b-4c1e-8168-b2122c4b2451;digiNetMedicalHistory;Basisdaten;;digiNetBaseline;10
+df02d26b-5e0d-4f3a-97b4-8e4f4cf247fa;digiNetTherapyRecommendation;Klinische Information (MURIPEDIA);;digiNetBaseline;33
+81f573a2-cfb9-4fdd-9737-ff78d4e840f9;digiNetTherapyStart;Therapiebeginn;;digiNetBaseline;16
+13b736b5-0d82-48e7-ae39-772741c6f9fc;baseline_digiNetVitalStatus;Vitalstatus;;digiNetBaseline;6
+01844785-bfec-41e5-bacb-4f3a2973b81a;baseline_digiNetEpro;ePRO;;digiNetBaseline;2
+f8f96e21-d273-409f-a42f-a2873a2ec8f5;digiNetPortal;DigiNet Einwilligung Portal;;digiNetInclusion;5
+72c6837e-92e7-403f-8a0b-ac3b0ff7e844;digiNetEvent;Anlass;;digiNetUnplannedVisit;4
+59d39492-7ff7-46d4-a406-9ef715c0264c;digiNetTherapy;Therapie;;digiNetPlannedVisit, digiNetUnplannedVisit, digiNetFollowUp;51
+dbbc4fb4-6b40-4674-8d3c-739e3f4a364a;digiNetTherapyResponse;Therapieansprechen;;digiNetPlannedVisit, digiNetUnplannedVisit, digiNetFollowUp;14
+1789b611-6288-4685-9b7a-ecd7e9b28c7b;digiNetHospitalization;Krankenhausaufenthalt;;digiNetPlannedVisit, digiNetUnplannedVisit, digiNetFollowUp;15
+62c74347-b6bc-4b5a-9ca4-b3f9b2dfa931;baseline_digiNetEcog;ECOG;;digiNetBaseline;2
+bba8b258-dfcb-48c4-942c-eb85fa71abae;visit_digiNetVitalStatus;Vitalstatus;;digiNetPlannedVisit, digiNetUnplannedVisit, digiNetFollowUp;5
+11d50504-d5bc-412c-8598-7cf3e22574e8;digiNetEpro;ePRO;;digiNetPlannedVisit, digiNetUnplannedVisit;7
+40f30921-bd54-4e7f-8640-4157cecb539a;digiNetEcog;ECOG;;digiNetPlannedVisit, digiNetUnplannedVisit, digiNetFollowUp;2
+1257001d-82c4-4804-9ebf-f81eb9b202ab;digiNetDropout;DigiNet Abbruch;;digiNetDropoutVisit;7
+b7ca9eac-d7c1-445f-86ce-734a8609875a;diginetEproAndPortalDeactivation;Deaktivierung PROs und / oder Patientenportal;;-;1
+c282d673-7708-4fc7-b35b-e22fac832e41;nngmPortal;Patientenportal;ja;-;2
