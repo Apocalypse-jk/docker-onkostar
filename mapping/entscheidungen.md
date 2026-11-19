@@ -356,6 +356,9 @@ Folgerungen (entschieden 11.11.2026):
 
 ## E-11: Formular-Konventionen in Onkostar            (11.11.2026, Rückmeldung)
 Status: entschieden
+- **Zusatzfelder im Kontext:** nNGM-Zusatzfelder in abgeleiteten Formularen stehen **immer im fachlichen Kontext** –
+  direkt hinter dem zugehörigen OS-Feld im selben Abschnitt (`osc-ableitung.mjs`, Option `platzierung`), nie in
+  Sammelabschnitten am Formularende. Gilt für alle bestehenden und künftigen Formulare (Vorgabe 11.11.2026).
 - **Datum:** Jedes (Haupt-)Formular braucht in Onkostar ein Datumsfeld (Prozedurdatum). Hat der nNGM-Bogen keins,
   wird ein **Onkostar-eigenes Datumsfeld** ergänzt, das **beim Export weggelassen** wird (umgesetzt bei
   `NNGM.Therapieinformation`). **Unterformulare** brauchen kein Datum (z. B. `NNGM.Anforderung.Behandler`; die
@@ -399,9 +402,17 @@ wiederholbaren Unterformular OS.StrahlentherapieEinzel (je Zielgebiet ein Eintra
 mit Werteübersetzung: Beginn/Ende, Intention (K/P/O/S identisch), Stellung zur OP, Seite, Gesamtdosis, Boost
 (J/SIB/SEQ/KON/N identisch), Boostdosis, Ende-Grund (Beendigungsstatus + Abbruchgrund + Unterbrechung), Bemerkung.
 **NNGM.Strahlentherapie** (eigenständig, E-0 Weg 1) wurde nach E-8 am 10.11.2026 gelöscht; bei Bedarf als abgeleitetes,
-verknüpftes Formular von OS.Strahlentherapie neu erstellen (Datenkatalog und Testdaten bestehen weiter).
+verknüpftes Formular von OS.Strahlentherapie neu erstellen (umgesetzt 11.11.2026; die Testdaten wurden mit dem Formular gelöscht, der verwaiste Datenkatalog ist zu löschen).
 Offene Fragen:
-1. **Zielgebiet:** Onkostar hat zwei Felder in OS.StrahlentherapieEinzel:
+1. **Zielgebiet** – *Versuch mit V2 verworfen (13.11.2026):* `OS.StrahlentherapieEinzel.V2` (gleicher Datenkatalog,
+   immer sichtbares Feld „oBDS Zielgebiet“) wurde am 11.11. in `NNGM.Strahlentherapie` eingebunden und im Test
+   zurückgenommen. V2 ist **keine Nachfolgeversion**, sondern eine kaum gepflegte Parallelvariante (Revision 19 statt
+   142). Sie wird von keinem OS-Formular benutzt und hat weder „Umfang der Bestrahlung“, „Ziel“ noch die Boost-Details;
+   ihr Boost-Abschnitt fragt die Dosisfelder ein zweites Mal ab. Bestehende Einzelbestrahlungen sind V1-Einträge. Nach
+   dem Tausch schlug das Aufklappen fehl (JS-Fehler `SubformConverter.expand`), und die Unterformular-Daten wurden nicht
+   gespeichert. Frage bleibt offen; als mögliche Lösung bleibt ein ebenfalls abgeleitetes Unterformular von V1 mit
+   eingeblendetem „Zielgebiet LK“ (doppelte Vererbung, ungetestet). Analyse von V1:
+   Onkostar hat zwei Felder in OS.StrahlentherapieEinzel (V1):
    - „Zielgebiet“ (Hauptfeld, Katalog `CDA.Zielgebiet Strahlentherapie`, 138 Werte) mit **anderer Codesystematik**
      (1.1 = Hirnschädel, bei oBDS/nNGM 1.1 = Ganzhirn). Eine Übersetzung CDA → oBDS ist in der Datenbank nicht
      hinterlegt – wie Onkostar das für die oBDS-Meldung macht, ist unbekannt (Hersteller/Kollegen fragen).
@@ -432,7 +443,17 @@ außerdem jährlicher Abgleich mit neuen OPS-Versionen. Alternative (E-0, Weg 1)
 Offene Fragen:
 1. **Seite:** Die Werte passen 1:1 auf „Seite“ (`ADT.Seitenlokalisation`), das Feld ist in OS.Operative Therapie
    aber immer ausgeblendet (Filter `false`). Feld trotzdem nutzen, Seite der Erkrankung übernehmen oder anders?
-Ungelöst ohne Gegenstück: `outcomeDeath` (Ausgang mit Todesfolge), Freitexte „Sonstiges“/„Andere“,
+   *Umgesetzt 11.11.2026:* Im abgeleiteten `NNGM.Operative Therapie` ist „Seite“ eingeblendet (Filter Status = D).
+`outcomeDeath` (Ausgang mit Todesfolge, `OS.JaNein`) und die Freitexte „Sonstiges“ (Resektionsart) / „Andere“
+(Lokalisation) sind seit 11.11.2026 Zusatzfelder im Kontext von `NNGM.Operative Therapie`. **Entschieden 16.11.2026:** Resektionsart und Lokalisation werden **aus den OPS-Codes abgeleitet**. Ein eigenes
+Auswahlfeld „Resektionsart“ mit nNGM-Codes wurde kurz erwogen und wieder verworfen, denn in der nNGM-Excel steht zur
+Resektionsart: „Hier ist es besser den Standard zu nehmen (OPS-Codes)“. Auch die Freitexte **„Sonstiges“
+(`otherTypeOfResection`) und „Andere“ (`localisationOther`) entfallen als Formularfelder.** Ohne Auslöser waren sie im
+Formular missverständlich; „Andere“ wirkte z. B. wie eine Angabe zur Metastasenresektion. Sie werden beim Export aus
+dem Klartext der nicht zugeordneten OPS-Codes gefüllt, bei der Lokalisation ggf. auch aus „Lokalisation der
+Metastasen“ (VERMUTUNG). Im Formular bleibt nur „Ausgang mit Todesfolge“ (nur bei Status = D). Die
+OPS-Code-Zuordnung bleibt eine VERMUTUNG und muss fachlich geprüft werden. Die beiden Spalten im Datenkatalog
+`NNGMOperativeTherapie` bleiben nach dem Re-Import ungenutzt stehen; der Import entfernt keine Spalten. Ungelöst bleibt der
 Netzwerkstandort.
 
 ## E-4: Systemische Therapie → OS.Systemische Therapie (Arbeitsstand)            (04.11.2026)
@@ -523,6 +544,9 @@ Offen (im Projekt notiert): Felder ohne Version (`tumorSize`, `lymphNodesCount`,
 
 - **Maßgeblich ist `nngm_schema/schema.xml`** (XSD des nNGM-eCRF-Importformats, Version 1.39.1.1139) – laut
   Rückfrage die genaueste Quelle. Es beschreibt genau das Format, in das ein Export aus Onkostar passen muss.
+  Quelle ist die nNGM-Demo-Instanz; daraus entsteht auch wöchentlich das Maven-Paket `nngm-model` (Java-Klassen
+  für den Export). Abgleich mit dem Live-Schema: `node mapping/tools/schema-abgleich.mjs`, Details und Ergebnis
+  vom 19.11.2026 in `nngm_schema/README.md`.
   Unterschiede zur Excel-Datei (Stand 03.09.2025):
   - 29 Bögen statt 45: **DigiNet-Bögen fehlen** (nicht Teil dieser Import-Schnittstelle); neu ist `impalux`.
   - Neue Felder, v. a. TNM-Auflage 9 (`stageDiagnosisV9`, `stageDiagnosisUnknown`, `tumorSizeV9` …) und

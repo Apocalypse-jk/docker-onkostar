@@ -126,11 +126,11 @@ operationTherapy/operationList/operation/informationGroup/typeOfResection;pneume
 operationTherapy/operationList/operation/informationGroup/typeOfResection;metastasectomy;Metastasenresektion;OPS;;Feld Metastasenresektion = 1;;vorläufig;VERMUTUNG – Code-Liste muss fachlich geprüft werden
 operationTherapy/operationList/operation/informationGroup/typeOfResection;other;Sonstiges;OPS;;andere OPS;;vorläufig;VERMUTUNG – Code-Liste muss fachlich geprüft werden
 operationTherapy/operationList/operation/informationGroup/typeOfResection;unknown;Unbekannt;OPS;;kein OPS;;vorläufig;VERMUTUNG – Code-Liste muss fachlich geprüft werden
-operationTherapy/operationList/operation/localisationGroup/sideLocalisation;B;beiderseits;ADT.Seitenlokalisation;;B;Beidseitig;ungelöst;Feld ausgeblendet (E-5)
-operationTherapy/operationList/operation/localisationGroup/sideLocalisation;L;links;ADT.Seitenlokalisation;;L;Links;ungelöst;
-operationTherapy/operationList/operation/localisationGroup/sideLocalisation;R;rechts;ADT.Seitenlokalisation;;R;Rechts;ungelöst;
-operationTherapy/operationList/operation/localisationGroup/sideLocalisation;unknown;Unbekannt;ADT.Seitenlokalisation;;U;Unbekannt;ungelöst;
-operationTherapy/operationList/operation/localisationGroup/sideLocalisation;;;ADT.Seitenlokalisation;;M, T;Mittellinie, Trifft nicht zu;ungelöst;kein nNGM-Wert
+operationTherapy/operationList/operation/localisationGroup/sideLocalisation;B;beiderseits;ADT.Seitenlokalisation;;B;Beidseitig;vorläufig;OS-Feld Seite im abgeleiteten Formular eingeblendet (E-5)
+operationTherapy/operationList/operation/localisationGroup/sideLocalisation;L;links;ADT.Seitenlokalisation;;L;Links;vorläufig;
+operationTherapy/operationList/operation/localisationGroup/sideLocalisation;R;rechts;ADT.Seitenlokalisation;;R;Rechts;vorläufig;
+operationTherapy/operationList/operation/localisationGroup/sideLocalisation;unknown;Unbekannt;ADT.Seitenlokalisation;;U;Unbekannt;vorläufig;
+operationTherapy/operationList/operation/localisationGroup/sideLocalisation;;;ADT.Seitenlokalisation;;M, T;Mittellinie, Trifft nicht zu;vorläufig;kein nNGM-Wert
 radioTherapy/radiotherapyList/radiotherapy/informationGroup/therapeuticIntention;curative;K = kurativ;OS.Therapieintention;;K;Kurativ;vorläufig;
 radioTherapy/radiotherapyList/radiotherapy/informationGroup/therapeuticIntention;palliative;P = palliativ;OS.Therapieintention;;P;Palliativ;vorläufig;
 radioTherapy/radiotherapyList/radiotherapy/informationGroup/therapeuticIntention;locallyCurativeOrDefinitive;O = lokal kurativ bei Oligometastasierung / definitiv;OS.Therapieintention;;O;lokal kurativ bei Oligometastasierung;vorläufig;
@@ -145,7 +145,7 @@ radioTherapy/radiotherapyList/radiotherapy/informationGroup/radiationTargetSide;
 radioTherapy/radiotherapyList/radiotherapy/informationGroup/radiationTargetSide;middle;M = mittig;ADT.Seitenlokalisation;;M;Mittellinie;vorläufig;
 radioTherapy/radiotherapyList/radiotherapy/informationGroup/radiationTargetSide;unknown;U = unbekannt;ADT.Seitenlokalisation;;U;Unbekannt;vorläufig;
 radioTherapy/radiotherapyList/radiotherapy/informationGroup/radiationTargetSide;notApplicable;T = trifft nicht zu;ADT.Seitenlokalisation;;T;Trifft nicht zu;vorläufig;
-radioTherapy/radiotherapyList/radiotherapy/informationGroup/radiationTarget;*;(Regel);oBDS.Zielgebiete;;Code vor „_“ (z. B. 4.10_upperAbdomen → 4.10);;ungelöst;"nur für Feld ZielgebietLK; Hauptfeld (CDA) braucht eigene Übersetzung (E-6)"
+radioTherapy/radiotherapyList/radiotherapy/informationGroup/radiationTarget;*;(Regel);oBDS.Zielgebiete;;Code vor „_“ (z. B. 4.10_upperAbdomen → 4.10);;ungelöst;gilt für ein Feld mit oBDS.Zielgebiete (z. B. ZielgebietLK); welches Feld, ist offen (E-6)
 radioTherapy/radiotherapyList/radiotherapy/informationGroup/radiationTarget;unknown;Unbekannt;oBDS.Zielgebiete;;;;ungelöst;nicht in oBDS.Zielgebiete
 radioTherapy/radiotherapyList/radiotherapy/boostGroup/boostExecuted;yes;J = ja, mit Boost o. n. A.;OS.ST.Boost;;J;ja, mit Boost o. n. A.;vorläufig;
 radioTherapy/radiotherapyList/radiotherapy/boostGroup/boostExecuted;simultaneousIntegrated;SIB;OS.ST.Boost;;SIB;simultan integrierter Boost;vorläufig;
@@ -462,3 +462,5 @@ systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/complet
 systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/systemTherapyList/systemTherapy/isMaintainceTherapy;yes;Ja;OS.JaNeinUnbekannt;;1;Ja;bestätigt;Export-Übersetzung
 systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/systemTherapyList/systemTherapy/isMaintainceTherapy;no;Nein;OS.JaNeinUnbekannt;;0;Nein;bestätigt;Export-Übersetzung
 systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/systemTherapyList/systemTherapy/isMaintainceTherapy;unknown;Unbekannt;OS.JaNeinUnbekannt;;9;Unbekannt;bestätigt;Export-Übersetzung
+operationTherapy/operationList/operation/informationGroup/outcomeDeath;yes;Ja;OS.JaNein;;1;Ja;bestätigt;Export-Übersetzung
+operationTherapy/operationList/operation/informationGroup/outcomeDeath;no;Nein;OS.JaNein;;0;Nein;bestätigt;Export-Übersetzung

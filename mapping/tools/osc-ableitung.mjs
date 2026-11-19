@@ -22,17 +22,30 @@ const CONFIGS = {
     menueKategorie: { name: 'nNGM', position: '3.0', column: '1' },   // eigene Menükategorie (E-11)
     datenkatalog: 'NNGMSystemtherapie',
     instrument: 'systemicTherapy',
-    // Abschnitte mit den nNGM-Feldern ohne Gegenstück in OS.Systemische Therapie (feld-mapping.csv, Kategorie C; E-4)
-    abschnitte: [
-      { name: 'nngmBSC', label: 'nNGM: Therapiefreie Zeit / Best Supportive Care',
-        felder: ['noTherapy', 'noTherapyReason', 'otherNoTherapyReason', 'noTherapyStart', 'noTherapyEnde'] },
-      { name: 'nngmEmpfehlung', label: 'nNGM: Therapieempfehlung',
-        felder: ['basedOnRecommendation', 'furtherDetails', 'therapyExecutionCenter', 'therapyDate'] },
-      { name: 'nngmLinie', label: 'nNGM: Therapielinie und Studie',
-        felder: ['therapyLine', 'offLabelUse', 'isMaintainceTherapy', 'therapyLineStudyParticipation', 'therapyLineStudyName',
-          'therapyLineStudyRegister', 'therapyLineStudyId', 'therapyLineInclusionGeneticVariants'] },
-      { name: 'nngmResponse', label: 'nNGM: Response', felder: ['bestResponseDate', 'AssessmentBy'] },
-    ],
+    // nNGM-Felder ohne Gegenstück in OS.Systemische Therapie (feld-mapping.csv, Kategorie C; E-4) – immer im
+    // fachlichen Kontext der OS-Felder, keine Sammelabschnitte; mehrere Felder hinter demselben Zielfeld in dieser Reihenfolge
+    abschnitte: [],
+    platzierung: {
+      basedOnRecommendation: { nach: 'Status' },               // Therapieempfehlung vor der Durchführung
+      furtherDetails: { nach: 'Status' },
+      therapyExecutionCenter: { nach: 'Status' },
+      therapyDate: { nach: 'Status' },
+      therapyLine: { nach: 'Intention' },                       // Liniennummer bei der Einordnung der Therapie
+      isMaintainceTherapy: { nach: 'Therapiearten' },           // Merkmale der Therapie
+      offLabelUse: { nach: 'Therapiearten' },
+      therapyLineStudyParticipation: { nach: 'Therapiearten' },
+      therapyLineStudyName: { nach: 'Therapiearten' },
+      therapyLineStudyRegister: { nach: 'Therapiearten' },
+      therapyLineStudyId: { nach: 'Therapiearten' },
+      therapyLineInclusionGeneticVariants: { nach: 'Therapiearten' },
+      noTherapy: { nach: 'Datum' },                             // bei „nicht durchgeführt“ (Grund, Datum)
+      noTherapyReason: { nach: 'Datum' },
+      otherNoTherapyReason: { nach: 'Datum' },
+      noTherapyStart: { nach: 'Datum' },
+      noTherapyEnde: { nach: 'Datum' },
+      bestResponseDate: { nach: 'Ergebnis' },                   // Ergebnis = bestes Ansprechen
+      AssessmentBy: { nach: 'Ergebnis' },
+    },
     // Sichtbarkeit (eigene Ergänzung, nicht aus dem nNGM-Schema)
     filter: {
       noTherapyReason: "noTherapy='yes'",
@@ -48,6 +61,56 @@ const CONFIGS = {
       therapyLineInclusionGeneticVariants: "therapyLineStudyParticipation='yes'",
     },
   },
+  radioTherapy: {
+    export: 'osc_exports/2026-11-05_13-25-43_184_f_export-25.osc',   // OS.Strahlentherapie ist dort als Unterformular-Block enthalten
+    basisFormular: 'OS.Strahlentherapie',
+    basisDatenkatalog: 'Strahlentherapie',
+    formular: 'NNGM.Strahlentherapie',
+    menue: 'Strahlentherapie (nNGM)',
+    menueKategorie: { name: 'nNGM', position: '3.0', column: '1' },
+    // Vor dem ersten Import den verwaisten Datenkatalog NNGMStrahlentherapie des gelöschten eigenständigen Formulars
+    // löschen (leer, von keinem Formular genutzt) – sonst bleiben dessen 15 alte Felder im Datenkatalog stehen
+    datenkatalog: 'NNGMStrahlentherapie',
+    instrument: 'radioTherapy',
+    abschnitte: [],
+    // Zusatzfelder im Kontext der OS-Felder statt in einem eigenen Abschnitt
+    platzierung: {
+      otherTherapeuticIntention: { nach: 'Intention' },   // Abschnitt „Strahlentherapie“
+      singleDose: { nach: 'Gesamtdosis' },                // Abschnitt „Therapieende“, bei „Konventionelle Fraktionierung“
+    },
+    // Einzeldosis pro Tag (nNGM) statt pro Fraktion (OS) – E-6; „Sonstiges“ zur Intention bei OS-Intention S
+    filter: {
+      otherTherapeuticIntention: "Intention='S'",
+    },
+    // Kein Unterformular-Tausch auf OS.StrahlentherapieEinzel.V2 (Test 13.11.2026): V2 ist keine Nachfolgeversion,
+    // sondern eine kaum gepflegte Parallelvariante (Revision 19 statt 142, ohne „Umfang der Bestrahlung“, „Ziel“,
+    // Boost-Details) und wird von keinem OS-Formular benutzt. Bestehende Einträge sind V1-Einträge; die Mischung
+    // führte zu einem JS-Fehler (SubformConverter.expand) und nicht gespeicherten Unterformular-Daten.
+  },
+  operationTherapy: {
+    export: 'osc_exports/2026-11-11_13-10-38_311_f_export-39.osc',
+    basisFormular: 'OS.Operative Therapie',
+    basisDatenkatalog: 'OperativeTherapie',
+    formular: 'NNGM.Operative Therapie',
+    menue: 'Operative Therapie (nNGM)',
+    menueKategorie: { name: 'nNGM', position: '3.0', column: '1' },
+    datenkatalog: 'NNGMOperativeTherapie',
+    instrument: 'operationTherapy',
+    abschnitte: [],
+    platzierung: {
+      // Resektionsart, Lokalisation und ihre Freitexte „Sonstiges“/„Andere“ kommen aus den OPS-Codes bzw. deren
+      // Klartext (E-5, Entscheidung 16.11.2026; nNGM-Excel: „besser den Standard zu nehmen (OPS-Codes)“) → keine
+      // Zusatzfelder otherTypeOfResection/localisationOther
+      outcomeDeath: { nach: 'Komplikationen' },          // Abschnitt „Ergebnis“
+    },
+    filter: {
+      outcomeDeath: "Status='D'",
+    },
+    // OS-Feld „Seite“ ist im OS-Formular immer ausgeblendet (Filter false) – nNGM braucht die Seite (E-5)
+    osFilter: {
+      Seite: "Status='D'",
+    },
+  },
 };
 
 const cfgName = process.argv[2];
@@ -55,8 +118,11 @@ const cfg = CONFIGS[cfgName];
 if (!cfg) throw new Error(`Unbekannte Konfiguration "${cfgName}". Vorhanden: ${Object.keys(CONFIGS).join(', ')}`);
 const osExport = read(cfg.export);
 
-const freshAll = (xml) => xml.replace(/<GUID>[^<]*<\/GUID>/g, () => `<GUID>${randomUUID()}</GUID>`)
-  .replace(/<SID>[^<]*<\/SID>/g, `<SID>${SID}</SID>`).replace(/<Revision>[^<]*<\/Revision>/g, '<Revision>1</Revision>');
+// Alle GUIDs neu (sonst würde das OS-Formular überschrieben) – außer in <DataFormReferences>: Formularverweise müssen
+// weiter auf die echten OS-Formulare zeigen (deren GUIDs sind in allen Installationen gleich, E-8)
+const freshAll = (xml) => xml.split(/(<DataFormReferences>[\s\S]*?<\/DataFormReferences>)/).map((teil) => (teil.startsWith('<DataFormReferences>') ? teil
+  : teil.replace(/<GUID>[^<]*<\/GUID>/g, () => `<GUID>${randomUUID()}</GUID>`)
+    .replace(/<SID>[^<]*<\/SID>/g, `<SID>${SID}</SID>`).replace(/<Revision>[^<]*<\/Revision>/g, '<Revision>1</Revision>'))).join('');
 /** Oberste Blöcke (6 Leerzeichen eingerückt) eines Exports */
 const topBlocks = (xml, tag) => [...xml.matchAll(new RegExp(`\\n {6}<${tag}>[\\s\\S]*?\\n {6}</${tag}>`, 'g'))].map((m) => m[0].slice(1));
 const nameOf = (b) => b.match(/<Name>([^<]*)<\/Name>/)[1];
@@ -65,23 +131,51 @@ const nameOf = (b) => b.match(/<Name>([^<]*)<\/Name>/)[1];
 // nNGM-Zusatzfelder: je Abschnitt eine FieldGroup, darunter die Felder aus dem nNGM-Datensatz
 
 const nngm = allFields.filter((f) => f.instrument === cfg.instrument);
-const felder = cfg.abschnitte.flatMap((a) => [
-  { feld: a.name, label: a.label, typ: 'FieldGroup', pfad: '', parent: '' },
-  ...a.felder.map((name) => {
-    const f = nngm.find((x) => x.feld === name);
-    if (!f) throw new Error(`Feld ${name} nicht im nNGM-Bogen ${cfg.instrument}`);
-    return { ...f, parent: a.name };
-  }),
-]);
+const nngmFeld = (name) => { const f = nngm.find((x) => x.feld === name); if (!f) throw new Error(`Feld ${name} nicht im nNGM-Bogen ${cfg.instrument}`); return f; };
+const felder = [
+  ...cfg.abschnitte.flatMap((a) => [
+    { feld: a.name, label: a.label, typ: 'FieldGroup', pfad: '', parent: '' },
+    ...a.felder.map((name) => ({ ...nngmFeld(name), parent: a.name })),
+  ]),
+  // platzierte Felder: zunächst ohne Abschnitt, Position und Abschnitt werden unten vom OS-Zielfeld übernommen
+  ...Object.keys(cfg.platzierung ?? {}).map((name) => ({ ...nngmFeld(name), parent: '' })),
+].map((f) => (cfg.beschriftung?.[f.feld] ? { ...f, label: cfg.beschriftung[f.feld] } : f));
 
-const basis = topBlocks(osExport, 'DataForm').find((b) => nameOf(b) === cfg.basisFormular);
-if (!basis) throw new Error(`Formular ${cfg.basisFormular} nicht im Export`);
+// Basisformular: als DataForm exportiert oder als mitgelieferter Unterformular-Block (z. B. OS.Strahlentherapie im
+// Export von OS.Systemische Therapie) – das abgeleitete Formular ist immer ein DataForm
+const basisBlock = [...topBlocks(osExport, 'DataForm'), ...topBlocks(osExport, 'Unterformular')].find((b) => nameOf(b) === cfg.basisFormular);
+if (!basisBlock) throw new Error(`Formular ${cfg.basisFormular} nicht im Export`);
+const basis = basisBlock.replace(/^\s*<Unterformular>/, '      <DataForm>').replace(/<\/Unterformular>$/, '</DataForm>');
+if (!/<MenuCategory>/.test(basis) && cfg.menueKategorie) throw new Error(`${cfg.basisFormular} hat keine Menükategorie im Export`);
 const maxPos = Math.max(...[...basis.matchAll(/\n {15}<Position>([\d.]+)<\/Position>/g)].map((m) => +m[1]));
 const { dcXml, feXml, rules, report } = eintraege({
   fields: felder, datenkatalog: cfg.datenkatalog, filter: cfg.filter,
   startPos: Math.ceil(maxPos), sectionIdStart: 99000,   // hinter den OS-Feldern, parentIds außerhalb des OS-Bereichs
 });
 const kataloge = dictsOf(felder).map(katalogXml);
+
+// Platzierung: Zusatzfeld direkt hinter ein OS-Feld setzen (gleicher Abschnitt, Position zwischen Zielfeld und dem
+// nächsten Feld dieses Abschnitts)
+const osEintraege = [...basis.matchAll(/\n {12}<Entry([^>]*)>([\s\S]*?)\n {12}<\/Entry>/g)].map((m) => ({
+  attr: m[1], name: (m[2].match(/<Name>([^<]*)/) || [])[1], parent: (m[2].match(/<ElementParent>([^<]*)/) || [])[1] ?? '',
+  pos: +(m[2].match(/\n {15}<Position>([^<]*)/) || [])[1],
+}));
+const hinterZiel = new Map();   // Zielfeld → Anzahl bereits dahinter gesetzter Felder
+for (const [name, { nach }] of Object.entries(cfg.platzierung ?? {})) {
+  const ziel = osEintraege.find((e) => e.name === nach);
+  if (!ziel) throw new Error(`Platzierung ${name}: OS-Feld ${nach} nicht in ${cfg.basisFormular}`);
+  const naechste = Math.min(...osEintraege.filter((e) => e.parent === ziel.parent && e.pos > ziel.pos).map((e) => e.pos), ziel.pos + 1);
+  const k = (hinterZiel.get(nach) ?? 0) + 1;
+  hinterZiel.set(nach, k);
+  const pos = ziel.pos + ((naechste - ziel.pos) * k) / (Object.values(cfg.platzierung).filter((p) => p.nach === nach).length + 1);
+  const refId = ziel.attr.match(/parentRefId="(\d+)"/)?.[1];
+  const i = feXml.findIndex((x) => new RegExp(`<Type>[^<]*</Type>\\s*<Name>${name}</Name>`).test(x));
+  feXml[i] = feXml[i]
+    .replace(/<Entry(?:\s[^>]*)?>/, refId ? `<Entry parentRefId="${refId}">` : '<Entry>')
+    .replace(/<ElementParent>[^<]*<\/ElementParent>/, `<ElementParent>${ziel.parent}</ElementParent>`)
+    .replace(/(\n {15})<Position>[^<]*<\/Position>/, `$1<Position>${pos}</Position>`);
+  report.push(`  ${name.padEnd(26)} hinter ${nach} (${ziel.parent || 'oberste Ebene'}, Position ${pos})`);
+}
 
 // Erweiterungs-Datenkatalog
 let dcHead = T.dcHeader;
@@ -136,6 +230,40 @@ const skripte = SKRIPTE.map((s) => `         <Script${s}>
          </Script${s}>`).join('\n');
 df = df.replace(/(\n {9}<hatUnterformulare>[^<]*<\/hatUnterformulare>)/, `$1\n${skripte}`);
 
+// Filter von OS-Feldern im abgeleiteten Formular ändern (das OS-Formular bleibt unverändert, E-8):
+// osFilter: { Feldname: null } → Filter entfernen (immer sichtbar), { Feldname: 'Bedingung' } → neue Bedingung
+for (const [name, bedingung] of Object.entries(cfg.osFilter ?? {})) {
+  const re = new RegExp(`(<Entry[^>]*>\\s*<Type>[^<]*</Type>\\s*<Name>${name}</Name>[\\s\\S]*?</Entry>)`);
+  const alt = df.match(re)?.[1];
+  if (!alt) throw new Error(`osFilter: Feld ${name} nicht in ${cfg.basisFormular}`);
+  let neu = alt.replace(/\s*<Filter>[\s\S]*?<\/Filter>/, '');
+  if (bedingung) {
+    const refs = [...new Set([...bedingung.matchAll(/([A-Za-z_]\w*)\s*(?:=|<>|->)/g)].map((m) => m[1]))];
+    neu = neu.replace(/(<Datenart>[^<]*<\/Datenart>)/, `$1
+               <Filter>
+                  <Condition>${esc(bedingung)}</Condition>
+                  <Valid>true</Valid>
+                  <RefEntries>
+${refs.map((r) => `                     <RefEntry>${r}</RefEntry>`).join('\n')}
+                  </RefEntries>
+               </Filter>`);
+  }
+  df = df.replace(alt, neu);
+  report.push(`  OS-Feld ${name}: ${bedingung ? `sichtbar wenn ${bedingung}` : 'Filter entfernt (immer sichtbar)'}`);
+}
+
+// Unterformular tauschen (z. B. neuere OS-Fassung mit demselben Datenkatalog)
+for (const [name, { formular, guid }] of Object.entries(cfg.unterformularTausch ?? {})) {
+  const re = new RegExp(`(<Entry[^>]*>\\s*<Type>subform</Type>\\s*<Name>${name}</Name>[\\s\\S]*?</Entry>)`);
+  const alt = df.match(re)?.[1];
+  if (!alt) throw new Error(`unterformularTausch: Unterformular-Feld ${name} nicht in ${cfg.basisFormular}`);
+  const vorher = alt.match(/<ReferencedDataForm>([^<]*)<\/ReferencedDataForm>/)[1];
+  let neu = alt.replace(/<ReferencedDataForm>[^<]*<\/ReferencedDataForm>/, `<ReferencedDataForm>${formular}</ReferencedDataForm>`);
+  neu = neu.replace(/<DataFormReferences>[\s\S]*?<\/DataFormReferences>/, (r) => set(set(r, 'Name', esc(formular)), 'GUID', guid));
+  df = df.replace(alt, neu);
+  report.push(`  Unterformular ${name}: ${vorher} → ${formular}`);
+}
+
 // alle GUIDs der Kopie neu – sonst würde das OS-Formular überschrieben; danach die neuen Einträge und Regeln anhängen
 df = freshAll(df);
 const entriesEnde = df.lastIndexOf('\n         </Entries>');
@@ -155,7 +283,8 @@ if (doppelt.length) probleme.push(`doppelte Formularfelder (Namenskonflikt mit d
 const dcNamen = [...dc.matchAll(/<Entry>\s*(?:<PropertyCatalogue>[^<]*<\/PropertyCatalogue>\s*)?<Name>([^<]*)<\/Name>/g)].map((m) => m[1]);
 for (const m of feXml.join('\n').matchAll(/<DataCatalogueEntry>([^<]+)<\/DataCatalogueEntry>/g)) if (!dcNamen.includes(m[1])) probleme.push(`DK-Feld ${m[1]} fehlt`);
 for (const m of df.matchAll(/<RefEntry>([^<]*)<\/RefEntry>/g)) if (!namen.includes(m[1])) probleme.push(`Filter verweist auf unbekanntes Feld ${m[1]}`);
-const guids = [...df.matchAll(/<GUID>([^<]*)<\/GUID>/g)].map((m) => m[1]).filter((g) => g !== basisGuid);
+// eigene GUIDs eindeutig (Formularverweise dürfen dasselbe OS-Formular mehrfach nennen)
+const guids = [...df.replace(/<DataFormReferences>[\s\S]*?<\/DataFormReferences>/g, '').matchAll(/<GUID>([^<]*)<\/GUID>/g)].map((m) => m[1]).filter((g) => g !== basisGuid);
 if (new Set(guids).size !== guids.length) probleme.push('GUIDs nicht eindeutig');
 if (probleme.length) throw new Error(probleme.join('\n'));
 

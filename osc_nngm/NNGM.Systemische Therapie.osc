@@ -7,77 +7,13 @@
    </InfoXML>
    <Editor>
       <PropertyCatalogue>
-         <Name>NNGM.bestSupportiveCareReason</Name>
-         <Description>nNGM: bestSupportiveCareReason</Description>
-         <Standard>SIMPLE</Standard>
-         <Readonly>false</Readonly>
-         <Anmerkung>Aus nNGM-Datensatzbeschreibung, Data Dictionary Typ "bestSupportiveCareReason"</Anmerkung>
-         <SID>9401</SID>
-         <GUID>77ca0a06-95ff-4ade-9789-88279dc0f33a</GUID>
-         <Revision>1</Revision>
-         <Versions>
-            <Version>
-               <VersionNumber>1</VersionNumber>
-               <ValidFrom>2000-01-01Z</ValidFrom>
-               <OID>NNGM.bestSupportiveCareReason.v1</OID>
-               <Active>true</Active>
-               <Description>Version 1</Description>
-               <SID>9401</SID>
-               <GUID>659220c8-f4e8-420a-9f86-f28b282501d7</GUID>
-               <Revision>1</Revision>
-               <Entries>
-                  <Entry>
-                     <Code>PatientRequest</Code>
-                     <ShortDescription>Patientenwunsch</ShortDescription>
-                     <Description>Patientenwunsch</Description>
-                     <Synonyms></Synonyms>
-                     <Note></Note>
-                     <Position>1.0</Position>
-                  </Entry>
-                  <Entry>
-                     <Code>GeneralCondition</Code>
-                     <ShortDescription>Allgemeinzustand</ShortDescription>
-                     <Description>Allgemeinzustand</Description>
-                     <Synonyms></Synonyms>
-                     <Note></Note>
-                     <Position>2.0</Position>
-                  </Entry>
-                  <Entry>
-                     <Code>Other</Code>
-                     <ShortDescription>Anderer</ShortDescription>
-                     <Description>Anderer</Description>
-                     <Synonyms></Synonyms>
-                     <Note></Note>
-                     <Position>3.0</Position>
-                  </Entry>
-                  <Entry>
-                     <Code>Unknown</Code>
-                     <ShortDescription>Unbekannt</ShortDescription>
-                     <Description>Unbekannt</Description>
-                     <Synonyms></Synonyms>
-                     <Note></Note>
-                     <Position>4.0</Position>
-                  </Entry>
-               </Entries>
-               <Categories/>
-            </Version>
-         </Versions>
-         <Ordner>
-            <Bibliothek>
-               <Name>BENUTZER Bibliothek</Name>
-            </Bibliothek>
-            <Name>nNGM</Name>
-            <Typ>1</Typ>
-         </Ordner>
-      </PropertyCatalogue>
-      <PropertyCatalogue>
          <Name>NNGM.basedOnRecommendation</Name>
          <Description>nNGM: basedOnRecommendation</Description>
          <Standard>SIMPLE</Standard>
          <Readonly>false</Readonly>
          <Anmerkung>Aus nNGM-Datensatzbeschreibung, Data Dictionary Typ "basedOnRecommendation"</Anmerkung>
          <SID>9401</SID>
-         <GUID>562620fc-c547-46d9-a1db-e4f228b63bf2</GUID>
+         <GUID>e0cf25e8-0347-4ccb-a6e2-10549f13d5dc</GUID>
          <Revision>1</Revision>
          <Versions>
             <Version>
@@ -87,7 +23,7 @@
                <Active>true</Active>
                <Description>Version 1</Description>
                <SID>9401</SID>
-               <GUID>05c363e0-02b4-4249-ba5b-47db2b480ff9</GUID>
+               <GUID>fcae30e4-ace4-41e9-a6d8-ee094244642e</GUID>
                <Revision>1</Revision>
                <Entries>
                   <Entry>
@@ -149,7 +85,7 @@
          <Readonly>false</Readonly>
          <Anmerkung>Aus nNGM-Datensatzbeschreibung, Data Dictionary Typ "studyRegister"</Anmerkung>
          <SID>9401</SID>
-         <GUID>a30a47cb-3b55-4421-a445-fa4d9e9bdc13</GUID>
+         <GUID>9aea64aa-5786-40fb-ac6e-abb3be9fea14</GUID>
          <Revision>1</Revision>
          <Versions>
             <Version>
@@ -159,7 +95,7 @@
                <Active>true</Active>
                <Description>Version 1</Description>
                <SID>9401</SID>
-               <GUID>8c7e0fb8-d479-4e97-9586-6feec588a829</GUID>
+               <GUID>e8599389-a6d4-46de-9802-ed55987e504b</GUID>
                <Revision>1</Revision>
                <Entries>
                   <Entry>
@@ -215,13 +151,77 @@
          </Ordner>
       </PropertyCatalogue>
       <PropertyCatalogue>
+         <Name>NNGM.bestSupportiveCareReason</Name>
+         <Description>nNGM: bestSupportiveCareReason</Description>
+         <Standard>SIMPLE</Standard>
+         <Readonly>false</Readonly>
+         <Anmerkung>Aus nNGM-Datensatzbeschreibung, Data Dictionary Typ "bestSupportiveCareReason"</Anmerkung>
+         <SID>9401</SID>
+         <GUID>42f3e124-ef25-4290-904c-f32f0b9cb0a5</GUID>
+         <Revision>1</Revision>
+         <Versions>
+            <Version>
+               <VersionNumber>1</VersionNumber>
+               <ValidFrom>2000-01-01Z</ValidFrom>
+               <OID>NNGM.bestSupportiveCareReason.v1</OID>
+               <Active>true</Active>
+               <Description>Version 1</Description>
+               <SID>9401</SID>
+               <GUID>f2738252-e48b-450a-bea3-4e29c2e3321f</GUID>
+               <Revision>1</Revision>
+               <Entries>
+                  <Entry>
+                     <Code>PatientRequest</Code>
+                     <ShortDescription>Patientenwunsch</ShortDescription>
+                     <Description>Patientenwunsch</Description>
+                     <Synonyms></Synonyms>
+                     <Note></Note>
+                     <Position>1.0</Position>
+                  </Entry>
+                  <Entry>
+                     <Code>GeneralCondition</Code>
+                     <ShortDescription>Allgemeinzustand</ShortDescription>
+                     <Description>Allgemeinzustand</Description>
+                     <Synonyms></Synonyms>
+                     <Note></Note>
+                     <Position>2.0</Position>
+                  </Entry>
+                  <Entry>
+                     <Code>Other</Code>
+                     <ShortDescription>Anderer</ShortDescription>
+                     <Description>Anderer</Description>
+                     <Synonyms></Synonyms>
+                     <Note></Note>
+                     <Position>3.0</Position>
+                  </Entry>
+                  <Entry>
+                     <Code>Unknown</Code>
+                     <ShortDescription>Unbekannt</ShortDescription>
+                     <Description>Unbekannt</Description>
+                     <Synonyms></Synonyms>
+                     <Note></Note>
+                     <Position>4.0</Position>
+                  </Entry>
+               </Entries>
+               <Categories/>
+            </Version>
+         </Versions>
+         <Ordner>
+            <Bibliothek>
+               <Name>BENUTZER Bibliothek</Name>
+            </Bibliothek>
+            <Name>nNGM</Name>
+            <Typ>1</Typ>
+         </Ordner>
+      </PropertyCatalogue>
+      <PropertyCatalogue>
          <Name>NNGM.responseAssessmentBy</Name>
          <Description>nNGM: responseAssessmentBy</Description>
          <Standard>SIMPLE</Standard>
          <Readonly>false</Readonly>
          <Anmerkung>Aus nNGM-Datensatzbeschreibung, Data Dictionary Typ "responseAssessmentBy"</Anmerkung>
          <SID>9401</SID>
-         <GUID>616288ab-9c4c-4534-833d-5bbd04134999</GUID>
+         <GUID>5e865390-fe89-4eee-9c4a-b3f2d57cb1f1</GUID>
          <Revision>1</Revision>
          <Versions>
             <Version>
@@ -231,7 +231,7 @@
                <Active>true</Active>
                <Description>Version 1</Description>
                <SID>9401</SID>
-               <GUID>74efb1db-3c75-4dc6-a2cb-fe7225353bad</GUID>
+               <GUID>d4d7c110-41ca-48e2-930e-c41f83afa890</GUID>
                <Revision>1</Revision>
                <Entries>
                   <Entry>
@@ -271,131 +271,9 @@
          <Readonly>false</Readonly>
          <BestOf>false</BestOf>
          <SID>9401</SID>
-         <GUID>9dd5d9d3-a4b5-42b0-83f8-e3ec84169baa</GUID>
+         <GUID>2a518eb4-317f-4e56-a1fe-d6b89921899b</GUID>
          <Revision>1</Revision>
          <Entries>
-            <Entry>
-               <PropertyCatalogue>OS.JaNein</PropertyCatalogue>
-               <Name>noTherapy</Name>
-               <NameExport>noTherapy</NameExport>
-               <Description>Therapiefreie Zeit / Best Supportive Care</Description>
-               <Type>propertyCatalogue</Type>
-               <SubTable></SubTable>
-               <ScaleUnit></ScaleUnit>
-               <MaxLength>0</MaxLength>
-               <DefaultValue></DefaultValue>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Filterable>false</Filterable>
-               <MultipleChoice>false</MultipleChoice>
-               <Position>0.0</Position>
-               <Note>nNGM: systemicTherapy/systemTherapyLineList/systemTherapyLine/noTherapyGroup/noTherapy</Note>
-               <DateEstimatedAllowed>false</DateEstimatedAllowed>
-               <DateUnknownAllowed>false</DateUnknownAllowed>
-               <oeChoiceOptions>2</oeChoiceOptions>
-               <Fachabteilungsbezug>false</Fachabteilungsbezug>
-               <Use/>
-               <SID>9401</SID>
-               <GUID>bcf773ae-af09-49a9-a255-87c66b78d6b1</GUID>
-               <Revision>1</Revision>
-            </Entry>
-            <Entry>
-               <PropertyCatalogue>NNGM.bestSupportiveCareReason</PropertyCatalogue>
-               <Name>noTherapyReason</Name>
-               <NameExport>noTherapyReason</NameExport>
-               <Description>Grund für "Therapiefreie Zeit / Best Supportive Care"</Description>
-               <Type>propertyCatalogue</Type>
-               <SubTable></SubTable>
-               <ScaleUnit></ScaleUnit>
-               <MaxLength>0</MaxLength>
-               <DefaultValue></DefaultValue>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Filterable>false</Filterable>
-               <MultipleChoice>false</MultipleChoice>
-               <Position>0.0</Position>
-               <Note>nNGM: systemicTherapy/systemTherapyLineList/systemTherapyLine/noTherapyGroup/noTherapyReason</Note>
-               <DateEstimatedAllowed>false</DateEstimatedAllowed>
-               <DateUnknownAllowed>false</DateUnknownAllowed>
-               <oeChoiceOptions>2</oeChoiceOptions>
-               <Fachabteilungsbezug>false</Fachabteilungsbezug>
-               <Use/>
-               <SID>9401</SID>
-               <GUID>0ed0ea7f-2624-495f-9460-f5b1beb6e6fa</GUID>
-               <Revision>1</Revision>
-            </Entry>
-            <Entry>
-               <Name>otherNoTherapyReason</Name>
-               <NameExport>otherNoTherapyReason</NameExport>
-               <Description>Bitte spezifizieren Sie "Anderer"</Description>
-               <Type>shorttext</Type>
-               <SubTable></SubTable>
-               <ScaleUnit></ScaleUnit>
-               <MaxLength>200</MaxLength>
-               <DefaultValue></DefaultValue>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Filterable>false</Filterable>
-               <MultipleChoice>false</MultipleChoice>
-               <Position>0.0</Position>
-               <Note>nNGM: systemicTherapy/systemTherapyLineList/systemTherapyLine/noTherapyGroup/otherNoTherapyReason</Note>
-               <DateEstimatedAllowed>false</DateEstimatedAllowed>
-               <DateUnknownAllowed>false</DateUnknownAllowed>
-               <oeChoiceOptions>0</oeChoiceOptions>
-               <Fachabteilungsbezug>false</Fachabteilungsbezug>
-               <Use/>
-               <SID>9401</SID>
-               <GUID>2dee7c6a-9b55-4247-acd4-4d98cde57b8b</GUID>
-               <Revision>1</Revision>
-            </Entry>
-            <Entry>
-               <Name>noTherapyStart</Name>
-               <NameExport>noTherapyStart</NameExport>
-               <Description>Therapiefreie Zeit / Best Supportive Care - Start</Description>
-               <Type>date</Type>
-               <SubTable></SubTable>
-               <ScaleUnit></ScaleUnit>
-               <MaxLength>0</MaxLength>
-               <DefaultValue></DefaultValue>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Filterable>false</Filterable>
-               <MultipleChoice>false</MultipleChoice>
-               <Position>0.0</Position>
-               <Note>nNGM: systemicTherapy/systemTherapyLineList/systemTherapyLine/noTherapyGroup/noTherapyStart</Note>
-               <DateEstimatedAllowed>false</DateEstimatedAllowed>
-               <DateUnknownAllowed>true</DateUnknownAllowed>
-               <oeChoiceOptions>0</oeChoiceOptions>
-               <Fachabteilungsbezug>false</Fachabteilungsbezug>
-               <Use/>
-               <SID>9401</SID>
-               <GUID>5223d289-145e-42ca-bef4-0fa7671276e5</GUID>
-               <Revision>1</Revision>
-            </Entry>
-            <Entry>
-               <Name>noTherapyEnde</Name>
-               <NameExport>noTherapyEnde</NameExport>
-               <Description>Therapiefreie Zeit / Best Supportive Care - Ende</Description>
-               <Type>date</Type>
-               <SubTable></SubTable>
-               <ScaleUnit></ScaleUnit>
-               <MaxLength>0</MaxLength>
-               <DefaultValue></DefaultValue>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Filterable>false</Filterable>
-               <MultipleChoice>false</MultipleChoice>
-               <Position>0.0</Position>
-               <Note>nNGM: systemicTherapy/systemTherapyLineList/systemTherapyLine/noTherapyGroup/noTherapyEnde</Note>
-               <DateEstimatedAllowed>false</DateEstimatedAllowed>
-               <DateUnknownAllowed>true</DateUnknownAllowed>
-               <oeChoiceOptions>0</oeChoiceOptions>
-               <Fachabteilungsbezug>false</Fachabteilungsbezug>
-               <Use/>
-               <SID>9401</SID>
-               <GUID>4480a311-d535-4370-a79b-39026ec4a699</GUID>
-               <Revision>1</Revision>
-            </Entry>
             <Entry>
                <PropertyCatalogue>NNGM.basedOnRecommendation</PropertyCatalogue>
                <Name>basedOnRecommendation</Name>
@@ -418,7 +296,7 @@
                <Fachabteilungsbezug>false</Fachabteilungsbezug>
                <Use/>
                <SID>9401</SID>
-               <GUID>44c4978e-3767-4009-b01c-83a1d34a6e46</GUID>
+               <GUID>738ec66d-2c30-4eb9-ad88-19b283f402d3</GUID>
                <Revision>1</Revision>
             </Entry>
             <Entry>
@@ -442,7 +320,7 @@
                <Fachabteilungsbezug>false</Fachabteilungsbezug>
                <Use/>
                <SID>9401</SID>
-               <GUID>53b1faf5-6fc9-4ffd-a39a-b475ee2107e2</GUID>
+               <GUID>549eea96-dbd4-4d03-b9fa-2d93285b2210</GUID>
                <Revision>1</Revision>
             </Entry>
             <Entry>
@@ -466,7 +344,7 @@
                <Fachabteilungsbezug>false</Fachabteilungsbezug>
                <Use/>
                <SID>9401</SID>
-               <GUID>50c60abb-787d-4b0a-abd2-18ff97e70480</GUID>
+               <GUID>e40a5c7b-82e1-4d94-ba95-d46241bf9195</GUID>
                <Revision>1</Revision>
             </Entry>
             <Entry>
@@ -490,7 +368,7 @@
                <Fachabteilungsbezug>false</Fachabteilungsbezug>
                <Use/>
                <SID>9401</SID>
-               <GUID>8fb4047c-e428-4398-84cc-124262982bed</GUID>
+               <GUID>718c33cd-fa0a-4614-ae7c-8b460f03f312</GUID>
                <Revision>1</Revision>
             </Entry>
             <Entry>
@@ -514,32 +392,7 @@
                <Fachabteilungsbezug>false</Fachabteilungsbezug>
                <Use/>
                <SID>9401</SID>
-               <GUID>3243f897-0cbe-44b2-9616-459c033c9d52</GUID>
-               <Revision>1</Revision>
-            </Entry>
-            <Entry>
-               <PropertyCatalogue>OS.JaNein</PropertyCatalogue>
-               <Name>offLabelUse</Name>
-               <NameExport>offLabelUse</NameExport>
-               <Description>Off-Label-Use</Description>
-               <Type>propertyCatalogue</Type>
-               <SubTable></SubTable>
-               <ScaleUnit></ScaleUnit>
-               <MaxLength>0</MaxLength>
-               <DefaultValue></DefaultValue>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Filterable>false</Filterable>
-               <MultipleChoice>false</MultipleChoice>
-               <Position>0.0</Position>
-               <Note>nNGM: systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/offLabelUse</Note>
-               <DateEstimatedAllowed>false</DateEstimatedAllowed>
-               <DateUnknownAllowed>false</DateUnknownAllowed>
-               <oeChoiceOptions>2</oeChoiceOptions>
-               <Fachabteilungsbezug>false</Fachabteilungsbezug>
-               <Use/>
-               <SID>9401</SID>
-               <GUID>a783ca9c-3044-4386-a50a-cc6112796a46</GUID>
+               <GUID>a54aa321-708c-4be1-9499-a612fd9eaf76</GUID>
                <Revision>1</Revision>
             </Entry>
             <Entry>
@@ -564,7 +417,32 @@
                <Fachabteilungsbezug>false</Fachabteilungsbezug>
                <Use/>
                <SID>9401</SID>
-               <GUID>bfe0d849-4fb3-4f7b-b6e7-6a01cfdabac0</GUID>
+               <GUID>fc0a0240-493b-4072-86d6-3eb8e94520ff</GUID>
+               <Revision>1</Revision>
+            </Entry>
+            <Entry>
+               <PropertyCatalogue>OS.JaNein</PropertyCatalogue>
+               <Name>offLabelUse</Name>
+               <NameExport>offLabelUse</NameExport>
+               <Description>Off-Label-Use</Description>
+               <Type>propertyCatalogue</Type>
+               <SubTable></SubTable>
+               <ScaleUnit></ScaleUnit>
+               <MaxLength>0</MaxLength>
+               <DefaultValue></DefaultValue>
+               <Active>true</Active>
+               <Readonly>false</Readonly>
+               <Filterable>false</Filterable>
+               <MultipleChoice>false</MultipleChoice>
+               <Position>0.0</Position>
+               <Note>nNGM: systemicTherapy/systemTherapyLineList/systemTherapyLine/informationGroup/completedTherapy/offLabelUse</Note>
+               <DateEstimatedAllowed>false</DateEstimatedAllowed>
+               <DateUnknownAllowed>false</DateUnknownAllowed>
+               <oeChoiceOptions>2</oeChoiceOptions>
+               <Fachabteilungsbezug>false</Fachabteilungsbezug>
+               <Use/>
+               <SID>9401</SID>
+               <GUID>6ed4efcc-837d-4db8-9039-69788cf9fb0b</GUID>
                <Revision>1</Revision>
             </Entry>
             <Entry>
@@ -589,7 +467,7 @@
                <Fachabteilungsbezug>false</Fachabteilungsbezug>
                <Use/>
                <SID>9401</SID>
-               <GUID>fe8437a8-b5bf-4208-9899-5f628dfb916a</GUID>
+               <GUID>77ed9863-0de7-442e-bbd0-f8275ed28b15</GUID>
                <Revision>1</Revision>
             </Entry>
             <Entry>
@@ -613,7 +491,7 @@
                <Fachabteilungsbezug>false</Fachabteilungsbezug>
                <Use/>
                <SID>9401</SID>
-               <GUID>ee9ef974-6af9-41cc-8234-e07461c09775</GUID>
+               <GUID>12b4ddf2-50d3-4fc7-a2c6-bd7d8a5adedb</GUID>
                <Revision>1</Revision>
             </Entry>
             <Entry>
@@ -638,7 +516,7 @@
                <Fachabteilungsbezug>false</Fachabteilungsbezug>
                <Use/>
                <SID>9401</SID>
-               <GUID>53d193e4-3401-4e73-b844-d048cc6e246d</GUID>
+               <GUID>585e8c87-8600-4ac2-9f93-b067d7a1eada</GUID>
                <Revision>1</Revision>
             </Entry>
             <Entry>
@@ -662,7 +540,7 @@
                <Fachabteilungsbezug>false</Fachabteilungsbezug>
                <Use/>
                <SID>9401</SID>
-               <GUID>1e55dc37-c785-44ea-a03b-3c6b102ad2ae</GUID>
+               <GUID>2d4501a0-b0e6-4acf-9565-b43213db0216</GUID>
                <Revision>1</Revision>
             </Entry>
             <Entry>
@@ -686,7 +564,129 @@
                <Fachabteilungsbezug>false</Fachabteilungsbezug>
                <Use/>
                <SID>9401</SID>
-               <GUID>b4e224ce-f355-474a-aff3-0ed11d3560b8</GUID>
+               <GUID>84975108-1a98-45d2-9c5d-ae27c67b1b58</GUID>
+               <Revision>1</Revision>
+            </Entry>
+            <Entry>
+               <PropertyCatalogue>OS.JaNein</PropertyCatalogue>
+               <Name>noTherapy</Name>
+               <NameExport>noTherapy</NameExport>
+               <Description>Therapiefreie Zeit / Best Supportive Care</Description>
+               <Type>propertyCatalogue</Type>
+               <SubTable></SubTable>
+               <ScaleUnit></ScaleUnit>
+               <MaxLength>0</MaxLength>
+               <DefaultValue></DefaultValue>
+               <Active>true</Active>
+               <Readonly>false</Readonly>
+               <Filterable>false</Filterable>
+               <MultipleChoice>false</MultipleChoice>
+               <Position>0.0</Position>
+               <Note>nNGM: systemicTherapy/systemTherapyLineList/systemTherapyLine/noTherapyGroup/noTherapy</Note>
+               <DateEstimatedAllowed>false</DateEstimatedAllowed>
+               <DateUnknownAllowed>false</DateUnknownAllowed>
+               <oeChoiceOptions>2</oeChoiceOptions>
+               <Fachabteilungsbezug>false</Fachabteilungsbezug>
+               <Use/>
+               <SID>9401</SID>
+               <GUID>5f617683-7329-4b7e-9a84-f98846ceafb4</GUID>
+               <Revision>1</Revision>
+            </Entry>
+            <Entry>
+               <PropertyCatalogue>NNGM.bestSupportiveCareReason</PropertyCatalogue>
+               <Name>noTherapyReason</Name>
+               <NameExport>noTherapyReason</NameExport>
+               <Description>Grund für "Therapiefreie Zeit / Best Supportive Care"</Description>
+               <Type>propertyCatalogue</Type>
+               <SubTable></SubTable>
+               <ScaleUnit></ScaleUnit>
+               <MaxLength>0</MaxLength>
+               <DefaultValue></DefaultValue>
+               <Active>true</Active>
+               <Readonly>false</Readonly>
+               <Filterable>false</Filterable>
+               <MultipleChoice>false</MultipleChoice>
+               <Position>0.0</Position>
+               <Note>nNGM: systemicTherapy/systemTherapyLineList/systemTherapyLine/noTherapyGroup/noTherapyReason</Note>
+               <DateEstimatedAllowed>false</DateEstimatedAllowed>
+               <DateUnknownAllowed>false</DateUnknownAllowed>
+               <oeChoiceOptions>2</oeChoiceOptions>
+               <Fachabteilungsbezug>false</Fachabteilungsbezug>
+               <Use/>
+               <SID>9401</SID>
+               <GUID>e02ef64a-89c6-4253-8e6f-59cc403e912e</GUID>
+               <Revision>1</Revision>
+            </Entry>
+            <Entry>
+               <Name>otherNoTherapyReason</Name>
+               <NameExport>otherNoTherapyReason</NameExport>
+               <Description>Bitte spezifizieren Sie "Anderer"</Description>
+               <Type>shorttext</Type>
+               <SubTable></SubTable>
+               <ScaleUnit></ScaleUnit>
+               <MaxLength>200</MaxLength>
+               <DefaultValue></DefaultValue>
+               <Active>true</Active>
+               <Readonly>false</Readonly>
+               <Filterable>false</Filterable>
+               <MultipleChoice>false</MultipleChoice>
+               <Position>0.0</Position>
+               <Note>nNGM: systemicTherapy/systemTherapyLineList/systemTherapyLine/noTherapyGroup/otherNoTherapyReason</Note>
+               <DateEstimatedAllowed>false</DateEstimatedAllowed>
+               <DateUnknownAllowed>false</DateUnknownAllowed>
+               <oeChoiceOptions>0</oeChoiceOptions>
+               <Fachabteilungsbezug>false</Fachabteilungsbezug>
+               <Use/>
+               <SID>9401</SID>
+               <GUID>dd01e324-91e0-4f2e-8b8a-b35eb4feb320</GUID>
+               <Revision>1</Revision>
+            </Entry>
+            <Entry>
+               <Name>noTherapyStart</Name>
+               <NameExport>noTherapyStart</NameExport>
+               <Description>Therapiefreie Zeit / Best Supportive Care - Start</Description>
+               <Type>date</Type>
+               <SubTable></SubTable>
+               <ScaleUnit></ScaleUnit>
+               <MaxLength>0</MaxLength>
+               <DefaultValue></DefaultValue>
+               <Active>true</Active>
+               <Readonly>false</Readonly>
+               <Filterable>false</Filterable>
+               <MultipleChoice>false</MultipleChoice>
+               <Position>0.0</Position>
+               <Note>nNGM: systemicTherapy/systemTherapyLineList/systemTherapyLine/noTherapyGroup/noTherapyStart</Note>
+               <DateEstimatedAllowed>false</DateEstimatedAllowed>
+               <DateUnknownAllowed>true</DateUnknownAllowed>
+               <oeChoiceOptions>0</oeChoiceOptions>
+               <Fachabteilungsbezug>false</Fachabteilungsbezug>
+               <Use/>
+               <SID>9401</SID>
+               <GUID>b3948d9f-1375-4352-a890-013f48b4d0cb</GUID>
+               <Revision>1</Revision>
+            </Entry>
+            <Entry>
+               <Name>noTherapyEnde</Name>
+               <NameExport>noTherapyEnde</NameExport>
+               <Description>Therapiefreie Zeit / Best Supportive Care - Ende</Description>
+               <Type>date</Type>
+               <SubTable></SubTable>
+               <ScaleUnit></ScaleUnit>
+               <MaxLength>0</MaxLength>
+               <DefaultValue></DefaultValue>
+               <Active>true</Active>
+               <Readonly>false</Readonly>
+               <Filterable>false</Filterable>
+               <MultipleChoice>false</MultipleChoice>
+               <Position>0.0</Position>
+               <Note>nNGM: systemicTherapy/systemTherapyLineList/systemTherapyLine/noTherapyGroup/noTherapyEnde</Note>
+               <DateEstimatedAllowed>false</DateEstimatedAllowed>
+               <DateUnknownAllowed>true</DateUnknownAllowed>
+               <oeChoiceOptions>0</oeChoiceOptions>
+               <Fachabteilungsbezug>false</Fachabteilungsbezug>
+               <Use/>
+               <SID>9401</SID>
+               <GUID>b112fcde-9b75-432c-ab98-727bb9b041a2</GUID>
                <Revision>1</Revision>
             </Entry>
             <Entry>
@@ -710,7 +710,7 @@
                <Fachabteilungsbezug>false</Fachabteilungsbezug>
                <Use/>
                <SID>9401</SID>
-               <GUID>0856e98a-88ce-408f-a8c0-cf17a1892eb0</GUID>
+               <GUID>e24e2645-7cba-40fa-8503-7cdbe29ab551</GUID>
                <Revision>1</Revision>
             </Entry>
             <Entry>
@@ -735,7 +735,7 @@
                <Fachabteilungsbezug>false</Fachabteilungsbezug>
                <Use/>
                <SID>9401</SID>
-               <GUID>ca9230d5-6ca3-40c0-839d-c9922e778ad8</GUID>
+               <GUID>6250090b-c38a-432a-aea7-423c3fae7f18</GUID>
                <Revision>1</Revision>
             </Entry>
          </Entries>
@@ -814,7 +814,7 @@
             <Valid>true</Valid>
          </ScriptBeimAnonymisieren>
          <SID>9401</SID>
-         <GUID>7a5fe7b7-1700-4f89-8c3f-df706aace8d0</GUID>
+         <GUID>b4dde308-082a-4b00-b951-b164e3d187d6</GUID>
          <Revision>1</Revision>
          <VerknuepftGUID>649659ef-d708-11e5-b199-0050568f1add</VerknuepftGUID>
          <SeitenzahlSichtbar>true</SeitenzahlSichtbar>
@@ -882,7 +882,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>7c9918a3-f73a-4a56-b9c0-5421445b7b4d</GUID>
+               <GUID>76d28795-62a1-420e-9cde-2a910707a7da</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -946,7 +946,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>f762a70b-6aee-4f36-8529-de9f611e3ef4</GUID>
+               <GUID>9c09e86d-a160-43fe-89ce-4efc0caa5f72</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -1008,7 +1008,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>b613e420-1c30-4d9c-aa7c-872671529f11</GUID>
+               <GUID>45b03296-342e-46f9-8a6a-30f4f94f06b9</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -1078,7 +1078,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>544faffe-41ef-4d34-a77b-b54b0e998547</GUID>
+               <GUID>f3f847f1-8662-451d-a3c1-aac10fd0af9b</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -1150,7 +1150,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>ccf48d09-2dcf-4254-af33-23c17688b1ed</GUID>
+               <GUID>d97ac53c-85cc-4434-b754-afd6a96d6315</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -1216,7 +1216,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>bf691785-9230-41a5-ace8-134c252c3b7f</GUID>
+               <GUID>46774d18-aaf0-44f8-b378-2d2afd1c1693</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -1280,7 +1280,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>fc57e203-b9a0-49e7-934d-a5dbaf94d724</GUID>
+               <GUID>3500b60b-b1f4-4cc9-8562-812dc4739048</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -1349,7 +1349,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>3a142b2c-6fec-4bc9-9631-ca9bb6c94005</GUID>
+               <GUID>a48e4e99-c41d-4326-8018-83c97b1ce131</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -1401,7 +1401,7 @@
                <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SID>9401</SID>
-               <GUID>8e0b1ba3-2ca1-41fc-a2ae-0a45f10a9847</GUID>
+               <GUID>2d2f14c7-c362-47d3-9617-280ab47ba87a</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -1471,7 +1471,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>746e0260-db01-47c4-abbd-db103d241c76</GUID>
+               <GUID>5d795789-4831-44cd-89e1-d7d6e8f4cbe8</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -1537,7 +1537,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>afcde129-981f-45ce-8ebc-8b72b0d2c904</GUID>
+               <GUID>0fa3717f-772e-4e52-9813-5e3b0cd26b10</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -1608,7 +1608,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>1</SucheArt>
                <SID>9401</SID>
-               <GUID>a15df8b0-0fdc-4297-8c09-09480e6f7be2</GUID>
+               <GUID>a10cb2ba-d61e-4f8d-bc2d-0e75ed21029a</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -1674,7 +1674,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>1cf7f453-886d-4b91-a48f-3752407820f3</GUID>
+               <GUID>b581bad0-6932-4faf-aa44-8ee54d074f3b</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -1739,7 +1739,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>c225c84a-f1cc-4a85-a56c-ab217fefb652</GUID>
+               <GUID>b940e823-a791-4b6a-b840-e213919a5684</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -1805,7 +1805,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>0d92dbf3-a718-462c-8fa5-07aa251d9f5a</GUID>
+               <GUID>ed6a842d-81a8-4ce1-836e-555c22f25fe4</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -1868,7 +1868,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>0458f7a9-7984-48b6-9945-ebe6a3173242</GUID>
+               <GUID>de21a8cc-8d40-441b-a643-acaadec38a77</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -1939,7 +1939,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>49709415-8fd3-406d-aaa9-95bea90b0633</GUID>
+               <GUID>1e51596b-70e9-47d0-aada-bd1adafed756</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -2012,7 +2012,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>43932e04-ac61-488e-98df-e0bbf93aa8bb</GUID>
+               <GUID>155a70fe-a4f5-4720-be33-037d7974badd</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -2076,7 +2076,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>cc392ffc-6c05-4f72-9575-cfa3f3488863</GUID>
+               <GUID>f9e3b500-2b82-4d53-89ec-e1991d2328a2</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -2146,7 +2146,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>e3b130b6-2f71-4945-9441-0b2fcabcaa6a</GUID>
+               <GUID>def4408a-8055-4350-95dd-a24db6d1f090</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -2213,7 +2213,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>e7b05d72-ea91-4908-a7df-80497b3195d7</GUID>
+               <GUID>172fcb70-0c5f-4489-b529-1db8db9d6cbe</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -2277,7 +2277,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>2947dd98-c978-4c11-b847-2f5ebff5953b</GUID>
+               <GUID>9887fb73-87eb-4cc0-8b92-89ecc5f80ddb</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -2348,7 +2348,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>e9960ba2-bee1-4c40-98bd-8b0bd5a2439e</GUID>
+               <GUID>e7814dc1-17f9-4a21-a376-ee8211af6201</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -2411,7 +2411,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>f9b42c8b-3ae5-4769-b050-b524713ce634</GUID>
+               <GUID>d973e566-b7a5-4615-b88a-42d96e964418</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -2480,7 +2480,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>6759575b-9b14-4d0d-a94a-5638ca9d5249</GUID>
+               <GUID>de5cbbf5-a24a-49f8-a611-725ecc1cfbc6</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -2550,7 +2550,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>21dbef17-378e-4084-b220-8bcc2b2172a4</GUID>
+               <GUID>4f82aede-f8b3-4695-b090-0863f19e112e</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -2617,7 +2617,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>370c1373-fb3b-4cf4-8944-37b304d92bbc</GUID>
+               <GUID>16cf7706-1606-4c5d-8579-075d8fa72825</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -2684,7 +2684,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>18f17209-85c2-486b-a418-199d5de751c7</GUID>
+               <GUID>bab10e74-4049-4a05-b265-4573cb942eaa</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -2756,7 +2756,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>4e601906-a344-4a28-b860-d3e3ea949280</GUID>
+               <GUID>75236408-9d38-4385-ab8e-8c88353aef6f</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -2767,9 +2767,9 @@
                      <Readonly>false</Readonly>
                      <TudokPosition>0</TudokPosition>
                      <hatUnterformulare>false</hatUnterformulare>
-                     <SID>9401</SID>
-                     <GUID>5c9c9f62-c268-4c7f-9bc4-53a267f09554</GUID>
-                     <Revision>1</Revision>
+                     <SID>1001</SID>
+                     <GUID>64964f24-d708-11e5-b199-0050568f1add</GUID>
+                     <Revision>92</Revision>
                   </ReferencedDataForm>
                </DataFormReferences>
             </Entry>
@@ -2837,7 +2837,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>f7b5339d-1be1-4268-be57-5586c0fad939</GUID>
+               <GUID>8fbbc848-c700-4722-aa36-97764299e34e</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -2907,7 +2907,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>b1342108-dd1c-41ad-889f-8c77d45e5cc1</GUID>
+               <GUID>df1643af-30d6-4d3b-b91e-775db08dfcbe</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -2974,7 +2974,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>18f0c505-9177-4acc-8670-c06af9063659</GUID>
+               <GUID>deb77f12-7476-4548-8c25-b3685d9f301c</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -3037,7 +3037,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>e1969ed6-2ffc-4da5-aecd-e076493f8796</GUID>
+               <GUID>2c75c187-ed6a-4617-a3c2-22a50498dfe4</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -3101,7 +3101,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>e0304378-3338-4a85-a474-ec103db4c3d7</GUID>
+               <GUID>d645ed8b-722c-40d7-830c-c0aa43c7ca0d</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -3172,7 +3172,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>bf212f7a-a468-4563-aa27-fc59e8361d24</GUID>
+               <GUID>ec155487-bc22-4850-b318-e8f040dd8de9</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -3243,7 +3243,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>32afd065-3a55-4661-b9a7-489350182e59</GUID>
+               <GUID>46faf70e-e9e1-416c-8d31-bbbc30f2b977</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -3315,7 +3315,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>de23bd6e-485f-4197-9048-882f4cf28e5e</GUID>
+               <GUID>672cea9b-33cc-41b9-b0aa-6a714e1f1049</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -3385,7 +3385,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>5f306e6c-8ca0-428f-b3da-1a4ea5210ca6</GUID>
+               <GUID>d9890969-f609-498b-8c4e-353f644ccac0</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -3455,77 +3455,19 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>438f6090-a8e8-419c-908d-a60e7f848a18</GUID>
+               <GUID>937a827a-ad7f-4377-8ad9-6854d670f53a</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
             </Entry>
-            <Entry parentId="99001">
-               <Type>section</Type>
-               <Name>nngmBSC</Name>
-               <Description>nNGM: Therapiefreie Zeit / Best Supportive Care</Description>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Printable>true</Printable>
-               <Position>18.0</Position>
-               <Note></Note>
-               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
-               <MultipleChoice>false</MultipleChoice>
-               <DefaultValue></DefaultValue>
-               <Alignment>0</Alignment>
-               <Direction>0</Direction>
-               <DataCatalogueEntry></DataCatalogueEntry>
-               <ElementParent></ElementParent>
-               <ProcedureDateStatus>none</ProcedureDateStatus>
-               <ZuordnungErkrankung>0</ZuordnungErkrankung>
-               <Mandatory>false</Mandatory>
-               <Datenart>BOTH</Datenart>
-               <NotSpecified>false</NotSpecified>
-               <Anzeige></Anzeige>
-               <Speichern>1</Speichern>
-               <LeerAusblenden>true</LeerAusblenden>
-               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
-               <Min>0</Min>
-               <Max>0</Max>
-               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
-               <Hinweis></Hinweis>
-               <Platzhalter></Platzhalter>
-               <ShowAuspraegungen>true</ShowAuspraegungen>
-               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
-               <Vorschlaege>false</Vorschlaege>
-               <AnzeigeAuswahldialog></AnzeigeAuswahldialog>
-               <SucheAuswahldialog></SucheAuswahldialog>
-               <MindestbreiteLabel>0</MindestbreiteLabel>
-               <MindestbreiteFeld>0</MindestbreiteFeld>
-               <OrganisationunitFilter>0</OrganisationunitFilter>
-               <Aktion>0</Aktion>
-               <GroesseTextfeld>3</GroesseTextfeld>
-               <FilterAufheben>false</FilterAufheben>
-               <Resizable>false</Resizable>
-               <Verschluesselt>false</Verschluesselt>
-               <DateValidFrom>0</DateValidFrom>
-               <DateValidTo>0</DateValidTo>
-               <DateValidFuture>true</DateValidFuture>
-               <InAuswertung>false</InAuswertung>
-               <InAuswertungGraph>false</InAuswertungGraph>
-               <AlignmentPatModul>1</AlignmentPatModul>
-               <DirectionPatModul>0</DirectionPatModul>
-               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
-               <MarkierungIgnorieren>false</MarkierungIgnorieren>
-               <SID>9401</SID>
-               <GUID>21bdb504-2947-471c-bad8-fbdd1d794ce3</GUID>
-               <Revision>1</Revision>
-               <vorherigeWerte>false</vorherigeWerte>
-               <EinfuegenVerhindern>false</EinfuegenVerhindern>
-            </Entry>
-            <Entry parentRefId="99001">
+            <Entry parentRefId="749">
                <Type>combobox</Type>
-               <Name>noTherapy</Name>
-               <Description>Therapiefreie Zeit / Best Supportive Care</Description>
+               <Name>basedOnRecommendation</Name>
+               <Description>Auf Basis einer Therapieempfehlung durchgeführt</Description>
                <Active>true</Active>
                <Readonly>false</Readonly>
                <Printable>true</Printable>
-               <Position>1.0</Position>
+               <Position>0.55</Position>
                <Note></Note>
                <Beschriftung1></Beschriftung1>
                <Beschriftung2></Beschriftung2>
@@ -3534,9 +3476,9 @@
                <DefaultValue></DefaultValue>
                <Alignment>1</Alignment>
                <Direction>0</Direction>
-               <DataCatalogueEntry>noTherapy</DataCatalogueEntry>
+               <DataCatalogueEntry>basedOnRecommendation</DataCatalogueEntry>
                <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
-               <ElementParent>nngmBSC</ElementParent>
+               <ElementParent>Bereich749</ElementParent>
                <ProcedureDateStatus>none</ProcedureDateStatus>
                <ZuordnungErkrankung>0</ZuordnungErkrankung>
                <GrafikAusrichtung>0</GrafikAusrichtung>
@@ -3580,19 +3522,872 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>aa0aab5e-c893-44b5-888d-c6c96d120013</GUID>
+               <GUID>69055c67-ba3f-4f06-802e-85ad9f83890d</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
             </Entry>
-            <Entry parentRefId="99001">
+            <Entry parentRefId="749">
+               <Type>textfield</Type>
+               <Name>furtherDetails</Name>
+               <Description>Weitere Angaben (Therapieempfehlung)</Description>
+               <Active>true</Active>
+               <Readonly>false</Readonly>
+               <Printable>true</Printable>
+               <Position>0.6</Position>
+               <Note></Note>
+               <Beschriftung1></Beschriftung1>
+               <Beschriftung2></Beschriftung2>
+               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
+               <MultipleChoice>false</MultipleChoice>
+               <DefaultValue></DefaultValue>
+               <Alignment>0</Alignment>
+               <Direction>0</Direction>
+               <DataCatalogueEntry>furtherDetails</DataCatalogueEntry>
+               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
+               <ElementParent>Bereich749</ElementParent>
+               <ProcedureDateStatus>none</ProcedureDateStatus>
+               <ZuordnungErkrankung>0</ZuordnungErkrankung>
+               <GrafikAusrichtung>0</GrafikAusrichtung>
+               <Mandatory>false</Mandatory>
+               <Datenart>BOTH</Datenart>
+               <Filter>
+                  <Condition>not isEmptyString(basedOnRecommendation) and basedOnRecommendation&lt;&gt;'no'</Condition>
+                  <Valid>true</Valid>
+                  <RefEntries>
+                     <RefEntry>basedOnRecommendation</RefEntry>
+                  </RefEntries>
+               </Filter>
+               <NotSpecified>false</NotSpecified>
+               <Anzeige></Anzeige>
+               <AnzeigeAuswahl></AnzeigeAuswahl>
+               <Druckvorlage></Druckvorlage>
+               <Speichern>1</Speichern>
+               <LeerAusblenden>true</LeerAusblenden>
+               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
+               <Min>0</Min>
+               <Max>0</Max>
+               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
+               <Hinweis></Hinweis>
+               <Platzhalter></Platzhalter>
+               <ShowAuspraegungen>true</ShowAuspraegungen>
+               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
+               <Vorschlaege>false</Vorschlaege>
+               <AnzeigeAuswahldialog></AnzeigeAuswahldialog>
+               <SucheAuswahldialog></SucheAuswahldialog>
+               <MindestbreiteLabel>0</MindestbreiteLabel>
+               <MindestbreiteFeld>0</MindestbreiteFeld>
+               <OrganisationunitFilter>0</OrganisationunitFilter>
+               <Aktion>0</Aktion>
+               <GroesseTextfeld>0</GroesseTextfeld>
+               <FilterAufheben>false</FilterAufheben>
+               <Resizable>false</Resizable>
+               <Verschluesselt>false</Verschluesselt>
+               <MemoArt>1</MemoArt>
+               <DateValidFrom>0</DateValidFrom>
+               <DateValidTo>0</DateValidTo>
+               <DateValidFuture>true</DateValidFuture>
+               <Titel></Titel>
+               <InAuswertung>false</InAuswertung>
+               <InAuswertungGraph>false</InAuswertungGraph>
+               <AlignmentPatModul>0</AlignmentPatModul>
+               <DirectionPatModul>0</DirectionPatModul>
+               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
+               <MarkierungIgnorieren>false</MarkierungIgnorieren>
+               <SucheArt>0</SucheArt>
+               <SID>9401</SID>
+               <GUID>2dbd1f53-6ba9-4553-b13e-faa20b749ede</GUID>
+               <Revision>1</Revision>
+               <vorherigeWerte>false</vorherigeWerte>
+               <EinfuegenVerhindern>false</EinfuegenVerhindern>
+            </Entry>
+            <Entry parentRefId="749">
+               <Type>textfield</Type>
+               <Name>therapyExecutionCenter</Name>
+               <Description>Durchführende Einrichtung (Therapieempfehlung)</Description>
+               <Active>true</Active>
+               <Readonly>false</Readonly>
+               <Printable>true</Printable>
+               <Position>0.65</Position>
+               <Note></Note>
+               <Beschriftung1></Beschriftung1>
+               <Beschriftung2></Beschriftung2>
+               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
+               <MultipleChoice>false</MultipleChoice>
+               <DefaultValue></DefaultValue>
+               <Alignment>0</Alignment>
+               <Direction>0</Direction>
+               <DataCatalogueEntry>therapyExecutionCenter</DataCatalogueEntry>
+               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
+               <ElementParent>Bereich749</ElementParent>
+               <ProcedureDateStatus>none</ProcedureDateStatus>
+               <ZuordnungErkrankung>0</ZuordnungErkrankung>
+               <GrafikAusrichtung>0</GrafikAusrichtung>
+               <Mandatory>false</Mandatory>
+               <Datenart>BOTH</Datenart>
+               <Filter>
+                  <Condition>not isEmptyString(basedOnRecommendation) and basedOnRecommendation&lt;&gt;'no'</Condition>
+                  <Valid>true</Valid>
+                  <RefEntries>
+                     <RefEntry>basedOnRecommendation</RefEntry>
+                  </RefEntries>
+               </Filter>
+               <NotSpecified>false</NotSpecified>
+               <Anzeige></Anzeige>
+               <AnzeigeAuswahl></AnzeigeAuswahl>
+               <Druckvorlage></Druckvorlage>
+               <Speichern>1</Speichern>
+               <LeerAusblenden>true</LeerAusblenden>
+               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
+               <Min>0</Min>
+               <Max>0</Max>
+               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
+               <Hinweis></Hinweis>
+               <Platzhalter></Platzhalter>
+               <ShowAuspraegungen>true</ShowAuspraegungen>
+               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
+               <Vorschlaege>false</Vorschlaege>
+               <AnzeigeAuswahldialog></AnzeigeAuswahldialog>
+               <SucheAuswahldialog></SucheAuswahldialog>
+               <MindestbreiteLabel>0</MindestbreiteLabel>
+               <MindestbreiteFeld>0</MindestbreiteFeld>
+               <OrganisationunitFilter>0</OrganisationunitFilter>
+               <Aktion>0</Aktion>
+               <GroesseTextfeld>0</GroesseTextfeld>
+               <FilterAufheben>false</FilterAufheben>
+               <Resizable>false</Resizable>
+               <Verschluesselt>false</Verschluesselt>
+               <MemoArt>1</MemoArt>
+               <DateValidFrom>0</DateValidFrom>
+               <DateValidTo>0</DateValidTo>
+               <DateValidFuture>true</DateValidFuture>
+               <Titel></Titel>
+               <InAuswertung>false</InAuswertung>
+               <InAuswertungGraph>false</InAuswertungGraph>
+               <AlignmentPatModul>0</AlignmentPatModul>
+               <DirectionPatModul>0</DirectionPatModul>
+               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
+               <MarkierungIgnorieren>false</MarkierungIgnorieren>
+               <SucheArt>0</SucheArt>
+               <SID>9401</SID>
+               <GUID>c6f69894-fa1d-4fda-bec6-9e548a2867c6</GUID>
+               <Revision>1</Revision>
+               <vorherigeWerte>false</vorherigeWerte>
+               <EinfuegenVerhindern>false</EinfuegenVerhindern>
+            </Entry>
+            <Entry parentRefId="749">
+               <Type>datefield</Type>
+               <Name>therapyDate</Name>
+               <Description>Datum (Therapieempfehlung)</Description>
+               <Active>true</Active>
+               <Readonly>false</Readonly>
+               <Printable>true</Printable>
+               <Position>0.7</Position>
+               <Note></Note>
+               <Beschriftung1></Beschriftung1>
+               <Beschriftung2></Beschriftung2>
+               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
+               <MultipleChoice>false</MultipleChoice>
+               <DefaultValue></DefaultValue>
+               <Alignment>0</Alignment>
+               <Direction>0</Direction>
+               <DataCatalogueEntry>therapyDate</DataCatalogueEntry>
+               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
+               <ElementParent>Bereich749</ElementParent>
+               <ProcedureDateStatus>none</ProcedureDateStatus>
+               <ZuordnungErkrankung>0</ZuordnungErkrankung>
+               <GrafikAusrichtung>0</GrafikAusrichtung>
+               <Mandatory>false</Mandatory>
+               <Datenart>BOTH</Datenart>
+               <Filter>
+                  <Condition>not isEmptyString(basedOnRecommendation) and basedOnRecommendation&lt;&gt;'no'</Condition>
+                  <Valid>true</Valid>
+                  <RefEntries>
+                     <RefEntry>basedOnRecommendation</RefEntry>
+                  </RefEntries>
+               </Filter>
+               <NotSpecified>false</NotSpecified>
+               <Anzeige></Anzeige>
+               <AnzeigeAuswahl></AnzeigeAuswahl>
+               <Druckvorlage></Druckvorlage>
+               <Speichern>1</Speichern>
+               <LeerAusblenden>true</LeerAusblenden>
+               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
+               <Min>0</Min>
+               <Max>0</Max>
+               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
+               <Hinweis></Hinweis>
+               <Platzhalter></Platzhalter>
+               <ShowAuspraegungen>true</ShowAuspraegungen>
+               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
+               <Vorschlaege>false</Vorschlaege>
+               <AnzeigeAuswahldialog></AnzeigeAuswahldialog>
+               <SucheAuswahldialog></SucheAuswahldialog>
+               <MindestbreiteLabel>0</MindestbreiteLabel>
+               <MindestbreiteFeld>0</MindestbreiteFeld>
+               <OrganisationunitFilter>0</OrganisationunitFilter>
+               <Aktion>0</Aktion>
+               <GroesseTextfeld>0</GroesseTextfeld>
+               <FilterAufheben>false</FilterAufheben>
+               <Resizable>false</Resizable>
+               <Verschluesselt>false</Verschluesselt>
+               <MemoArt>1</MemoArt>
+               <DateValidFrom>1</DateValidFrom>
+               <DateValidTo>3</DateValidTo>
+               <DateValidFuture>false</DateValidFuture>
+               <Titel></Titel>
+               <InAuswertung>false</InAuswertung>
+               <InAuswertungGraph>false</InAuswertungGraph>
+               <AlignmentPatModul>0</AlignmentPatModul>
+               <DirectionPatModul>0</DirectionPatModul>
+               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
+               <MarkierungIgnorieren>false</MarkierungIgnorieren>
+               <SucheArt>0</SucheArt>
+               <SID>9401</SID>
+               <GUID>9e92707c-67dc-4120-9264-8ce9b961343e</GUID>
+               <Revision>1</Revision>
+               <vorherigeWerte>false</vorherigeWerte>
+               <EinfuegenVerhindern>false</EinfuegenVerhindern>
+            </Entry>
+            <Entry parentRefId="749">
+               <Type>textfield</Type>
+               <Name>therapyLine</Name>
+               <Description>Line</Description>
+               <Active>true</Active>
+               <Readonly>false</Readonly>
+               <Printable>true</Printable>
+               <Position>6.5</Position>
+               <Note></Note>
+               <Beschriftung1></Beschriftung1>
+               <Beschriftung2></Beschriftung2>
+               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
+               <MultipleChoice>false</MultipleChoice>
+               <DefaultValue></DefaultValue>
+               <Alignment>0</Alignment>
+               <Direction>0</Direction>
+               <DataCatalogueEntry>therapyLine</DataCatalogueEntry>
+               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
+               <ElementParent>Bereich749</ElementParent>
+               <ProcedureDateStatus>none</ProcedureDateStatus>
+               <ZuordnungErkrankung>0</ZuordnungErkrankung>
+               <GrafikAusrichtung>0</GrafikAusrichtung>
+               <Mandatory>false</Mandatory>
+               <Datenart>BOTH</Datenart>
+               <NotSpecified>false</NotSpecified>
+               <Anzeige></Anzeige>
+               <AnzeigeAuswahl></AnzeigeAuswahl>
+               <Druckvorlage></Druckvorlage>
+               <Speichern>1</Speichern>
+               <LeerAusblenden>true</LeerAusblenden>
+               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
+               <Min>0</Min>
+               <Max>0</Max>
+               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
+               <Hinweis></Hinweis>
+               <Platzhalter></Platzhalter>
+               <ShowAuspraegungen>true</ShowAuspraegungen>
+               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
+               <Vorschlaege>false</Vorschlaege>
+               <AnzeigeAuswahldialog></AnzeigeAuswahldialog>
+               <SucheAuswahldialog></SucheAuswahldialog>
+               <MindestbreiteLabel>0</MindestbreiteLabel>
+               <MindestbreiteFeld>0</MindestbreiteFeld>
+               <OrganisationunitFilter>0</OrganisationunitFilter>
+               <Aktion>0</Aktion>
+               <GroesseTextfeld>0</GroesseTextfeld>
+               <FilterAufheben>false</FilterAufheben>
+               <Resizable>false</Resizable>
+               <Verschluesselt>false</Verschluesselt>
+               <MemoArt>1</MemoArt>
+               <DateValidFrom>0</DateValidFrom>
+               <DateValidTo>0</DateValidTo>
+               <DateValidFuture>true</DateValidFuture>
+               <Titel></Titel>
+               <InAuswertung>false</InAuswertung>
+               <InAuswertungGraph>false</InAuswertungGraph>
+               <AlignmentPatModul>0</AlignmentPatModul>
+               <DirectionPatModul>0</DirectionPatModul>
+               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
+               <MarkierungIgnorieren>false</MarkierungIgnorieren>
+               <SucheArt>0</SucheArt>
+               <SID>9401</SID>
+               <GUID>f9efebbb-bd69-4dea-a002-2de9c08777c6</GUID>
+               <Revision>1</Revision>
+               <vorherigeWerte>false</vorherigeWerte>
+               <EinfuegenVerhindern>false</EinfuegenVerhindern>
+            </Entry>
+            <Entry parentRefId="749">
+               <Type>combobox</Type>
+               <Name>isMaintainceTherapy</Name>
+               <Description>Ist Erhaltungstherapie</Description>
+               <Active>true</Active>
+               <Readonly>false</Readonly>
+               <Printable>true</Printable>
+               <Position>4.0625</Position>
+               <Note></Note>
+               <Beschriftung1></Beschriftung1>
+               <Beschriftung2></Beschriftung2>
+               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
+               <MultipleChoice>false</MultipleChoice>
+               <DefaultValue></DefaultValue>
+               <Alignment>1</Alignment>
+               <Direction>0</Direction>
+               <DataCatalogueEntry>isMaintainceTherapy</DataCatalogueEntry>
+               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
+               <ElementParent>Bereich749</ElementParent>
+               <ProcedureDateStatus>none</ProcedureDateStatus>
+               <ZuordnungErkrankung>0</ZuordnungErkrankung>
+               <GrafikAusrichtung>0</GrafikAusrichtung>
+               <Mandatory>false</Mandatory>
+               <Datenart>BOTH</Datenart>
+               <NotSpecified>false</NotSpecified>
+               <Anzeige></Anzeige>
+               <AnzeigeAuswahl></AnzeigeAuswahl>
+               <Druckvorlage></Druckvorlage>
+               <Speichern>1</Speichern>
+               <LeerAusblenden>true</LeerAusblenden>
+               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
+               <Min>0</Min>
+               <Max>0</Max>
+               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
+               <Hinweis></Hinweis>
+               <Platzhalter></Platzhalter>
+               <ShowAuspraegungen>true</ShowAuspraegungen>
+               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
+               <Vorschlaege>false</Vorschlaege>
+               <AnzeigeAuswahldialog>code</AnzeigeAuswahldialog>
+               <SucheAuswahldialog>code,kurz</SucheAuswahldialog>
+               <MindestbreiteLabel>0</MindestbreiteLabel>
+               <MindestbreiteFeld>0</MindestbreiteFeld>
+               <OrganisationunitFilter>0</OrganisationunitFilter>
+               <Aktion>0</Aktion>
+               <GroesseTextfeld>0</GroesseTextfeld>
+               <FilterAufheben>false</FilterAufheben>
+               <Resizable>false</Resizable>
+               <Verschluesselt>false</Verschluesselt>
+               <MemoArt>1</MemoArt>
+               <DateValidFrom>0</DateValidFrom>
+               <DateValidTo>0</DateValidTo>
+               <DateValidFuture>true</DateValidFuture>
+               <Titel></Titel>
+               <InAuswertung>false</InAuswertung>
+               <InAuswertungGraph>false</InAuswertungGraph>
+               <AlignmentPatModul>1</AlignmentPatModul>
+               <DirectionPatModul>0</DirectionPatModul>
+               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
+               <MarkierungIgnorieren>false</MarkierungIgnorieren>
+               <SucheArt>0</SucheArt>
+               <SID>9401</SID>
+               <GUID>53a62da2-1467-4ba2-af13-aaad1f571d23</GUID>
+               <Revision>1</Revision>
+               <vorherigeWerte>false</vorherigeWerte>
+               <EinfuegenVerhindern>false</EinfuegenVerhindern>
+            </Entry>
+            <Entry parentRefId="749">
+               <Type>combobox</Type>
+               <Name>offLabelUse</Name>
+               <Description>Off-Label-Use</Description>
+               <Active>true</Active>
+               <Readonly>false</Readonly>
+               <Printable>true</Printable>
+               <Position>4.125</Position>
+               <Note></Note>
+               <Beschriftung1></Beschriftung1>
+               <Beschriftung2></Beschriftung2>
+               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
+               <MultipleChoice>false</MultipleChoice>
+               <DefaultValue></DefaultValue>
+               <Alignment>1</Alignment>
+               <Direction>0</Direction>
+               <DataCatalogueEntry>offLabelUse</DataCatalogueEntry>
+               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
+               <ElementParent>Bereich749</ElementParent>
+               <ProcedureDateStatus>none</ProcedureDateStatus>
+               <ZuordnungErkrankung>0</ZuordnungErkrankung>
+               <GrafikAusrichtung>0</GrafikAusrichtung>
+               <Mandatory>false</Mandatory>
+               <Datenart>BOTH</Datenart>
+               <NotSpecified>false</NotSpecified>
+               <Anzeige></Anzeige>
+               <AnzeigeAuswahl></AnzeigeAuswahl>
+               <Druckvorlage></Druckvorlage>
+               <Speichern>1</Speichern>
+               <LeerAusblenden>true</LeerAusblenden>
+               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
+               <Min>0</Min>
+               <Max>0</Max>
+               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
+               <Hinweis></Hinweis>
+               <Platzhalter></Platzhalter>
+               <ShowAuspraegungen>true</ShowAuspraegungen>
+               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
+               <Vorschlaege>false</Vorschlaege>
+               <AnzeigeAuswahldialog>code</AnzeigeAuswahldialog>
+               <SucheAuswahldialog>code,kurz</SucheAuswahldialog>
+               <MindestbreiteLabel>0</MindestbreiteLabel>
+               <MindestbreiteFeld>0</MindestbreiteFeld>
+               <OrganisationunitFilter>0</OrganisationunitFilter>
+               <Aktion>0</Aktion>
+               <GroesseTextfeld>0</GroesseTextfeld>
+               <FilterAufheben>false</FilterAufheben>
+               <Resizable>false</Resizable>
+               <Verschluesselt>false</Verschluesselt>
+               <MemoArt>1</MemoArt>
+               <DateValidFrom>0</DateValidFrom>
+               <DateValidTo>0</DateValidTo>
+               <DateValidFuture>true</DateValidFuture>
+               <Titel></Titel>
+               <InAuswertung>false</InAuswertung>
+               <InAuswertungGraph>false</InAuswertungGraph>
+               <AlignmentPatModul>1</AlignmentPatModul>
+               <DirectionPatModul>0</DirectionPatModul>
+               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
+               <MarkierungIgnorieren>false</MarkierungIgnorieren>
+               <SucheArt>0</SucheArt>
+               <SID>9401</SID>
+               <GUID>934c618f-730d-4e88-b17c-06925966f44c</GUID>
+               <Revision>1</Revision>
+               <vorherigeWerte>false</vorherigeWerte>
+               <EinfuegenVerhindern>false</EinfuegenVerhindern>
+            </Entry>
+            <Entry parentRefId="749">
+               <Type>combobox</Type>
+               <Name>therapyLineStudyParticipation</Name>
+               <Description>Therapie innerhalb einer klinischen Studie</Description>
+               <Active>true</Active>
+               <Readonly>false</Readonly>
+               <Printable>true</Printable>
+               <Position>4.1875</Position>
+               <Note></Note>
+               <Beschriftung1></Beschriftung1>
+               <Beschriftung2></Beschriftung2>
+               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
+               <MultipleChoice>false</MultipleChoice>
+               <DefaultValue></DefaultValue>
+               <Alignment>1</Alignment>
+               <Direction>0</Direction>
+               <DataCatalogueEntry>therapyLineStudyParticipation</DataCatalogueEntry>
+               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
+               <ElementParent>Bereich749</ElementParent>
+               <ProcedureDateStatus>none</ProcedureDateStatus>
+               <ZuordnungErkrankung>0</ZuordnungErkrankung>
+               <GrafikAusrichtung>0</GrafikAusrichtung>
+               <Mandatory>false</Mandatory>
+               <Datenart>BOTH</Datenart>
+               <NotSpecified>false</NotSpecified>
+               <Anzeige></Anzeige>
+               <AnzeigeAuswahl></AnzeigeAuswahl>
+               <Druckvorlage></Druckvorlage>
+               <Speichern>1</Speichern>
+               <LeerAusblenden>true</LeerAusblenden>
+               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
+               <Min>0</Min>
+               <Max>0</Max>
+               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
+               <Hinweis></Hinweis>
+               <Platzhalter></Platzhalter>
+               <ShowAuspraegungen>true</ShowAuspraegungen>
+               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
+               <Vorschlaege>false</Vorschlaege>
+               <AnzeigeAuswahldialog>code</AnzeigeAuswahldialog>
+               <SucheAuswahldialog>code,kurz</SucheAuswahldialog>
+               <MindestbreiteLabel>0</MindestbreiteLabel>
+               <MindestbreiteFeld>0</MindestbreiteFeld>
+               <OrganisationunitFilter>0</OrganisationunitFilter>
+               <Aktion>0</Aktion>
+               <GroesseTextfeld>0</GroesseTextfeld>
+               <FilterAufheben>false</FilterAufheben>
+               <Resizable>false</Resizable>
+               <Verschluesselt>false</Verschluesselt>
+               <MemoArt>1</MemoArt>
+               <DateValidFrom>0</DateValidFrom>
+               <DateValidTo>0</DateValidTo>
+               <DateValidFuture>true</DateValidFuture>
+               <Titel></Titel>
+               <InAuswertung>false</InAuswertung>
+               <InAuswertungGraph>false</InAuswertungGraph>
+               <AlignmentPatModul>1</AlignmentPatModul>
+               <DirectionPatModul>0</DirectionPatModul>
+               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
+               <MarkierungIgnorieren>false</MarkierungIgnorieren>
+               <SucheArt>0</SucheArt>
+               <SID>9401</SID>
+               <GUID>98bd8159-a256-4fc8-a800-6dc957ef4ce7</GUID>
+               <Revision>1</Revision>
+               <vorherigeWerte>false</vorherigeWerte>
+               <EinfuegenVerhindern>false</EinfuegenVerhindern>
+            </Entry>
+            <Entry parentRefId="749">
+               <Type>textarea</Type>
+               <Name>therapyLineStudyName</Name>
+               <Description>Studienname / Kurztitel</Description>
+               <Active>true</Active>
+               <Readonly>false</Readonly>
+               <Printable>true</Printable>
+               <Position>4.25</Position>
+               <Note></Note>
+               <Beschriftung1></Beschriftung1>
+               <Beschriftung2></Beschriftung2>
+               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
+               <MultipleChoice>false</MultipleChoice>
+               <DefaultValue></DefaultValue>
+               <Alignment>0</Alignment>
+               <Direction>0</Direction>
+               <DataCatalogueEntry>therapyLineStudyName</DataCatalogueEntry>
+               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
+               <ElementParent>Bereich749</ElementParent>
+               <ProcedureDateStatus>none</ProcedureDateStatus>
+               <ZuordnungErkrankung>0</ZuordnungErkrankung>
+               <GrafikAusrichtung>0</GrafikAusrichtung>
+               <Mandatory>false</Mandatory>
+               <Datenart>BOTH</Datenart>
+               <Filter>
+                  <Condition>therapyLineStudyParticipation='1'</Condition>
+                  <Valid>true</Valid>
+                  <RefEntries>
+                     <RefEntry>therapyLineStudyParticipation</RefEntry>
+                  </RefEntries>
+               </Filter>
+               <NotSpecified>false</NotSpecified>
+               <Anzeige></Anzeige>
+               <AnzeigeAuswahl></AnzeigeAuswahl>
+               <Druckvorlage></Druckvorlage>
+               <Speichern>1</Speichern>
+               <LeerAusblenden>true</LeerAusblenden>
+               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
+               <Min>0</Min>
+               <Max>0</Max>
+               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
+               <Hinweis></Hinweis>
+               <Platzhalter></Platzhalter>
+               <ShowAuspraegungen>true</ShowAuspraegungen>
+               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
+               <Vorschlaege>false</Vorschlaege>
+               <AnzeigeAuswahldialog></AnzeigeAuswahldialog>
+               <SucheAuswahldialog></SucheAuswahldialog>
+               <MindestbreiteLabel>0</MindestbreiteLabel>
+               <MindestbreiteFeld>0</MindestbreiteFeld>
+               <OrganisationunitFilter>0</OrganisationunitFilter>
+               <Aktion>0</Aktion>
+               <GroesseTextfeld>0</GroesseTextfeld>
+               <FilterAufheben>false</FilterAufheben>
+               <Resizable>false</Resizable>
+               <Verschluesselt>false</Verschluesselt>
+               <MemoArt>1</MemoArt>
+               <DateValidFrom>0</DateValidFrom>
+               <DateValidTo>0</DateValidTo>
+               <DateValidFuture>true</DateValidFuture>
+               <Titel></Titel>
+               <InAuswertung>false</InAuswertung>
+               <InAuswertungGraph>false</InAuswertungGraph>
+               <AlignmentPatModul>0</AlignmentPatModul>
+               <DirectionPatModul>0</DirectionPatModul>
+               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
+               <MarkierungIgnorieren>false</MarkierungIgnorieren>
+               <SucheArt>0</SucheArt>
+               <SID>9401</SID>
+               <GUID>524d5815-050a-4067-8a70-871361af9468</GUID>
+               <Revision>1</Revision>
+               <vorherigeWerte>false</vorherigeWerte>
+               <EinfuegenVerhindern>false</EinfuegenVerhindern>
+            </Entry>
+            <Entry parentRefId="749">
+               <Type>combobox</Type>
+               <Name>therapyLineStudyRegister</Name>
+               <Description>Studien-Register</Description>
+               <Active>true</Active>
+               <Readonly>false</Readonly>
+               <Printable>true</Printable>
+               <Position>4.3125</Position>
+               <Note></Note>
+               <Beschriftung1></Beschriftung1>
+               <Beschriftung2></Beschriftung2>
+               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
+               <MultipleChoice>false</MultipleChoice>
+               <DefaultValue></DefaultValue>
+               <Alignment>1</Alignment>
+               <Direction>0</Direction>
+               <DataCatalogueEntry>therapyLineStudyRegister</DataCatalogueEntry>
+               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
+               <ElementParent>Bereich749</ElementParent>
+               <ProcedureDateStatus>none</ProcedureDateStatus>
+               <ZuordnungErkrankung>0</ZuordnungErkrankung>
+               <GrafikAusrichtung>0</GrafikAusrichtung>
+               <Mandatory>false</Mandatory>
+               <Datenart>BOTH</Datenart>
+               <Filter>
+                  <Condition>therapyLineStudyParticipation='1'</Condition>
+                  <Valid>true</Valid>
+                  <RefEntries>
+                     <RefEntry>therapyLineStudyParticipation</RefEntry>
+                  </RefEntries>
+               </Filter>
+               <NotSpecified>false</NotSpecified>
+               <Anzeige></Anzeige>
+               <AnzeigeAuswahl></AnzeigeAuswahl>
+               <Druckvorlage></Druckvorlage>
+               <Speichern>1</Speichern>
+               <LeerAusblenden>true</LeerAusblenden>
+               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
+               <Min>0</Min>
+               <Max>0</Max>
+               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
+               <Hinweis></Hinweis>
+               <Platzhalter></Platzhalter>
+               <ShowAuspraegungen>true</ShowAuspraegungen>
+               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
+               <Vorschlaege>false</Vorschlaege>
+               <AnzeigeAuswahldialog>code</AnzeigeAuswahldialog>
+               <SucheAuswahldialog>code,kurz</SucheAuswahldialog>
+               <MindestbreiteLabel>0</MindestbreiteLabel>
+               <MindestbreiteFeld>0</MindestbreiteFeld>
+               <OrganisationunitFilter>0</OrganisationunitFilter>
+               <Aktion>0</Aktion>
+               <GroesseTextfeld>0</GroesseTextfeld>
+               <FilterAufheben>false</FilterAufheben>
+               <Resizable>false</Resizable>
+               <Verschluesselt>false</Verschluesselt>
+               <MemoArt>1</MemoArt>
+               <DateValidFrom>0</DateValidFrom>
+               <DateValidTo>0</DateValidTo>
+               <DateValidFuture>true</DateValidFuture>
+               <Titel></Titel>
+               <InAuswertung>false</InAuswertung>
+               <InAuswertungGraph>false</InAuswertungGraph>
+               <AlignmentPatModul>1</AlignmentPatModul>
+               <DirectionPatModul>0</DirectionPatModul>
+               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
+               <MarkierungIgnorieren>false</MarkierungIgnorieren>
+               <SucheArt>0</SucheArt>
+               <SID>9401</SID>
+               <GUID>ed4b7e47-c488-4970-b252-4a867d08d3e5</GUID>
+               <Revision>1</Revision>
+               <vorherigeWerte>false</vorherigeWerte>
+               <EinfuegenVerhindern>false</EinfuegenVerhindern>
+            </Entry>
+            <Entry parentRefId="749">
+               <Type>textfield</Type>
+               <Name>therapyLineStudyId</Name>
+               <Description>Studien-ID</Description>
+               <Active>true</Active>
+               <Readonly>false</Readonly>
+               <Printable>true</Printable>
+               <Position>4.375</Position>
+               <Note></Note>
+               <Beschriftung1></Beschriftung1>
+               <Beschriftung2></Beschriftung2>
+               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
+               <MultipleChoice>false</MultipleChoice>
+               <DefaultValue></DefaultValue>
+               <Alignment>0</Alignment>
+               <Direction>0</Direction>
+               <DataCatalogueEntry>therapyLineStudyId</DataCatalogueEntry>
+               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
+               <ElementParent>Bereich749</ElementParent>
+               <ProcedureDateStatus>none</ProcedureDateStatus>
+               <ZuordnungErkrankung>0</ZuordnungErkrankung>
+               <GrafikAusrichtung>0</GrafikAusrichtung>
+               <Mandatory>false</Mandatory>
+               <Datenart>BOTH</Datenart>
+               <Filter>
+                  <Condition>therapyLineStudyParticipation='1'</Condition>
+                  <Valid>true</Valid>
+                  <RefEntries>
+                     <RefEntry>therapyLineStudyParticipation</RefEntry>
+                  </RefEntries>
+               </Filter>
+               <NotSpecified>false</NotSpecified>
+               <Anzeige></Anzeige>
+               <AnzeigeAuswahl></AnzeigeAuswahl>
+               <Druckvorlage></Druckvorlage>
+               <Speichern>1</Speichern>
+               <LeerAusblenden>true</LeerAusblenden>
+               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
+               <Min>0</Min>
+               <Max>0</Max>
+               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
+               <Hinweis></Hinweis>
+               <Platzhalter></Platzhalter>
+               <ShowAuspraegungen>true</ShowAuspraegungen>
+               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
+               <Vorschlaege>false</Vorschlaege>
+               <AnzeigeAuswahldialog></AnzeigeAuswahldialog>
+               <SucheAuswahldialog></SucheAuswahldialog>
+               <MindestbreiteLabel>0</MindestbreiteLabel>
+               <MindestbreiteFeld>0</MindestbreiteFeld>
+               <OrganisationunitFilter>0</OrganisationunitFilter>
+               <Aktion>0</Aktion>
+               <GroesseTextfeld>0</GroesseTextfeld>
+               <FilterAufheben>false</FilterAufheben>
+               <Resizable>false</Resizable>
+               <Verschluesselt>false</Verschluesselt>
+               <MemoArt>1</MemoArt>
+               <DateValidFrom>0</DateValidFrom>
+               <DateValidTo>0</DateValidTo>
+               <DateValidFuture>true</DateValidFuture>
+               <Titel></Titel>
+               <InAuswertung>false</InAuswertung>
+               <InAuswertungGraph>false</InAuswertungGraph>
+               <AlignmentPatModul>0</AlignmentPatModul>
+               <DirectionPatModul>0</DirectionPatModul>
+               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
+               <MarkierungIgnorieren>false</MarkierungIgnorieren>
+               <SucheArt>0</SucheArt>
+               <SID>9401</SID>
+               <GUID>22ef5266-7d69-4464-97b3-f16c30f377af</GUID>
+               <Revision>1</Revision>
+               <vorherigeWerte>false</vorherigeWerte>
+               <EinfuegenVerhindern>false</EinfuegenVerhindern>
+            </Entry>
+            <Entry parentRefId="749">
+               <Type>textfield</Type>
+               <Name>therapyLineInclusionGeneticVariants</Name>
+               <Description>Einschlusskriterium genetische Variante(n)</Description>
+               <Active>true</Active>
+               <Readonly>false</Readonly>
+               <Printable>true</Printable>
+               <Position>4.4375</Position>
+               <Note></Note>
+               <Beschriftung1></Beschriftung1>
+               <Beschriftung2></Beschriftung2>
+               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
+               <MultipleChoice>false</MultipleChoice>
+               <DefaultValue></DefaultValue>
+               <Alignment>0</Alignment>
+               <Direction>0</Direction>
+               <DataCatalogueEntry>therapyLineInclusionGeneticVariants</DataCatalogueEntry>
+               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
+               <ElementParent>Bereich749</ElementParent>
+               <ProcedureDateStatus>none</ProcedureDateStatus>
+               <ZuordnungErkrankung>0</ZuordnungErkrankung>
+               <GrafikAusrichtung>0</GrafikAusrichtung>
+               <Mandatory>false</Mandatory>
+               <Datenart>BOTH</Datenart>
+               <Filter>
+                  <Condition>therapyLineStudyParticipation='1'</Condition>
+                  <Valid>true</Valid>
+                  <RefEntries>
+                     <RefEntry>therapyLineStudyParticipation</RefEntry>
+                  </RefEntries>
+               </Filter>
+               <NotSpecified>false</NotSpecified>
+               <Anzeige></Anzeige>
+               <AnzeigeAuswahl></AnzeigeAuswahl>
+               <Druckvorlage></Druckvorlage>
+               <Speichern>1</Speichern>
+               <LeerAusblenden>true</LeerAusblenden>
+               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
+               <Min>0</Min>
+               <Max>0</Max>
+               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
+               <Hinweis></Hinweis>
+               <Platzhalter></Platzhalter>
+               <ShowAuspraegungen>true</ShowAuspraegungen>
+               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
+               <Vorschlaege>false</Vorschlaege>
+               <AnzeigeAuswahldialog></AnzeigeAuswahldialog>
+               <SucheAuswahldialog></SucheAuswahldialog>
+               <MindestbreiteLabel>0</MindestbreiteLabel>
+               <MindestbreiteFeld>0</MindestbreiteFeld>
+               <OrganisationunitFilter>0</OrganisationunitFilter>
+               <Aktion>0</Aktion>
+               <GroesseTextfeld>0</GroesseTextfeld>
+               <FilterAufheben>false</FilterAufheben>
+               <Resizable>false</Resizable>
+               <Verschluesselt>false</Verschluesselt>
+               <MemoArt>1</MemoArt>
+               <DateValidFrom>0</DateValidFrom>
+               <DateValidTo>0</DateValidTo>
+               <DateValidFuture>true</DateValidFuture>
+               <Titel></Titel>
+               <InAuswertung>false</InAuswertung>
+               <InAuswertungGraph>false</InAuswertungGraph>
+               <AlignmentPatModul>0</AlignmentPatModul>
+               <DirectionPatModul>0</DirectionPatModul>
+               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
+               <MarkierungIgnorieren>false</MarkierungIgnorieren>
+               <SucheArt>0</SucheArt>
+               <SID>9401</SID>
+               <GUID>7c240980-a6d0-4907-9717-6729e6529720</GUID>
+               <Revision>1</Revision>
+               <vorherigeWerte>false</vorherigeWerte>
+               <EinfuegenVerhindern>false</EinfuegenVerhindern>
+            </Entry>
+            <Entry parentRefId="749">
+               <Type>combobox</Type>
+               <Name>noTherapy</Name>
+               <Description>Therapiefreie Zeit / Best Supportive Care</Description>
+               <Active>true</Active>
+               <Readonly>false</Readonly>
+               <Printable>true</Printable>
+               <Position>9.166666666666666</Position>
+               <Note></Note>
+               <Beschriftung1></Beschriftung1>
+               <Beschriftung2></Beschriftung2>
+               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
+               <MultipleChoice>false</MultipleChoice>
+               <DefaultValue></DefaultValue>
+               <Alignment>1</Alignment>
+               <Direction>0</Direction>
+               <DataCatalogueEntry>noTherapy</DataCatalogueEntry>
+               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
+               <ElementParent>Bereich749</ElementParent>
+               <ProcedureDateStatus>none</ProcedureDateStatus>
+               <ZuordnungErkrankung>0</ZuordnungErkrankung>
+               <GrafikAusrichtung>0</GrafikAusrichtung>
+               <Mandatory>false</Mandatory>
+               <Datenart>BOTH</Datenart>
+               <NotSpecified>false</NotSpecified>
+               <Anzeige></Anzeige>
+               <AnzeigeAuswahl></AnzeigeAuswahl>
+               <Druckvorlage></Druckvorlage>
+               <Speichern>1</Speichern>
+               <LeerAusblenden>true</LeerAusblenden>
+               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
+               <Min>0</Min>
+               <Max>0</Max>
+               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
+               <Hinweis></Hinweis>
+               <Platzhalter></Platzhalter>
+               <ShowAuspraegungen>true</ShowAuspraegungen>
+               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
+               <Vorschlaege>false</Vorschlaege>
+               <AnzeigeAuswahldialog>code</AnzeigeAuswahldialog>
+               <SucheAuswahldialog>code,kurz</SucheAuswahldialog>
+               <MindestbreiteLabel>0</MindestbreiteLabel>
+               <MindestbreiteFeld>0</MindestbreiteFeld>
+               <OrganisationunitFilter>0</OrganisationunitFilter>
+               <Aktion>0</Aktion>
+               <GroesseTextfeld>0</GroesseTextfeld>
+               <FilterAufheben>false</FilterAufheben>
+               <Resizable>false</Resizable>
+               <Verschluesselt>false</Verschluesselt>
+               <MemoArt>1</MemoArt>
+               <DateValidFrom>0</DateValidFrom>
+               <DateValidTo>0</DateValidTo>
+               <DateValidFuture>true</DateValidFuture>
+               <Titel></Titel>
+               <InAuswertung>false</InAuswertung>
+               <InAuswertungGraph>false</InAuswertungGraph>
+               <AlignmentPatModul>1</AlignmentPatModul>
+               <DirectionPatModul>0</DirectionPatModul>
+               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
+               <MarkierungIgnorieren>false</MarkierungIgnorieren>
+               <SucheArt>0</SucheArt>
+               <SID>9401</SID>
+               <GUID>6bf1e6ae-fbf7-4ddd-95bc-0be40e1e791c</GUID>
+               <Revision>1</Revision>
+               <vorherigeWerte>false</vorherigeWerte>
+               <EinfuegenVerhindern>false</EinfuegenVerhindern>
+            </Entry>
+            <Entry parentRefId="749">
                <Type>combobox</Type>
                <Name>noTherapyReason</Name>
                <Description>Grund für "Therapiefreie Zeit / Best Supportive Care"</Description>
                <Active>true</Active>
                <Readonly>false</Readonly>
                <Printable>true</Printable>
-               <Position>2.0</Position>
+               <Position>9.333333333333334</Position>
                <Note></Note>
                <Beschriftung1></Beschriftung1>
                <Beschriftung2></Beschriftung2>
@@ -3603,7 +4398,7 @@
                <Direction>0</Direction>
                <DataCatalogueEntry>noTherapyReason</DataCatalogueEntry>
                <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
-               <ElementParent>nngmBSC</ElementParent>
+               <ElementParent>Bereich749</ElementParent>
                <ProcedureDateStatus>none</ProcedureDateStatus>
                <ZuordnungErkrankung>0</ZuordnungErkrankung>
                <GrafikAusrichtung>0</GrafikAusrichtung>
@@ -3654,19 +4449,19 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>8899e12c-b16d-4bbf-84ec-cd4593313957</GUID>
+               <GUID>e07440c6-f07f-4f05-a824-798d25fc9aaa</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
             </Entry>
-            <Entry parentRefId="99001">
+            <Entry parentRefId="749">
                <Type>textfield</Type>
                <Name>otherNoTherapyReason</Name>
                <Description>Bitte spezifizieren Sie "Anderer"</Description>
                <Active>true</Active>
                <Readonly>false</Readonly>
                <Printable>true</Printable>
-               <Position>3.0</Position>
+               <Position>9.5</Position>
                <Note></Note>
                <Beschriftung1></Beschriftung1>
                <Beschriftung2></Beschriftung2>
@@ -3677,7 +4472,7 @@
                <Direction>0</Direction>
                <DataCatalogueEntry>otherNoTherapyReason</DataCatalogueEntry>
                <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
-               <ElementParent>nngmBSC</ElementParent>
+               <ElementParent>Bereich749</ElementParent>
                <ProcedureDateStatus>none</ProcedureDateStatus>
                <ZuordnungErkrankung>0</ZuordnungErkrankung>
                <GrafikAusrichtung>0</GrafikAusrichtung>
@@ -3728,19 +4523,19 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>554339b2-f590-4d6f-bd07-61fea689986c</GUID>
+               <GUID>d6253b79-e58d-4885-a7b9-e6fb9122660f</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
             </Entry>
-            <Entry parentRefId="99001">
+            <Entry parentRefId="749">
                <Type>datefield</Type>
                <Name>noTherapyStart</Name>
                <Description>Therapiefreie Zeit / Best Supportive Care - Start</Description>
                <Active>true</Active>
                <Readonly>false</Readonly>
                <Printable>true</Printable>
-               <Position>4.0</Position>
+               <Position>9.666666666666666</Position>
                <Note></Note>
                <Beschriftung1></Beschriftung1>
                <Beschriftung2></Beschriftung2>
@@ -3751,7 +4546,7 @@
                <Direction>0</Direction>
                <DataCatalogueEntry>noTherapyStart</DataCatalogueEntry>
                <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
-               <ElementParent>nngmBSC</ElementParent>
+               <ElementParent>Bereich749</ElementParent>
                <ProcedureDateStatus>none</ProcedureDateStatus>
                <ZuordnungErkrankung>0</ZuordnungErkrankung>
                <GrafikAusrichtung>0</GrafikAusrichtung>
@@ -3802,19 +4597,19 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>0c5f51de-c43a-4cb0-9be9-3989fae3a036</GUID>
+               <GUID>b7842130-d3c3-4094-a049-9f0627d6cb43</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
             </Entry>
-            <Entry parentRefId="99001">
+            <Entry parentRefId="749">
                <Type>datefield</Type>
                <Name>noTherapyEnde</Name>
                <Description>Therapiefreie Zeit / Best Supportive Care - Ende</Description>
                <Active>true</Active>
                <Readonly>false</Readonly>
                <Printable>true</Printable>
-               <Position>5.0</Position>
+               <Position>9.833333333333334</Position>
                <Note></Note>
                <Beschriftung1></Beschriftung1>
                <Beschriftung2></Beschriftung2>
@@ -3825,7 +4620,7 @@
                <Direction>0</Direction>
                <DataCatalogueEntry>noTherapyEnde</DataCatalogueEntry>
                <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
-               <ElementParent>nngmBSC</ElementParent>
+               <ElementParent>Bereich749</ElementParent>
                <ProcedureDateStatus>none</ProcedureDateStatus>
                <ZuordnungErkrankung>0</ZuordnungErkrankung>
                <GrafikAusrichtung>0</GrafikAusrichtung>
@@ -3876,1046 +4671,19 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>a3ecd362-8e2a-4347-b350-c12caed667ed</GUID>
+               <GUID>d82021b1-d907-42fc-a769-f2aadb7436ef</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
             </Entry>
-            <Entry parentId="99002">
-               <Type>section</Type>
-               <Name>nngmEmpfehlung</Name>
-               <Description>nNGM: Therapieempfehlung</Description>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Printable>true</Printable>
-               <Position>19.0</Position>
-               <Note></Note>
-               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
-               <MultipleChoice>false</MultipleChoice>
-               <DefaultValue></DefaultValue>
-               <Alignment>0</Alignment>
-               <Direction>0</Direction>
-               <DataCatalogueEntry></DataCatalogueEntry>
-               <ElementParent></ElementParent>
-               <ProcedureDateStatus>none</ProcedureDateStatus>
-               <ZuordnungErkrankung>0</ZuordnungErkrankung>
-               <Mandatory>false</Mandatory>
-               <Datenart>BOTH</Datenart>
-               <NotSpecified>false</NotSpecified>
-               <Anzeige></Anzeige>
-               <Speichern>1</Speichern>
-               <LeerAusblenden>true</LeerAusblenden>
-               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
-               <Min>0</Min>
-               <Max>0</Max>
-               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
-               <Hinweis></Hinweis>
-               <Platzhalter></Platzhalter>
-               <ShowAuspraegungen>true</ShowAuspraegungen>
-               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
-               <Vorschlaege>false</Vorschlaege>
-               <AnzeigeAuswahldialog></AnzeigeAuswahldialog>
-               <SucheAuswahldialog></SucheAuswahldialog>
-               <MindestbreiteLabel>0</MindestbreiteLabel>
-               <MindestbreiteFeld>0</MindestbreiteFeld>
-               <OrganisationunitFilter>0</OrganisationunitFilter>
-               <Aktion>0</Aktion>
-               <GroesseTextfeld>3</GroesseTextfeld>
-               <FilterAufheben>false</FilterAufheben>
-               <Resizable>false</Resizable>
-               <Verschluesselt>false</Verschluesselt>
-               <DateValidFrom>0</DateValidFrom>
-               <DateValidTo>0</DateValidTo>
-               <DateValidFuture>true</DateValidFuture>
-               <InAuswertung>false</InAuswertung>
-               <InAuswertungGraph>false</InAuswertungGraph>
-               <AlignmentPatModul>1</AlignmentPatModul>
-               <DirectionPatModul>0</DirectionPatModul>
-               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
-               <MarkierungIgnorieren>false</MarkierungIgnorieren>
-               <SID>9401</SID>
-               <GUID>41d08f4b-bd3a-402b-bb39-85d69668b6ad</GUID>
-               <Revision>1</Revision>
-               <vorherigeWerte>false</vorherigeWerte>
-               <EinfuegenVerhindern>false</EinfuegenVerhindern>
-            </Entry>
-            <Entry parentRefId="99002">
-               <Type>combobox</Type>
-               <Name>basedOnRecommendation</Name>
-               <Description>Auf Basis einer Therapieempfehlung durchgeführt</Description>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Printable>true</Printable>
-               <Position>1.0</Position>
-               <Note></Note>
-               <Beschriftung1></Beschriftung1>
-               <Beschriftung2></Beschriftung2>
-               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
-               <MultipleChoice>false</MultipleChoice>
-               <DefaultValue></DefaultValue>
-               <Alignment>1</Alignment>
-               <Direction>0</Direction>
-               <DataCatalogueEntry>basedOnRecommendation</DataCatalogueEntry>
-               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
-               <ElementParent>nngmEmpfehlung</ElementParent>
-               <ProcedureDateStatus>none</ProcedureDateStatus>
-               <ZuordnungErkrankung>0</ZuordnungErkrankung>
-               <GrafikAusrichtung>0</GrafikAusrichtung>
-               <Mandatory>false</Mandatory>
-               <Datenart>BOTH</Datenart>
-               <NotSpecified>false</NotSpecified>
-               <Anzeige></Anzeige>
-               <AnzeigeAuswahl></AnzeigeAuswahl>
-               <Druckvorlage></Druckvorlage>
-               <Speichern>1</Speichern>
-               <LeerAusblenden>true</LeerAusblenden>
-               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
-               <Min>0</Min>
-               <Max>0</Max>
-               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
-               <Hinweis></Hinweis>
-               <Platzhalter></Platzhalter>
-               <ShowAuspraegungen>true</ShowAuspraegungen>
-               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
-               <Vorschlaege>false</Vorschlaege>
-               <AnzeigeAuswahldialog>code</AnzeigeAuswahldialog>
-               <SucheAuswahldialog>code,kurz</SucheAuswahldialog>
-               <MindestbreiteLabel>0</MindestbreiteLabel>
-               <MindestbreiteFeld>0</MindestbreiteFeld>
-               <OrganisationunitFilter>0</OrganisationunitFilter>
-               <Aktion>0</Aktion>
-               <GroesseTextfeld>0</GroesseTextfeld>
-               <FilterAufheben>false</FilterAufheben>
-               <Resizable>false</Resizable>
-               <Verschluesselt>false</Verschluesselt>
-               <MemoArt>1</MemoArt>
-               <DateValidFrom>0</DateValidFrom>
-               <DateValidTo>0</DateValidTo>
-               <DateValidFuture>true</DateValidFuture>
-               <Titel></Titel>
-               <InAuswertung>false</InAuswertung>
-               <InAuswertungGraph>false</InAuswertungGraph>
-               <AlignmentPatModul>1</AlignmentPatModul>
-               <DirectionPatModul>0</DirectionPatModul>
-               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
-               <MarkierungIgnorieren>false</MarkierungIgnorieren>
-               <SucheArt>0</SucheArt>
-               <SID>9401</SID>
-               <GUID>72363201-e935-4381-a57f-c4e422524e49</GUID>
-               <Revision>1</Revision>
-               <vorherigeWerte>false</vorherigeWerte>
-               <EinfuegenVerhindern>false</EinfuegenVerhindern>
-            </Entry>
-            <Entry parentRefId="99002">
-               <Type>textfield</Type>
-               <Name>furtherDetails</Name>
-               <Description>Weitere Angaben (Therapieempfehlung)</Description>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Printable>true</Printable>
-               <Position>2.0</Position>
-               <Note></Note>
-               <Beschriftung1></Beschriftung1>
-               <Beschriftung2></Beschriftung2>
-               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
-               <MultipleChoice>false</MultipleChoice>
-               <DefaultValue></DefaultValue>
-               <Alignment>0</Alignment>
-               <Direction>0</Direction>
-               <DataCatalogueEntry>furtherDetails</DataCatalogueEntry>
-               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
-               <ElementParent>nngmEmpfehlung</ElementParent>
-               <ProcedureDateStatus>none</ProcedureDateStatus>
-               <ZuordnungErkrankung>0</ZuordnungErkrankung>
-               <GrafikAusrichtung>0</GrafikAusrichtung>
-               <Mandatory>false</Mandatory>
-               <Datenart>BOTH</Datenart>
-               <Filter>
-                  <Condition>not isEmptyString(basedOnRecommendation) and basedOnRecommendation&lt;&gt;'no'</Condition>
-                  <Valid>true</Valid>
-                  <RefEntries>
-                     <RefEntry>basedOnRecommendation</RefEntry>
-                  </RefEntries>
-               </Filter>
-               <NotSpecified>false</NotSpecified>
-               <Anzeige></Anzeige>
-               <AnzeigeAuswahl></AnzeigeAuswahl>
-               <Druckvorlage></Druckvorlage>
-               <Speichern>1</Speichern>
-               <LeerAusblenden>true</LeerAusblenden>
-               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
-               <Min>0</Min>
-               <Max>0</Max>
-               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
-               <Hinweis></Hinweis>
-               <Platzhalter></Platzhalter>
-               <ShowAuspraegungen>true</ShowAuspraegungen>
-               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
-               <Vorschlaege>false</Vorschlaege>
-               <AnzeigeAuswahldialog></AnzeigeAuswahldialog>
-               <SucheAuswahldialog></SucheAuswahldialog>
-               <MindestbreiteLabel>0</MindestbreiteLabel>
-               <MindestbreiteFeld>0</MindestbreiteFeld>
-               <OrganisationunitFilter>0</OrganisationunitFilter>
-               <Aktion>0</Aktion>
-               <GroesseTextfeld>0</GroesseTextfeld>
-               <FilterAufheben>false</FilterAufheben>
-               <Resizable>false</Resizable>
-               <Verschluesselt>false</Verschluesselt>
-               <MemoArt>1</MemoArt>
-               <DateValidFrom>0</DateValidFrom>
-               <DateValidTo>0</DateValidTo>
-               <DateValidFuture>true</DateValidFuture>
-               <Titel></Titel>
-               <InAuswertung>false</InAuswertung>
-               <InAuswertungGraph>false</InAuswertungGraph>
-               <AlignmentPatModul>0</AlignmentPatModul>
-               <DirectionPatModul>0</DirectionPatModul>
-               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
-               <MarkierungIgnorieren>false</MarkierungIgnorieren>
-               <SucheArt>0</SucheArt>
-               <SID>9401</SID>
-               <GUID>16e9abea-bd27-4e2b-bef5-7e6499f9ff6e</GUID>
-               <Revision>1</Revision>
-               <vorherigeWerte>false</vorherigeWerte>
-               <EinfuegenVerhindern>false</EinfuegenVerhindern>
-            </Entry>
-            <Entry parentRefId="99002">
-               <Type>textfield</Type>
-               <Name>therapyExecutionCenter</Name>
-               <Description>Durchführende Einrichtung (Therapieempfehlung)</Description>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Printable>true</Printable>
-               <Position>3.0</Position>
-               <Note></Note>
-               <Beschriftung1></Beschriftung1>
-               <Beschriftung2></Beschriftung2>
-               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
-               <MultipleChoice>false</MultipleChoice>
-               <DefaultValue></DefaultValue>
-               <Alignment>0</Alignment>
-               <Direction>0</Direction>
-               <DataCatalogueEntry>therapyExecutionCenter</DataCatalogueEntry>
-               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
-               <ElementParent>nngmEmpfehlung</ElementParent>
-               <ProcedureDateStatus>none</ProcedureDateStatus>
-               <ZuordnungErkrankung>0</ZuordnungErkrankung>
-               <GrafikAusrichtung>0</GrafikAusrichtung>
-               <Mandatory>false</Mandatory>
-               <Datenart>BOTH</Datenart>
-               <Filter>
-                  <Condition>not isEmptyString(basedOnRecommendation) and basedOnRecommendation&lt;&gt;'no'</Condition>
-                  <Valid>true</Valid>
-                  <RefEntries>
-                     <RefEntry>basedOnRecommendation</RefEntry>
-                  </RefEntries>
-               </Filter>
-               <NotSpecified>false</NotSpecified>
-               <Anzeige></Anzeige>
-               <AnzeigeAuswahl></AnzeigeAuswahl>
-               <Druckvorlage></Druckvorlage>
-               <Speichern>1</Speichern>
-               <LeerAusblenden>true</LeerAusblenden>
-               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
-               <Min>0</Min>
-               <Max>0</Max>
-               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
-               <Hinweis></Hinweis>
-               <Platzhalter></Platzhalter>
-               <ShowAuspraegungen>true</ShowAuspraegungen>
-               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
-               <Vorschlaege>false</Vorschlaege>
-               <AnzeigeAuswahldialog></AnzeigeAuswahldialog>
-               <SucheAuswahldialog></SucheAuswahldialog>
-               <MindestbreiteLabel>0</MindestbreiteLabel>
-               <MindestbreiteFeld>0</MindestbreiteFeld>
-               <OrganisationunitFilter>0</OrganisationunitFilter>
-               <Aktion>0</Aktion>
-               <GroesseTextfeld>0</GroesseTextfeld>
-               <FilterAufheben>false</FilterAufheben>
-               <Resizable>false</Resizable>
-               <Verschluesselt>false</Verschluesselt>
-               <MemoArt>1</MemoArt>
-               <DateValidFrom>0</DateValidFrom>
-               <DateValidTo>0</DateValidTo>
-               <DateValidFuture>true</DateValidFuture>
-               <Titel></Titel>
-               <InAuswertung>false</InAuswertung>
-               <InAuswertungGraph>false</InAuswertungGraph>
-               <AlignmentPatModul>0</AlignmentPatModul>
-               <DirectionPatModul>0</DirectionPatModul>
-               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
-               <MarkierungIgnorieren>false</MarkierungIgnorieren>
-               <SucheArt>0</SucheArt>
-               <SID>9401</SID>
-               <GUID>8a042d00-7de5-4ba3-9f75-a06a75315cd7</GUID>
-               <Revision>1</Revision>
-               <vorherigeWerte>false</vorherigeWerte>
-               <EinfuegenVerhindern>false</EinfuegenVerhindern>
-            </Entry>
-            <Entry parentRefId="99002">
-               <Type>datefield</Type>
-               <Name>therapyDate</Name>
-               <Description>Datum (Therapieempfehlung)</Description>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Printable>true</Printable>
-               <Position>4.0</Position>
-               <Note></Note>
-               <Beschriftung1></Beschriftung1>
-               <Beschriftung2></Beschriftung2>
-               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
-               <MultipleChoice>false</MultipleChoice>
-               <DefaultValue></DefaultValue>
-               <Alignment>0</Alignment>
-               <Direction>0</Direction>
-               <DataCatalogueEntry>therapyDate</DataCatalogueEntry>
-               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
-               <ElementParent>nngmEmpfehlung</ElementParent>
-               <ProcedureDateStatus>none</ProcedureDateStatus>
-               <ZuordnungErkrankung>0</ZuordnungErkrankung>
-               <GrafikAusrichtung>0</GrafikAusrichtung>
-               <Mandatory>false</Mandatory>
-               <Datenart>BOTH</Datenart>
-               <Filter>
-                  <Condition>not isEmptyString(basedOnRecommendation) and basedOnRecommendation&lt;&gt;'no'</Condition>
-                  <Valid>true</Valid>
-                  <RefEntries>
-                     <RefEntry>basedOnRecommendation</RefEntry>
-                  </RefEntries>
-               </Filter>
-               <NotSpecified>false</NotSpecified>
-               <Anzeige></Anzeige>
-               <AnzeigeAuswahl></AnzeigeAuswahl>
-               <Druckvorlage></Druckvorlage>
-               <Speichern>1</Speichern>
-               <LeerAusblenden>true</LeerAusblenden>
-               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
-               <Min>0</Min>
-               <Max>0</Max>
-               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
-               <Hinweis></Hinweis>
-               <Platzhalter></Platzhalter>
-               <ShowAuspraegungen>true</ShowAuspraegungen>
-               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
-               <Vorschlaege>false</Vorschlaege>
-               <AnzeigeAuswahldialog></AnzeigeAuswahldialog>
-               <SucheAuswahldialog></SucheAuswahldialog>
-               <MindestbreiteLabel>0</MindestbreiteLabel>
-               <MindestbreiteFeld>0</MindestbreiteFeld>
-               <OrganisationunitFilter>0</OrganisationunitFilter>
-               <Aktion>0</Aktion>
-               <GroesseTextfeld>0</GroesseTextfeld>
-               <FilterAufheben>false</FilterAufheben>
-               <Resizable>false</Resizable>
-               <Verschluesselt>false</Verschluesselt>
-               <MemoArt>1</MemoArt>
-               <DateValidFrom>1</DateValidFrom>
-               <DateValidTo>3</DateValidTo>
-               <DateValidFuture>false</DateValidFuture>
-               <Titel></Titel>
-               <InAuswertung>false</InAuswertung>
-               <InAuswertungGraph>false</InAuswertungGraph>
-               <AlignmentPatModul>0</AlignmentPatModul>
-               <DirectionPatModul>0</DirectionPatModul>
-               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
-               <MarkierungIgnorieren>false</MarkierungIgnorieren>
-               <SucheArt>0</SucheArt>
-               <SID>9401</SID>
-               <GUID>6027049d-94ca-4b52-99f3-b2466bb5a1e4</GUID>
-               <Revision>1</Revision>
-               <vorherigeWerte>false</vorherigeWerte>
-               <EinfuegenVerhindern>false</EinfuegenVerhindern>
-            </Entry>
-            <Entry parentId="99003">
-               <Type>section</Type>
-               <Name>nngmLinie</Name>
-               <Description>nNGM: Therapielinie und Studie</Description>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Printable>true</Printable>
-               <Position>20.0</Position>
-               <Note></Note>
-               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
-               <MultipleChoice>false</MultipleChoice>
-               <DefaultValue></DefaultValue>
-               <Alignment>0</Alignment>
-               <Direction>0</Direction>
-               <DataCatalogueEntry></DataCatalogueEntry>
-               <ElementParent></ElementParent>
-               <ProcedureDateStatus>none</ProcedureDateStatus>
-               <ZuordnungErkrankung>0</ZuordnungErkrankung>
-               <Mandatory>false</Mandatory>
-               <Datenart>BOTH</Datenart>
-               <NotSpecified>false</NotSpecified>
-               <Anzeige></Anzeige>
-               <Speichern>1</Speichern>
-               <LeerAusblenden>true</LeerAusblenden>
-               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
-               <Min>0</Min>
-               <Max>0</Max>
-               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
-               <Hinweis></Hinweis>
-               <Platzhalter></Platzhalter>
-               <ShowAuspraegungen>true</ShowAuspraegungen>
-               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
-               <Vorschlaege>false</Vorschlaege>
-               <AnzeigeAuswahldialog></AnzeigeAuswahldialog>
-               <SucheAuswahldialog></SucheAuswahldialog>
-               <MindestbreiteLabel>0</MindestbreiteLabel>
-               <MindestbreiteFeld>0</MindestbreiteFeld>
-               <OrganisationunitFilter>0</OrganisationunitFilter>
-               <Aktion>0</Aktion>
-               <GroesseTextfeld>3</GroesseTextfeld>
-               <FilterAufheben>false</FilterAufheben>
-               <Resizable>false</Resizable>
-               <Verschluesselt>false</Verschluesselt>
-               <DateValidFrom>0</DateValidFrom>
-               <DateValidTo>0</DateValidTo>
-               <DateValidFuture>true</DateValidFuture>
-               <InAuswertung>false</InAuswertung>
-               <InAuswertungGraph>false</InAuswertungGraph>
-               <AlignmentPatModul>1</AlignmentPatModul>
-               <DirectionPatModul>0</DirectionPatModul>
-               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
-               <MarkierungIgnorieren>false</MarkierungIgnorieren>
-               <SID>9401</SID>
-               <GUID>cd31a0be-e66b-4349-8856-a8952795412e</GUID>
-               <Revision>1</Revision>
-               <vorherigeWerte>false</vorherigeWerte>
-               <EinfuegenVerhindern>false</EinfuegenVerhindern>
-            </Entry>
-            <Entry parentRefId="99003">
-               <Type>textfield</Type>
-               <Name>therapyLine</Name>
-               <Description>Line</Description>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Printable>true</Printable>
-               <Position>1.0</Position>
-               <Note></Note>
-               <Beschriftung1></Beschriftung1>
-               <Beschriftung2></Beschriftung2>
-               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
-               <MultipleChoice>false</MultipleChoice>
-               <DefaultValue></DefaultValue>
-               <Alignment>0</Alignment>
-               <Direction>0</Direction>
-               <DataCatalogueEntry>therapyLine</DataCatalogueEntry>
-               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
-               <ElementParent>nngmLinie</ElementParent>
-               <ProcedureDateStatus>none</ProcedureDateStatus>
-               <ZuordnungErkrankung>0</ZuordnungErkrankung>
-               <GrafikAusrichtung>0</GrafikAusrichtung>
-               <Mandatory>false</Mandatory>
-               <Datenart>BOTH</Datenart>
-               <NotSpecified>false</NotSpecified>
-               <Anzeige></Anzeige>
-               <AnzeigeAuswahl></AnzeigeAuswahl>
-               <Druckvorlage></Druckvorlage>
-               <Speichern>1</Speichern>
-               <LeerAusblenden>true</LeerAusblenden>
-               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
-               <Min>0</Min>
-               <Max>0</Max>
-               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
-               <Hinweis></Hinweis>
-               <Platzhalter></Platzhalter>
-               <ShowAuspraegungen>true</ShowAuspraegungen>
-               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
-               <Vorschlaege>false</Vorschlaege>
-               <AnzeigeAuswahldialog></AnzeigeAuswahldialog>
-               <SucheAuswahldialog></SucheAuswahldialog>
-               <MindestbreiteLabel>0</MindestbreiteLabel>
-               <MindestbreiteFeld>0</MindestbreiteFeld>
-               <OrganisationunitFilter>0</OrganisationunitFilter>
-               <Aktion>0</Aktion>
-               <GroesseTextfeld>0</GroesseTextfeld>
-               <FilterAufheben>false</FilterAufheben>
-               <Resizable>false</Resizable>
-               <Verschluesselt>false</Verschluesselt>
-               <MemoArt>1</MemoArt>
-               <DateValidFrom>0</DateValidFrom>
-               <DateValidTo>0</DateValidTo>
-               <DateValidFuture>true</DateValidFuture>
-               <Titel></Titel>
-               <InAuswertung>false</InAuswertung>
-               <InAuswertungGraph>false</InAuswertungGraph>
-               <AlignmentPatModul>0</AlignmentPatModul>
-               <DirectionPatModul>0</DirectionPatModul>
-               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
-               <MarkierungIgnorieren>false</MarkierungIgnorieren>
-               <SucheArt>0</SucheArt>
-               <SID>9401</SID>
-               <GUID>e94b4339-bd3e-4df2-a599-59b3d9322a04</GUID>
-               <Revision>1</Revision>
-               <vorherigeWerte>false</vorherigeWerte>
-               <EinfuegenVerhindern>false</EinfuegenVerhindern>
-            </Entry>
-            <Entry parentRefId="99003">
-               <Type>combobox</Type>
-               <Name>offLabelUse</Name>
-               <Description>Off-Label-Use</Description>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Printable>true</Printable>
-               <Position>2.0</Position>
-               <Note></Note>
-               <Beschriftung1></Beschriftung1>
-               <Beschriftung2></Beschriftung2>
-               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
-               <MultipleChoice>false</MultipleChoice>
-               <DefaultValue></DefaultValue>
-               <Alignment>1</Alignment>
-               <Direction>0</Direction>
-               <DataCatalogueEntry>offLabelUse</DataCatalogueEntry>
-               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
-               <ElementParent>nngmLinie</ElementParent>
-               <ProcedureDateStatus>none</ProcedureDateStatus>
-               <ZuordnungErkrankung>0</ZuordnungErkrankung>
-               <GrafikAusrichtung>0</GrafikAusrichtung>
-               <Mandatory>false</Mandatory>
-               <Datenart>BOTH</Datenart>
-               <NotSpecified>false</NotSpecified>
-               <Anzeige></Anzeige>
-               <AnzeigeAuswahl></AnzeigeAuswahl>
-               <Druckvorlage></Druckvorlage>
-               <Speichern>1</Speichern>
-               <LeerAusblenden>true</LeerAusblenden>
-               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
-               <Min>0</Min>
-               <Max>0</Max>
-               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
-               <Hinweis></Hinweis>
-               <Platzhalter></Platzhalter>
-               <ShowAuspraegungen>true</ShowAuspraegungen>
-               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
-               <Vorschlaege>false</Vorschlaege>
-               <AnzeigeAuswahldialog>code</AnzeigeAuswahldialog>
-               <SucheAuswahldialog>code,kurz</SucheAuswahldialog>
-               <MindestbreiteLabel>0</MindestbreiteLabel>
-               <MindestbreiteFeld>0</MindestbreiteFeld>
-               <OrganisationunitFilter>0</OrganisationunitFilter>
-               <Aktion>0</Aktion>
-               <GroesseTextfeld>0</GroesseTextfeld>
-               <FilterAufheben>false</FilterAufheben>
-               <Resizable>false</Resizable>
-               <Verschluesselt>false</Verschluesselt>
-               <MemoArt>1</MemoArt>
-               <DateValidFrom>0</DateValidFrom>
-               <DateValidTo>0</DateValidTo>
-               <DateValidFuture>true</DateValidFuture>
-               <Titel></Titel>
-               <InAuswertung>false</InAuswertung>
-               <InAuswertungGraph>false</InAuswertungGraph>
-               <AlignmentPatModul>1</AlignmentPatModul>
-               <DirectionPatModul>0</DirectionPatModul>
-               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
-               <MarkierungIgnorieren>false</MarkierungIgnorieren>
-               <SucheArt>0</SucheArt>
-               <SID>9401</SID>
-               <GUID>15b508e1-e3ff-4969-895c-f4e69f8491d1</GUID>
-               <Revision>1</Revision>
-               <vorherigeWerte>false</vorherigeWerte>
-               <EinfuegenVerhindern>false</EinfuegenVerhindern>
-            </Entry>
-            <Entry parentRefId="99003">
-               <Type>combobox</Type>
-               <Name>isMaintainceTherapy</Name>
-               <Description>Ist Erhaltungstherapie</Description>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Printable>true</Printable>
-               <Position>3.0</Position>
-               <Note></Note>
-               <Beschriftung1></Beschriftung1>
-               <Beschriftung2></Beschriftung2>
-               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
-               <MultipleChoice>false</MultipleChoice>
-               <DefaultValue></DefaultValue>
-               <Alignment>1</Alignment>
-               <Direction>0</Direction>
-               <DataCatalogueEntry>isMaintainceTherapy</DataCatalogueEntry>
-               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
-               <ElementParent>nngmLinie</ElementParent>
-               <ProcedureDateStatus>none</ProcedureDateStatus>
-               <ZuordnungErkrankung>0</ZuordnungErkrankung>
-               <GrafikAusrichtung>0</GrafikAusrichtung>
-               <Mandatory>false</Mandatory>
-               <Datenart>BOTH</Datenart>
-               <NotSpecified>false</NotSpecified>
-               <Anzeige></Anzeige>
-               <AnzeigeAuswahl></AnzeigeAuswahl>
-               <Druckvorlage></Druckvorlage>
-               <Speichern>1</Speichern>
-               <LeerAusblenden>true</LeerAusblenden>
-               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
-               <Min>0</Min>
-               <Max>0</Max>
-               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
-               <Hinweis></Hinweis>
-               <Platzhalter></Platzhalter>
-               <ShowAuspraegungen>true</ShowAuspraegungen>
-               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
-               <Vorschlaege>false</Vorschlaege>
-               <AnzeigeAuswahldialog>code</AnzeigeAuswahldialog>
-               <SucheAuswahldialog>code,kurz</SucheAuswahldialog>
-               <MindestbreiteLabel>0</MindestbreiteLabel>
-               <MindestbreiteFeld>0</MindestbreiteFeld>
-               <OrganisationunitFilter>0</OrganisationunitFilter>
-               <Aktion>0</Aktion>
-               <GroesseTextfeld>0</GroesseTextfeld>
-               <FilterAufheben>false</FilterAufheben>
-               <Resizable>false</Resizable>
-               <Verschluesselt>false</Verschluesselt>
-               <MemoArt>1</MemoArt>
-               <DateValidFrom>0</DateValidFrom>
-               <DateValidTo>0</DateValidTo>
-               <DateValidFuture>true</DateValidFuture>
-               <Titel></Titel>
-               <InAuswertung>false</InAuswertung>
-               <InAuswertungGraph>false</InAuswertungGraph>
-               <AlignmentPatModul>1</AlignmentPatModul>
-               <DirectionPatModul>0</DirectionPatModul>
-               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
-               <MarkierungIgnorieren>false</MarkierungIgnorieren>
-               <SucheArt>0</SucheArt>
-               <SID>9401</SID>
-               <GUID>bf3fe257-ac20-408e-a00c-630837f9517a</GUID>
-               <Revision>1</Revision>
-               <vorherigeWerte>false</vorherigeWerte>
-               <EinfuegenVerhindern>false</EinfuegenVerhindern>
-            </Entry>
-            <Entry parentRefId="99003">
-               <Type>combobox</Type>
-               <Name>therapyLineStudyParticipation</Name>
-               <Description>Therapie innerhalb einer klinischen Studie</Description>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Printable>true</Printable>
-               <Position>4.0</Position>
-               <Note></Note>
-               <Beschriftung1></Beschriftung1>
-               <Beschriftung2></Beschriftung2>
-               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
-               <MultipleChoice>false</MultipleChoice>
-               <DefaultValue></DefaultValue>
-               <Alignment>1</Alignment>
-               <Direction>0</Direction>
-               <DataCatalogueEntry>therapyLineStudyParticipation</DataCatalogueEntry>
-               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
-               <ElementParent>nngmLinie</ElementParent>
-               <ProcedureDateStatus>none</ProcedureDateStatus>
-               <ZuordnungErkrankung>0</ZuordnungErkrankung>
-               <GrafikAusrichtung>0</GrafikAusrichtung>
-               <Mandatory>false</Mandatory>
-               <Datenart>BOTH</Datenart>
-               <NotSpecified>false</NotSpecified>
-               <Anzeige></Anzeige>
-               <AnzeigeAuswahl></AnzeigeAuswahl>
-               <Druckvorlage></Druckvorlage>
-               <Speichern>1</Speichern>
-               <LeerAusblenden>true</LeerAusblenden>
-               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
-               <Min>0</Min>
-               <Max>0</Max>
-               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
-               <Hinweis></Hinweis>
-               <Platzhalter></Platzhalter>
-               <ShowAuspraegungen>true</ShowAuspraegungen>
-               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
-               <Vorschlaege>false</Vorschlaege>
-               <AnzeigeAuswahldialog>code</AnzeigeAuswahldialog>
-               <SucheAuswahldialog>code,kurz</SucheAuswahldialog>
-               <MindestbreiteLabel>0</MindestbreiteLabel>
-               <MindestbreiteFeld>0</MindestbreiteFeld>
-               <OrganisationunitFilter>0</OrganisationunitFilter>
-               <Aktion>0</Aktion>
-               <GroesseTextfeld>0</GroesseTextfeld>
-               <FilterAufheben>false</FilterAufheben>
-               <Resizable>false</Resizable>
-               <Verschluesselt>false</Verschluesselt>
-               <MemoArt>1</MemoArt>
-               <DateValidFrom>0</DateValidFrom>
-               <DateValidTo>0</DateValidTo>
-               <DateValidFuture>true</DateValidFuture>
-               <Titel></Titel>
-               <InAuswertung>false</InAuswertung>
-               <InAuswertungGraph>false</InAuswertungGraph>
-               <AlignmentPatModul>1</AlignmentPatModul>
-               <DirectionPatModul>0</DirectionPatModul>
-               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
-               <MarkierungIgnorieren>false</MarkierungIgnorieren>
-               <SucheArt>0</SucheArt>
-               <SID>9401</SID>
-               <GUID>19b040fc-5945-4cc5-abf9-a3243e6b05cc</GUID>
-               <Revision>1</Revision>
-               <vorherigeWerte>false</vorherigeWerte>
-               <EinfuegenVerhindern>false</EinfuegenVerhindern>
-            </Entry>
-            <Entry parentRefId="99003">
-               <Type>textarea</Type>
-               <Name>therapyLineStudyName</Name>
-               <Description>Studienname / Kurztitel</Description>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Printable>true</Printable>
-               <Position>5.0</Position>
-               <Note></Note>
-               <Beschriftung1></Beschriftung1>
-               <Beschriftung2></Beschriftung2>
-               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
-               <MultipleChoice>false</MultipleChoice>
-               <DefaultValue></DefaultValue>
-               <Alignment>0</Alignment>
-               <Direction>0</Direction>
-               <DataCatalogueEntry>therapyLineStudyName</DataCatalogueEntry>
-               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
-               <ElementParent>nngmLinie</ElementParent>
-               <ProcedureDateStatus>none</ProcedureDateStatus>
-               <ZuordnungErkrankung>0</ZuordnungErkrankung>
-               <GrafikAusrichtung>0</GrafikAusrichtung>
-               <Mandatory>false</Mandatory>
-               <Datenart>BOTH</Datenart>
-               <Filter>
-                  <Condition>therapyLineStudyParticipation='1'</Condition>
-                  <Valid>true</Valid>
-                  <RefEntries>
-                     <RefEntry>therapyLineStudyParticipation</RefEntry>
-                  </RefEntries>
-               </Filter>
-               <NotSpecified>false</NotSpecified>
-               <Anzeige></Anzeige>
-               <AnzeigeAuswahl></AnzeigeAuswahl>
-               <Druckvorlage></Druckvorlage>
-               <Speichern>1</Speichern>
-               <LeerAusblenden>true</LeerAusblenden>
-               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
-               <Min>0</Min>
-               <Max>0</Max>
-               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
-               <Hinweis></Hinweis>
-               <Platzhalter></Platzhalter>
-               <ShowAuspraegungen>true</ShowAuspraegungen>
-               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
-               <Vorschlaege>false</Vorschlaege>
-               <AnzeigeAuswahldialog></AnzeigeAuswahldialog>
-               <SucheAuswahldialog></SucheAuswahldialog>
-               <MindestbreiteLabel>0</MindestbreiteLabel>
-               <MindestbreiteFeld>0</MindestbreiteFeld>
-               <OrganisationunitFilter>0</OrganisationunitFilter>
-               <Aktion>0</Aktion>
-               <GroesseTextfeld>0</GroesseTextfeld>
-               <FilterAufheben>false</FilterAufheben>
-               <Resizable>false</Resizable>
-               <Verschluesselt>false</Verschluesselt>
-               <MemoArt>1</MemoArt>
-               <DateValidFrom>0</DateValidFrom>
-               <DateValidTo>0</DateValidTo>
-               <DateValidFuture>true</DateValidFuture>
-               <Titel></Titel>
-               <InAuswertung>false</InAuswertung>
-               <InAuswertungGraph>false</InAuswertungGraph>
-               <AlignmentPatModul>0</AlignmentPatModul>
-               <DirectionPatModul>0</DirectionPatModul>
-               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
-               <MarkierungIgnorieren>false</MarkierungIgnorieren>
-               <SucheArt>0</SucheArt>
-               <SID>9401</SID>
-               <GUID>bf8b64f4-0e51-41e4-b3d4-e03bd20298e3</GUID>
-               <Revision>1</Revision>
-               <vorherigeWerte>false</vorherigeWerte>
-               <EinfuegenVerhindern>false</EinfuegenVerhindern>
-            </Entry>
-            <Entry parentRefId="99003">
-               <Type>combobox</Type>
-               <Name>therapyLineStudyRegister</Name>
-               <Description>Studien-Register</Description>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Printable>true</Printable>
-               <Position>6.0</Position>
-               <Note></Note>
-               <Beschriftung1></Beschriftung1>
-               <Beschriftung2></Beschriftung2>
-               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
-               <MultipleChoice>false</MultipleChoice>
-               <DefaultValue></DefaultValue>
-               <Alignment>1</Alignment>
-               <Direction>0</Direction>
-               <DataCatalogueEntry>therapyLineStudyRegister</DataCatalogueEntry>
-               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
-               <ElementParent>nngmLinie</ElementParent>
-               <ProcedureDateStatus>none</ProcedureDateStatus>
-               <ZuordnungErkrankung>0</ZuordnungErkrankung>
-               <GrafikAusrichtung>0</GrafikAusrichtung>
-               <Mandatory>false</Mandatory>
-               <Datenart>BOTH</Datenart>
-               <Filter>
-                  <Condition>therapyLineStudyParticipation='1'</Condition>
-                  <Valid>true</Valid>
-                  <RefEntries>
-                     <RefEntry>therapyLineStudyParticipation</RefEntry>
-                  </RefEntries>
-               </Filter>
-               <NotSpecified>false</NotSpecified>
-               <Anzeige></Anzeige>
-               <AnzeigeAuswahl></AnzeigeAuswahl>
-               <Druckvorlage></Druckvorlage>
-               <Speichern>1</Speichern>
-               <LeerAusblenden>true</LeerAusblenden>
-               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
-               <Min>0</Min>
-               <Max>0</Max>
-               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
-               <Hinweis></Hinweis>
-               <Platzhalter></Platzhalter>
-               <ShowAuspraegungen>true</ShowAuspraegungen>
-               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
-               <Vorschlaege>false</Vorschlaege>
-               <AnzeigeAuswahldialog>code</AnzeigeAuswahldialog>
-               <SucheAuswahldialog>code,kurz</SucheAuswahldialog>
-               <MindestbreiteLabel>0</MindestbreiteLabel>
-               <MindestbreiteFeld>0</MindestbreiteFeld>
-               <OrganisationunitFilter>0</OrganisationunitFilter>
-               <Aktion>0</Aktion>
-               <GroesseTextfeld>0</GroesseTextfeld>
-               <FilterAufheben>false</FilterAufheben>
-               <Resizable>false</Resizable>
-               <Verschluesselt>false</Verschluesselt>
-               <MemoArt>1</MemoArt>
-               <DateValidFrom>0</DateValidFrom>
-               <DateValidTo>0</DateValidTo>
-               <DateValidFuture>true</DateValidFuture>
-               <Titel></Titel>
-               <InAuswertung>false</InAuswertung>
-               <InAuswertungGraph>false</InAuswertungGraph>
-               <AlignmentPatModul>1</AlignmentPatModul>
-               <DirectionPatModul>0</DirectionPatModul>
-               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
-               <MarkierungIgnorieren>false</MarkierungIgnorieren>
-               <SucheArt>0</SucheArt>
-               <SID>9401</SID>
-               <GUID>5cb7085d-c3cf-401f-8274-4e860fc8b707</GUID>
-               <Revision>1</Revision>
-               <vorherigeWerte>false</vorherigeWerte>
-               <EinfuegenVerhindern>false</EinfuegenVerhindern>
-            </Entry>
-            <Entry parentRefId="99003">
-               <Type>textfield</Type>
-               <Name>therapyLineStudyId</Name>
-               <Description>Studien-ID</Description>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Printable>true</Printable>
-               <Position>7.0</Position>
-               <Note></Note>
-               <Beschriftung1></Beschriftung1>
-               <Beschriftung2></Beschriftung2>
-               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
-               <MultipleChoice>false</MultipleChoice>
-               <DefaultValue></DefaultValue>
-               <Alignment>0</Alignment>
-               <Direction>0</Direction>
-               <DataCatalogueEntry>therapyLineStudyId</DataCatalogueEntry>
-               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
-               <ElementParent>nngmLinie</ElementParent>
-               <ProcedureDateStatus>none</ProcedureDateStatus>
-               <ZuordnungErkrankung>0</ZuordnungErkrankung>
-               <GrafikAusrichtung>0</GrafikAusrichtung>
-               <Mandatory>false</Mandatory>
-               <Datenart>BOTH</Datenart>
-               <Filter>
-                  <Condition>therapyLineStudyParticipation='1'</Condition>
-                  <Valid>true</Valid>
-                  <RefEntries>
-                     <RefEntry>therapyLineStudyParticipation</RefEntry>
-                  </RefEntries>
-               </Filter>
-               <NotSpecified>false</NotSpecified>
-               <Anzeige></Anzeige>
-               <AnzeigeAuswahl></AnzeigeAuswahl>
-               <Druckvorlage></Druckvorlage>
-               <Speichern>1</Speichern>
-               <LeerAusblenden>true</LeerAusblenden>
-               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
-               <Min>0</Min>
-               <Max>0</Max>
-               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
-               <Hinweis></Hinweis>
-               <Platzhalter></Platzhalter>
-               <ShowAuspraegungen>true</ShowAuspraegungen>
-               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
-               <Vorschlaege>false</Vorschlaege>
-               <AnzeigeAuswahldialog></AnzeigeAuswahldialog>
-               <SucheAuswahldialog></SucheAuswahldialog>
-               <MindestbreiteLabel>0</MindestbreiteLabel>
-               <MindestbreiteFeld>0</MindestbreiteFeld>
-               <OrganisationunitFilter>0</OrganisationunitFilter>
-               <Aktion>0</Aktion>
-               <GroesseTextfeld>0</GroesseTextfeld>
-               <FilterAufheben>false</FilterAufheben>
-               <Resizable>false</Resizable>
-               <Verschluesselt>false</Verschluesselt>
-               <MemoArt>1</MemoArt>
-               <DateValidFrom>0</DateValidFrom>
-               <DateValidTo>0</DateValidTo>
-               <DateValidFuture>true</DateValidFuture>
-               <Titel></Titel>
-               <InAuswertung>false</InAuswertung>
-               <InAuswertungGraph>false</InAuswertungGraph>
-               <AlignmentPatModul>0</AlignmentPatModul>
-               <DirectionPatModul>0</DirectionPatModul>
-               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
-               <MarkierungIgnorieren>false</MarkierungIgnorieren>
-               <SucheArt>0</SucheArt>
-               <SID>9401</SID>
-               <GUID>c775d1ff-916d-40ce-9488-a89f44974880</GUID>
-               <Revision>1</Revision>
-               <vorherigeWerte>false</vorherigeWerte>
-               <EinfuegenVerhindern>false</EinfuegenVerhindern>
-            </Entry>
-            <Entry parentRefId="99003">
-               <Type>textfield</Type>
-               <Name>therapyLineInclusionGeneticVariants</Name>
-               <Description>Einschlusskriterium genetische Variante(n)</Description>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Printable>true</Printable>
-               <Position>8.0</Position>
-               <Note></Note>
-               <Beschriftung1></Beschriftung1>
-               <Beschriftung2></Beschriftung2>
-               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
-               <MultipleChoice>false</MultipleChoice>
-               <DefaultValue></DefaultValue>
-               <Alignment>0</Alignment>
-               <Direction>0</Direction>
-               <DataCatalogueEntry>therapyLineInclusionGeneticVariants</DataCatalogueEntry>
-               <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
-               <ElementParent>nngmLinie</ElementParent>
-               <ProcedureDateStatus>none</ProcedureDateStatus>
-               <ZuordnungErkrankung>0</ZuordnungErkrankung>
-               <GrafikAusrichtung>0</GrafikAusrichtung>
-               <Mandatory>false</Mandatory>
-               <Datenart>BOTH</Datenart>
-               <Filter>
-                  <Condition>therapyLineStudyParticipation='1'</Condition>
-                  <Valid>true</Valid>
-                  <RefEntries>
-                     <RefEntry>therapyLineStudyParticipation</RefEntry>
-                  </RefEntries>
-               </Filter>
-               <NotSpecified>false</NotSpecified>
-               <Anzeige></Anzeige>
-               <AnzeigeAuswahl></AnzeigeAuswahl>
-               <Druckvorlage></Druckvorlage>
-               <Speichern>1</Speichern>
-               <LeerAusblenden>true</LeerAusblenden>
-               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
-               <Min>0</Min>
-               <Max>0</Max>
-               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
-               <Hinweis></Hinweis>
-               <Platzhalter></Platzhalter>
-               <ShowAuspraegungen>true</ShowAuspraegungen>
-               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
-               <Vorschlaege>false</Vorschlaege>
-               <AnzeigeAuswahldialog></AnzeigeAuswahldialog>
-               <SucheAuswahldialog></SucheAuswahldialog>
-               <MindestbreiteLabel>0</MindestbreiteLabel>
-               <MindestbreiteFeld>0</MindestbreiteFeld>
-               <OrganisationunitFilter>0</OrganisationunitFilter>
-               <Aktion>0</Aktion>
-               <GroesseTextfeld>0</GroesseTextfeld>
-               <FilterAufheben>false</FilterAufheben>
-               <Resizable>false</Resizable>
-               <Verschluesselt>false</Verschluesselt>
-               <MemoArt>1</MemoArt>
-               <DateValidFrom>0</DateValidFrom>
-               <DateValidTo>0</DateValidTo>
-               <DateValidFuture>true</DateValidFuture>
-               <Titel></Titel>
-               <InAuswertung>false</InAuswertung>
-               <InAuswertungGraph>false</InAuswertungGraph>
-               <AlignmentPatModul>0</AlignmentPatModul>
-               <DirectionPatModul>0</DirectionPatModul>
-               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
-               <MarkierungIgnorieren>false</MarkierungIgnorieren>
-               <SucheArt>0</SucheArt>
-               <SID>9401</SID>
-               <GUID>c334d475-40c4-4a18-be9a-1a2f7a95095f</GUID>
-               <Revision>1</Revision>
-               <vorherigeWerte>false</vorherigeWerte>
-               <EinfuegenVerhindern>false</EinfuegenVerhindern>
-            </Entry>
-            <Entry parentId="99004">
-               <Type>section</Type>
-               <Name>nngmResponse</Name>
-               <Description>nNGM: Response</Description>
-               <Active>true</Active>
-               <Readonly>false</Readonly>
-               <Printable>true</Printable>
-               <Position>21.0</Position>
-               <Note></Note>
-               <WertAnzeigenPatmodul>false</WertAnzeigenPatmodul>
-               <MultipleChoice>false</MultipleChoice>
-               <DefaultValue></DefaultValue>
-               <Alignment>0</Alignment>
-               <Direction>0</Direction>
-               <DataCatalogueEntry></DataCatalogueEntry>
-               <ElementParent></ElementParent>
-               <ProcedureDateStatus>none</ProcedureDateStatus>
-               <ZuordnungErkrankung>0</ZuordnungErkrankung>
-               <Mandatory>false</Mandatory>
-               <Datenart>BOTH</Datenart>
-               <NotSpecified>false</NotSpecified>
-               <Anzeige></Anzeige>
-               <Speichern>1</Speichern>
-               <LeerAusblenden>true</LeerAusblenden>
-               <GeschlossenAnzeigen>false</GeschlossenAnzeigen>
-               <Min>0</Min>
-               <Max>0</Max>
-               <InUebersichtAnzeigen>false</InUebersichtAnzeigen>
-               <Hinweis></Hinweis>
-               <Platzhalter></Platzhalter>
-               <ShowAuspraegungen>true</ShowAuspraegungen>
-               <ProzedurdatumUebernehmen>false</ProzedurdatumUebernehmen>
-               <Vorschlaege>false</Vorschlaege>
-               <AnzeigeAuswahldialog></AnzeigeAuswahldialog>
-               <SucheAuswahldialog></SucheAuswahldialog>
-               <MindestbreiteLabel>0</MindestbreiteLabel>
-               <MindestbreiteFeld>0</MindestbreiteFeld>
-               <OrganisationunitFilter>0</OrganisationunitFilter>
-               <Aktion>0</Aktion>
-               <GroesseTextfeld>3</GroesseTextfeld>
-               <FilterAufheben>false</FilterAufheben>
-               <Resizable>false</Resizable>
-               <Verschluesselt>false</Verschluesselt>
-               <DateValidFrom>0</DateValidFrom>
-               <DateValidTo>0</DateValidTo>
-               <DateValidFuture>true</DateValidFuture>
-               <InAuswertung>false</InAuswertung>
-               <InAuswertungGraph>false</InAuswertungGraph>
-               <AlignmentPatModul>1</AlignmentPatModul>
-               <DirectionPatModul>0</DirectionPatModul>
-               <SeitenumbruchPatModul>true</SeitenumbruchPatModul>
-               <MarkierungIgnorieren>false</MarkierungIgnorieren>
-               <SID>9401</SID>
-               <GUID>3ef61a3e-0a80-45d0-b7c6-ec36d7588518</GUID>
-               <Revision>1</Revision>
-               <vorherigeWerte>false</vorherigeWerte>
-               <EinfuegenVerhindern>false</EinfuegenVerhindern>
-            </Entry>
-            <Entry parentRefId="99004">
+            <Entry parentRefId="283">
                <Type>datefield</Type>
                <Name>bestResponseDate</Name>
                <Description>Bestes Ansprechen Datum</Description>
                <Active>true</Active>
                <Readonly>false</Readonly>
                <Printable>true</Printable>
-               <Position>1.0</Position>
+               <Position>7.333333333333333</Position>
                <Note></Note>
                <Beschriftung1></Beschriftung1>
                <Beschriftung2></Beschriftung2>
@@ -4926,7 +4694,7 @@
                <Direction>0</Direction>
                <DataCatalogueEntry>bestResponseDate</DataCatalogueEntry>
                <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
-               <ElementParent>nngmResponse</ElementParent>
+               <ElementParent>Bereich283</ElementParent>
                <ProcedureDateStatus>none</ProcedureDateStatus>
                <ZuordnungErkrankung>0</ZuordnungErkrankung>
                <GrafikAusrichtung>0</GrafikAusrichtung>
@@ -4970,19 +4738,19 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>c5e3537e-7cb5-41da-95ab-e521f8d49082</GUID>
+               <GUID>a1526fba-ee56-451a-b36c-8bc04f2bf389</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
             </Entry>
-            <Entry parentRefId="99004">
+            <Entry parentRefId="283">
                <Type>combobox</Type>
                <Name>AssessmentBy</Name>
                <Description>Beurteilung nach</Description>
                <Active>true</Active>
                <Readonly>false</Readonly>
                <Printable>true</Printable>
-               <Position>2.0</Position>
+               <Position>7.666666666666667</Position>
                <Note></Note>
                <Beschriftung1></Beschriftung1>
                <Beschriftung2></Beschriftung2>
@@ -4993,7 +4761,7 @@
                <Direction>0</Direction>
                <DataCatalogueEntry>AssessmentBy</DataCatalogueEntry>
                <DataCatalogueEntryTable>NNGMSystemtherapie</DataCatalogueEntryTable>
-               <ElementParent>nngmResponse</ElementParent>
+               <ElementParent>Bereich283</ElementParent>
                <ProcedureDateStatus>none</ProcedureDateStatus>
                <ZuordnungErkrankung>0</ZuordnungErkrankung>
                <GrafikAusrichtung>0</GrafikAusrichtung>
@@ -5037,7 +4805,7 @@
                <MarkierungIgnorieren>false</MarkierungIgnorieren>
                <SucheArt>0</SucheArt>
                <SID>9401</SID>
-               <GUID>e9664ef5-be77-4ccc-80ff-3855e9bb9165</GUID>
+               <GUID>29cc81c8-ad2d-4d66-8554-9569147c9d8e</GUID>
                <Revision>1</Revision>
                <vorherigeWerte>false</vorherigeWerte>
                <EinfuegenVerhindern>false</EinfuegenVerhindern>
@@ -5223,6 +4991,48 @@
             <PlausibilityRule>
                <Type>2</Type>
                <Message>Das Datum liegt vor dem Geburtsdatum</Message>
+               <Description>__DatumGrenze_therapyDate_GueltigVon</Description>
+               <Bezeichnung>__DatumGrenze_therapyDate_GueltigVon</Bezeichnung>
+               <Formula>dateBeforeOrEquals(patientData.getBirthdate(), therapyDate)</Formula>
+               <Active>true</Active>
+               <Editable>false</Editable>
+               <Valid>true</Valid>
+               <Statusauswirkung>0</Statusauswirkung>
+               <DataFormEntries>
+                  <EntryName>therapyDate</EntryName>
+               </DataFormEntries>
+            </PlausibilityRule>
+            <PlausibilityRule>
+               <Type>2</Type>
+               <Message>Das Datum liegt nach dem Sterbedatum</Message>
+               <Description>__DatumGrenze_therapyDate_GueltigBis</Description>
+               <Bezeichnung>__DatumGrenze_therapyDate_GueltigBis</Bezeichnung>
+               <Formula>dateAfterOrEquals(patientData.getDeathdate(), therapyDate)</Formula>
+               <Active>true</Active>
+               <Editable>false</Editable>
+               <Valid>true</Valid>
+               <Statusauswirkung>0</Statusauswirkung>
+               <DataFormEntries>
+                  <EntryName>therapyDate</EntryName>
+               </DataFormEntries>
+            </PlausibilityRule>
+            <PlausibilityRule>
+               <Type>2</Type>
+               <Message>Das Datum liegt in der Zukunft</Message>
+               <Description>__DatumGrenze_therapyDate_GueltigZukunft</Description>
+               <Bezeichnung>__DatumGrenze_therapyDate_GueltigZukunft</Bezeichnung>
+               <Formula>dateAfterOrEquals(getNow(), therapyDate)</Formula>
+               <Active>true</Active>
+               <Editable>false</Editable>
+               <Valid>true</Valid>
+               <Statusauswirkung>0</Statusauswirkung>
+               <DataFormEntries>
+                  <EntryName>therapyDate</EntryName>
+               </DataFormEntries>
+            </PlausibilityRule>
+            <PlausibilityRule>
+               <Type>2</Type>
+               <Message>Das Datum liegt vor dem Geburtsdatum</Message>
                <Description>__DatumGrenze_noTherapyStart_GueltigVon</Description>
                <Bezeichnung>__DatumGrenze_noTherapyStart_GueltigVon</Bezeichnung>
                <Formula>dateBeforeOrEquals(patientData.getBirthdate(), noTherapyStart)</Formula>
@@ -5302,48 +5112,6 @@
                <Statusauswirkung>0</Statusauswirkung>
                <DataFormEntries>
                   <EntryName>noTherapyEnde</EntryName>
-               </DataFormEntries>
-            </PlausibilityRule>
-            <PlausibilityRule>
-               <Type>2</Type>
-               <Message>Das Datum liegt vor dem Geburtsdatum</Message>
-               <Description>__DatumGrenze_therapyDate_GueltigVon</Description>
-               <Bezeichnung>__DatumGrenze_therapyDate_GueltigVon</Bezeichnung>
-               <Formula>dateBeforeOrEquals(patientData.getBirthdate(), therapyDate)</Formula>
-               <Active>true</Active>
-               <Editable>false</Editable>
-               <Valid>true</Valid>
-               <Statusauswirkung>0</Statusauswirkung>
-               <DataFormEntries>
-                  <EntryName>therapyDate</EntryName>
-               </DataFormEntries>
-            </PlausibilityRule>
-            <PlausibilityRule>
-               <Type>2</Type>
-               <Message>Das Datum liegt nach dem Sterbedatum</Message>
-               <Description>__DatumGrenze_therapyDate_GueltigBis</Description>
-               <Bezeichnung>__DatumGrenze_therapyDate_GueltigBis</Bezeichnung>
-               <Formula>dateAfterOrEquals(patientData.getDeathdate(), therapyDate)</Formula>
-               <Active>true</Active>
-               <Editable>false</Editable>
-               <Valid>true</Valid>
-               <Statusauswirkung>0</Statusauswirkung>
-               <DataFormEntries>
-                  <EntryName>therapyDate</EntryName>
-               </DataFormEntries>
-            </PlausibilityRule>
-            <PlausibilityRule>
-               <Type>2</Type>
-               <Message>Das Datum liegt in der Zukunft</Message>
-               <Description>__DatumGrenze_therapyDate_GueltigZukunft</Description>
-               <Bezeichnung>__DatumGrenze_therapyDate_GueltigZukunft</Bezeichnung>
-               <Formula>dateAfterOrEquals(getNow(), therapyDate)</Formula>
-               <Active>true</Active>
-               <Editable>false</Editable>
-               <Valid>true</Valid>
-               <Statusauswirkung>0</Statusauswirkung>
-               <DataFormEntries>
-                  <EntryName>therapyDate</EntryName>
                </DataFormEntries>
             </PlausibilityRule>
             <PlausibilityRule>

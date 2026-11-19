@@ -9,6 +9,30 @@ export const MAPPING_DIR = resolve(dirname(fileURLToPath(import.meta.url)), '..'
 export const REPO_DIR = resolve(MAPPING_DIR, '..');
 
 // ---------------------------------------------------------------------------
+// Minimaler XML-Parser (für XSD ausreichend: Elemente, Attribute, Text, Kommentare; Präfix xs: entfernt)
+
+export function parseXml(text) {
+  const root = { name: '#root', attrs: {}, children: [], text: '' };
+  const stack = [root];
+  const re = /<!--[\s\S]*?-->|<\?[\s\S]*?\?>|<(\/?)([\w:.-]+)((?:\s+[\w:.-]+\s*=\s*(?:"[^"]*"|'[^']*'))*)\s*(\/?)>|([^<]+)/g;
+  const decode = (s) => s.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&amp;/g, '&');
+  for (const m of text.matchAll(re)) {
+    if (m[5] !== undefined) { stack.at(-1).text += decode(m[5]); continue; }
+    if (!m[2]) continue;
+    if (m[1]) { stack.pop(); continue; }
+    const attrs = {};
+    for (const a of m[3].matchAll(/([\w:.-]+)\s*=\s*(?:"([^"]*)"|'([^']*)')/g)) attrs[a[1]] = decode(a[2] ?? a[3]);
+    const node = { name: m[2].replace(/^xs:/, ''), attrs, children: [], text: '' };
+    stack.at(-1).children.push(node);
+    if (!m[4]) stack.push(node);
+  }
+  return root;
+}
+export const kids = (n, name) => n.children.filter((c) => c.name === name);
+export const kid = (n, name) => n.children.find((c) => c.name === name);
+export const docOf = (n) => (kid(kid(n, 'annotation') ?? { children: [] }, 'documentation')?.text ?? '').replace(/\s+/g, ' ').trim();
+
+// ---------------------------------------------------------------------------
 // CSV (Semikolon, UTF-8 mit BOM, damit Excel Umlaute korrekt öffnet)
 
 export function writeCsv(path, columns, rows) {

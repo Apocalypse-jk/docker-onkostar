@@ -127,12 +127,14 @@ node mapping/tools/osc-ableitung.mjs systemicTherapy   # → osc_nngm/NNGM.Syste
   OS.Strahlentherapie) den nNGM-Eintrag nicht an, mit Verknüpfung schon. Zusammenfassungen und Skripte stehen nur im
   geerbten INHERIT-Block. In der Formularverwaltung **nicht** „Automatisch zuordnen“ klicken (NullPointerException).
 - **nNGM-Zusatzfelder** (alle Kategorie-C-Felder der Systemtherapie, E-4) aus dem nNGM-Datensatz, mit derselben
-  Logik wie die eigenen nNGM-Formulare erzeugt (`osc-lib.mjs`), in vier Abschnitten hinter den OS-Feldern:
-  - **Therapiefreie Zeit / Best Supportive Care:** ja/nein, Grund, Freitext „Anderer“, Start, Ende
-  - **Therapieempfehlung:** auf Basis einer Empfehlung, weitere Angaben, durchführende Einrichtung, Datum
-  - **Therapielinie und Studie:** Liniennummer, Off-Label-Use, Erhaltungstherapie, Studienteilnahme, Name,
-    Register, Studien-ID, genetische Einschlussvariante
-  - **Response:** Datum des besten Ansprechens, Beurteilung nach (RECIST / behandelnder Arzt)
+  Logik wie die eigenen nNGM-Formulare erzeugt (`osc-lib.mjs`), **im Kontext der OS-Felder** (Option `platzierung`;
+  keine Sammelabschnitte, Vorgabe 11.11.2026):
+  - hinter **Status:** Therapieempfehlung (auf Basis einer Empfehlung, weitere Angaben, durchführende Einrichtung, Datum)
+  - hinter **Art der Therapie:** Erhaltungstherapie, Off-Label-Use, Studie (Teilnahme, Name, Register, Studien-ID,
+    genetische Einschlussvariante)
+  - hinter **Intention:** Liniennummer
+  - hinter **Datum** (Nichtdurchführung): Therapiefreie Zeit / BSC (ja/nein, Grund, „Anderer“, Start, Ende)
+  - hinter **Ergebnis** (Abschnitt „Ende der Therapie“): Datum des besten Ansprechens, Beurteilung nach (RECIST/Arzt)
 - **Filter** (eigene Ergänzung): BSC-Grund und -Zeitraum nur bei BSC = ja, Freitext nur bei Grund „Anderer“;
   Empfehlungsdetails nur bei gewählter Empfehlung ≠ nein; Studienangaben nur bei Studienteilnahme = ja.
 - **Import:** mit „Merkmalskataloge überschreiben“ (die Datei enthält nur `NNGM.*`-Kataloge; OS-Kataloge,
@@ -141,17 +143,70 @@ node mapping/tools/osc-ableitung.mjs systemicTherapy   # → osc_nngm/NNGM.Syste
   Prozedur 19 – Basiswerte in `dk_systemtherapie`, nNGM-Werte in `dk_nngmsystemtherapie`, Unterformular, Skripte,
   Erkrankungszuordnung und Verknüpfung funktionieren. Die frühere Ausweichdatei `-voll.osc` (kompletter OS-Export)
   wird nicht mehr erzeugt.
-- **Vollständige Fassung** (10.11.2026, 19 Zusatzfelder): noch nicht importiert. Beim Import verschwindet der alte
-  Abschnitt „nNGM-Ergänzungen“; seine drei Felder stehen dann im Abschnitt „Therapielinie und Studie“ (gespeicherte
-  Werte bleiben, sie liegen im Datenkatalog).
+- **Vollständige Fassung** (10.11.2026, 19 Zusatzfelder): importiert und getestet (11.11.2026), Menü „nNGM“, ja/nein
+  mit `OS.JaNein`/`OS.JaNeinUnbekannt`.
+- **Korrektur 11.11.2026:** Das Werkzeug hatte auch die GUIDs in Formularverweisen (`<DataFormReferences>`, hier
+  „Kombinierte Strahlentherapie“ → OS.Strahlentherapie) durch zufällige ersetzt; jetzt bleiben sie erhalten (die
+  GUIDs der OS-Formulare sind überall gleich). Neu importiert 11.11.2026, zusammen mit der Platzierung im Kontext
+  (in der Datenbank geprüft: alle Zusatzfelder in den OS-Abschnitten, keine nNGM-Sammelabschnitte mehr).
 
-## NNGM.Strahlentherapie (radioTherapy)
+## NNGM.Operative Therapie (abgeleitet von OS.Operative Therapie)
 
-**Gelöscht (10.11.2026):** Eigenständiges Formular (E-0 Weg 1), nach der Entscheidung für die Vererbung (E-8) in
-Onkostar gelöscht; bei Bedarf als von OS.Strahlentherapie abgeleitetes, verknüpftes Formular neu erstellen
-(`osc-ableitung.mjs`). Datenkatalog `NNGMStrahlentherapie` (Tabelle `dk_nngmstrahlentherapie` mit den Testdaten von
-Prozedur 18) und die `NNGM.*`-Kataloge bestehen weiter. Die OSC-Datei wurde ebenfalls entfernt; neu erzeugen mit
-`node mapping/tools/osc-nngm-formular.mjs radioTherapy`.
+Abgeleitetes, verknüpftes Formular (E-8), Basis aus Export `export-39`:
+
+```sh
+node mapping/tools/osc-ableitung.mjs operationTherapy   # → osc_nngm/NNGM.Operative Therapie.osc
+```
+
+- Datenkataloge `OperativeTherapie` + **`NNGMOperativeTherapie`**, Menü „nNGM“.
+- **OS-Feld „Seite“ eingeblendet:** im OS-Formular immer ausgeblendet (Filter `false`), hier sichtbar bei
+  Status = durchgeführt (Option `osFilter`); Werte identisch mit nNGM (E-5).
+- Einziges Zusatzfeld: **Ausgang mit Todesfolge** (`OS.JaNein`) im Abschnitt „Ergebnis“ hinter „Komplikationen
+  aufgetreten“, sichtbar bei Status = durchgeführt.
+- Resektionsart, Lokalisation und ihre Freitexte „Sonstiges“/„Andere“ kommen aus den OPS-Codes bzw. deren Klartext
+  (laut nNGM-Excel „besser den Standard zu nehmen (OPS-Codes)“; E-5, Vermutung). Die Freitextfelder waren bis
+  16.11.2026 im Formular. Ohne Auslöser waren sie missverständlich, darum wurden sie entfernt. Ihre Spalten
+  `othertypeofresection`/`localisationother` bleiben ungenutzt im Datenkatalog. Ein eigenes Auswahlfeld
+  „Resektionsart“ wurde ebenfalls erwogen und verworfen.
+- Button **„Operationen“** neben dem OP-Datum (aus OS.Operative Therapie geerbt): Er übernimmt eine Operation aus den
+  OP-Daten, die das KIS an Onkostar liefert (OP-Datum, OPS-Codes, Seite). Im Testsystem gibt es keine KIS-Anbindung,
+  darum bleibt die Auswahl leer.
+- Lymphadenektomie bleibt bei der OPS-Ableitung (das OS-Feld „Lymphonodektomie“ liegt im Gynäkologie-Abschnitt und
+  ist nur für CH gedacht).
+- **Import:** mit „Merkmalskataloge überschreiben“; Rechte vergeben. Noch nicht importiert.
+
+## NNGM.Strahlentherapie (abgeleitet von OS.Strahlentherapie)
+
+Abgeleitetes, verknüpftes Formular (E-8) – ersetzt das gelöschte eigenständige Formular:
+
+```sh
+node mapping/tools/osc-ableitung.mjs radioTherapy   # → osc_nngm/NNGM.Strahlentherapie.osc
+```
+
+- Basis: OS.Strahlentherapie (im Export von OS.Systemische Therapie als Unterformular-Block enthalten), Datenkataloge
+  `Strahlentherapie` + **`NNGMStrahlentherapie`**.
+- **Vor dem ersten Import aufräumen:** Der gleichnamige Datenkatalog des gelöschten eigenständigen Formulars existiert
+  noch (15 alte Felder, **leer**, von keinem Formular genutzt – die Testdaten von Prozedur 18 wurden mit dem Formular
+  gelöscht). Da Onkostar Datenkatalog-Felder beim Import nicht entfernt, würden sich sonst alte und neue Felder
+  mischen. Also in Onkostar löschen: Datenkatalog `NNGMStrahlentherapie`, danach die nicht mehr genutzten Kataloge
+  `NNGM.radiationTarget`, `NNGM.radiationTargetSide`, `NNGM.therapeuticIntention`, `NNGM.positionSurgicalTherapy`,
+  `NNGM.boostExecuted`, `NNGM.endOfRadiotherapy` sowie `NNGM.yesNo`/`NNGM.yesNoUnknown` (seit der Umstellung auf
+  OS-Kataloge ungenutzt).
+- Zusatzfelder im Kontext der OS-Felder: **Sonstiges zur Intention** (Freitext, sichtbar bei Intention = S) direkt
+  hinter „Intention“; **Einzeldosis pro Tag** (Gy; nNGM fragt pro Tag, OS speichert pro Fraktion, E-6) im Abschnitt
+  „Therapieende“ hinter „Gesamtdosis“, bei „Konventionelle Fraktionierung“.
+- Formularverweise „Systemtherapie 1/2“ zeigen weiter auf OS.Systemische Therapie (dank Verknüpfung auch auf
+  NNGM.Systemische Therapie).
+- **Einzelbestrahlungen bleiben `OS.StrahlentherapieEinzel` (V1).** Ein Tausch auf `OS.StrahlentherapieEinzel.V2`
+  (Option `unterformularTausch`) wurde am 13.11.2026 getestet und **zurückgenommen**. V2 ist eine kaum gepflegte
+  Parallelvariante ohne oBDS-Felder und mit doppelt abgefragten Boost-Dosisfeldern. Bestehende V1-Einträge ließen sich
+  danach nicht mehr aufklappen (JS-Fehler `SubformConverter.expand`), und die Unterformular-Daten wurden nicht
+  gespeichert. Das oBDS-Zielgebiet bleibt offen (E-6 Frage 1).
+- **Import:** mit „Merkmalskataloge überschreiben“; Rechte vergeben. **Importiert 11.11.2026** (Formular 754, nach
+  Aufräumen des alten Datenkatalogs): `NNGMStrahlentherapie` hat nur noch die zwei neuen Felder, Verknüpfung mit
+  OS.Strahlentherapie, Menü „nNGM“, Formularverweise Systemtherapie 1/2 → OS.Systemische Therapie.
+- Das frühere eigenständige Formular (E-0 Weg 1, aus `osc-nngm-formular.mjs radioTherapy`) wurde am 10.11.2026
+  gelöscht.
 
 - Datenkatalog `NNGMStrahlentherapie` → Tabelle `dk_nngmstrahlentherapie`, 15 Felder in 6 Abschnitten,
   7 Merkmalskataloge (`NNGM.radiationTarget` mit 99 Zielgebieten …).

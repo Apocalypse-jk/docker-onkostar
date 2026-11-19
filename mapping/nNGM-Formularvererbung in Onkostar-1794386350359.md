@@ -23,16 +23,16 @@ Beim Abgleich der systemischen Therapie fehlen in `OS.Systemische Therapie` unte
 
 ## Ergebnisse
 
-| Prüfung | Ergebnis | Beobachtung |
-| --- | --- | --- |
-| Import, OS-Formular bleibt unverändert | funktioniert | Revision von `OS.Systemische Therapie` (98) und Datenkatalog `Systemtherapie` (36) vor und nach dem Import gleich. |
-| Speicherort der Daten | funktioniert | Basisfelder in `dk_systemtherapie`, nNGM-Felder in `dk_nngmsystemtherapie`, beide mit derselben ID wie die Prozedur. |
-| Unterformulare, Skripte, Plausibilitätsregeln, Erkrankungszuordnung | funktioniert | Substanz als Unterformular, „beim Speichern“ setzt Datum = Beginn, ADT-Therapieart wird befüllt. |
-| Formularverweis aus `OS.Strahlentherapie` („Systemtherapie 1“) ohne Verknüpfung | nicht angeboten | Die nNGM-Therapie erscheint nicht in der Auswahl, eine OS-Therapie beim selben Patienten schon. |
-| Formularverweis mit Verknüpfung | funktioniert | Die nNGM-Therapie ist auswählbar und wird gespeichert. |
-| Verknüpfung per OSC-Import setzen | funktioniert | `<VerknuepftGUID>` mit der GUID des OS-Formulars; Zusammenfassung und Skripte erscheinen je einmal. |
-| „Automatisch zuordnen“ in der Formularverwaltung | Fehler | NullPointerException, siehe Frage 2. Das Speichern der Verknüpfung klappt trotzdem. |
-| Krebsregistermeldung (oBDS), OnkoZert-Kennzahlen, Auswertungen | offen | Lokal nicht prüfbar, siehe Frage 1. |
+| Prüfung                                                                             | Ergebnis        | Beobachtung                                                                                                              |
+| ------------------------------------------------------------------------------------ | --------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Import, OS-Formular bleibt unverändert                                              | funktioniert    | Revision von `OS.Systemische Therapie` (98) und Datenkatalog `Systemtherapie` (36) vor und nach dem Import gleich.   |
+| Speicherort der Daten                                                                | funktioniert    | Basisfelder in `dk_systemtherapie`, nNGM-Felder in `dk_nngmsystemtherapie`, beide mit derselben ID wie die Prozedur. |
+| Unterformulare, Skripte, Plausibilitätsregeln, Erkrankungszuordnung                 | funktioniert    | Substanz als Unterformular, „beim Speichern“ setzt Datum = Beginn, ADT-Therapieart wird befüllt.                      |
+| Formularverweis aus `OS.Strahlentherapie` („Systemtherapie 1“) ohne Verknüpfung | nicht angeboten | Die nNGM-Therapie erscheint nicht in der Auswahl, eine OS-Therapie beim selben Patienten schon.                          |
+| Formularverweis mit Verknüpfung                                                     | funktioniert    | Die nNGM-Therapie ist auswählbar und wird gespeichert.                                                                  |
+| Verknüpfung per OSC-Import setzen                                                   | funktioniert    | `<VerknuepftGUID>` mit der GUID des OS-Formulars; Zusammenfassung und Skripte erscheinen je einmal.                    |
+| „Automatisch zuordnen“ in der Formularverwaltung                                   | Fehler          | NullPointerException, siehe Frage 2. Das Speichern der Verknüpfung klappt trotzdem.                                     |
+| Krebsregistermeldung (oBDS), OnkoZert-Kennzahlen, Auswertungen                       | offen           | Lokal nicht prüfbar, siehe Frage 1.                                                                                     |
 
 ## Was die Verknüpfung bewirkt
 

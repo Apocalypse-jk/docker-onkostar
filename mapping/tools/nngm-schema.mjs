@@ -6,36 +6,12 @@
 // Ausgabe im selben Format wie früher aus der Excel-Datei, plus Schema-Spalten (pflicht, mehrfach, …).
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
-import { MAPPING_DIR, REPO_DIR, readCsv, writeCsv } from './lib.mjs';
+import { MAPPING_DIR, REPO_DIR, readCsv, writeCsv, parseXml, kids, kid, docOf } from './lib.mjs';
 
 const SRC = process.argv[2] ?? resolve(REPO_DIR, 'nngm_schema', 'schema.xml');
 const OUT = resolve(MAPPING_DIR, 'nngm-datensatz');
 console.log(`Lese ${SRC} ...`);
 const xsdText = readFileSync(SRC, 'utf8');
-
-// ---------------------------------------------------------------------------
-// Minimaler XML-Parser (für XSD ausreichend: Elemente, Attribute, Text, Kommentare)
-
-function parseXml(text) {
-  const root = { name: '#root', attrs: {}, children: [], text: '' };
-  const stack = [root];
-  const re = /<!--[\s\S]*?-->|<\?[\s\S]*?\?>|<(\/?)([\w:.-]+)((?:\s+[\w:.-]+\s*=\s*(?:"[^"]*"|'[^']*'))*)\s*(\/?)>|([^<]+)/g;
-  const decode = (s) => s.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&amp;/g, '&');
-  for (const m of text.matchAll(re)) {
-    if (m[5] !== undefined) { stack.at(-1).text += decode(m[5]); continue; }
-    if (!m[2]) continue;
-    if (m[1]) { stack.pop(); continue; }
-    const attrs = {};
-    for (const a of m[3].matchAll(/([\w:.-]+)\s*=\s*(?:"([^"]*)"|'([^']*)')/g)) attrs[a[1]] = decode(a[2] ?? a[3]);
-    const node = { name: m[2].replace(/^xs:/, ''), attrs, children: [], text: '' };
-    stack.at(-1).children.push(node);
-    if (!m[4]) stack.push(node);
-  }
-  return root;
-}
-const kids = (n, name) => n.children.filter((c) => c.name === name);
-const kid = (n, name) => n.children.find((c) => c.name === name);
-const docOf = (n) => (kid(kid(n, 'annotation') ?? { children: [] }, 'documentation')?.text ?? '').replace(/\s+/g, ' ').trim();
 
 const schema = kid(parseXml(xsdText), 'schema');
 const version = schema.attrs.version;

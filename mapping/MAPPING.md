@@ -3,7 +3,7 @@
 Zentrales Mapping-Dokument: wie jedes Feld des nNGM-Datensatzes in Onkostar abgebildet wird, was entschieden ist
 und was noch offen ist.
 
-> **Erzeugt** am 2026-11-11 mit `node mapping/tools/mapping-dokument.mjs` aus `feld-mapping.csv`,
+> **Erzeugt** am 2026-11-19 mit `node mapping/tools/mapping-dokument.mjs` aus `feld-mapping.csv`,
 > `werte-mapping.csv` und `entscheidungen.md`. Nicht von Hand bearbeiten – Änderungen in den Quelldateien
 > vornehmen (Feldentscheidungen per `node mapping/tools/entscheidung.mjs`) und das Dokument neu erzeugen.
 
@@ -57,9 +57,9 @@ Grundlage: nNGM-eCRF-Importschema `nngm_schema/schema.xml` (Version 1.39.1.1139)
 | Status | Felder | Anteil |
 |---|---:|---:|
 | bestätigt | 24 | 2 % |
-| vorläufig | 619 | 52 % |
+| vorläufig | 621 | 52 % |
 | unvollständig | 31 | 3 % |
-| ungelöst | 523 | 44 % |
+| ungelöst | 521 | 44 % |
 | offen | 0 | 0 % |
 | **gesamt** | **1197** | |
 
@@ -77,8 +77,8 @@ Grundlage: nNGM-eCRF-Importschema `nngm_schema/schema.xml` (Version 1.39.1.1139)
 | [Histologie](#histologie-diagnostichistology) | 19 | 1 | 8 | 1 | 9 |  | E-1, E-2 |
 | [Tumormaterial](#tumormaterial-tumormaterial) | 9 | 1 | 6 |  | 2 |  | E-3 |
 | [Systemische Therapie](#systemische-therapie-systemictherapy) | 50 | 1 | 39 | 1 | 9 |  | E-4, E-5, E-6 |
-| [Operation](#operation-operationtherapy) | 20 | 1 | 17 |  | 2 |  | E-4, E-5, E-6 |
-| [Strahlentherapie](#strahlentherapie-radiotherapy) | 24 | 1 | 20 |  | 3 |  | E-4, E-5, E-6 |
+| [Operation](#operation-operationtherapy) | 20 | 1 | 18 |  | 1 |  | E-4, E-5, E-6 |
+| [Strahlentherapie](#strahlentherapie-radiotherapy) | 24 | 1 | 21 |  | 2 |  | E-4, E-5, E-6 |
 | [Rezidiv/Progress + Resistenztestung](#rezidivprogress--resistenztestung-progressrezidiv) | 130 |  | 64 | 11 | 55 |  | E-9 |
 | [NGS DNA Panel](#ngs-dna-panel-lungpanel) | 37 |  | 28 | 1 | 8 |  | E-9 |
 | [NGS RNA Panel](#ngs-rna-panel-ngsfusion) | 35 |  | 26 | 1 | 8 |  | E-9 |
@@ -289,6 +289,9 @@ Folgerungen (entschieden 11.11.2026):
 #### E-11: Formular-Konventionen in Onkostar (11.11.2026, Rückmeldung)
 
 Status: entschieden
+- **Zusatzfelder im Kontext:** nNGM-Zusatzfelder in abgeleiteten Formularen stehen **immer im fachlichen Kontext** –
+  direkt hinter dem zugehörigen OS-Feld im selben Abschnitt (`osc-ableitung.mjs`, Option `platzierung`), nie in
+  Sammelabschnitten am Formularende. Gilt für alle bestehenden und künftigen Formulare (Vorgabe 11.11.2026).
 - **Datum:** Jedes (Haupt-)Formular braucht in Onkostar ein Datumsfeld (Prozedurdatum). Hat der nNGM-Bogen keins,
   wird ein **Onkostar-eigenes Datumsfeld** ergänzt, das **beim Export weggelassen** wird (umgesetzt bei
   `NNGM.Therapieinformation`). **Unterformulare** brauchen kein Datum (z. B. `NNGM.Anforderung.Behandler`; die
@@ -312,6 +315,9 @@ im Kommentar `[Rückfrage offen]`.
 
 - **Maßgeblich ist `nngm_schema/schema.xml`** (XSD des nNGM-eCRF-Importformats, Version 1.39.1.1139) – laut
   Rückfrage die genaueste Quelle. Es beschreibt genau das Format, in das ein Export aus Onkostar passen muss.
+  Quelle ist die nNGM-Demo-Instanz; daraus entsteht auch wöchentlich das Maven-Paket `nngm-model` (Java-Klassen
+  für den Export). Abgleich mit dem Live-Schema: `node mapping/tools/schema-abgleich.mjs`, Details und Ergebnis
+  vom 19.11.2026 in `nngm_schema/README.md`.
   Unterschiede zur Excel-Datei (Stand 03.09.2025):
   - 29 Bögen statt 45: **DigiNet-Bögen fehlen** (nicht Teil dieser Import-Schnittstelle); neu ist `impalux`.
   - Neue Felder, v. a. TNM-Auflage 9 (`stageDiagnosisV9`, `stageDiagnosisUnknown`, `tumorSizeV9` …) und
@@ -1121,7 +1127,17 @@ außerdem jährlicher Abgleich mit neuen OPS-Versionen. Alternative (E-0, Weg 1)
 Offene Fragen:
 1. **Seite:** Die Werte passen 1:1 auf „Seite“ (`ADT.Seitenlokalisation`), das Feld ist in OS.Operative Therapie
    aber immer ausgeblendet (Filter `false`). Feld trotzdem nutzen, Seite der Erkrankung übernehmen oder anders?
-Ungelöst ohne Gegenstück: `outcomeDeath` (Ausgang mit Todesfolge), Freitexte „Sonstiges“/„Andere“,
+   *Umgesetzt 11.11.2026:* Im abgeleiteten `NNGM.Operative Therapie` ist „Seite“ eingeblendet (Filter Status = D).
+`outcomeDeath` (Ausgang mit Todesfolge, `OS.JaNein`) und die Freitexte „Sonstiges“ (Resektionsart) / „Andere“
+(Lokalisation) sind seit 11.11.2026 Zusatzfelder im Kontext von `NNGM.Operative Therapie`. **Entschieden 16.11.2026:** Resektionsart und Lokalisation werden **aus den OPS-Codes abgeleitet**. Ein eigenes
+Auswahlfeld „Resektionsart“ mit nNGM-Codes wurde kurz erwogen und wieder verworfen, denn in der nNGM-Excel steht zur
+Resektionsart: „Hier ist es besser den Standard zu nehmen (OPS-Codes)“. Auch die Freitexte **„Sonstiges“
+(`otherTypeOfResection`) und „Andere“ (`localisationOther`) entfallen als Formularfelder.** Ohne Auslöser waren sie im
+Formular missverständlich; „Andere“ wirkte z. B. wie eine Angabe zur Metastasenresektion. Sie werden beim Export aus
+dem Klartext der nicht zugeordneten OPS-Codes gefüllt, bei der Lokalisation ggf. auch aus „Lokalisation der
+Metastasen“ (VERMUTUNG). Im Formular bleibt nur „Ausgang mit Todesfolge“ (nur bei Status = D). Die
+OPS-Code-Zuordnung bleibt eine VERMUTUNG und muss fachlich geprüft werden. Die beiden Spalten im Datenkatalog
+`NNGMOperativeTherapie` bleiben nach dem Re-Import ungenutzt stehen; der Import entfernt keine Spalten. Ungelöst bleibt der
 Netzwerkstandort.
 
 </details>
@@ -1135,9 +1151,17 @@ wiederholbaren Unterformular OS.StrahlentherapieEinzel (je Zielgebiet ein Eintra
 mit Werteübersetzung: Beginn/Ende, Intention (K/P/O/S identisch), Stellung zur OP, Seite, Gesamtdosis, Boost
 (J/SIB/SEQ/KON/N identisch), Boostdosis, Ende-Grund (Beendigungsstatus + Abbruchgrund + Unterbrechung), Bemerkung.
 **NNGM.Strahlentherapie** (eigenständig, E-0 Weg 1) wurde nach E-8 am 10.11.2026 gelöscht; bei Bedarf als abgeleitetes,
-verknüpftes Formular von OS.Strahlentherapie neu erstellen (Datenkatalog und Testdaten bestehen weiter).
+verknüpftes Formular von OS.Strahlentherapie neu erstellen (umgesetzt 11.11.2026; die Testdaten wurden mit dem Formular gelöscht, der verwaiste Datenkatalog ist zu löschen).
 Offene Fragen:
-1. **Zielgebiet:** Onkostar hat zwei Felder in OS.StrahlentherapieEinzel:
+1. **Zielgebiet** – *Versuch mit V2 verworfen (13.11.2026):* `OS.StrahlentherapieEinzel.V2` (gleicher Datenkatalog,
+   immer sichtbares Feld „oBDS Zielgebiet“) wurde am 11.11. in `NNGM.Strahlentherapie` eingebunden und im Test
+   zurückgenommen. V2 ist **keine Nachfolgeversion**, sondern eine kaum gepflegte Parallelvariante (Revision 19 statt
+   142). Sie wird von keinem OS-Formular benutzt und hat weder „Umfang der Bestrahlung“, „Ziel“ noch die Boost-Details;
+   ihr Boost-Abschnitt fragt die Dosisfelder ein zweites Mal ab. Bestehende Einzelbestrahlungen sind V1-Einträge. Nach
+   dem Tausch schlug das Aufklappen fehl (JS-Fehler `SubformConverter.expand`), und die Unterformular-Daten wurden nicht
+   gespeichert. Frage bleibt offen; als mögliche Lösung bleibt ein ebenfalls abgeleitetes Unterformular von V1 mit
+   eingeblendetem „Zielgebiet LK“ (doppelte Vererbung, ungetestet). Analyse von V1:
+   Onkostar hat zwei Felder in OS.StrahlentherapieEinzel (V1):
    - „Zielgebiet“ (Hauptfeld, Katalog `CDA.Zielgebiet Strahlentherapie`, 138 Werte) mit **anderer Codesystematik**
      (1.1 = Hirnschädel, bei oBDS/nNGM 1.1 = Ganzhirn). Eine Übersetzung CDA → oBDS ist in der Datenbank nicht
      hinterlegt – wie Onkostar das für die oBDS-Meldung macht, ist unbekannt (Hersteller/Kollegen fragen).
@@ -1327,7 +1351,7 @@ Ungelöst ohne Gegenstück: Freitext „Sonstiges“ zur Intention, Netzwerkstan
 
 ### Operation (`operationTherapy`)
 
-20 Felder – 1 bestätigt, 17 vorläufig, 2 ungelöst. Entscheidungen: E-4, E-5, E-6.
+20 Felder – 1 bestätigt, 18 vorläufig, 1 ungelöst. Entscheidungen: E-4, E-5, E-6.
 
 #### Bestätigt (1)
 
@@ -1335,27 +1359,27 @@ Ungelöst ohne Gegenstück: Freitext „Sonstiges“ zur Intention, Netzwerkstan
 |---|---|---|---|---|---|
 | `operationList/operation/id` | ID des Listeneintrags | EntryId | A | → prozedur.id |  |
 
-#### Vorläufig (10)
+#### Vorläufig (11)
 
 | Feld | Label | nNGM-Typ | Kat. | Onkostar-Ziel | Bemerkung |
 |---|---|---|---|---|---|
 | `operationList/operation/executionGroup/executionDate` | Operationsdatum | MedicalDate | A | OS.Operative Therapie → OPDatum | OP-Datum |
 | `operationList/operation/informationGroup/operationIntention` | Operative Intention | Enumeration | B | OS.Operative Therapie → Intention (OS.Therapieintention) | K/P/D/R/S identisch, X → UNK; Werte siehe werte-mapping.csv |
-| `operationList/operation/informationGroup/typeOfResection` | Art der Resektion | MultipleChoice (mehrfach) | D | OS.OPS (Unterformular von OS.Operative Therapie) → OPSCode (OPS) | VERMUTUNG, muss fachlich geprüft werden (Kodierung/Chirurgie): abgeleitet aus OPS-Codes (E-5); Alternative: eigenes nNGM-Feld mit nNGM-Codes (E-0, Weg 1); Metastasenresektion über Feld „Metastasenresektion“ = ja |
-| `operationList/operation/informationGroup/otherTypeOfResection` | Bitte spezifizieren Sie "Sonstiges" | FreeText | C | NNGM.Operative Therapie (abgeleitet, noch nicht gebaut) → otherTypeOfResection | Freitext „Sonstiges“: kein eigenes Feld (höchstens Bemerkung); Ziel Erweiterungskatalog des abgeleiteten Formulars (E-8, Herstellerantwort 11.11.2026) |
+| `operationList/operation/informationGroup/typeOfResection` | Art der Resektion | MultipleChoice (mehrfach) | D | OS.OPS (Unterformular von OS.Operative Therapie) → OPSCode (OPS) | VERMUTUNG, muss fachlich geprüft werden (Kodierung/Chirurgie): abgeleitet aus OPS-Codes (E-5) Alternative eigenes nNGM-Feld am 16.11.2026 verworfen: nNGM-Excel sagt „Hier ist es besser den Standard zu nehmen (OPS-Codes)“ Metastasenresektion über Feld „Metastasenresektion“ = ja |
+| `operationList/operation/informationGroup/otherTypeOfResection` | Bitte spezifizieren Sie "Sonstiges" | FreeText | D | OS.OPS (Unterformular von OS.Operative Therapie) → OPSCode (OPS) | VERMUTUNG, muss fachlich geprüft werden: beim Export aus dem Klartext der OPS-Codes, die keiner nNGM-Resektionsart zugeordnet sind (Resektionsart = Sonstiges); kein eigenes Feld (Entscheidung 16.11.2026, E-5) |
 | `operationList/operation/informationGroup/resectionStatus` | Resektionsstatus | Enumeration | B | OS.Operative Therapie → RKlassifikation (OS.R-Klassifikation) | Codes gleich bis auf Schreibweise; R0a/R0b/R2a/R2b → R0/R2; sichtbar nur bei Tumorresektion oder Metastasenresektion |
-| `operationList/operation/informationGroup/outcomeDeath` | Ausgang mit Todesfolge | Enumeration | C | NNGM.Operative Therapie (abgeleitet, noch nicht gebaut) → outcomeDeath | kein Feld; ableitbar wäre CTCAE-Grad 5 in Komplikationen oder Sterbedatum nahe OP-Datum – von nNGM nicht definiert; Ziel Erweiterungskatalog des abgeleiteten Formulars (E-8, Herstellerantwort 11.11.2026) |
+| `operationList/operation/informationGroup/outcomeDeath` | Ausgang mit Todesfolge | Enumeration | C | NNGM.Operative Therapie (verknüpft mit OS.Operative Therapie) → outcomeDeath (OS.JaNein) | eigenes Feld im Erweiterungskatalog (OS.JaNein, Übersetzung beim Export), im Formular hinter „Komplikationen aufgetreten“; gebaut 11.11.2026 |
 | `operationList/operation/localisationGroup/localisation` | Lokalisation | Enumeration | D | OS.OPS (Unterformular von OS.Operative Therapie) → OPSCode (OPS) | VERMUTUNG, muss fachlich geprüft werden (Kodierung/Chirurgie): abgeleitet aus OPS-Codes (E-5); Alternative: eigenes nNGM-Feld mit nNGM-Codes (E-0, Weg 1); OPS-Kapitel 5-32x Lunge, 5-50x Leber, 5-01x Gehirn, 5-07x Nebenniere; bei Metastasenresektion auch „befallene Organe“ (PUL/HEP/BRA/ADR/OTH) |
-| `operationList/operation/localisationGroup/localisationOther` | Andere | FreeText | C | NNGM.Operative Therapie (abgeleitet, noch nicht gebaut) → localisationOther | Freitext „Andere“: kein eigenes Feld (höchstens Bemerkung); Ziel Erweiterungskatalog des abgeleiteten Formulars (E-8, Herstellerantwort 11.11.2026) |
+| `operationList/operation/localisationGroup/localisationOther` | Andere | FreeText | D | OS.OPS (Unterformular von OS.Operative Therapie) → OPSCode (OPS) | VERMUTUNG, muss fachlich geprüft werden: beim Export aus dem Klartext der OPS-Codes außerhalb Lunge/Leber/Gehirn/Nebenniere bzw. aus „Lokalisation der Metastasen“; kein eigenes Feld (Entscheidung 16.11.2026, E-5) |
+| `operationList/operation/localisationGroup/sideLocalisation` | Seitenlokalisation | Enumeration | B | NNGM.Operative Therapie (verknüpft mit OS.Operative Therapie) → Seite (ADT.Seitenlokalisation) | Werte identisch (B/L/R/U); OS-Feld „Seite“ im abgeleiteten Formular eingeblendet (Filter Status=D statt false, osFilter); gebaut 11.11.2026 |
 | `operationList/operation/ectomyGroup/lymphadenectomy` | Lymphadenektomie | Enumeration | D | OS.OPS (Unterformular von OS.Operative Therapie) → OPSCode (OPS) | VERMUTUNG, muss fachlich geprüft werden (Kodierung/Chirurgie): abgeleitet aus OPS-Codes (E-5); Alternative: eigenes nNGM-Feld mit nNGM-Codes (E-0, Weg 1); ja bei OPS „mit radikaler Lymphadenektomie“ oder 5-401/5-404; Feld „Lymphonodektomie“ nur für CH sichtbar; Option E-8: Feld „Lymphonodektomie“ im abgeleiteten Formular einblenden statt OPS-Ableitung |
 | `operationList/operation/otherInformationGroup/note` | Bemerkungen | FreeText | A | OS.Operative Therapie → Bemerkung |  |
 
-#### Ungelöst (2)
+#### Ungelöst (1)
 
 | Feld | Label | nNGM-Typ | Kat. | Onkostar-Ziel | Bemerkung |
 |---|---|---|---|---|---|
 | `operationList/operation/executionGroup/executionCenter` | Durchführende Einrichtung | NngmNetworkLocation | D |  | NngmNetworkLocation – allgemeine Frage Netzwerkpartner |
-| `operationList/operation/localisationGroup/sideLocalisation` | Seitenlokalisation | Enumeration | B | OS.Operative Therapie → Seite (ADT.Seitenlokalisation) | Werte identisch (B/L/R/U), aber Feld „Seite“ im Formular immer ausgeblendet (Filter false) – Feld nutzen oder Seite der Erkrankung? (E-5); Option E-8: Feld „Seite“ im abgeleiteten Formular einblenden |
 
 <details>
 <summary>Strukturelemente (7: Listen, Gruppen, Listeneinträge)</summary>
@@ -1412,19 +1436,26 @@ Ungelöst ohne Gegenstück: Freitext „Sonstiges“ zur Intention, Netzwerkstan
 | rx | RX | OS.R-Klassifikation |  | RX | RX | vorläufig |  |
 | u | U = nicht bekannt | OS.R-Klassifikation |  | U | Unbekannt | vorläufig |  |
 
+**`operationList/operation/informationGroup/outcomeDeath`** – Ausgang mit Todesfolge
+
+| nNGM-Code | nNGM-Label | Onkostar-Katalog | Version | Onkostar-Code | Onkostar-Text | Status | Bemerkung |
+|---|---|---|---|---|---|---|---|
+| yes | Ja | OS.JaNein |  | 1 | Ja | bestätigt | Export-Übersetzung |
+| no | Nein | OS.JaNein |  | 0 | Nein | bestätigt | Export-Übersetzung |
+
 **`operationList/operation/localisationGroup/sideLocalisation`** – Seitenlokalisation
 
 | nNGM-Code | nNGM-Label | Onkostar-Katalog | Version | Onkostar-Code | Onkostar-Text | Status | Bemerkung |
 |---|---|---|---|---|---|---|---|
-| B | beiderseits | ADT.Seitenlokalisation |  | B | Beidseitig | ungelöst | Feld ausgeblendet (E-5) |
-| L | links | ADT.Seitenlokalisation |  | L | Links | ungelöst |  |
-| R | rechts | ADT.Seitenlokalisation |  | R | Rechts | ungelöst |  |
-| unknown | Unbekannt | ADT.Seitenlokalisation |  | U | Unbekannt | ungelöst |  |
-|  |  | ADT.Seitenlokalisation |  | M, T | Mittellinie, Trifft nicht zu | ungelöst | kein nNGM-Wert |
+| B | beiderseits | ADT.Seitenlokalisation |  | B | Beidseitig | vorläufig | OS-Feld Seite im abgeleiteten Formular eingeblendet (E-5) |
+| L | links | ADT.Seitenlokalisation |  | L | Links | vorläufig |  |
+| R | rechts | ADT.Seitenlokalisation |  | R | Rechts | vorläufig |  |
+| unknown | Unbekannt | ADT.Seitenlokalisation |  | U | Unbekannt | vorläufig |  |
+|  |  | ADT.Seitenlokalisation |  | M, T | Mittellinie, Trifft nicht zu | vorläufig | kein nNGM-Wert |
 
 ### Strahlentherapie (`radioTherapy`)
 
-24 Felder – 1 bestätigt, 20 vorläufig, 3 ungelöst. Entscheidungen: E-4, E-5, E-6.
+24 Felder – 1 bestätigt, 21 vorläufig, 2 ungelöst. Entscheidungen: E-4, E-5, E-6.
 
 #### Bestätigt (1)
 
@@ -1432,7 +1463,7 @@ Ungelöst ohne Gegenstück: Freitext „Sonstiges“ zur Intention, Netzwerkstan
 |---|---|---|---|---|---|
 | `radiotherapyList/radiotherapy/id` | ID des Listeneintrags | EntryId | A | → prozedur.id |  |
 
-#### Vorläufig (12)
+#### Vorläufig (13)
 
 | Feld | Label | nNGM-Typ | Kat. | Onkostar-Ziel | Bemerkung |
 |---|---|---|---|---|---|
@@ -1440,8 +1471,9 @@ Ungelöst ohne Gegenstück: Freitext „Sonstiges“ zur Intention, Netzwerkstan
 | `radiotherapyList/radiotherapy/executionGroup/therapyEnd` | Therapieende | MedicalDate | A | OS.Strahlentherapie → Ende | ongoing → Ende leer |
 | `radiotherapyList/radiotherapy/informationGroup/radiationTargetSide` | Seite Zielgebiet | Enumeration | A | OS.StrahlentherapieEinzel (Unterformular von OS.Strahlentherapie) → Seite (ADT.Seitenlokalisation) | L/R/B/M/U/T identisch; mehrere Einzelbestrahlungen mit unterschiedlichen Werten: welcher wird gemeldet? (E-6) |
 | `radiotherapyList/radiotherapy/informationGroup/therapeuticIntention` | Intention der Strahlentherapie | Enumeration | B | OS.Strahlentherapie → Intention (OS.Therapieintention) | K/P/O/S identisch, X → UNK |
-| `radiotherapyList/radiotherapy/informationGroup/otherTherapeuticIntention` | Sonstiges | FreeText | C | NNGM.Strahlentherapie (abgeleitet, noch nicht gebaut) → otherTherapeuticIntention | Freitext „Sonstiges“: kein eigenes Feld (höchstens Bemerkung); Ziel Erweiterungskatalog des abgeleiteten Formulars (E-8, Herstellerantwort 11.11.2026) |
+| `radiotherapyList/radiotherapy/informationGroup/otherTherapeuticIntention` | Sonstiges | FreeText | C | NNGM.Strahlentherapie (verknüpft mit OS.Strahlentherapie) → otherTherapeuticIntention | Freitext „Sonstiges“ im Erweiterungskatalog, sichtbar bei OS-Intention = S; gebaut 11.11.2026 |
 | `radiotherapyList/radiotherapy/informationGroup/positionSurgicalTherapy` | Stellung zu operativer Therapie | Enumeration | B | OS.Strahlentherapie → Relation (CDA.ZeitlicheRelation) | O/A/N/I/Z/S identisch, T und UKN ohne nNGM-Wert |
+| `radiotherapyList/radiotherapy/doseGroup/singleDose` | Einzeldosis pro Tag | Decimal | C | NNGM.Strahlentherapie (verknüpft mit OS.Strahlentherapie) → singleDose | Einzeldosis pro Tag als eigenes Feld im Erweiterungskatalog (löst pro Tag vs. pro Fraktion, E-6); gebaut 11.11.2026 |
 | `radiotherapyList/radiotherapy/doseGroup/totalDose` | Gesamtdosis | Decimal | A | OS.Strahlentherapie → Gesamtdosis | Gesamtdosis (Gy); alternativ je Einzelbestrahlung „Gesamtdosis incl. Boost“ |
 | `radiotherapyList/radiotherapy/boostGroup/boostExecuted` | Boost durchgeführt | Enumeration | A | OS.StrahlentherapieEinzel (Unterformular von OS.Strahlentherapie) → BoostBestrahlung (OS.ST.Boost) | J/SIB/SEQ/KON/N identisch; mehrere Einzelbestrahlungen mit unterschiedlichen Werten: welcher wird gemeldet? (E-6) |
 | `radiotherapyList/radiotherapy/boostGroup/boostDoseInTotalDose` | Boostdosis in Gesamtdosis enthalten | Enumeration | D | OS.StrahlentherapieEinzel (Unterformular von OS.Strahlentherapie) → Gesamtdosis / DosisAppliziert | abgeleitet: Onkostar trennt „Dosis appliziert ohne Boost“ und „Gesamtdosis incl. Boost“ – hängt daran, welche Dosis als totalDose exportiert wird |
@@ -1449,13 +1481,12 @@ Ungelöst ohne Gegenstück: Freitext „Sonstiges“ zur Intention, Netzwerkstan
 | `radiotherapyList/radiotherapy/therapyEndGroup/endOfRadiotherapy` | Ende der Bestrahlung | MultipleChoice (mehrfach) | B | OS.Strahlentherapie → Beendigungsstatus + GrundAbbruch + Unterbrechung (ADT.BeendigungsstatusTherapie / OS.Abbruchgrund) | Werte siehe werte-mapping.csv; F: nNGM > 3 Kalendertage, Onkostar > 3 Werktage |
 | `radiotherapyList/radiotherapy/otherInformationGroup/note` | Bemerkungen | FreeText | A | OS.Strahlentherapie → Bemerkung |  |
 
-#### Ungelöst (3)
+#### Ungelöst (2)
 
 | Feld | Label | nNGM-Typ | Kat. | Onkostar-Ziel | Bemerkung |
 |---|---|---|---|---|---|
 | `radiotherapyList/radiotherapy/executionGroup/executionCenter` | Durchführende Einrichtung | NngmNetworkLocation | D |  | NngmNetworkLocation – allgemeine Frage Netzwerkpartner |
-| `radiotherapyList/radiotherapy/informationGroup/radiationTarget` | Zielgebiet | MultipleChoice (mehrfach) | B | OS.StrahlentherapieEinzel (Unterformular von OS.Strahlentherapie) → Zielgebiet (CDA) oder ZielgebietLK (oBDS) (CDA.Zielgebiet Strahlentherapie / oBDS.Zielgebiete) | oBDS.Zielgebiete: 98/99 Codes identisch (Code vor „_“), aber Feld nur bei LK-Bestrahlung sichtbar; Hauptfeld nutzt CDA-Katalog mit anderer Codesystematik (1.1 Hirnschädel ≠ 1.1 Ganzhirn), Übersetzung fehlt; Export sammelt Zielgebiete aller Einzelbestrahlungen (E-6); Option E-8: oBDS-Zielgebiet (ZielgebietLK) im abgeleiteten Formular immer einblenden |
-| `radiotherapyList/radiotherapy/doseGroup/singleDose` | Einzeldosis pro Tag | Decimal | D | OS.StrahlentherapieEinzel (Unterformular von OS.Strahlentherapie) → EinzeldosisFraktion | nNGM: Dosis pro TAG, Onkostar: Dosis pro FRAKTION – nur gleich bei 1 Fraktion/Tag (OS.Strahlentherapie.KonvFraktionierung = ja); bei Hyperfraktionierung (z. B. 2 × 1,5 Gy/Tag) nicht ableitbar, Fraktionen pro Tag werden nicht erfasst; mehrere Einzelbestrahlungen mit unterschiedlichen Werten: welcher wird gemeldet? (E-6); Option E-8: eigenes Feld „Einzeldosis pro Tag“ im Erweiterungskatalog |
+| `radiotherapyList/radiotherapy/informationGroup/radiationTarget` | Zielgebiet | MultipleChoice (mehrfach) | B | OS.StrahlentherapieEinzel (Unterformular von OS.Strahlentherapie) → ZielgebietLK (oBDS.Zielgebiete) | Hauptfeld „Zielgebiet“ hat andere Codesystematik (CDA); „Zielgebiet LK“ (oBDS.Zielgebiete, 98/99 Codes identisch) nur bei LK-Bestrahlung sichtbar. Versuch mit OS.StrahlentherapieEinzel.V2 (Feld oBDSZielgebiet) am 13.11.2026 verworfen: V2 ist eine kaum gepflegte Parallelvariante ohne oBDS-Felder und brach das Speichern bestehender Einträge (E-6) |
 
 <details>
 <summary>Strukturelemente (8: Listen, Gruppen, Listeneinträge)</summary>
@@ -1479,7 +1510,7 @@ Ungelöst ohne Gegenstück: Freitext „Sonstiges“ zur Intention, Netzwerkstan
 
 | nNGM-Code | nNGM-Label | Onkostar-Katalog | Version | Onkostar-Code | Onkostar-Text | Status | Bemerkung |
 |---|---|---|---|---|---|---|---|
-| * | (Regel) | oBDS.Zielgebiete |  | Code vor „_“ (z. B. 4.10_upperAbdomen → 4.10) |  | ungelöst | nur für Feld ZielgebietLK; Hauptfeld (CDA) braucht eigene Übersetzung (E-6) |
+| * | (Regel) | oBDS.Zielgebiete |  | Code vor „_“ (z. B. 4.10_upperAbdomen → 4.10) |  | ungelöst | gilt für ein Feld mit oBDS.Zielgebiete (z. B. ZielgebietLK) |
 | unknown | Unbekannt | oBDS.Zielgebiete |  |  |  | ungelöst | nicht in oBDS.Zielgebiete |
 
 **`radiotherapyList/radiotherapy/informationGroup/radiationTargetSide`** – Seite Zielgebiet
